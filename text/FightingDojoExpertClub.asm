@@ -1,67 +1,68 @@
 _FightingDojoMasterGoodChoice::
-	text "Good choice!"
+	text "Godt valg!"
 	done
 
 _FightingDojoMasterJustATest::
-	text "So!"
-	para "You passed our"
-	line "entrance test."
-	para "Yes, that's right,"
-	line "it was a test!"
-	para "This DOJO is for"
-	line "newcomers."
+	text "Sådan!"
+	para "Du bestod vores"
+	line "optagelsesprøve."
+	para "Ja, korrekt,"
+	line "det var en test!"
+	para "Denne DOJO er for"
+	line "nybegyndere."
 	prompt
 
 _FightingDojoMasterJustATest2::
-	text "Our true DOJO is"
-	line "behind these"
-	cont "scrolls!"
-	para "To enter you must"
-	line "do one more feat."
-	para "Beat the ninja"
-	line "master KOGA in"
+	text "Vores rigtige"
+	line "DOJO er bag"
+	cont "de her rul!"
+	para "For at komme ind"
+	line "skal du klare én"
+	cont "prøve mere."
+	para "Slå ninja-"
+	line "mesteren KOGA i"
 	cont "FUCHSIA CITY!"
 	done
 
 _FightingDojoMasterGotBadge::
-	text "That pink sheen!"
-	para "You've got the"
+	text "Den pink glans!"
+	para "Du har"
 	line "SOULBADGE!"
-	para "So you beat"
+	para "Så du slog"
 	line "KOGA."
-	para "Have a look at"
-	line "our true DOJO!"
+	para "Tag et kig i"
+	line "vores rigtige DOJO!"
 	prompt
 
 _FightingDojoMasterOpenUp::
-	text "OPEN UP, BOYS!"
+	text "ÅBN OP, DRENGE!"
 	done
 
 _FightingDojoExpertRulesSign::
-	text "Here, your #MON"
-	line "can undergo<...>"
+	text "Her kan dine #MON"
+	line "gennemgå<...>"
 	para "EXPERT SUPER"
 	line "HEAVY TRAINING!"
 _FightingDojoExpertRulesSignJump:	
-	para "Just have them"
-	line "wear our special"
-	cont "training weights!"
+	para "Lad dem bare bære"
+	line "vores særlige"
+	cont "træningsvægte!"
 	para "#MON under lvl"
-	line "45 will receive"
+	line "45 får"
 	cont "triple EXP!"
-	para "Above level 45"
-	line "receive 0 EXP."
+	para "Over level 45"
+	line "får de 0 EXP."
 	done
 
 _FightingDojoSparringGuysLeftText::
 	text "TSET!"
-	para "One point!"
+	para "Et point!"
 	done
 
 _FightingDojoSparringGuysRightText::
-	text "Always remember:"
-	para "NO kicking below"
-	line "the belt!"
+	text "Husk altid:"
+	para "INGEN spark under"
+	line "bæltet!"
 	done
 
 _FightingDojoSparringmonsNidokingText::
@@ -73,26 +74,26 @@ _FightingDojoSparringmonsMachampText::
 	done
 
 _FightingDojoSparringmonsText::
-	text "A NIDOKING and a"
-	line "MACHAMP grapple"
-	cont "fiercely."
+	text "En NIDOKING og en"
+	line "MACHAMP brydes"
+	cont "intenst."
 	done
 
 _FightingDojoExpertClubClerkText::
-	text "Welcome to the"
+	text "Velkommen til"
 	line "FIGHTING DOJO"
 	cont "EXPERT CLUB!"
 	prompt
 
 _FightingDojoExpertClubClerkIntroText::
-	text "A great place"
-	line "for heavy #MON"
-	cont "training!@"
+	text "Et perfekt sted"
+	line "til tung #MON-"
+	cont "træning!@"
 	text_jump _FightingDojoExpertRulesSignJump
 
 _FightingDojoExpertClubClerkBattleText::
-	text "HUAGH! Ready for"
-	line "HEAVY training?"
+	text "HUAGH! Klar til"
+	line "TUNG træning?"
 	done
 
 _FightingDojoOpponentBlackbeltIntro1::
@@ -107,51 +108,52 @@ _FightingDojoOpponentBlackbeltIntro2::
 	done
 
 _FightingDojoOpponentBlackbeltIntro3::
-	text "I just levelled up"
-	line "from a BROWNBELT!"
+	text "Jeg blev lige"
+	line "forfremmet fra"
+	cont "BROWNBELT!"
 	done
 
 _FightingDojoOpponentBlackbeltIntro4::
-	text "Check out my"
-	line "battle stance!"
+	text "Tjek min"
+	line "kampstilling!"
 	para "Tsha!"
-	line "Come at me!"
+	line "Kom an!"
 	done
 
 _FightingDojoOpponentFistFighterIntro1::
-	text "Put up your hands!"
-	line "Give me energy!"
+	text "Hænderne op!"
+	line "Giv mig energi!"
 	done
 
 _FightingDojoOpponentFistFighterIntro2::
-	text "Whoever blinks"
-	line "first loses!"
+	text "Den der blinker"
+	line "først taber!"
 	done
 
 _FightingDojoOpponentFistFighterIntro3::
-	text "Got any hair gel?"
+	text "Har du hårgelé?"
 	done
 
 _FightingDojoOpponentFistFighterIntro4::
-	text "I fight by pure"
-	line "instinct!"
+	text "Jeg kæmper på rent"
+	line "instinkt!"
 	done
 
 _FightingDojoOpponentTamerIntro1::
 	text "Mmm!"
-	para "This root beer"
-	line "lollipop rules!"
+	para "Den her root beer-"
+	line "slikkepind er fed!"
 	done
 
 _FightingDojoOpponentTamerIntro2::
-	text "What's a TAMER's"
-	line "favorite food?"
+	text "Hvad er en TAMERs"
+	line "yndlingsmad?"
 	para "WHIP'd cream!"
 	done
 
 _FightingDojoOpponentTamerIntro3::
-	text "My #MON are"
-	line "born to be wild!"
+	text "Mine #MON er"
+	line "født vilde!"
 	done
 
 _FightingDojoOpponentTamerIntro4::
@@ -159,29 +161,29 @@ _FightingDojoOpponentTamerIntro4::
 	done
 
 _FightingDojoOpponentCooltrainerFIntro1::
-	text "I'm here to kick"
-	line "some butt!"
+	text "Jeg er her for at"
+	line "sparke røv!"
 	done
 
 _FightingDojoOpponentCooltrainerFIntro2::
-	text "What makes a"
+	text "Hvad gør en"
 	line "COOLTRAINER cool?"
-	para "A great fashion"
-	line "sense!"
+	para "God stil-"
+	line "sans!"
 	done
 
 _FightingDojoOpponentCooltrainerFIntro3::
-	text "Do you appreciate"
-	line "a good ponytail?"
+	text "Sætter du pris på"
+	line "en god hestehale?"
 	done
 
 _FightingDojoOpponentCooltrainerFIntro4::
-	text "Ohohoho! You dare"
-	line "challenge a high-"
-	cont "class girl?"
+	text "Ohohoho! Tør du"
+	line "udfordre en"
+	cont "overklassepige?"
 	done
 
 _FightingDojoBuddhaStatueText::
-	text "A bronze statue."
-	line "It looks pensive."
+	text "En bronzestatue."
+	line "Ser tænksom ud."
 	done
