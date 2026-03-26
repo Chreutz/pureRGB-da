@@ -1,0 +1,1 @@
+It seems there is no text to translate in the provided ASM file. If you have any specific text or another file, please provide it, and I'll be happy to assist with the translation.

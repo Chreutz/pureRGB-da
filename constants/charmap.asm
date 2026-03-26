@@ -172,6 +172,14 @@
 	charmap "'s",        $bd
 	charmap "'t",        $be
 	charmap "'v",        $bf
+		
+	charmap "Æ",         $c0		 
+	charmap "Ø",         $c1
+	charmap "Å",         $c2
+	
+	charmap "æ",         $d0
+	charmap "ø",         $d1
+	charmap "å",         $d2
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1

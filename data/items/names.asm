@@ -98,7 +98,7 @@ POKEBALLName:
 HYPERBALLName:
 	db "HYPER BALL@"
 BICYCLEName:
-	db "BICYCLE@"
+	db "CYKEL@"
 SURFBOARDName:
 	db "?????@" ; SURFBOARD
 SAFARIBALLName:
@@ -106,150 +106,150 @@ SAFARIBALLName:
 POKEDEXName:
 	db "POKéDEX@"
 MOONSTONEName:
-	db "MOON STONE@"
+	db "MÅNESTEN@"
 ANTIDOTEName:
-	db "ANTIDOTE@"
+	db "MODGIFT@"
 BURNHEALName:
-	db "BURN HEAL@"
+	db "BRANDKUR@"
 ICEHEALName:
-	db "ICE HEAL@"
+	db "FRYSEKUR@"
 AWAKENINGName:
-	db "AWAKENING@"
+	db "SOVEKUR@"
 PARLYZHEALName:
-	db "PARLYZ HEAL@"
+	db "LAMMEKUR@"
 FULLRESTOREName:
-	db "FULL RESTORE@"
+	db "FULD HELER@"
 MAXPOTIONName:
-	db "MAX POTION@"
+	db "MAXPOTION@"
 HYPERPOTIONName:
-	db "HYPER POTION@"
+	db "HYPERPOTION@"
 SUPERPOTIONName:
-	db "SUPER POTION@"
+	db "SUPERPOTION@"
 POTIONName:
 	db "POTION@"
 BAITName:
-	db "BAIT@"
+	db "LOKKEMAD@"
 ROCKName:
-	db "ROCK@"
+	db "STEN@"
 OLDCOINName:
-	db "OLD COIN@"
+	db "GAMMEL MØNT@"
 TOPSECRETKEYName:
-	db "TOPSECRETKEY@"
+	db "X-NØGLE@"
 CAMERAName:
-	db "CAMERA@"
+	db "KAMERA@"
 UNUSED4Name:
-	db "UNUSED4@"
+	db "UBRUGT4@"
 UNUSED5Name:
-	db "UNUSED5@"
+	db "UBRUGT5@"
 UNUSED6Name:
-	db "UNUSED6@"
+	db "UBRUGT6@"
 ESCAPEROPEName:
-	db "ESCAPE ROPE@"
+	db "FLUGTREB@"
 REPELName:
-	db "REPEL@"
+	db "AFSKRÆKKER@"
 OLDAMBERName:
-	db "OLD AMBER@"
+	db "GAMMELT RAV@"
 FIRESTONEName:
-	db "FIRE STONE@"
+	db "ILDSTEN@"
 THUNDERSTONEName:
-	db "THUNDERSTONE@"
+	db "LYNSTEN@"
 WATERSTONEName:
-	db "WATER STONE@"
+	db "VANDSTEN@"
 HPUPName:
-	db "HP UP@"
+	db "HP+@"
 PROTEINName:
-	db "PROTEIN@"
+	db "VIT.PROTEIN@"
 IRONName:
-	db "IRON@"
+	db "VIT.JERN@"
 CARBOSName:
-	db "CARBOS@"
+	db "VIT.KULSTOF@"
 CALCIUMName:
 	db "CALCIUM@"
 RARECANDYName:
 	db "RARE CANDY@"
 DOMEFOSSILName:
-	db "DOME FOSSIL@"
+	db "KUPPELFOSSIL@"
 HELIXFOSSILName:
-	db "HELIX FOSSIL@"
+	db "SPIRALFOSSIL@"
 SECRETKEYName:
-	db "SECRET KEY@"
+	db "NØGLE@"
 POCKETABRAName:
-	db "POCKET ABRA@"
+	db "LOMME-ABRA@"
 BIKEVOUCHERName:
-	db "BIKE VOUCHER@"
+	db "CYKELKUPON@"
 XACCURACYName:
-	db "X ACCURACY@"
+	db "X PRÆCISION@"
 LEAFSTONEName:
-	db "LEAF STONE@"
+	db "BLADSTEN@"
 CARDKEYName:
-	db "CARD KEY@"
+	db "NØGLEKORT@"
 NUGGETName:
-	db "NUGGET@"
+	db "GULDKLUMP@"
 APEXCHIPName:
-	db "APEX CHIP@"
+	db "APEXCHIP@"
 POKEDOLLName:
-	db "POKé DOLL@"
+	db "POKéDUKKE@"
 FULLHEALName:
-	db "FULL HEAL@"
+	db "FULD KUR@"
 REVIVEName:
-	db "REVIVE@"
+	db "GENOPLIV@"
 MAXREVIVEName:
-	db "MAX REVIVE@"
+	db "MAX GENOPLIV@"
 GUARDSPECName:
-	db "GUARD SPEC.@"
+	db "X STATUS@"
 SUPERREPELName:
-	db "SUPER REPEL@"
+	db "SUPER AFSKR.@"
 MAXREPELName:
-	db "MAX REPEL@"
+	db "MAX AFSKR.@"
 DIREHITName:
-	db "DIRE HIT@"
+	db "X KRIT@"
 COINName:
-	db "COIN@"
+	db "MØNT@"
 FRESHWATERName:
-	db "FRESH WATER@"
+	db "DRIKKEVAND@"
 SODAPOPName:
-	db "SODA POP@"
+	db "SODAVAND@"
 LEMONADEName:
 	db "LEMONADE@"
 SSTICKETName:
-	db "S.S.TICKET@"
+	db "FÆRGEBILLET@"
 GOLDTEETHName:
-	db "GOLD TEETH@"
+	db "GULDTÆNDER@"
 XATTACKName:
-	db "X ATTACK@"
+	db "X ANGREB@"
 XDEFENDName:
-	db "X DEFEND@"
+	db "X FORSVAR@"
 XSPEEDName:
-	db "X SPEED@"
+	db "X HASTIGHED@"
 XSPECIALName:
-	db "X SPECIAL@"
+	db "X SPECIEL@"
 LOSTWALLETName:
-	db "LOST WALLET@"
+	db "TABT PUNG@"
 OAKSPARCELName:
-	db "OAK's PARCEL@"
+	db "OAKS PAKKE@"
 ITEMFINDERName:
-	db "ITEMFINDER@"
+	db "TINGFINDER@"
 SILPHSCOPEName:
-	db "SILPH SCOPE@"
+	db "SPØGESKOP@"
 POKEFLUTEName:
-	db "POKé FLUTE@"
+	db "POKéFLØJTE@"
 LIFTKEYName:
-	db "LIFT KEY@"
+	db "ELEV.-NØGLE@"
 BOOSTERCHIPName:
-	db "BOOSTER CHIP@"
+	db "BOOSTERCHIP@"
 OLDRODName:
-	db "OLD ROD@"
+	db "GAMMEL STANG@"
 GOODRODName:
-	db "GOOD ROD@"
+	db "GOD STANG@"
 SUPERRODName:
-	db "SUPER ROD@"
+	db "SUPERSTANG@"
 PPUPName:
-	db "PP UP@"
+	db "PP+@"
 ETHERName:
-	db "ETHER@"
+	db "ÆTER@"
 MAXETHERName:
-	db "MAX ETHER@"
+	db "MAX ÆTER@"
 ELIXERName:
-	db "ELIXER@"
+	db "ELIKSIR@"
 MAXELIXERName:
-	db "MAX ELIXER@"
+	db "MAX ELIKSIR@"
