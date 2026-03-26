@@ -47,7 +47,7 @@ RGBLINK ?= $(RGBDS)rgblink
 .SECONDEXPANSION:
 .PRECIOUS:
 .SECONDARY:
-.PHONY: all red blue green blue_debug clean tidy compare tools
+.PHONY: all red blue green blue_debug clean tidy compare tools danish-text-check
 
 all: $(roms)
 red:        pokered.gbc
@@ -87,6 +87,9 @@ compare: $(roms) $(patches)
 
 tools:
 	$(MAKE) -C tools/
+
+danish-text-check:
+	python3 tools/check_danish_text_limits.py --changed-only
 
 
 RGBASMFLAGS = -Q8 -P includes.asm -Weverything -Wtruncation=1
