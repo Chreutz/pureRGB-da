@@ -26,12 +26,12 @@ _AgathaBeforeBattleText::
 	_AgathaEndBattleText:: 
 		text "Oh ho!"
 		line "Du er noget"
-		cont "ret særlig, barn!"
+		cont "helt særligt!"
 		prompt
 	_AgathaAfterBattleText::
-		text "Du vandt. Jeg ser."
-	line "hvad den gamle nar"
-	cont "ser i dig nu!"
+		text "Du vandt!"
+		line "Nu forstår jeg"
+		cont "den gamle bedre."
 
 	para "Jeg har ikke mere"
 	line "at sige! Gå nu,"
