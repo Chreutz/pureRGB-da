@@ -23,15 +23,15 @@ _AgathaBeforeBattleText::
 	cont "træner kæmper!"
 	done
 
-_AgathaEndBattleText:: 
-	text "Oh ho!"
-	line "Du er noget"
-	cont "helt særligt, barn!"
-	prompt
-_AgathaAfterBattleText::
-	text "Du vandt! Jeg forstår"
-	line "hvad den gamle nar"
-	cont "ser i dig nu!"
+	_AgathaEndBattleText:: 
+		text "Oh ho!"
+		line "Du er noget"
+		cont "helt særligt!"
+		prompt
+	_AgathaAfterBattleText::
+		text "Du vandt!"
+		line "Nu forstår jeg"
+		cont "den gamle bedre."
 
 	para "Jeg har ikke mere"
 	line "at sige! Gå nu,"

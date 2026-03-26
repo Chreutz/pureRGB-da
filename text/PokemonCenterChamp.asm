@@ -1,56 +1,56 @@
 _PokemonCenterChampText::
-	text "Oh my gosh!"
-	line "It's the CHAMP!"
-	para "It'd be an honor to"
-	line "heal your #MON."
+	text "Åh, wow!"
+	line "Det er MESTEREN!"
+	para "Det er en ære at"
+	line "heale din #MON."
 	done
 
 _PokemonCenterFastChampText::
-	text "CHAMP! Watch this"
-	line "speedy healing!"
+	text "MESTER! Se denne"
+	line "hurtige healing!"
 	done
 
 _PokemonCenterFarewellChamp1Text::
-	text "Can I have your"
-	line "autograph?"
+	text "Må jeg få din"
+	line "autograf?"
 	done
 
 _PokemonCenterFarewellChamp2Text::
-	text "My friends will"
-	line "be so jealous!"
+	text "Mine venner bliver"
+	line "vildt misundelige!"
 	done
 
 _PokemonCenterFarewellChamp3Text::
-	text "Is it true you"
-	line "beat <TEAM><ROCKET>?"
+	text "Er det rigtigt at"
+	line "du slog <TEAM><ROCKET>?"
 	done
 
 _PokemonCenterFarewellChamp4Text::
-	text "Y-You're taller"
-	line "in person!"
+	text "D-du er højere i"
+	line "virkeligheden!"
 	done
 
 _PokemonCenterFarewellChamp5Text::
-	text "My little sister"
-	line "crushes on you!"
+	text "Min lillesøster er"
+	line "vild med dig!"
 	done
 
 _PokemonCenterFarewellChamp6Text::
-	text "Wow! I healed your"
-	line "famous @"
+	text "Wow! Jeg healede"
+	line "berømte @"
 	text_ram_stringbuffer
 	text "!"
 	done
 
 _PokemonCenterFarewellChamp7Text::
-	text "Tell @"
+	text "Sig til @"
 	text_ram wRivalName
-	text "<LINE>I said he's cool!"
+	text "<LINE>at han er sej!"
 	done
 
 _PokemonCenterFarewellChamp8Text::
-	text "Can I get a photo"
-	line "with @"
+	text "Må jeg få et foto"
+	line "med @"
 	text_ram_stringbuffer
 	text "?"
 	done

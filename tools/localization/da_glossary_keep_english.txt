@@ -1,0 +1,18 @@
+# Keep-English glossary for Danish localization.
+# One protected term per line.
+
+Pokémon
+Pokédex
+Poké Ball
+Poke Ball
+Great Ball
+Ultra Ball
+Master Ball
+PC
+HP
+PP
+TM
+HM
+EXP
+Gym
+Badge

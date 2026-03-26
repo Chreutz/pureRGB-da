@@ -1,62 +1,61 @@
 _CeladonBackAlleyCircleBiker1Text::
-	text "What're you"
-	line "lookin' at?"
+	text "Hvad glor du"
+	line "på?"
 	done
 
 _CeladonBackAlleyCircleBiker2Text::
-	text "Beat it, kid!"
+	text "Smut, unge!"
 	done
 
 _CeladonBackAlleyCircleBiker3Text::
-	text "Heh, you admiring"
-	line "my motorbike?"
+	text "Heh, beundrer du"
+	line "min motorcykel?"
 	done
 
 _CeladonBackAlleyCircleGamblerText::
-	text "Any bets on the"
-	line "next fight?"
+	text "Nogen væddemål på"
+	line "næste kamp?"
 	done
 
 _CeladonBackAlleyCircleRocker1Text::
-	text "Join the circle"
-	line "and fight!"
+	text "Hop i cirklen og"
+	line "kæmp!"
 	done
 
 _CeladonBackAlleyCircleRocker2Text::
-	text "Ready to rock"
-	line "and roll!"
+	text "Klar til rock"
+	line "og rul!"
 	done
 
 _CeladonBackAlleyCircleLeftBikerText::
-	text "This alley's our"
-	line "turf!"
+	text "Den her gyde er"
+	line "vores territorium!"
 	para "NO <ROCKET>s"
-	line "ALLOWED!"
+	line "TILLADT!"
 	done
 
 _CeladonBackAlleyCircleRightRockerText::
-	text "I want to join"
-	line "the BATTLE CLUB,"
-	para "but I'm trying to"
-	line "come up with a"
-	cont "battle cry first."
-	para "How about this:"
-	para "Time to ROCK OUT"
-	line "with ARBOK OUT!"
+	text "Jeg vil med i"
+	line "BATTLE CLUB,"
+	para "men jeg mangler et"
+	line "kampråb først."
+	para "Hvad med:"
+	para "Tid til ROCK OUT"
+	line "med ARBOK OUT!"
 	done
 
 _CeladonBackAlleyCircleRightRockerThinkText::
-	text "What do you think?"
-	line "Was it cool?"
+	text "Hvad synes du?"
+	line "Var det sejt?"
 	done
 
 _CeladonBackAlleyCircleRightRockerYesText::
-	text "I'm not so sure."
+	text "Jeg tvivler."
 	done
 
 _CeladonBackAlleyCircleRightRockerNoText::
-	text "Back to the"
-	line "drawing board!"
+	text "Tilbage til"
+	line "tegnebrættet!"
 	done
 
 _CeladonBackAlleyCircleHooliganText::
@@ -65,152 +64,150 @@ _CeladonBackAlleyCircleHooliganText::
 	prompt
 
 _CeladonBackAlleyCircleHooliganExplainText::
-	text "We allow #MON"
+	text "Vi tillader #MON"
 	line "under level 32!"
-	para "We hype them up so"
-	line "much they'll earn"
+	para "Vi pumper dem op,"
+	line "så de får"
 	cont "triple EXP!"
 	prompt
 
 _CeladonBackAlleyCircleHooliganBattleText::
-	text "You want in?"
+	text "Vil du være med?"
 	done
 
 _CeladonBackAlleyOpponentBikerIntro1::
-	text "I'm the steel"
-	line "lord on wheels!"
+	text "Jeg er stål-"
+	line "fyrsten på hjul!"
 	done
 
 _CeladonBackAlleyOpponentBikerIntro2::
-	text "I've got a date"
-	line "with a BEAUTY!"
+	text "Jeg har en date"
+	line "med en BEAUTY!"
 	done
 
 _CeladonBackAlleyOpponentBikerIntro3::
-	text "Four strokes of"
-	line "fury coming down!"
+	text "Fire takters"
+	line "raseri kommer!"
 	done
 
 _CeladonBackAlleyOpponentBikerIntro4::
-	text "CAN'T HEAR YOU!"
-	para "MOTOR'S TOO LOUD!"
+	text "KAN IKKE HØRE DIG!"
+	para "MOTOREN LARMER!"
 	done
 
 _CeladonBackAlleyOpponentCueBallIntro1::
-	text "How do you like my"
-	line "WEEPINBELL belt"
-	cont "buckle?"
+	text "Hvad siger du til"
+	line "mit WEEPINBELL-"
+	cont "bæltespænde?"
 	done
 
 _CeladonBackAlleyOpponentCueBallIntro2::
-	text "Don't chicken out"
-	line "now!"
+	text "Træk dig ikke nu!"
 	done
 
 _CeladonBackAlleyOpponentCueBallIntro3::
-	text "Nice #MON"
-	line "you've got there."
-	para "Can I have them?"
+	text "Fine #MON du"
+	line "har der."
+	para "Må jeg få dem?"
 	done
 
 _CeladonBackAlleyOpponentCueBallIntro4::
-	text "I'm hungrier than"
-	line "a SNORLAX!"
+	text "Jeg er mere sulten"
+	line "end en SNORLAX!"
 	done
 
 _CeladonBackAlleyOpponentRockerIntro1::
-	text "No fate! Only the"
-	line "power of will!"
+	text "Ingen skæbne!"
+	line "Kun viljens kraft!"
 	done
 	
 _CeladonBackAlleyOpponentRockerIntro2::
-	text "Hear this cry of"
-	line "a restless soul!"
+	text "Hør råbet fra"
+	line "en rastløs sjæl!"
 	done
 	
 _CeladonBackAlleyOpponentRockerIntro3::
-	text "I prefer guitar"
-	line "battles."
-	para "Oh well! Let's go!"
+	text "Jeg foretrækker"
+	line "guitarkampe."
+	para "Nå! Kom så!"
 	done
 	
 _CeladonBackAlleyOpponentRockerIntro4::
 	text "RAOH!"
 	line "YAOW!"
-	para "I specialize in"
-	line "growled vocals!"
+	para "Jeg er ekspert i"
+	line "growl-vokal!"
 	done
 
 _CeladonBackAlleyOpponentGamblerIntro1::
-	text "I'm the break-"
-	line "dancing GAMBLER!"
-	para "Hit that funky"
-	line "music!"
+	text "Jeg er den"
+	line "breakdancende"
+	cont "GAMBLER!"
+	para "Sæt funky"
+	line "musik på!"
 	done
 	
 _CeladonBackAlleyOpponentGamblerIntro2::
-	text "Want to see a"
-	line "magic trick?"
-	para "Your #MON's"
-	line "HP will disappear!"
+	text "Vil du se et"
+	line "tryllenummer?"
+	para "Dine #MONs"
+	line "HP forsvinder!"
 	done
 	
 _CeladonBackAlleyOpponentGamblerIntro3::
-	text "It's snake eyes"
-	line "for you!"
+	text "Det bliver"
+	line "slangeøjne for dig!"
 	done
 	
 _CeladonBackAlleyOpponentGamblerIntro4::
-	text "Don't gamble"
-	line "with your life!"
-	para "That's my job!"
+	text "Spil ikke hasard"
+	line "med dit liv!"
+	para "Det er mit job!"
 	done
 
 _CeladonBackAlleyKoffingGraffiti::
-	text "Spray painted"
-	line "graffiti art of"
-	cont "a KOFFING!"
-	para "Wow! So detailed."
-	line "What a frown!"
+	text "Spraymalet"
+	line "graffitikunst af"
+	cont "en KOFFING!"
+	para "Wow, så flot!"
+	line "Surt ansigt!"
 	done
 
 _CeladonSeniorHouseGrampsText::
-	text "Nothing like a"
-	line "good book!"
-	para "My wife and I"
-	line "love to read!"
-	para "We've got a"
-	line "beautiful library!"
+	text "Intet slår en"
+	line "god bog!"
+	para "Min kone og jeg"
+	line "elsker at læse!"
+	para "Vi har et"
+	line "flot bibliotek!"
 	done
 
 _CeladonSeniorHouseGrannyText::
-	text "Oh, looks like the"
-	line "boys out back are"
-	cont "playing again!"
-	para "I should bake them"
-	line "some cookies!"
+	text "Åh, drenge derude"
+	line "leger igen!"
+	para "Jeg må bage"
+	line "småkager til dem!"
 	done
 
 _CeladonRuffianHouseHooliganText::
-	text "Not much to see"
-	line "here kid."
-	para "But check out"
-	line "back!"
-	para "That's where the"
-	line "real action is!"
+	text "Ikke meget at se"
+	line "her, knægt."
+	para "Men kig bagude!"
+	para "Der sker den"
+	line "rigtige action!"
 	done
 
 _CeladonRuffianHouseRockerText::
 	text "Damn!"
-	para "This place is"
-	line "a dump!"
+	para "Det her sted er"
+	line "et hul!"
 	done
 
 _CeladonRuffianHouseBikerText::
-	text "Only I'm permitted"
-	line "to bike indoors!"
-	para "Got a problem"
-	line "with that?"
+	text "Kun jeg må cykle"
+	line "indendørs!"
+	para "Har du et"
+	line "problem med det?"
 	done
 
 ; TODO: add back in?

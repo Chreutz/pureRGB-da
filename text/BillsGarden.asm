@@ -53,9 +53,9 @@ _BillsGardenErikaText1::
 	prompt
 
 _BillsGardenErikaText2Yes::
-	text "SABRINA: Vær nu lidt"
-	line "lidt realistisk,"
-	cont "ERIKA."
+		text "SABRINA: Vær"
+		line "lidt realistisk,"
+		cont "ERIKA."
 	para "Han er jo MESTER."
 	para "Og jeg kan læse"
 	line "hans tanker."
@@ -127,7 +127,7 @@ _BillsGardenBlueDaisyOverheardText::
 
 _BillsGardenBlueText::
 	text "<RIVAL>: Wow."
-	para "Lige den person jeg"
+	para "Lige den jeg"
 	line "ikke gad møde."
 	para "Hvad vil du?"
 	para "Kom du her for at"
@@ -140,7 +140,7 @@ _BillsGardenBlueText::
 	para "Du må hellere"
 	line "holde dig i form."
 	para "Jeg går efter"
-	line "MESTER-titlen igen!"
+		line "MESTER igen!"
 	para "Hold dit"
 	line "MESTER-VÆRELSE"
 	cont "varmt til mig,"
@@ -215,13 +215,14 @@ _BillsGardenDaisyText2::
 
 _BillsGardenBikeShopOwnerMistyOverheardText::
 	text "MISTY: Hi hi-"
-	para "Denne stille strand"
+	para "Denne rolige kyst"
 	line "er så romantisk,"
 	cont "synes du ikke?"
 	para "CYKELFYREN:"
 	line "Du havde ret!"
-	para "Det er det perfekte"
-	line "sted til en date!"
+	para "Det er et"
+	line "perfekt sted"
+	cont "til en date!"
 	para "Du elsker virkelig"
 	line "vandet, hva'?"
 	para "MISTY: Nemlig!"
@@ -234,7 +235,7 @@ _BillsGardenBikeShopOwnerMistyOverheardText::
 	para "Lyder som når jeg"
 	line "cykler op ad"
 	line "CYKELstien"
-	cont "for motionens skyld!"
+		cont "for motion!"
 	para "MISTY: (Sikke en"
 	line "steg!)"
 	done
@@ -246,7 +247,7 @@ _BillsGardenBikeShopOwnerText::
 	cont "CYKLEN?"
 	para "MISTY og jeg har"
 	line "det rigtig godt."
-	para "Hun elsker virkelig"
+	para "Hun elsker bare"
 	line "strande!"
 	done
 
@@ -256,16 +257,16 @@ _BillsGardenMistyText::
 	line "her?"
 	para "Forstyr ikke vores"
 	line "date!"
-	para "Jeg var lige ved at"
-	line "vise ham hvordan"
-	cont "man svømmer"
-	cont "butterfly!"
+	para "Jeg ville lige"
+	line "vise ham,"
+	cont "hvordan man"
+	cont "svømmer crawl!"
 	prompt
 
 _BillsGardenMistyText2::
 	text "CYKELFYREN: Jeg"
 	line "er ikke den bedste"
-	cont "svømmer – haha."
+	cont "svømmer, haha."
 	prompt
 
 _BillsGardenMistyText3::
@@ -320,8 +321,8 @@ _BillsGardenAgathaText::
 	line "dage."
 	para "Knivskarpe"
 	line "#MON-trænere!"
-	para "Tænk at to på"
-	line "stribe blev MESTRE!"
+	para "Tænk at to i"
+	line "træk blev MESTRE!"
 	para "Hvad bliver"
 	line "det næste?"
 	done
@@ -392,8 +393,9 @@ _BillsGardenMrFujiGiovanniOverheardText::
 	para "Det afhænger af"
 	line "hvad det bringer"
 	cont "med sig for verden,"
-	cont "om vores gerninger"
-	cont "var rigtige eller ej."
+		cont "om vores gerninger"
+		cont "var rigtige"
+		cont "eller ej."
 	para "GIOVANNI: Fortryder"
 	line "du stadig vores"
 	cont "eksperiment?"
@@ -401,8 +403,8 @@ _BillsGardenMrFujiGiovanniOverheardText::
 	line "forsøget, men at en"
 	cont "så kaotisk magt"
 	cont "blev sluppet løs."
-	para "GIOVANNI: Måske var"
-	line "kloning alligevel"
+		para "GIOVANNI: Måske"
+	line "var kloning"
 	cont "for risikabelt."
 	done
 
@@ -411,8 +413,8 @@ _BillsGardenMrFujiText::
 	text "MR.FUJI: Man skal"
 	line "altid lære af sine"
 	cont "fejl, barn."
-	para "Du kommer til at"
-	line "begå nogen — men"
+		para "Du kommer til at"
+		line "begå fejl - men"
 	cont "prøv at" 
 	cont "reflektere."
 	done
@@ -486,7 +488,7 @@ _BillsGardenGiovanniMewtwoText::
 	cont "komme ind."
 	para "Hvis du finder en,"
 	line "så kig gerne helt"
-	cont "ned i MANSIONs dyb."
+		cont "ned i MANSION."
 	done
 
 _BillsGardenGiovanniArmoredMewtwoText::
@@ -501,46 +503,48 @@ _BillsGardenGiovanniArmoredMewtwoText::
 
 ; mom and dad
 _BillsGardenDadText::
-	text "FAR: Se hvem det er!"
+		text "FAR: Se hvem"
+		line "der er her!"
 	para "Hvordan går det med"
 	line "min dreng?"
 	para "Jeg hørte du blev"
 	line "MESTER!"
 	para "Jeg er så stolt af"
 	line "min søn!"
-	para "Beklager jeg gik glip"
-	line "af det!"
-	para "Jeg fik endelig lidt"
-	line "fri fra arbejdet."
-	para "Det MASTER BALL-projekt"
-	line "vi lavede var skørt."
-	para "Din MOR og jeg er på"
-	line "et lille romantisk"
-	cont "getaway."
+		para "Jeg fik fri"
+		line "fra arbejdet."
+		para "MASTER BALL-"
+		line "projektet var"
+		cont "helt vildt."
+		para "Din MOR og jeg"
+		line "er på en lille"
+		cont "romantisk tur."
 	prompt
 
 _BillsGardenDadText2::
 	text "MOR: Åh skat!"
-	para "Det her er så dejligt!"
-	para "Hele familien samlet"
-	line "igen!"
+	para "Det er så dejligt!"
+	para "Hele familien"
+	line "samlet igen!"
 	prompt
 
 _BillsGardenDadText3::
 	text "Hvorfor kommer du"
-	line "ikke og fortæller os"
-	cont "om din #MON-rejse?"
+	line "ikke og"
+	cont "fortæller os om"
+	cont "din #MON-rejse?"
 	para "Sæt dig her med os"
 	line "på stranden!"
 	prompt
 
 _BillsGardenDadText3No::
-	text "FAR: Han er en travl"
-	line "fyr!"
+	text "FAR: Han er"
+	line "en travl fyr!"
 	para "Lad ham klare sine"
 	line "ærinder!"
 	para "Bare rolig, du kan"
-	line "altid komme hjem og"
+	line "altid komme"
+	cont "hjem og"
 	cont "besøge os!"
 	done
 
@@ -548,37 +552,45 @@ _BillsGardenDadText3Yes::
 	text "<PLAYER> fortalte MOR"
 	line "og FAR alt om sin"
 	cont "#MON-rejse."
-	para "Han lod dog være med"
-	line "at nævne noget om at"
-	cont "snige sig ind i"
+	para "Han undlod dog"
+	line "at nævne,"
+	cont "hvordan han sneg"
+	cont "sig ind i"
 	cont "<TEAM><ROCKET>"
 	cont "operationer."
 	prompt
 
 _BillsGardenDadText4::
-	text "FAR: Sikke en historie!"
+	text "FAR: Sikke en"
+	line "historie!"
 	para "Jeg kunne især lide"
-	line "den del hvor du brasede"
-	cont "ind i et GYM fuld af"
+	line "da du stormede et"
+	cont "GYM fyldt med"
 	cont "kvinder!"
-	para "Mødte du en du kunne"
-	line "lide?"
-	para "Haha, jeg driller bare."
-	para "Vi venter på dig derhjemme!"
+	para "Mødte du en,"
+	line "du kan lide?"
+	para "Haha, jeg driller."
+	para "Vi venter på"
+	line "dig derhjemme."
 	line "Ses snart, søn!"
 	done
 
 _BillsGardenMomText::
 	text "MOR: Ih altså!"
-	para "Vi talte lige om dig"
-	line "<PLAYER>!"
-	para "FAR fortæller alle om"
-	line "sin søn, MESTEREN!"
-	para "Du klarede det så godt,"
-	line "jeg var ved at græde!"
-	para "Min lille dreng bliver"
-	line "voksen!"
+	para "Vi talte lige"
+	line "om dig, <PLAYER>!"
+	para "FAR fortæller"
+	line "alle om"
+	cont "sin søn,"
+	cont "MESTEREN!"
+	para "Du gjorde det"
+	line "så godt, at"
+	cont "jeg fik tårer"
+	cont "i øjnene!"
+	para "Min lille dreng"
+	line "er blevet voksen!"
 	para "Snøft!"
-	para "Kom og besøg os derhjemme,"
-	line "okay?"
+	para "Kom snart hjem"
+	line "og besøg os,"
+	cont "okay?"
 	done
