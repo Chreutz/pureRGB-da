@@ -1,30 +1,256 @@
-# Danish Translation Todo (text/*.asm)
+# Danish Translation Todo (all text/*.asm files)
 
-This checklist tracks file-by-file Danish translation progress for map/dialog text.
+This checklist tracks **every** top-level `text/*.asm` file for Danish localization progress.
+
 
 ## Progress rules
 - `[x]` = translated to Danish and validated with `python3 tools/check_danish_text_limits.py --changed-only`.
-- `[ ]` = not yet fully translated.
-- After each file is updated, mark it done in the same commit.
+- `[ ]` = not yet fully translated/reviewed.
+- Update status in the same commit as each translation batch.
 
-## Current batch status
-
-### Completed
+## File checklist (245 files)
 - [x] `text/AgathasRoom.asm`
+- [ ] `text/BikeShop.asm`
 - [x] `text/BillsGarden.asm`
-- [x] `text/CeladonBackAlley.asm`
-- [x] `text/FightingDojoExpertClub.asm`
-- [x] `text/PokemonCenterChamp.asm`
-- [x] `text/SoftboiledGuysHouse.asm`
-
-### Remaining (next to translate)
+- [ ] `text/BillsHouse.asm`
+- [ ] `text/BluesHouse.asm`
+- [ ] `text/BrunosRoom.asm`
 - [ ] `text/CameraEvents.asm`
+- [x] `text/CeladonBackAlley.asm`
+- [ ] `text/CeladonChiefHouse.asm`
+- [ ] `text/CeladonCity.asm`
+- [ ] `text/CeladonDiner.asm`
+- [ ] `text/CeladonGym.asm`
+- [ ] `text/CeladonHotel.asm`
+- [ ] `text/CeladonLaprasGuy.asm`
+- [ ] `text/CeladonMansion1F.asm`
+- [ ] `text/CeladonMansion2F.asm`
+- [ ] `text/CeladonMansion3F.asm`
+- [ ] `text/CeladonMansionRoof.asm`
+- [ ] `text/CeladonMansionRoofHouse.asm`
+- [ ] `text/CeladonMart1F.asm`
+- [ ] `text/CeladonMart1FPhoneCalls.asm`
+- [ ] `text/CeladonMart2F.asm`
+- [ ] `text/CeladonMart3F.asm`
+- [ ] `text/CeladonMart4F.asm`
+- [ ] `text/CeladonMart5F.asm`
+- [ ] `text/CeladonMartRoof.asm`
+- [ ] `text/CeladonPokecenter.asm`
+- [ ] `text/CeruleanBadgeHouse.asm`
 - [ ] `text/CeruleanBallDesigner.asm`
+- [ ] `text/CeruleanCaveB1F.asm`
+- [ ] `text/CeruleanCity.asm`
+- [ ] `text/CeruleanGym.asm`
+- [ ] `text/CeruleanMart.asm`
+- [ ] `text/CeruleanOldRodHouse.asm`
+- [ ] `text/CeruleanPokecenter.asm`
+- [ ] `text/CeruleanRocketHouse.asm`
+- [ ] `text/CeruleanTradeHouse.asm`
+- [ ] `text/CeruleanTrashedHouse.asm`
+- [ ] `text/ChampArena.asm`
+- [ ] `text/ChampionsRoom.asm`
+- [ ] `text/CinnabarGym.asm`
+- [ ] `text/CinnabarIsland.asm`
+- [ ] `text/CinnabarLab.asm`
+- [ ] `text/CinnabarLabColorChanger.asm`
+- [ ] `text/CinnabarLabFossilRoom.asm`
+- [ ] `text/CinnabarLabMetronomeRoom.asm`
+- [ ] `text/CinnabarLabTradeRoom.asm`
+- [ ] `text/CinnabarMart.asm`
+- [ ] `text/CinnabarPokecenter.asm`
+- [ ] `text/CinnabarVolcano.asm`
+- [ ] `text/CopycatsHouse1F.asm`
+- [ ] `text/CopycatsHouse2F.asm`
+- [ ] `text/Daycare.asm`
+- [ ] `text/Daycare_2.asm`
+- [ ] `text/DiamondMine.asm`
+- [ ] `text/DiglettsCaveRoute11.asm`
+- [ ] `text/DiglettsCaveRoute2.asm`
+- [ ] `text/ErikAndSara.asm`
 - [ ] `text/FightingBrosHouse.asm`
+- [ ] `text/FightingDojo.asm`
+- [x] `text/FightingDojoExpertClub.asm`
+- [ ] `text/FossilGuysHouse.asm`
+- [ ] `text/FuchsiaBillsGrandpasHouse.asm`
+- [ ] `text/FuchsiaCity.asm`
+- [ ] `text/FuchsiaGoodRodHouse.asm`
+- [ ] `text/FuchsiaGym.asm`
+- [ ] `text/FuchsiaGym_2.asm`
+- [ ] `text/FuchsiaMart.asm`
+- [ ] `text/FuchsiaMeetingRoom.asm`
+- [ ] `text/FuchsiaPokecenter.asm`
+- [ ] `text/FuchsiaTreeDeleterHouse.asm`
+- [ ] `text/GameCorner.asm`
+- [ ] `text/GameCornerPrizeRoom.asm`
+- [ ] `text/HallOfFame.asm`
+- [ ] `text/IndigoPlateauLobby.asm`
+- [ ] `text/LancesRoom.asm`
+- [ ] `text/LavenderCuboneHouse.asm`
+- [ ] `text/LavenderMart.asm`
+- [ ] `text/LavenderPokecenter.asm`
+- [ ] `text/LavenderTown.asm`
 - [ ] `text/Learnsets.asm`
+- [ ] `text/LoreleisRoom.asm`
+- [ ] `text/MoveMystic.asm`
+- [ ] `text/MrFujisHouse.asm`
+- [ ] `text/MrPsychicsHouse.asm`
+- [ ] `text/MtMoon1F.asm`
+- [ ] `text/MtMoonB1F.asm`
+- [ ] `text/MtMoonB2F.asm`
+- [ ] `text/MtMoonPokecenter.asm`
+- [ ] `text/Museum1F.asm`
+- [ ] `text/Museum2F.asm`
+- [ ] `text/NameRatersHouse.asm`
+- [ ] `text/OaksLab.asm`
+- [ ] `text/OptionsInfoText.asm`
+- [ ] `text/PalletPhoneResultEvents.asm`
+- [ ] `text/PalletTown.asm`
+- [ ] `text/PewterCity.asm`
+- [ ] `text/PewterGym.asm`
+- [ ] `text/PewterGym_2.asm`
+- [ ] `text/PewterMart.asm`
+- [ ] `text/PewterNidoranHouse.asm`
+- [ ] `text/PewterPokecenter.asm`
+- [ ] `text/PewterSpeechHouse.asm`
+- [x] `text/PokemonCenterChamp.asm`
+- [ ] `text/PokemonFanClub.asm`
+- [ ] `text/PokemonMansion1F.asm`
+- [ ] `text/PokemonMansion2F.asm`
+- [ ] `text/PokemonMansion3F.asm`
+- [ ] `text/PokemonMansionB1F.asm`
+- [ ] `text/PokemonTower1F.asm`
+- [ ] `text/PokemonTower2F.asm`
+- [ ] `text/PokemonTower3F.asm`
+- [ ] `text/PokemonTower4F.asm`
+- [ ] `text/PokemonTower5F.asm`
+- [ ] `text/PokemonTower6F.asm`
+- [ ] `text/PokemonTower7F.asm`
+- [ ] `text/PokemonTowerB1F.asm`
+- [ ] `text/PokemonTowerCatacombs.asm`
+- [ ] `text/PowerPlant.asm`
+- [ ] `text/ProspectorsHouse.asm`
+- [ ] `text/RedsHouse1F.asm`
+- [ ] `text/RockTunnel1F.asm`
+- [ ] `text/RockTunnelB1F.asm`
+- [ ] `text/RockTunnelB1F_2.asm`
+- [ ] `text/RockTunnelPokecenter.asm`
+- [ ] `text/RocketHideoutB1F.asm`
+- [ ] `text/RocketHideoutB2F.asm`
+- [ ] `text/RocketHideoutB3F.asm`
+- [ ] `text/RocketHideoutB4F.asm`
+- [ ] `text/RocketHideoutElevator.asm`
+- [ ] `text/Route1.asm`
+- [ ] `text/Route10.asm`
+- [ ] `text/Route11.asm`
+- [ ] `text/Route11Gate1F.asm`
+- [ ] `text/Route11Gate2F.asm`
+- [ ] `text/Route11_2.asm`
+- [ ] `text/Route12.asm`
+- [ ] `text/Route12Gate1F.asm`
+- [ ] `text/Route12Gate2F.asm`
+- [ ] `text/Route12SuperRodHouse.asm`
+- [ ] `text/Route13.asm`
+- [ ] `text/Route14.asm`
+- [ ] `text/Route15.asm`
+- [ ] `text/Route15Gate1F.asm`
+- [ ] `text/Route15Gate2F.asm`
+- [ ] `text/Route16.asm`
+- [ ] `text/Route16FlyHouse.asm`
+- [ ] `text/Route16Gate1F.asm`
+- [ ] `text/Route16Gate2F.asm`
+- [ ] `text/Route17.asm`
+- [ ] `text/Route18.asm`
+- [ ] `text/Route18Gate1F.asm`
+- [ ] `text/Route18Gate2F.asm`
+- [ ] `text/Route19.asm`
+- [ ] `text/Route2.asm`
+- [ ] `text/Route20.asm`
+- [ ] `text/Route21.asm`
+- [ ] `text/Route22.asm`
+- [ ] `text/Route22Gate.asm`
+- [ ] `text/Route23.asm`
+- [ ] `text/Route24.asm`
+- [ ] `text/Route24_2.asm`
+- [ ] `text/Route25.asm`
+- [ ] `text/Route2Gate.asm`
+- [ ] `text/Route2TradeHouse.asm`
+- [ ] `text/Route3.asm`
+- [ ] `text/Route4.asm`
+- [ ] `text/Route5.asm`
+- [ ] `text/Route6.asm`
+- [ ] `text/Route7.asm`
+- [ ] `text/Route8.asm`
+- [ ] `text/Route9.asm`
+- [ ] `text/SSAnne1F.asm`
+- [ ] `text/SSAnne1FRooms.asm`
+- [ ] `text/SSAnne2F.asm`
+- [ ] `text/SSAnne2FRooms.asm`
+- [ ] `text/SSAnne3F.asm`
+- [ ] `text/SSAnneB1FRooms.asm`
+- [ ] `text/SSAnneBow.asm`
+- [ ] `text/SSAnneCaptainsRoom.asm`
+- [ ] `text/SSAnneKitchen.asm`
+- [ ] `text/SafariZoneCenter.asm`
+- [ ] `text/SafariZoneCenterRestHouse.asm`
+- [ ] `text/SafariZoneEast.asm`
+- [ ] `text/SafariZoneEastRestHouse.asm`
+- [ ] `text/SafariZoneGate.asm`
+- [ ] `text/SafariZoneNewRestHouseText.asm`
+- [ ] `text/SafariZoneNorth.asm`
+- [ ] `text/SafariZoneNorthRestHouse.asm`
+- [ ] `text/SafariZoneSecretHouse.asm`
+- [ ] `text/SafariZoneWest.asm`
+- [ ] `text/SafariZoneWestRestHouse.asm`
+- [ ] `text/SaffronAbandonedBuilding.asm`
+- [ ] `text/SaffronCity.asm`
+- [ ] `text/SaffronGates.asm`
+- [ ] `text/SaffronGym.asm`
+- [ ] `text/SaffronMart.asm`
+- [ ] `text/SaffronPidgeyHouse.asm`
+- [ ] `text/SaffronPokecenter.asm`
+- [ ] `text/SeafoamIslandsB4F.asm`
+- [ ] `text/SecretLab.asm`
+- [ ] `text/SilphCo10F.asm`
+- [ ] `text/SilphCo11F.asm`
+- [ ] `text/SilphCo1F.asm`
+- [ ] `text/SilphCo2F.asm`
+- [ ] `text/SilphCo3F.asm`
+- [ ] `text/SilphCo4F.asm`
+- [ ] `text/SilphCo5F.asm`
+- [ ] `text/SilphCo5F_2.asm`
+- [ ] `text/SilphCo6F.asm`
+- [ ] `text/SilphCo7F.asm`
+- [ ] `text/SilphCo8F.asm`
+- [ ] `text/SilphCo9F.asm`
+- [x] `text/SoftboiledGuysHouse.asm`
+- [ ] `text/TypeGuysHouse.asm`
+- [ ] `text/UndergroundPathEastWest.asm`
+- [ ] `text/UndergroundPathNorthSouth.asm`
+- [ ] `text/UndergroundPathRoute6.asm`
+- [ ] `text/UndergroundPathRoute7.asm`
+- [ ] `text/UndergroundPathRoute7Copy.asm`
+- [ ] `text/UndergroundPathRoute8.asm`
+- [ ] `text/VermilionCity.asm`
+- [ ] `text/VermilionDock.asm`
 - [ ] `text/VermilionFitnessClub.asm`
-
-## Notes
-- Keep protected franchise terms from `tools/localization/da_glossary_keep_english.txt` in English.
-- Prefer natural Danish wording and split across additional `line`/`cont`/`para` commands when needed.
-- Validate each translation batch before commit.
+- [ ] `text/VermilionGym.asm`
+- [ ] `text/VermilionGym_2.asm`
+- [ ] `text/VermilionMart.asm`
+- [ ] `text/VermilionOldRodHouse.asm`
+- [ ] `text/VermilionPidgeyHouse.asm`
+- [ ] `text/VermilionPokecenter.asm`
+- [ ] `text/VictoryRoad1F.asm`
+- [ ] `text/VictoryRoad2F.asm`
+- [ ] `text/VictoryRoad3F.asm`
+- [ ] `text/ViridianCity.asm`
+- [ ] `text/ViridianForest.asm`
+- [ ] `text/ViridianForestNorthGate.asm`
+- [ ] `text/ViridianForestSouthGate.asm`
+- [ ] `text/ViridianGym.asm`
+- [ ] `text/ViridianMart.asm`
+- [ ] `text/ViridianNicknameHouse.asm`
+- [ ] `text/ViridianPokecenter.asm`
+- [ ] `text/ViridianSchoolHouse.asm`
+- [ ] `text/ViridianSchoolHouseQuiz.asm`
+- [ ] `text/WardensHouse.asm`
+- [ ] `text/pokedex_ratings.asm`
