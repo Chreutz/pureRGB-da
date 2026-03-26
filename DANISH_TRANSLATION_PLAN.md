@@ -7,6 +7,31 @@ This plan defines how to translate all in-game text to Danish while preserving g
 - ✅ Added `tools/check_danish_text_limits.py` to validate text command line widths and unsupported characters against `constants/charmap.asm`.
 - ✅ Added `tools/localization/da_glossary_keep_english.txt` with initial keep-English Pokémon terminology.
 - ✅ Added `make danish-text-check` target (currently `--changed-only`) for local/CI automation entrypoint.
+- ✅ Updated and validated existing Danish text in `text/AgathasRoom.asm` and `text/BillsGarden.asm` using the checker.
+
+## Approach updates (based on implementation feedback)
+
+The translation approach is now updated from “strictly compress lines” to “prioritize natural Danish while respecting limits.”
+
+1. **Natural phrasing first, then fit**
+   - Prefer idiomatic Danish wording.
+   - If a line overflows, split content across additional `line`/`cont`/`para` commands rather than forcing awkward compression.
+   - Preserve tone and intent even when total command count increases.
+
+2. **Validator-driven authoring loop**
+   - Translate or revise text.
+   - Run `python3 tools/check_danish_text_limits.py --changed-only` (or `make danish-text-check`) while editing.
+   - Before merge, run `python3 tools/check_danish_text_limits.py` on the full canonical scope.
+   - Treat unsupported punctuation (e.g. unsupported dash variants) as a hard failure.
+
+3. **Term consistency lock**
+   - Keep protected franchise terms in English via `tools/localization/da_glossary_keep_english.txt`.
+   - When phrasing around protected terms is awkward, rewrite surrounding grammar instead of translating the protected term.
+
+4. **Quality gate update**
+   - “Passes width checks” is necessary but not sufficient.
+   - Every batch must pass a readability review: no truncated meaning, no unnatural sentence fragments, and no misleading battle/system instructions.
+   - If readability and line fit conflict, increase line count first; abbreviate only as a fallback.
 
 ## 1) Goals
 
