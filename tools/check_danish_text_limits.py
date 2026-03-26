@@ -102,6 +102,8 @@ def match_token(text: str, start: int, tokens: list[str]) -> str | None:
 def validate_text(text: str, max_width: int, tokens: list[str]) -> tuple[list[str], int]:
     unsupported: list[str] = []
     width = 0
+    if text.endswith("@"):
+        text = text[:-1]
     i = 0
     while i < len(text):
         token = match_token(text, i, tokens)
