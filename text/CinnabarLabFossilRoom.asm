@@ -1,87 +1,91 @@
 _CinnabarLabFossilRoomScientist1Text::
-	text "Hiya!"
+	text "Hej!"
 
-	para "I am important"
-	line "doctor!"
+	para "Jeg er en"
+	line "vigtig forsker!"
 
-	para "I study here rare"
-	line "#MON fossils!"
+	para "Jeg studerer"
+	line "sjældne #MON-"
+	cont "fossiler her!"
 
-	para "You! Have you a"
-	line "fossil for me?"
+	para "Du! Har du et"
+	line "fossil til mig?"
 	prompt
 
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "No! Is too bad!"
+	text "Nej! Det"
+	line "er tosset!"
 	done
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
+	text "Det tager lidt"
+	line "tid!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Gå en lille tur"
+	line "imens!"
 	done
 
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
+	text "Hvor har du været?"
 
-	para "Your fossil is"
-	line "back to life!"
+	para "Dit fossil er"
+	line "vækket til live!"
 
-	para "It was @"
+	para "Det var en @"
 	text_ram_stringbuffer
 	text_start
-	line "like I think!"
+	line "som jeg troede!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1SeesFossilText::
-	text "Oh! That is"
+	text "Åh! Det er"
 	line "@"
 	text_ram_namebuffer
 	text "!"
 
-	para "It is fossil of"
-	line "@"
+	para "Det er et fossil"
+	line "af @"
 	text_ram_stringbuffer
-	text ", a"
-	cont "#MON that is"
-	cont "already extinct!"
+	text ", et"
+	cont "#MON, der allerede"
+	cont "er uddødt!"
 
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	para "Min genoplivnings-"
+	line "maskine vil få"
+	cont "dette #MON til"
+	cont "at leve igen!"
 	done
 
 _CinnabarLabFossilRoomScientist1TakesFossilText::
-	text "So! You hurry and"
-	line "give me that!"
+	text "Godt! Skynd dig og"
+	line "giv mig det!"
 
-	para "<PLAYER> handed"
-	line "over @"
+	para "<PLAYER> afleverede"
+	line "@"
 	text_ram_namebuffer
 	text "!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
+	text "Det tager lidt"
+	line "tid!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Gå en lille tur"
+	line "imens!"
 	done
 
 _CinnabarLabFossilRoomScientist1ComeAgainText::
-	text "Aiyah! You come"
-	line "again!"
+	text "Åh nej! Kom"
+	line "tilbage senere!"
 	done
 
 _CinnabarLabFossilRoomDeskPapersText::
-	text "NEXT RESEARCH"
-	line "TARGET:"
-	para "Perform a deep"
-	line "study on how"
-	cont "PONYTA survives"
-	cont "with flaming mane."
+	text "NÆSTE FORSKNINGS-"
+	line "MÅL:"
+	para "Udfør en dyb"
+	line "undersøgelse af"
+	cont "hvordan PONYTA"
+	cont "overlever med"
+	cont "sin flammende"
+	cont "manke."
 	done
