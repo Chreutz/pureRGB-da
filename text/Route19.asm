@@ -1,54 +1,55 @@
 _Route19CooltrainerM1BattleText::
-	text "Have to warm up"
-	line "before my swim!"
+	text "Skal varme op"
+	line "før min svømmetur!"
 	done
 
 _Route19CooltrainerM1EndBattleText::
-	text "All"
-	line "warmed up!"
+	text "Helt"
+	line "varmet op!"
 	prompt
 
 _Route19CooltrainerM1AfterBattleText::
-	text "Thanks, kid! I'm"
-	line "ready for a swim!"
+	text "Tak, knægt! Jeg"
+	line "er klar til at"
+	cont "svømme!"
 	done
 
 _Route19CooltrainerM2BattleText::
-	text "Wait! You'll have"
-	line "a heart attack!"
+	text "Pas på! Du får"
+	line "et hjerteanfald!"
 	done
 
 _Route19CooltrainerM2EndBattleText::
 	text "Ooh!"
-	line "That's chilly!"
+	line "Det er koldt!"
 	prompt
 
 _Route19CooltrainerM2AfterBattleText::
-	text "Watch out for"
-	line "TENTACOOL!"
-	para "My awesome PINSIR"
-	line "takes them out"
-	cont "while SURFing!"
+	text "Pas på TENTACOOL!"
+	para "Min fantastiske"
+	line "PINSIR tager dem"
+	cont "ud når jeg SURFer!"
 	done
 
 _Route19Swimmer1BattleText::
-	text "I love swimming!"
-	line "What about you?"
+	text "Jeg elsker"
+	line "at svømme!"
+	cont "Hvad med dig?"
 	done
 
 _Route19Swimmer1EndBattleText::
-	text "Belly"
-	line "flop!"
+	text "Mave"
+	line "plask!"
 	prompt
 
 _Route19Swimmer1AfterBattleText::
-	text "I can beat #MON"
-	line "at swimming!"
+	text "Jeg kan slå #MON"
+	line "i at svømme!"
 	done
 
 _Route19Swimmer2BattleText::
-	text "What's beyond the"
-	line "horizon?"
+	text "Hvad er der"
+	line "bag horisonten?"
 	done
 
 _Route19Swimmer2EndBattleText::
@@ -56,100 +57,102 @@ _Route19Swimmer2EndBattleText::
 	prompt
 
 _Route19Swimmer2AfterBattleText::
-	text "I see a couple of"
-	line "islands!"
+	text "Jeg ser et par"
+	line "øer!"
 	done
 
 _Route19Swimmer3BattleText::
-	text "I tried diving"
-	line "for #MON, but"
-	cont "it was a no go!"
+	text "Jeg prøvede at"
+	line "dykke efter #MON,"
+	cont "men det hjalp ikke"
 	done
 
 _Route19Swimmer3EndBattleText::
-	text "Help!"
+	text "Hjælp!"
 	prompt
 
 _Route19Swimmer3AfterBattleText::
-	text "You have to fish"
-	line "for sea #MON!"
+	text "Du skal fiske"
+	line "efter hav-#MON!"
 	done
 
 _Route19Swimmer4BattleText::
-	text "I look at the"
-	line "sea to forget!"
+	text "Jeg ser på havet"
+	line "for at glemme!"
 	done
 
 _Route19Swimmer4EndBattleText::
 	text "Ooh!"
-	line "Traumatic!"
+	line "Traumatisk!"
 	prompt
 
 _Route19Swimmer4AfterBattleText::
-	text "I'm looking at the"
-	line "sea to forget!"
+	text "Jeg ser på havet"
+	line "for at glemme!"
 	done
 
 _Route19Swimmer5BattleText::
-	text "Oh, I just love"
-	line "your ride! Can I"
-	cont "have it if I win?"
+	text "Åh, jeg elsker"
+	line "din Pokémon! Kan"
+	cont "jeg få den hvis"
+	cont "jeg vinder?"
 	done
 
 _Route19Swimmer5AfterBattleText::
-	text "It's still a long"
-	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	text "Der er stadig lang"
+	line "vej til SEAFOAM-"
+	cont "ØERNE."
 	done
 
 _Route19Swimmer6BattleText::
-	text "Swimming's great!"
-	line "Sunburns aren't!"
+	text "Svømning er sejt!"
+	line "Solbrande er ikke!"
 	done
 
 _Route19Swimmer6EndBattleText::
-	text "Shocker!"
+	text "Chok!"
 	prompt
 
 _Route19Swimmer6AfterBattleText::
-	text "My boy friend"
-	line "wanted to swim to"
-	cont "SEAFOAM ISLANDS."
+	text "Min kæreste"
+	line "ville svømme til"
+	cont "SEAFOAM-ØERNE."
 	done
 
 _Route19Swimmer7BattleText::
-	text "These waters are"
-	line "treacherous!"
+	text "Disse farvande er"
+	line "farlige!"
 	done
 
 _Route19Swimmer7EndBattleText::
 	text "Ooh!"
-	line "Dangerous!"
+	line "Farligt!"
 	prompt
 
 _Route19Swimmer7AfterBattleText::
-	text "I got a cramp!"
+	text "Jeg fik krampe!"
 	line "Glub, glub<...>"
 	done
 
 _Route19Swimmer8BattleText::
-	text "I swam here, but"
-	line "I'm tired."
+	text "Jeg svømmede"
+	line "hertil, men jeg"
+	cont "er træt."
 	done
 
 _Route19Swimmer8EndBattleText::
-	text "I'm"
-	line "exhausted<...>"
+	text "Jeg er"
+	line "udmattet<...>"
 	prompt
 
 _Route19Swimmer8AfterBattleText::
-	text "LAPRAS is so big,"
-	line "it keeps you dry"
-	cont "on water."
+	text "LAPRAS er så stor,"
+	line "den holder dig tør"
+	cont "på vandet."
 	done
 
 _Route19SignText::
-	text "SEA ROUTE 19"
+	text "HAV RUTE 19"
 	line "FUCHSIA CITY -"
-	cont "SEAFOAM ISLANDS"
+	cont "SEAFOAM-ØERNE"
 	done

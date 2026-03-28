@@ -1,29 +1,30 @@
 _CinnabarLabFishingGuruText::
-	text "We study #MON"
-	line "extensively here."
+	text "Vi studerer #MON"
+	line "indgående her."
 
-	para "People often bring"
-	line "us rare #MON"
-	cont "for examination."
+	para "Folk bringer ofte"
+	line "os sjældne #MON"
+	cont "til undersøgelse."
 	done
 
 _CinnabarLabPhotoText::
-	text "A photo of the"
-	line "LAB's founder,"
+	text "Et foto af"
+	line "LAB-grundlægger,"
 	cont "DR.FUJI!"
 	done
 
+; TODO: genericize
 _CinnabarLabMeetingRoomSignText::
 	text "#MON LAB"
-	line "Meeting Room"
+	line "Mødelokale"
 	done
 
 _CinnabarLabRAndDSignText::
 	text "#MON LAB"
-	line "R-and-D Room"
+	line "Forskning og Udvikling"
 	done
 
 _CinnabarLabTestingRoomSignText::
 	text "#MON LAB"
-	line "Testing Room"
+	line "Testlokale"
 	done

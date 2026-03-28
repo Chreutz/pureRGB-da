@@ -1,7 +1,7 @@
 _UndergroundPathWestEastBattleText1::
-	text "CELADON CITY?"
-	para "Another meeting"
-	line "over there?!"
+	text "CELADON BY?"
+	para "Endnu et møde"
+	line "derovre?!"
 	done
 
 _UndergroundPathWestEastEndBattleText1::
@@ -10,47 +10,47 @@ _UndergroundPathWestEastEndBattleText1::
 	prompt
 
 _UndergroundPathWestEastAfterBattleText1::
-	text "I want to shop at"
-	line "the dept. store"
-	cont "in CELADON but<...>"
+	text "Jeg vil gerne"
+	line "handle i vare-"
+	cont "huset i CELADON"
+	cont "men<...>"
 
-	para "There are so many"
-	line "rough looking"
-	cont "people there."
+	para "Der er så mange"
+	line "skumle mennesker"
+	cont "der."
 	done
 
 _UndergroundPathWestEastBattleText2::
-	text "My colleague and"
-	line "I are running"
-	cont "late!"
+	text "Min kollega og"
+	line "jeg er forsinkede!"
 	done
 
 _UndergroundPathWestEastEndBattleText2::
-	text "Let's"
-	line "hurry!"
+	text "Lad os"
+	line "skynde os!"
 	prompt
  
 _UndergroundPathWestEastAfterBattleText2::
-	text "After the meeting"
-	line "I'm going to hit"
-	cont "the slots!"
-	para "Woohoo!"
+	text "Efter mødet"
+	line "skal jeg ud og"
+	cont "spille på den!"
+	para "Wuhuu!"
 	done
 
 _UndergroundPathWestEastBattleText3::
-	text "Hey dude."
-	para "What's up?"
+	text "Hej makker."
+	para "Hvad sker der?"
 	done
 
 _UndergroundPathWestEastEndBattleText3::
-	text "Lame!"
+	text "Uf!"
 	prompt
 
 _UndergroundPathWestEastAfterBattleText3::
-	text "I'm trying to"
-	line "count the tiles"
-	cont "along the length"
-	cont "of this path."
-	para "But it's making"
-	line "me dizzy!"
+	text "Jeg prøver at"
+	line "tælle fliserne"
+	cont "langs hele denne"
+	cont "sti."
+	para "Men det gør mig"
+	line "svimmel!"
 	done

@@ -1,201 +1,201 @@
 _Route13CooltrainerM1BattleText::
-	text "My flying #MON"
-	line "want to scrap!"
+	text "Mine flyvende"
+	line "#MON vil"
+	cont "slås!"
 	done
 
 _Route13CooltrainerM1EndBattleText::
-	text "My"
-	line "flying combo"
-	cont "lost?"
+	text "Min"
+	line "flyvende duo"
+	cont "tabte?"
 	prompt
 
 _Route13CooltrainerM1AfterBattleText::
-	text "My #MON look"
-	line "happy even though"
-	cont "they lost."
+	text "Mine #MON ser"
+	line "glade ud, selvom"
+	cont "de tabte."
 	done
 
 _Route13CooltrainerF1BattleText::
-	text "I'm told I'm good"
-	line "for a kid!"
+	text "Jeg er blevet"
+	line "fortalt, jeg er"
+	cont "god for et barn!"
 	done
 
 _Route13CooltrainerF1EndBattleText::
-	text "Ohh!"
-	line "I lost!"
+	text "Åh!"
+	line "Jeg tabte!"
 	prompt
 
 _Route13CooltrainerF1AfterBattleText::
-	text "I want to become"
-	line "a good trainer."
-	cont "I'll train hard."
+	text "Jeg vil blive en"
+	line "god træner."
+	cont "Jeg træner hårdt."
 	done
 
 _Route13CooltrainerF2BattleText::
-	text "Wow! Your BADGEs"
-	line "are too cool!"
+	text "Wow! Dine BADGEs"
+	line "er for seje!"
 	done
 
 _Route13CooltrainerF2EndBattleText::
-	text "Not"
-	line "enough!"
+	text "Ikke"
+	line "nok!"
 	prompt
 
 _Route13CooltrainerF2AfterBattleText::
-	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	text "Du fik de BADGEs"
+	line "fra GYM"
+	cont "LEDERe. Jeg ved!"
 	done
 
 _Route13CooltrainerF3BattleText::
-	text "My cute #MON"
-	line "wish to make your"
-	cont "acquaintance."
+	text "Mine søde #MON"
+	line "vil møde dig."
 	done
 
 _Route13CooltrainerF3EndBattleText::
 	text "Wow!"
-	line "You totally won!"
+	line "Du vandt helt!"
 	prompt
 
 _Route13CooltrainerF3AfterBattleText::
-	text "You have to make"
-	line "#MON fight to"
-	cont "toughen them up!"
+	text "Du skal lade"
+	line "#MON kæmpe for"
+	cont "at styrke dem!"
 	done
 
 _Route13CooltrainerF4BattleText::
-	text "I found CARBOS in"
-	line "a cave once."
+	text "Jeg fandt CARBOS i"
+	line "en hule engang."
 	done
 
 _Route13CooltrainerF4EndBattleText::
-	text "Just"
-	line "messed up!"
+	text "Totalt"
+	line "fejlet!"
 	prompt
 
 _Route13CooltrainerF4AfterBattleText::
-	text "CARBOS boosted"
-	line "the SPEED of my"
+	text "CARBOS øgede"
+	line "SPEED på mine"
 	cont "#MON."
 	done
 
 _Route13CooltrainerM2BattleText::
-	text "The wind's blowing"
-	line "my way!"
+	text "Vinden blæser"
+	line "min vej!"
 	done
 
 _Route13CooltrainerM2EndBattleText::
-	text "The"
-	line "wind turned!"
+	text "Vinden"
+	line "vendte!"
 	prompt
 
 _Route13CooltrainerM2AfterBattleText::
-	text "I'm beat. I guess"
-	line "I'll FLY home."
+	text "Jeg er færdig. Jeg"
+	line "tror jeg FLYr hjem."
 	done
 
 _Route13Beauty1BattleText::
-	text "Sure, I'll play"
-	line "with you!"
+	text "Selvfølgelig, jeg"
+	line "leger med dig!"
 	done
 
 _Route13Beauty1EndBattleText::
-	text "Oh!"
-	line "You little brute!"
+	text "Åh!"
+	line "Du lille bølle!"
 	prompt
 
 _Route13Beauty1AfterBattleText::
-	text "I wonder which is"
-	line "stronger, male or"
-	cont "female #MON?"
+	text "Jeg undrer mig:"
+	line "hvem er stærkest,"
+	cont "han- eller hun-#MON?"
 	done
 
 _Route13Beauty2BattleText::
-	text "Do you want to"
-	line "#MON with me?"
+	text "Vil du #MON"
+	line "med mig?"
 	done
 
 _Route13Beauty2EndBattleText::
-	text "It's over"
-	line "already?"
+	text "Er det"
+	line "slut allerede?"
 	prompt
 
 _Route13Beauty2AfterBattleText::
-	text "I don't know"
-	line "anything about"
-	cont "#MON. I just"
-	cont "like cool ones!"
+	text "Jeg ved ikke"
+	line "noget om"
+	cont "#MON. Jeg kan"
+	cont "ligesom de seje!"
 	done
 
 _Route13BikerBattleText::
-	text "What're you"
-	line "lookin' at?"
+	text "Hvad kigger"
+	line "du på?"
 	done
 
 _Route13BikerEndBattleText::
-	text "Dang!"
-	line "Stripped gears!"
+	text "Søren!"
+	line "Strippede gear!"
 	prompt
 
 _Route13BikerAfterBattleText::
-	text "Get lost!"
+	text "Forsvind!"
 	done
 
 _Route13CooltrainerM3BattleText::
-	text "I always love"
-	line "bird #MON!"
+	text "Jeg elsker altid"
+	line "fugle-#MON!"
 	done
 
 _Route13CooltrainerM3EndBattleText::
-	text "Out"
-	line "of power!"
+	text "Løbet"
+	line "tør for kræfter!"
 	prompt
 
 _Route13CooltrainerM3AfterBattleText::
-	text "I wish I could"
-	line "fly like a"
+	text "Jeg ønsker jeg"
+	line "kunne flyve som en"
 	cont "FEAROW<...>"
 	done
 
 _FearowLearnset::
-	text "Ah, to be a bird"
-	line "in the sky!"
-	para "I'll just have to"
-	line "settle for riding"
-	cont "FEAROW instead!"
-	para "The views from"
-	line "up there are so"
-	cont "stupendous!"
-	para "Makes me proud to"
-	line "be a BIRD KEEPER!"
+	text "Ah, at være fugl"
+	line "på himlen!"
+	para "Jeg må nøjes med"
+	line "at ride på FEAROW"
+	cont "i stedet!"
+	para "Udsigten deroppe"
+	line "er så fantastisk!"
+	para "Jeg er stolt over"
+	line "som BIRD KEEPER"
 	prompt
 
 _Route13TrainerTips1Text::
 	text "<TIPS>"
 
-	para "Look to the left"
-	line "of that post!"
+	para "Kig til venstre"
+	line "for den post!"
 	done
 
 _Route13TrainerTips2Text::
 	text "<TIPS>"
 
-	para "Use SELECT to"
-	line "switch items in"
-	cont "the ITEM window!"
+	para "Brug SELECT til at"
+	line "skifte genstande i"
+	cont "ITEM vinduet!"
 
-	para "This also works"
-	line "in battle with"
-	cont "#MON attacks!"
+	para "Det virker også"
+	line "i kamp med"
+	cont "#MON angreb!"
 
-	para "It even works"
-	line "with <PK><MN> order"
-	cont "swapping, try it!"
+	para "Det virker endda"
+	line "med <PK><MN> række-"
+	cont "følge skift, prøv!"
 	done
 
 _Route13SignText::
-	text "ROUTE 13"
-	line "North to SILENCE"
+	text "RUTE 13"
+	line "Nord til SILENCE"
 	cont "BRIDGE"
 	done

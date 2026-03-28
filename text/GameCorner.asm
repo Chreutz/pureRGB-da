@@ -1,210 +1,221 @@
 _GameCornerBeauty1Text::
-	text "Welcome!"
+	text "Velkommen!"
 
-	para "You can exchange"
-	line "your coins for"
-	cont "fabulous prizes"
-	cont "next door."
+	para "Du kan veksle dine"
+	line "mønter til"
+	cont "fantastiske præmier"
+	cont "ved siden af."
 	done
 
 _GameCornerClerk1DoYouNeedSomeGameCoinsText::
-	text "Welcome to ROCKET"
-	line "GAME CORNER!"
+	text "Velkommen til"
+	line "ROCKET GAME"
+	cont "CORNER!"
 
-	para "Do you need some"
-	line "game coins?"
+	para "Har du brug for"
+	line "spilmønter?"
 
-	para "It's ¥8000 for"
-	line "500 coins. Would"
-	cont "you like some?"
+	para "Det er ¥8000 for"
+	line "500 mønter. Vil du"
+	cont "have nogle?"
 	done
 
 _GameCornerClerk1ThanksHereAre50CoinsText::
-	text "Thanks! Here are"
-	line "your 500 coins!"
+	text "Tak! Her er dine"
+	line "500 mønter!"
 	prompt
 
 _CeladonGameCornerText_another500::
-	text "Want another 500?"
+	text "Vil du have 500"
+	line "mere?"
 	prompt
 
 _GameCornerClerk1PleaseComePlaySometimeText::
-	text "No? Please come"
-	line "play sometime!"
+	text "Nej? Kom og spil"
+	line "engang!"
 	done
 
 _GameCornerClerk1CantAffordTheCoinsText::
-	text "You can't afford"
-	line "the coins!"
+	text "Du har ikke råd"
+	line "til mønterne!"
 	done
 
 _GameCornerClerk1CoinCaseIsFullText::
-	text "Oops! Your COIN"
-	line "CASE is full."
+	text "Ups! Din MØNTKASSE"
+	line "er fuld."
 	done
 
 _GameCornerClerk1DontHaveCoinCaseText::
-	text "You don't have a"
-	line "COIN CASE!"
+	text "Du har ikke en"
+	line "MØNTKASSE!"
 	done
 
 _GameCornerMiddleAgedMan1Text::
-	text "Keep this quiet."
+	text "Hold dette"
+	line "hemmeligt."
 
-	para "It's rumored that"
-	line "this place is run"
-	cont "by <TEAM><ROCKET>."
+	para "Det rygtes at"
+	line "dette sted drives"
+	cont "af <TEAM><ROCKET>."
 	done
 
 _GameCornerBeauty2Text::
-	text "I think these"
-	line "machines have"
-	cont "different odds."
+	text "Jeg tror disse"
+	line "maskiner har"
+	cont "forskellige odds."
 	done
 
 _GameCornerFishingGuruWantToPlayText::
-	text "Kid, do you want"
-	line "to play?"
+	text "Knægt, vil du"
+	line "spille?"
 	prompt
 
 _GameCornerFishingGuruReceived10CoinsText::
-	text "<PLAYER> received"
-	line "10 coins!@"
+	text "<PLAYER> fik"
+	line "10 mønter!@"
 	text_end
 
 _GameCornerFishingGuruDontNeedMyCoinsText::
-	text "You don't need my"
-	line "coins!"
+	text "Du har ikke brug"
+	line "for mine mønter!"
 	done
 
 _GameCornerFishingGuruWinsComeAndGoText::
-	text "Wins seem to come"
-	line "and go."
+	text "Gevinster kommer"
+	line "og går."
 	done
 
 _GameCornerMiddleAgedWomanText::
-	text "I'm having a"
-	line "wonderful time!"
+	text "Jeg har det"
+	line "fantastisk!"
 	done
 
 _GameCornerGymGuideChampInMakingText::
 	text "Hey!"
 
-	para "You have better"
-	line "things to do,"
-	cont "champ in making!"
+	para "Du har bedre ting"
+	line "at gøre,"
+	cont "fremtidige mester!"
 
-	para "CELADON GYM's"
-	line "LEADER is ERIKA!"
-	cont "She uses grass-"
+	para "CELADON GYMs"
+	line "LEDER er ERIKA!"
+	cont "Hun bruger græs-"
 	cont "type #MON!"
 
-	para "She might appear"
-	line "docile, but don't"
-	cont "be fooled!"
+	para "Hun kan virke"
+	line "rolig, men lad dig"
+	cont "ikke narre!"
 	done
 
 _CeladonGameCornerText_gymguide::
-	text "I hear you beat"
+	text "Jeg hører du slog"
 	line "ERIKA!"
 	prompt
 
 _CeladonGameCornerGymGuideApexChipGrassText::
-	text "For grass #MON,"
-	line "an APEX CHIP will"
-	cont "evoke a lush"
-	cont "green forest or"
-	cont "jungle with a"
-	cont "thick canopy and"
-	cont "endless amounts"
-	cont "of plantlife."
+	text "For græs #MON,"
+	line "vil en APEX CHIP"
+	cont "fremkalde en"
+	cont "frodig grøn skov"
+	cont "eller jungle med"
+	cont "en tyk kronhimmel"
+	cont "og uendelige"
+	cont "mængder af"
+	cont "planteliv."
 	prompt
 
 _GameCornerGymGuideTheyOfferRarePokemonText::
-	text "How about this"
-	line "Game Corner?"
+	text "Hvad siger du til"
+	line "dette Game Corner?"
 
-	para "They offer rare"
-	line "#MON that can"
-	cont "be exchanged for"
-	cont "your coins."
+	para "De tilbyder"
+	line "sjældne #MON der"
+	cont "kan veksles til"
+	cont "dine mønter."
 
-	para "But, I just can't"
-	line "seem to win!"
+	para "Men, jeg kan bare"
+	line "ikke synes at"
+	cont "vinde!"
 	done
 
 _GameCornerGamblerText::
-	text "Games are scary!"
-	line "It's so easy to"
-	cont "get hooked!"
+	text "Spil er"
+	line "skræmmende!"
+	cont "Det er så let at"
+	cont "blive hooked!"
 	done
 
 _GameCornerClerk2WantSomeCoinsText::
-	text "What's up? Want"
-	line "some coins?"
+	text "Hvad så? Vil du"
+	line "have nogle mønter?"
 	prompt
 
 _GameCornerGentlemanReceived20CoinsText::
 _GameCornerClerk2Received20CoinsText::
-	text "<PLAYER> received"
-	line "20 coins!@"
+	text "<PLAYER> fik"
+	line "20 mønter!@"
 	text_end
 
 _GameCornerClerk2YouHaveLotsOfCoinsText::
-	text "You have lots of"
-	line "coins!"
+	text "Du har masser af"
+	line "mønter!"
 	done
 
 _GameCornerClerk2INeedMoreCoinsText::
-	text "Darn! I need more"
-	line "coins for the"
-	cont "#MON I want!"
+	text "Søren! Jeg har"
+	line "brug for flere"
+	cont "mønter til det"
+	cont "#MON jeg vil ha'!"
 	done
 
 _GameCornerGentlemanThrowingMeOffText::
-	text "Hey, what? You're"
-	line "throwing me off!"
-	cont "Here are some"
-	cont "coins, shoo!"
+	text "Hey, hva'? Du"
+	line "forstyrrer mig!"
+	cont "Her er nogle"
+	cont "mønter, skrid!"
 	prompt
 
 _GameCornerGentlemanYouGotYourOwnCoinsText::
-	text "You've got your"
-	line "own coins!"
+	text "Du har dine egne"
+	line "mønter!"
 	done
 
 _GameCornerGentlemanCloselyWatchTheReelsText::
-	text "The trick is to"
-	line "watch the reels"
-	cont "closely!"
+	text "Tricket er at"
+	line "holde øje med"
+	cont "hjulene!"
 	done
 
 _GameCornerRocketImGuardingThisPosterText::
-	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	text "Jeg vogter denne"
+	line "plakat!"
+	cont "Gå væk, eller"
+	cont "ellers!"
 	done
 
 _Route21Fisher1EndBattleText::
 _GameCornerRocketBattleEndText::
-	text "Dang!"
+	text "Søren!"
 	prompt
 
 _GameCornerRocketAfterBattleText::
-	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	text "Vores skjulested"
+	line "kan blive"
+	cont "afslørt!"
+	cont "Jeg må fortælle"
+	cont "CHEFEN!"
 	done
 
 _GameCornerPosterSwitchBehindPosterText::
 	text "Hey!"
 
-	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!@"
+	para "En kontakt bag"
+	line "plakaten!?"
+	cont "Lad os trykke på"
+	cont "den!@"
 	text_end
 
 _GameCornerOopsForgotCoinCaseText::
-	text "Oops! Forgot the"
-	line "COIN CASE!"
+	text "Ups! Glemte"
+	line "MØNTKASSEN!"
 	done

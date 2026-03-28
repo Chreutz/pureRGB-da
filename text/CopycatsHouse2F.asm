@@ -1,110 +1,115 @@
 _CopycatsHouse2FCopycatDoYouLikePokemonText::
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Hej! Kan"
+	line "du lide #MON?"
 
-	para "<PLAYER>: Uh no, I"
-	line "just asked you."
+	para "<PLAYER>: Øh nej,"
+	line "jeg spurgte bare."
 
 	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	line "Du er mærkelig!"
 
 	para "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	line "Stop med at"
+	cont "efterabe?"
 
-	para "But, that's my"
-	line "favorite hobby!"
+	para "Men det er min"
+	line "yndlings-hobby!"
 	done
 
 _CopycatsHouse2FCopycatGaveDollText::
-	text "Oh wow!"
-	line "A # DOLL!"
+	text "Åh wow!"
+	line "En # DUKKE!"
 
-	para "For me?"
-	line "Thank you!"
+	para "Til mig?"
+	line "Tak skal du have!"
 	prompt
 
 _CopyCatsHouse2FCopycatILikeYouText::
-	text "I like you!"
-	line "Know what?"
+	text "Jeg kan lide dig!"
+	line "Ved du hvad?"
 
-	para "I'll teach your"
-	line "#MON my"
-	cont "favorite move:"
+	para "Jeg lærer dit"
+	line "#MON min"
+	cont "yndlingsangreb:"
 	para "MIMIC!"
-	para "Who should I"
-	line "teach it to?"
+	para "Hvem skal jeg"
+	line "lære det til?"
 	prompt
 
 _CopycatsHouse2FCopycatCancelledFirstTimeText::
-	text "<PLAYER>: No way"
-	line "am I teaching my"
-	cont "#MON that"
-	cont "crummy move!"
+	text "<PLAYER>: Ingen måde"
+	line "jeg lærer mit"
+	cont "#MON det"
+	cont "elendige angreb!"
 	para "<PLAYER>: Hey!"
-	line "I didn't say that!"
-	para "COPYCAT: But you"
-	line "were thinking it!"
+	line "Det sagde jeg ikk!"
+	para "COPYCAT: Men du"
+	line "tænkte det!"
 	para "Hehehe!"
 	done
 
 _CopyCatsHouse2FCopycatDittoText::
-	text "COPYCAT: Is that a"
+	text "COPYCAT: Er det en"
 	line "DITTO?!"
-	para "DITTO is the best"
-	line "copycat there is!"
-	para "Can I have it?"
+	para "DITTO er den"
+	line "bedste copycat"
+	cont "der findes!"
+	para "Må jeg få den?"
 	done
 
 ;_CopycatsHouse2FCopycatTM31Explanation1Text::
 ;	text_start
 ;
-;	para "TM31 contains my"
-;	line "favorite, MIMIC!"
+;	para "TM31 indeholder min"
+;	line "yndlings, MIMIC!"
 ;
-;	para "Use it on a good"
-;	line "#MON!@"
+;	para "Brug den på en god"
+;	line "#MON!@
 ;	text_end
 
 _CopycatsHouse2FCopycatSuccessText::
-	text "<PLAYER>: Thanks"
-	line "for teaching my"
+	text "<PLAYER>: Tak for"
+	line "at lære mit"
 	cont "#MON MIMIC!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: Hva'?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: Er det"
+	line "så sjovt at"
+	cont "efterabe alt jeg"
+	cont "gør?"
 
-	para "COPYCAT: You bet!"
-	line "It's a scream!"
+	para "COPYCAT: Selvføl-"
+	line "gelig! Det er"
+	cont "sjovt!"
 
-	para "I'll teach MIMIC"
-	line "for you anytime!"
+	para "Jeg lærer MIMIC"
+	line "til dig når som"
+	cont "helst!"
 	done
 
 _CopycatsHouse2FCopycatAgainText::
 	text "<PLAYER>: Hey,"
-	line "weirdo!"
-	para "I'm here to learn"
-	line "MIMIC again!"
-	para "<PLAYER>: Oh for"
-	line "crying out loud!"
-	cont "I'm not that rude!"
-	para "COPYCAT: Just"
-	line "teasing! Hehehe!"
-	para "Who should I"
-	line "teach?"
+	line "fjollede!"
+	para "Jeg er her for at"
+	line "lære MIMIC igen!"
+	para "<PLAYER>: Åh for"
+	line "himmerig da!"
+	cont "Jeg er ikke så"
+	cont "uhøflig!"
+	para "COPYCAT: Bare"
+	line "sjov! Hehehe!"
+	para "Hvem skal jeg"
+	line "lære det?"
 	prompt
 
 _CopycatsHouse2FCopycatCancelledAgainText::
-	text "Changed your"
-	line "mind?"
+	text "Ombestemt dig?"
 	done
 
 ;_CopycatsHouse2FCopycatTM31NoRoomText::
-;	text "Don't you want"
-;	line "this?@"
+;	text "Vil du ikke have"
+;	line "denne her?@"`
 ;	text_end
 
 _CopycatsHouse2FDoduoText::
@@ -112,46 +117,47 @@ _CopycatsHouse2FDoduoText::
 	done
 
 _CopycatsHouse2FDoduoText2::
-	text "MIRROR MIRROR ON"
-	line "THE WALL, WHO IS"
-	cont "THE FAIREST ONE"
-	cont "OF ALL?"
+	text "SPEJL SPEJL PÅ"
+	line "VÆGGEN, HVEM ER"
+	cont "DEN FLOTTESTE AF"
+	cont "ALLE?"
 	done
 
 _DoduoLearnsetText::
 	text "@"
 	text_ram wTrainerName
-	text ": That's"
-	line "KIWI, my DODUO."
-	para "I like how its"
-	line "heads copy"
-	cont "each other!"
+	text ": Det er"
+	line "KIWI, min DODUO."
+	para "Jeg kan lide at"
+	line "dens hoveder"
+	cont "kopierer hinanden!"
 	prompt
 
 _CopycatsHouse2FRareDollText::
-	text "This is a rare"
-	line "#MON! Huh?"
-	cont "It's only a doll!"
+	text "Dette er et sjæld-"
+	line "nere #MON! Huh?"
+	cont "Det er bare en"
+	cont "dukke!"
 	done
 
 _CopycatsHouse2FSNESText::
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "Et spil med MARIO"
+	line "der har en spand"
+	cont "på hovedet!"
 	done
 
 _CopycatsHouse2FPCMySecretsText::
 	text "<...>"
 
-	para "My Secrets!"
+	para "Mine hemmeligheder"
 
-	para "Skill: Mimicry!"
-	line "Hobby: Collecting"
-	cont "dolls!"
-	cont "Favorite #MON:"
+	para "Talent: Efterabe!"
+	line "Hobby: At samle"
+	cont "dukker!"
+	cont "Yndlings #MON:"
 	cont "CLEFAIRY!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::
-	text "Huh? Can't see!"
+	text "Huh? Kan ikke se!"
 	done

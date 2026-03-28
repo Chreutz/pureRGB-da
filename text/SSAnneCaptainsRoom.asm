@@ -1,117 +1,121 @@
 _SSAnneCaptainsRoomRubCaptainsBackText::
-	text "CAPTAIN: Ooargh<...>"
-	line "I feel hideous<...>"
-	cont "Urrp! Seasick<...>"
+	text "KAPTEJN: Ooargh<...>"
+	line "Jeg føler mig"
+	cont "forfærdelig<...>"
+	cont "Urrp! Søsyg<...>"
 
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
+	para "<PLAYER> gnubbede"
+	line "KAPTEJNENS ryg!"
 
-	para "Rub-rub<...>"
-	line "Rub-rub<...>@"
+	para "Gnub-gnub<...>"
+	line "Gnub-gnub<...>@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	text "KAPTEJN: Pust!"
+	line "Tak! Jeg føler"
+	cont "mig meget bedre!"
 
-	para "You want to see"
-	line "my CUT technique?"
+	para "Vil du se min"
+	line "BESKÆR-teknik?"
 
-	para "I could show you"
-	line "if I wasn't ill<...>"
+	para "Jeg kunne vise dig"
+	line "hvis jeg ikke var"
+	cont "syg<...>"
 
-	para "I know! You can"
-	line "have this!"
+	para "Jeg ved hvad! Du"
+	line "kan få denne!"
 
-	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
-	cont "any time!"
+	para "Lær den til dit"
+	line "Pokémon og du"
+	cont "kan se det BESKÆRE"
+	cont "når som helst!"
 	prompt
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
-	text "CAPTAIN: Whew!"
+	text "KAPTEJN: Pust!"
 
-	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
+	para "Nu da jeg ikke"
+	line "længere er syg,"
+	cont "er det på tide."
 	done
 
 _SSAnneCaptainsRoomCaptainFeelingABitBetter::
-	text "CAPTAIN: What?!"
-	para "You're telling me"
-	line "you beat that"
-	cont "<RIVAL> kid in a"
-	cont "#MON battle?!"
+	text "KAPTEJN: Hvad?!"
+	para "Du siger du slog"
+	line "den <RIVAL> dreng"
+	cont "i Pokémon kamp?!"
 
-	para "He wouldn't leave"
-	line "me alone!"
+	para "Han ville ikke"
+	line "lade mig være!"
 
-	para "Thanks!"
+	para "Tak!"
 
-	para "Now you did me"
-	line "two favors!"
+	para "Nu har du gjort"
+	line "mig to tjenester!"
 
-	para "You know what?"
+	para "Ved du hvad?"
 
-	para "I feel great now!"
+	para "Jeg føler mig"
+	line "fantastisk nu!"
 
-	para "Check this out!"
+	para "Se her!"
 	prompt
 
 _SSAnneCaptainCutYourTicket::
-	text "The CAPTAIN used"
-	line "CUT on your"
-	cont "S.S.TICKET!"
-	para "He CUT it to"
-	line "shreds!"
+	text "KAPTEJNEN brugte"
+	line "BESKÆR på din"
+	cont "S.S.BILLET!"
+	para "Han BESKAR den"
+	line "i stumper!"
 	prompt
 
 _SSAnneWontBeNeedingThatAnymore::
-	text "CAPTAIN: You won't"
-	line "be needing that"
-	cont "ticket anymore!"
-	para "You're always"
-	line "welcome on the"
+	text "KAPTEJN: Du får"
+	line "ikke brug for den"
+	cont "billet længere!"
+	para "Du er altid"
+	line "velkommen på"
 	cont "S.S.ANNE!"
-	para "I'll tell my crew"
-	line "not to hassle you!"
+	para "Jeg siger til mit"
+	line "mandskab at de"
+	cont "ikke skal genere"
+	cont "dig!"
 	done
 
 _SSAnneCaptainsRoomCaptainHM01NoRoomText::
-	text "Oh no! You have"
-	line "no room for this!"
+	text "Åh nej! Du har"
+	line "ikke plads til"
+	cont "dette!"
 	done
 
 _SSAnneCaptainsRoomTrashText::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "Yuck! Burde ikke"
+	line "have kigget!"
 	done
 
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness<...>"
-	cont "The CAPTAIN's"
-	cont "reading this!"
+	text "Sådan bekæmper du"
+	line "søsyge<...>"
+	cont "KAPTEJNEN læser"
+	cont "dette!"
 	done
 
 _SSAnneCaptainsRoomCutBookText::
-	text "STUDY SCYTHER:"
-	line "STUDY THE BLADE@"
+	text "STUDER SCYTHER:"
+	line "STUDER BLADET@"
 	text_end
 
 _SSAnneCaptainsRoomCutBookText2::
-	text "<PARA>Outdoorsmen far"
-	line "out in the wilds"
-	cont "encounter areas"
-	cont "of forests that"
-	cont "were CUT down"
-	cont "inexplicably."
-	para "If you come across"
-	line "such an area,"
-	cont "you have entered"
-	cont "the territory of"
-	cont "a SCYTHER."
+	text "<PARA>Friluftsmænd"
+	line "langt ude i"
+	cont "vildmarken støder"
+	cont "på områder af"
+	cont "skove der er"
+	cont "blevet BESKÅRET."
+	para "Hvis du kommer"
+	line "forbi et sådant"
+	cont "område, er du"
+	cont "trådt ind i"
+	cont "SCYTHERs område."
 	done

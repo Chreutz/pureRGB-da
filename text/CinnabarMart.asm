@@ -1,43 +1,42 @@
 _CinnabarMartSilphWorkerFText::
-	text "Don't they have X"
-	line "ATTACK? It's good"
-	cont "for battles!"
+	text "Har de ikke X"
+	line "ATTACK? Det er godt"
+	cont "til kampe!"
 	done
 
 _CinnabarMartScientistText::
-	text "It never hurts to"
-	line "have extra items!"
+	text "Det skader aldrig"
+	line "at have ekstra"
+	cont "ting!"
 	done
 
 _TMKidBringingTMsAnyCost::
-	text "Bringing <TM>s to"
-	line "the place they"
-	cont "should be, at"
-	cont "any cost!@"
+	text "Bringer <TM>s til"
+	line "det sted, de skal"
+	cont "være, uanset"
+	cont "prisen!@"
 	text_end
 
 _CinnabarMartTMKidFlavor::
-	text "<PARA>My dad found out"
-	line "CINNABAR GYM was"
-	cont "locked when we"
-	cont "arrived."
+	text "<PARA>Min far fandt ud af,"
+	line "at CINNABAR GYM var"
+	cont "låst, da vi kom."
 
-	para "So he picked the"
-	line "lock and went in!"
+	para "Så han brød låsen"
+	line "op og gik ind!"
 	
-	para "They were so"
-	line "dumbfounded that"
-	cont "they just let him"
-	cont "stay there!@"
+	para "De var så måbende,"
+	line "at de bare lod ham"
+	cont "blive der!@"
 	text_end
 
 _TMKidSellingTMsCopiedDadOriginals::
-	text "<PARA>I'm selling <TM>s"
-	line "that I copied"
-	cont "from my dad's"
-	cont "originals!@"
+	text "<PARA>Jeg sælger <TM>s,"
+	line "som jeg kopierede"
+	cont "fra min fars"
+	cont "originaler!@"
 	text_end
 
 _TMKidWantSomeText::
-	text "<PARA>Want some?"
+	text "<PARA>Vil du have nogle?"
 	done

@@ -1,103 +1,100 @@
 _SaffronCityBusinessSpaceForLease::
-	text "BUSINESS SPACE"
-	line "FOR LEASE"
+	text "FORRETNINGS-"
+	line "LOKALE TIL LEJE"
 	done
 
 _SaffronAbandonedBuildingRocket1::
-	text "Password?"
+	text "Adgangskode?"
 	prompt
 
 _SaffronAbandonedBuildingRocket1Seriously::
-	text "Seriously?"
-	para "Why would it be"
-	line "so easy?!"
+	text "Alvorligt?"
+	para "Hvorfor skulle det"
+	line "være så nemt?!"
 	prompt
 
 _SaffronAbandonedBuildingRocket1Brocket::
-	text "What does that"
-	line "even mean?!"
+	text "Hvad betyder det"
+	line "engang?!"
 	prompt
 
 _SaffronAbandonedBuildingRocket1Sprocket::
-	text "Correct!"
-	para "Get in here!"
+	text "Korrekt!"
+	para "Kom ind her!"
 	done
 
 _SaffronAbandonedBuildingRocket1Dennis::
-	text "Don't use my"
-	line "real name you"
-	cont "fool!"
-	para "Come back with"
-	line "the password!"
+	text "Brug ikke mit"
+	line "rigtige navn, du"
+	cont "idiot!"
+	para "Kom tilbage med"
+	line "adgangskoden!"
 	prompt
 
 _SaffronAbandonedBuildingRocket1GetOut::
-	text "Get out!"
+	text "Forsvind!"
 	done
 
 _SaffronAbandonedBuildingRocket1Guess::
-	text "Guess we're"
-	line "recruiting"
-	cont "pipsqueaks now!"
+	text "Vi hyrer åbenbart"
+	line "småunger nu!"
 	done
 
 _SaffronAbandonedBuildingRocket2::
-	text "This abandoned"
-	line "building was our"
-	cont "ticket to taking"
+	text "Denne forladte"
+	line "bygning var vores"
+	cont "billet til at tage"
 	cont "SILPH CO!"
-	para "SAFFRON POLICE"
-	line "never expected a"
-	cont "thing!"
+	para "SAFFRON POLITI"
+	line "forventede aldrig"
+	cont "noget!"
 	para "Hah!"
 	done
 
 _SaffronAbandonedBuildingRocket3::
-	text "The boss's idea"
-	line "to DIG a tunnel"
-	cont "was a stroke of"
-	cont "genius!"
-	para "We've got a secret"
-	line "passage right"
-	cont "into the heart of"
+	text "Bossens idé at"
+	line "grave en tunnel"
+	cont "var et genitræf!"
+	para "Vi har en hemmelig"
+	line "passage lige ind"
+	cont "til hjertet af"
 	cont "SAFFRON CITY!"
 	done
 
 _SaffronAbandonedBuildingStairs::
-	text "The stairs have"
-	line "collapsed."
-	para "No one's getting"
-	line "up there."
+	text "Trappen er"
+	line "kollapset."
+	para "Ingen kommer op"
+	line "der."
 	done
 
 _SaffronAbandonedBuildingSteamPipe::
-	text "Gas is billowing"
-	line "out of this pipe."
-	para "It says HELIUM"
-	line "on the side."
+	text "Gas strømmer ud"
+	line "af dette rør."
+	para "Der står HELIUM"
+	line "på siden."
 	prompt
 
 _SaffronAbandonedBuildingKoffing::
-	text "It's not ready for"
-	line "so much gas yet."
+	text "Den er ikke klar"
+	line "til så meget gas"
+	cont "endnu."
 	done
 
 _SaffronAbandonedBuildingAlready::
-	text "It's already full"
-	line "of HELIUM."
+	text "Den er allerede"
+	line "fuld af HELIUM."
 	done
 
 _SaffronAbandonedBuildingWeezing::
 	text_ram_namebuffer
-	text " inhaled"
-	line "the gas coming"
-	cont "from the pipe."
+	text " inhalerede"
+	line "gassen fra røret."
 	done
 
 _SaffronAbandonedBuildingWeezing2::
 	text_ram_namebuffer
 	text ""
-	line "was filled with"
-	cont "super-light"
-	cont "HELIUM!"
+	line "blev fyldt med"
+	cont "super-let HELIUM!"
 	done

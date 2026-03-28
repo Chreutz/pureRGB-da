@@ -1,23 +1,23 @@
 _ViridianNicknameHouseBaldingGuyText::
-	text "Coming up with"
-	line "nicknames is fun,"
-	cont "but hard."
+	text "At finde på"
+	line "kaldenavne er"
+	cont "sjovt, men svært."
 
-	para "Simple names are"
-	line "the easiest to"
-	cont "remember."
+	para "Enkle navne er"
+	line "de nemmeste at"
+	cont "huske."
 	done
 
 _ViridianNicknameHouseLittleGirlText::
-	text "My Daddy loves"
-	line "#MON too."
+	text "Min far elsker"
+	line "Pokémon også."
 	done
 
 _ViridianNicknameHouseSpearowText::
-	text "SPEARY: Tetweet!"
+	text "SPEARY: Pip pip!"
 	done
 
 _ViridianNicknameHouseSpearySignText::
 	text "SPEAROW"
-	line "Name: SPEARY"
+	line "Navn: SPEARY"
 	done

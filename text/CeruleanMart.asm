@@ -1,38 +1,40 @@
-_CeruleanMartCooltrainerMText::
-	text "Use REPEL to keep"
-	line "bugs and weak"
-	cont "#MON away."
+_CeruleanMartCooltrainerMText:: ; TODO: Review translation
+	text "Brug REPEL til at"
+	line "holde insekter og"
+	cont "svage #MON"
+	cont "væk."
 
-	para "Put your strongest"
-	line "#MON at the"
-	cont "top of the list"
-	cont "for best results!"
+	para "Sæt dit"
+	line "stærkeste #MON"
+	cont "øverst på listen"
+	cont "for bedste"
+	cont "resultat!"
 	done
 
 _CeruleanMartCooltrainerFText::
-	text "Have you seen any"
+	text "Har du set nogen"
 	line "RARE CANDY?"
 
-	para "It's supposed to"
-	line "make #MON go"
-	cont "up one level!"
+	para "Det skulle få"
+	line "#MON til at gå"
+	cont "et niveau op!"
 	done
 
 _TMKidGreet::
-	text "Yo! It's me!"
-	line "The <TM> Pirate!"
+	text "Yo! Det er mig!"
+	line "<TM>-Piraten!"
 	prompt
 
 _IndigoPlateauGymGuideSonShopStart::
 _TMKidQuick::
-	text "Want some <TM>s?"
+	text "Vil du have nogle"
+	line "<TM>s?"
 	done
 
 _CeruleanMartTMKidFlavor::
-	text "<PARA>Me and my dad"
-	line "travel a lot, so"
-	cont "you'll probably"
-	cont "see me at MARTs"
-	cont "in other places"
-	cont "too!@"
+	text "<PARA>Mig og min far"
+	line "rejser meget, så"
+	cont "du vil nok se mig"
+	cont "på MARTs andre"
+	cont "steder også!@"
 	text_end

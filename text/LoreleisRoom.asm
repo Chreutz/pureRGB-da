@@ -1,38 +1,39 @@
 _LoreleisRoomLoreleiBeforeBattleText::
-	text "Welcome to"
+	text "Velkommen til"
 	line "#MON LEAGUE!"
 
-	para "I am LORELEI of"
-	line "the ELITE FOUR!"
+	para "Jeg er LORELEI fra"
+	line "ELITE FOUR!"
 
-	para "No one can best"
-	line "me when it comes"
-	cont "to icy #MON!"
+	para "Ingen kan slå"
+	line "mig, når det"
+	cont "drejer sig om"
+	cont "is-#MON!"
 
-	para "Freezing moves"
-	line "are powerful!"
+	para "Frysende træk"
+	line "er kraftfulde!"
 
-	para "Your #MON will"
-	line "be at my mercy"
-	cont "when they are"
-	cont "frozen solid!"
+	para "Dine #MON vil"
+	line "være prisgivet,"
+	cont "når de er frosset"
+	cont "til is!"
 
 	para "Hahaha!"
-	line "Are you ready?"
+	line "Er du klar?"
 	done
 
 _LoreleisRoomLoreleiEndBattleText::
-	text "How"
-	line "dare you!"
+	text "Hvor"
+	line "vover du!"
 	prompt
 
 _LoreleisRoomLoreleiAfterBattleText::
-	text "You're better"
-	line "than I thought!"
-	cont "Go on ahead!"
+	text "Du er bedre"
+	line "end jeg troede!"
+	cont "Gå videre!"
 
-	para "You only got a"
-	line "taste of #MON"
-	cont "LEAGUE power!"
+	para "Du fik kun en"
+	line "smagsprøve på"
+	cont "#MON LEAGUE-"
+	cont "kraft!"
 	done
-

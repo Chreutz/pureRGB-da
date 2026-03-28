@@ -1,197 +1,200 @@
 _PewterGymBrockPostBattleAdviceText::
-	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
+	text "Der findes alle"
+	line "slags trænere i"
+	cont "verden!"
 
-	para "You appear to be"
-	line "very gifted as a"
-	cont "#MON trainer!"
+	para "Du lader til at"
+	line "have et stort"
+	cont "talent som #MON-"
+	cont "træner!"
 
-	para "Go to the GYM in"
-	line "CERULEAN and test"
-	cont "your abilities!"
+	para "Tag til GYM'en i"
+	line "CERULEAN og test"
+	cont "dine evner!"
 	done
 
 _PewterGymBrockWaitTakeThisText::
-	text "Wait! Take this"
-	line "with you!"
+	text "Vent! Tag"
+	line "det her med dig!"
 	done
 
 _TM34ExplanationText::
 	text_start
 
-	para "A <TM> contains a"
-	line "technique that"
-	cont "can be taught to"
+	para "En <TM> indeholder"
+	line "en teknik, der"
+	cont "kan læres til"
 	cont "#MON!"
 
-	para "A <TM> is good only"
-	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
-	cont "pick the #MON"
-	cont "carefully!"
+	para "En <TM> kan kun"
+	line "bruges én gang!"
+	cont "Så når du bruger"
+	cont "en til at lære en"
+	cont "ny teknik, så vælg"
+	cont "#MON'et omhyggeligt!"
 
 	para "@"
 	text_ram_stringbuffer
-	text " contains"
+	text " indeholder"
 	line "BIDE!"
 
-	para "Your #MON will"
-	line "steel itself,"
-	cont "raising ATTACK"
-	cont "and DEFENSE!"
+	para "Dit #MON vil"
+	line "stå fast og"
+	cont "hæve ANGREB og"
+	cont "FORSVAR!"
 	done
 
 _GenericNoRoomText::
 _PewterGymTM34NoRoomText::
-	text "You don't have"
-	line "room for this!"
+	text "Du har ikke"
+	line "plads til det her!"
 	done
 
 _PewterGymBrockReceivedBoulderBadgeText::
-	text "I took"
-	line "you for granted."
+	text "Jeg tog"
+	line "dig for givet."
 
-	para "As proof of your"
-	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	para "Som bevis på din"
+	line "sejr, her er"
+	cont "BOULDERBADGE!"
 
-	para "<PLAYER> received"
-	line "the BOULDERBADGE!@"
+	para "<PLAYER> modtog"
+	line "BOULDERBADGE!@"
 	text_end
 
 _PewterGymBrockBoulderBadgeInfoText::
 	text_start
 
-	para "That's an official"
-	line "#MON LEAGUE"
-	cont "BADGE!"
+	para "Det er et"
+	line "officielt #MON"
+	cont "LEAGUE BADGE!"
 
-	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
+	para "Bærerens #MON"
+	line "bliver mere"
+	cont "stærke!"
 
-	para "The technique"
-	line "FLASH can now be"
-	cont "used any time!"
+	para "Teknikken FLASH"
+	line "kan nu bruges"
+	cont "når som helst!"
 	prompt
 
 _PewterGymCooltrainerMBattleText::
-	text "Stop right there,"
+	text "Stop lige der,"
 	line "kid!"
 
-	para "You're still light"
-	line "years from facing"
+	para "Du er langtfra"
+	line "klar til at møde"
 	cont "BROCK!"
 	done
 
 _PewterGymCooltrainerMEndBattleText::
-	text "Darn!"
+	text "Av!"
 
-	para "Light years isn't"
-	line "time! It measures"
-	cont "distance!"
+	para "Lysår er ikke"
+	line "tid! Det måler"
+	cont "afstand!"
 	prompt
 
 _PewterGymCooltrainerMAfterBattleText::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "Du er ret stærk,"
+	line "men ikke så stærk"
+	cont "som BROCK!"
 	done
 
 _PewterGymGuidePreAdviceText::
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "#MON champ!"
+	text "Hej! Jeg kan se,"
+	line "at du har det,"
+	cont "der skal til for"
+	cont "at blive #MON-"
+	cont "mester!"
 
-	para "I'm no trainer,"
-	line "but I can tell"
-	cont "you how to win!"
+	para "Jeg er ingen"
+	line "træner, men jeg"
+	cont "kan fortælle dig,"
+	cont "hvordan du vinder!"
 
-	para "Let me take you"
-	line "to the top!"
+	para "Lad mig føre dig"
+	line "til toppen!"
 	done
 
 _PewterGymGuideBeginAdviceText::
-	text "All right! Let's"
-	line "get happening!"
+	text "Okay! Lad os"
+	line "komme i gang!"
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "The 1st #MON"
-	line "out in a match is"
-	cont "at the top of the"
-	cont "#MON LIST!"
+	text "Det første #MON"
+	line "i en kamp er"
+	cont "øverst på"
+	cont "#MON-LISTEN!"
 
-	para "By changing the"
-	line "order of #MON,"
-	cont "matches could be"
-	cont "made easier!"
+	para "Ved at ændre"
+	line "rækkefølgen af"
+	cont "#MON kan kampe"
+	cont "gøres nemmere!"
 	done
 
 _PewterGymGuideFreeServiceText::
-	text "It's a free"
-	line "service! Let's"
-	cont "get happening!"
+	text "Det er en gratis"
+	line "service! Lad os"
+	cont "komme i gang!"
 	prompt
 
 _PewterGymGuidePostBattleText::
-	text "Just as I thought!"
-	line "You're #MON"
-	cont "champ material!"
+	text "Præcis som jeg"
+	line "tænkte! Du er"
+	cont "#MON-mester-"
+	cont "materiale!"
 	prompt
 
 _PewterGymGuideApexChipText::
-	text "I want you"
-	line "to have these!"
+	text "Jeg vil gerne"
+	line "give dig disse!"
 	prompt
 
 _ReceivedApexChipsText::
-	text "<PLAYER> received"
+	text "<PLAYER> modtog"
 	line "2 APEX CHIPs!@"
 	text_end
 
 _ApexChipExplanationText::
 	text_start
 
-	para "The APEX CHIP is a"
-	line "special microchip"
-	cont "I developed."
+	para "APEX CHIP'en er"
+	line "en speciel mikro-"
+	cont "chip jeg har"
+	cont "udviklet."
 	
-	para "You install it"
-	line "onto a #MON's"
+	para "Du installerer den"
+	line "på et #MONs"
 	cont "Poké Ball."
 
-	para "It simulates the"
-	line "natural wild"
-	cont "environment of"
-	cont "the #MON"
-	cont "inside its Poké"
+	para "Den simulerer det"
+	line "naturlige vilde"
+	cont "miljø for #MON'et"
+	cont "inde i dets Poké"
 	cont "Ball!"
 
-	para "It makes #MON"
-	line "happy and helps"
-	cont "achieve their"
-	cont "max potential!"
+	para "Den gør #MON"
+	line "glade og hjælper"
+	cont "dem med at nå"
+	cont "deres fulde"
+	cont "potentiale!"
 
-	para "Use them on your"
-	line "best #MON!"
+	para "Brug dem på dine"
+	line "bedste #MON!"
 
-	para "For Rock-type"
-	line "#MON, an APEX"
-	cont "CHIP simulates"
-	cont "a jagged craggy"
-	cont "ridge with cave"
-	cont "systems and steep"
-	cont "mountain terrain."
+	para "For Klippe-type"
+	line "#MON simulerer"
+	cont "en APEX CHIP en"
+	cont "tagget klippe-"
+	cont "kam med grotter og"
+	cont "brat bjergterræn."
 	prompt
 
 _AlreadyReceivedApexChipsText::
-	text "Talk to me at"
-	line "the next GYM if"
-	cont "you defeat the"
-	cont "LEADER for more"
-	cont "APEX CHIPs!"
+	text "Tal med mig ved"
+	line "næste GYM, hvis du"
+	cont "slår LEDEREN for"
+	cont "flere APEX CHIPs!"
 	done

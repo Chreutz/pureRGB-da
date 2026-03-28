@@ -1,11 +1,12 @@
 _SafariZoneCenterRestHouseGirlText::
-	text "SARA: Where did"
-	line "my boy friend,"
-	cont "ERIK, go?"
+	text "SARA: Hvor blev"
+	line "min kæreste,"
+	cont "ERIK, af?"
 	done
 
 _SafariZoneCenterRestHouseScientistText::
-	text "I'm catching"
-	line "#MON to take"
-	cont "home as gifts!"
+	text "Jeg fanger"
+	line "POKéMON som jeg"
+	cont "tager med hjem"
+	cont "som gaver!"
 	done

@@ -1,179 +1,183 @@
 _LearnsetCuteTalk::
-	text "I could talk"
-	line "about my cute"
+	text "Jeg kunne tale"
+	line "om min søde"
 	cont "@"
 	text_ram_namebuffer
-	text " all"
-	cont "day!"
+	text " hele"
+	cont "dagen!"
 	prompt
 
 _LearnsetBeautyTalk::
-	text "Do you even"
-	line "recognize the"
-	cont "absolute serene"
-	cont "beauty of a @"
+	text "Genkender du"
+	line "overhovedet den"
+	cont "totale fredfyldte"
+	cont "skønhed af en @"
 	text_ram_cont wNameBuffer
 	text "?"
 	prompt
 
 _LearnsetLove::
-	text "Oh I just want"
-	line "to tell every-"
-	cont "one about @"
+	text "Åh, jeg vil bare"
+	line "fortælle alle"
+	cont "om @"
 	text_ram_cont wNameBuffer
 	text "!"
-	para "I love it!"
+	para "Jeg elsker den!"
 	prompt
 
 _LearnsetRude::
 	text "Hey!"
-	para "It's rude to beat"
-	line "a girl and not"
-	cont "walk her back to"
-	cont "a #MON CENTER."
-	para "My poor @"
+	para "Det er uhøfligt"
+	line "at slå en pige"
+	line "og ikke følge"
+	cont "hende tilbage til"
+	cont "et #MON CENTER."
+	para "Min stakkels @"
 	text_ram_line wNameBuffer
 	text "!"
 	prompt
 
 _LearnsetKnowAlotAbout::
-	text "I know a lot"
-	line "about @"
+	text "Jeg ved meget"
+	line "om @"
 	text_ram_namebuffer
 	text "."
-	para "I'll share some"
-	line "of my secrets!"
+	para "Jeg vil dele"
+	line "nogle af mine"
+	line "hemmeligheder!"
 	prompt
 
 _LearnsetKnowEverythingAbout::
-	text "I know everything"
-	line "about @"
+	text "Jeg ved alt"
+	line "om @"
 	text_ram_namebuffer
 	text "!"
-	para "Time to hear"
-	line "from an expert!"
+	para "Tid til at høre"
+	line "fra en ekspert!"
 	prompt
 
 _LearnsetKnowMoreThanYou::
-	text "I know more than"
-	line "you when it comes"
-	cont "to @"
+	text "Jeg ved mere end"
+	line "dig, når det"
+	line "gælder @"
 	text_ram_namebuffer
 	text "."
-	para "I'll prove it!"
+	para "Jeg skal nok"
+	line "bevise det!"
 	prompt
 
 _LearnsetBoring::
-	text "You're boring."
-	para "You'd never train"
-	line "a cool #MON"
-	cont "like @"
+	text "Du er kedelig."
+	para "Du ville aldrig"
+	line "træne en sej"
+	cont "#MON som @"
 	text_ram_namebuffer
 	text "."
-	para "You just wouldn't"
-	line "get it!"
+	para "Du ville bare"
+	line "ikke forstå det!"
 	prompt
 
 _LearnsetAppreciator::
-	text "It's time for"
-	line "you to join<...>"
+	text "Tid for dig"
+	line "at blive medlem<...>"
 	para "<...>"
 	para "<...>"
-	para "The @"
+	para "I @"
 	text_ram_namebuffer
 	text_start
-	line "APPRECIATOR CLUB!"
+	line "APPRECIATOR KLUB!"
 	prompt
 
 _LearnsetMastering::
-	text "I've spent years"
-	line "mastering the art"
-	cont "of training this"
-	cont "@"
+	text "Jeg har brugt"
+	line "år på at mestre"
+	line "kunsten at træne"
+	cont "denne @"
 	text_ram_namebuffer
 	text "."
-	para "Listen well!"
+	para "Lyt godt efter!"
 	prompt
 
 _LearnsetCool::
-	text "The coolness level"
-	line "of @"
+	text "Sejsniveauet af"
+	line "@"
 	text_ram_namebuffer
-	text " is"
-	cont "off the charts!"
-	para "Listen up bro!"
+	text " er"
+	cont "uden for skemaet!"
+	para "Lyt efter, bro!"
 	prompt
 
 _LearnsetTough::
-	text "You'll never find"
-	line "a #MON tougher"
-	cont "than @"
+	text "Du finder aldrig"
+	line "en #MON sejere"
+	cont "end @"
 	text_ram_namebuffer
 	text "!"
-	para "You should train"
-	line "one!"
+	para "Du bør træne"
+	line "en!"
 	prompt
 
 _LearnsetMystery::
-	text "Are you also"
-	line "interested in the"
-	cont "mysterious nature"
-	cont "of @"
+	text "Er du også"
+	line "interesseret i"
+	line "den mystiske"
+	line "natur af @"
 	text_ram_namebuffer
 	text "?"
 	prompt
 
 _WhileGoingBackToPkmnCenter::
-	text "The @"
+	text "Den @"
 	text_ram wTrainerName
 	text_start
-	line "taught you about"
+	line "lærte dig om"
 	cont "@"
 	text_ram_namebuffer
-	text " while"
-	cont "on a trip to the"
-	cont "#MON CENTER."
+	text " mens"
+	cont "på en tur til"
+	cont "#MON CENTERET."
 	prompt
 
 _StartedTalkingAboutDetails::
-	text "The @"
+	text "Den @"
 	text_ram wTrainerName
 	text_start
-	line "started talking"
-	cont "about @"
+	line "begyndte at tale"
+	cont "om @"
 	text_ram_namebuffer
 	text_start
-	cont "in great detail."
+	cont "i stor detalje."
 	prompt
 
 _ToldAThrillingStory::
-	text "The @"
+	text "Den @"
 	text_ram wTrainerName
 	text_start
-	line "told a riveting"
-	cont "story about @"
+	line "fortalte en"
+	cont "spændende"
+	cont "historie om @"
 	text_ram_cont wNameBuffer
 	text "."
 	prompt
 
 _ShowedCoolMoves::
-	text "The @"
+	text "Den @"
 	text_ram wTrainerName
 	text_start
-	line "showed off a few"
-	cont "of @"
+	line "fremviste nogle"
+	cont "af @"
 	text_ram_namebuffer
 	text "'s"
-	cont "best abilities."
+	cont "bedste evner."
 	prompt
 
 _ReadAlotAboutPkmn::
-	text "You read a lot"
-	line "about @"
+	text "Du læste meget"
+	line "om @"
 	text_ram_namebuffer
 	text "."
-	para "Wow, this is"
-	line "so @"
+	para "Wow, dette er"
+	line "så @"
 	text_asm
 	call Random
 	and %111
@@ -192,81 +196,83 @@ _ReadAlotAboutPkmn::
 	call TextCommandProcessor
 	rst TextScriptEnd
 .astonishing
-	text "astonishing!"
+	text "forbløffende!"
 	prompt
 .fascinating
-	text "fascinating!"
+	text "fascinerende!"
 	prompt
 .tantalizing
-	text "tantalizing!"
+	text "pirrende!"
 	prompt
 .engrossing
-	text "engrossing!"
+	text "medrivende!"
 	prompt
 .enthralling
-	text "enthralling!"
+	text "betagende!"
 	prompt
 .interesting
-	text "interesting!"
+	text "interessant!"
 	prompt
 .intriguing
-	text "intriguing!"
+	text "spændende!"
 	prompt
 .enlightening
-	text "enlightening!"
+	text "oplysende!"
 	prompt
 
 _KeepReadingText::
-	text "Keep reading?"
+	text "Fortsæt med"
+	line "at læse?"
 	done
 
 _CheckDexToSeeIt::
-	text "Check your #DEX"
-	line "to read it!"
+	text "Tjek din #DEX"
+	line "for at læse det!"
 	done
 
 _WhileGoingHeadingToShipInfirmary::
-	text "The @"
+	text "Den @"
 	text_ram wTrainerName
 	text_start
-	line "taught you about"
+	line "lærte dig om"
 	cont "@"
 	text_ram_namebuffer
-	text " while"
-	cont "heading to the"
-	cont "ship infirmary."
+	text " mens"
+	cont "på vej til"
+	cont "skibets"
+	cont "sygestue."
 	prompt
 
 _LearnsetFondMemories::
-	text "The @"
+	text "Den @"
 	text_ram wTrainerName
 	text_start
-	line "recounted fond"
-	cont "memories made"
-	cont "with @"
+	line "genkaldte sig"
+	cont "gode minder"
+	cont "skabt med @"
 	text_ram_namebuffer
 	text "."
 	prompt
 
 
 _PlayedAroundWith::
-	text "<PLAYER> and the"
+	text "<PLAYER> og den"
 	line "@"
 	text_ram wTrainerName
-	text " played"
-	cont "around with"
+	text " legede"
+	cont "lidt rundt med"
 	cont "@"
 	text_ram_namebuffer
-	text " a bit."
+	text "."
 	prompt
 
 _LearnsetDream::
-	text "The @"
+	text "Den @"
 	text_ram wTrainerName
 	text_start
-	line "described the"
-	cont "strange dream"
-	cont "they had about"
+	line "beskrev den"
+	cont "mærkelige drøm"
+	cont "de havde om"
 	cont "@"
 	text_ram_namebuffer
 	text "."
@@ -275,19 +281,19 @@ _LearnsetDream::
 _BlaineStory::
 	text "@"
 	text_ram wTrainerName
-	text " told"
-	line "his epic story"
-	cont "about being saved"
-	cont "by @"
+	text " fortalte"
+	line "sin episke"
+	cont "historie om at"
+	cont "blive reddet"
+	cont "af @"
 	text_ram_namebuffer
 	text "."
 	prompt
 
 _LearnsetNaturalHabitatText::
-	text "<PLAYER> observed"
+	text "<PLAYER> observerede"
 	line "@"
 	text_ram_namebuffer
-	text " in its"
-	cont "natural habitat."
+	text " i dens"
+	cont "naturlige habitat."
 	prompt
-

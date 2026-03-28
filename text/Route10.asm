@@ -1,29 +1,30 @@
 _Route10SuperNerd1BattleText::
-	text "Wow, are you a"
-	line "#MANIAC too?"
-	cont "Want to see my"
-	cont "collection?"
+	text "Wow, er du også"
+	line "en #MONIAC?"
+	cont "Vil du se min"
+	cont "samling?"
 	done
 
 _Route10SuperNerd1EndBattleText::
-	text "Humph."
-	line "I'm not angry!"
+	text "Hmph."
+	line "Jeg er ikke vred!"
 	prompt
 
 _Route10SuperNerd1AfterBattleText::
-	text "I have more rare"
-	line "#MON at home!"
+	text "Jeg har flere"
+	line "sjældne #MON"
+	cont "derhjemme!"
 	done
 
 _ElectabuzzLearnsetText::
-	text "I caught this rare"
-	line "@"
+	text "Jeg fangede denne"
+	line "sjældne @"
 	text_ram_namebuffer
-	text " at the"
-	cont "POWER PLANT."
-	para "I read a lot about"
-	line "it and decided"
-	cont "I had to get one!"
+	text " ved"
+	cont "KRAFTVÆRKET."
+	para "Jeg læste meget"
+	line "om den og ville"
+	cont "have en!"
 	para "@"
 	text_end
 
@@ -33,101 +34,106 @@ _Route10Hiker1BattleText::
 
 _Route10Hiker1EndBattleText::
 	text "Ha-haha!"
-	line "Not laughing!"
-	cont "Ha-hay fever!"
-	cont "Haha-ha-choo!"
+	line "Griner ikke!"
+	cont "Høfeber!"
+	cont "Haha-ha-atju!"
 	prompt
 
 _Route10Hiker1AfterBattleText::
-	text "Haha-ha-choo!"
-	line "Ha-choo!"
-	cont "Snort! Snivel!"
+	text "Haha-ha-atju!"
+	line "Ha-atju!"
+	cont "Snøft! Snøvl!"
 	done
 
 _Route10SuperNerd2BattleText::
-	text "Hi kid, want to"
-	line "see my #MON?"
+	text "Hej knægt, vil"
+	line "du se mine #MON?"
 	done
 
 _Route10SuperNerd2EndBattleText::
-	text "Oh no!"
-	line "My #MON!"
+	text "Åh nej!"
+	line "Mine #MON!"
 	prompt
 
 _Route10SuperNerd2AfterBattleText::
-	text "I don't like you"
-	line "for beating me!"
+	text "Jeg kan ikke"
+	line "lide dig for at"
+	cont "slå mig!"
 	done
 
 _Route10CooltrainerF1BattleText::
-	text "I've been to a"
-	line "#MON GYM a few"
-	cont "times. But, I"
-	cont "lost each time."
+	text "Jeg har været på"
+	line "et #MON GYM et"
+	cont "par gange. Men jeg"
+	cont "tabte hver gang."
 	done
 
 _Route10CooltrainerF1EndBattleText::
-	text "Ohh!"
-	line "Blew it again!"
+	text "Åh!"
+	line "Ødelagde det igen!"
 	prompt
 
 _Route10CooltrainerF1AfterBattleText::
-	text "I noticed some"
-	line "#MANIACs"
-	cont "prowling around."
+	text "Jeg bemærkede"
+	line "nogle #MANIACs"
+	cont "der snusede rundt."
 	done
 
 _Route10Hiker2BattleText::
-	text "Ah! This mountain"
-	line "air is delicious!"
+	text "Åh! Denne"
+	line "bjergluft er"
+	cont "lækker!"
 	done
 
 _Route10Hiker2EndBattleText::
-	text "That"
-	line "cleared my head!"
+	text "Det"
+	line "ryddede mit hoved!"
 	prompt
 
 _Route10Hiker2AfterBattleText::
-	text "I feel bloated on"
-	line "mountain air!"
+	text "Jeg føler mig"
+	line "opustet af"
+	cont "bjergluft!"
 	done
 
 _Route10CooltrainerF2BattleText::
-	text "I'm feeling a bit"
-	line "faint from this"
-	cont "tough hike."
+	text "Jeg føler mig"
+	line "lidt svimmel af"
+	cont "den hårde tur."
 	done
 
 _Route10CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not up to it!"
+	text "Jeg"
+	line "er ikke til det!"
 	prompt
 
 _Route10CooltrainerF2AfterBattleText::
-	text "The #MON here"
-	line "are so chunky!"
-	cont "There should be a"
-	cont "pink one with a"
-	cont "floral pattern!"
+	text "#MON her er"
+	line "så buttede!"
+	cont "Der burde være en"
+	cont "lyserød med et"
+	cont "blomstermønster!"
 	done
 
 _Route10BattleText7::
-	text "I wonder what's"
-	line "down this river?"
+	text "Jeg undrer mig"
+	line "over hvad der er"
+	cont "nede ad floden?"
 	done
 
 _Route10EndBattleText7::
-	text "I got"
-	line "doused!"
+	text "Jeg blev"
+	line "gjennemblødt!"
 	prompt
 
 _Route10AfterBattleText7::
-	text "What if there"
-	line "was a derelict"
-	cont "sunken ship down"
-	cont "this river?"
-	para "That'd be so"
-	line "cool! Right?"
+	text "Hvad hvis der"
+	line "var et forladt"
+	cont "sunken skib nede"
+	cont "ad denne flod?"
+	para "Ville det ikke"
+	line "være cool?"
+	cont "Ikke?"
 	done
 
 _Route10RockTunnelSignText::
@@ -135,5 +141,5 @@ _Route10RockTunnelSignText::
 	done
 
 _Route10PowerPlantSignText::
-	text "POWER PLANT"
+	text "KRAFTVÆRK"
 	done

@@ -1,9 +1,10 @@
 _CeruleanTradeHouseGrannyText::
-	text "My husband likes"
-	line "trading #MON."
+	text "Min mand kan"
+	line "lide at bytte"
+	cont "#MON."
 
-	para "If you are a"
-	line "collector, would"
-	cont "you please trade"
-	cont "with him?"
+	para "Hvis du er en"
+	line "samler, vil du"
+	cont "så venligst bytte"
+	cont "med ham?"
 	done

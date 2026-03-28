@@ -1,60 +1,62 @@
 _Route24CooltrainerM1YouBeatOurContestText::
-	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@"
+	text "Tillykke!"
+	line "Du slog vores 5"
+	cont "konkurrence-"
+	cont "deltagere!@"
 	text_end
 
 _Route24CooltrainerM1YouJustEarnedAPrizeText::
 	text_start
 
-	para "You just earned a"
-	line "fabulous prize!"
+	para "Du vandt en"
+	line "fantastisk præmie!"
 	prompt
 
 _Route24CooltrainerM1NoRoomText::
-	text "You don't have"
-	line "any room!"
+	text "Du har ikke"
+	line "plads!"
 	done
 
 _Route24CooltrainerM1JoinTeamRocketText::
-	text "By the way, would"
-	line "you like to join"
+	text "For resten, vil du"
+	line "gerne deltage i"
 	cont "<TEAM><ROCKET>?"
 
-	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
+	para "Vi er en gruppe"
+	line "dedikeret til"
+	cont "ondskab med"
+	cont "Pokémon!"
 
-	para "Want to join?"
+	para "Vil du deltage?"
 
-	para "Are you sure?"
+	para "Er du sikker?"
 
-	para "Come on, join us!"
+	para "Kom nu, deltag!"
 
-	para "I'm telling you"
-	line "to join!"
+	para "Jeg siger du"
+	line "skal deltage!"
 
-	para "OK, you need"
-	line "convincing!"
+	para "OK, du skal"
+	line "overtales!"
 
-	para "I'll make you an"
-	line "offer you can't"
-	cont "refuse!"
+	para "Jeg giver dig et"
+	line "tilbud du ikke kan"
+	cont "afslå!"
 	done
 
 _Route24CooltrainerM1DefeatedText::
-	text "Arrgh!"
-	line "You are good!"
+	text "Ååh!"
+	line "Du er god!"
 	prompt
 
 _Route24CooltrainerM1YouCouldBecomeATopLeaderText::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
+	text "Med din evne,"
+	line "kunne du blive"
+	cont "en top leder i"
 	cont "<TEAM><ROCKET>!"
 	done
 
 _Route24CooltrainerM2BattleText::
-	text "I saw your feat"
-	line "from the grass!"
+	text "Jeg så din bedrift"
+	line "fra græsset!"
 	done

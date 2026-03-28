@@ -1,69 +1,72 @@
 _PokemonTower1FReceptionistText::
-	text "#MON TOWER was"
-	line "erected in the"
-	cont "memory of #MON"
-	cont "that had died."
+	text "#MON TÅRNET blev"
+	line "opført til minde"
+	cont "om #MON"
+	cont "der var døde."
 	done
 
 _PokemonTower1FMiddleAgedWomanText::
-	text "Did you come to"
-	line "pay respects?"
-	cont "Bless you!"
+	text "Kom du for at"
+	line "vise respekt?"
+	cont "Velsign dig!"
 	done
 
 _PokemonTower1FBaldingGuyText::
-	text "I came to pray"
-	line "for my CLEFAIRY."
+	text "Jeg kom for at"
+	line "bede for min"
+	cont "CLEFAIRY."
 
-	para "Sniff! I can't"
-	line "stop crying<...>"
+	para "Snøft! Jeg kan"
+	line "ikke holde op med"
+	cont "at græde<...>"
 	done
 
 _PokemonTower1FGirlText::
-	text "My GROWLITHE<...>"
-	line "Why did you die?"
+	text "Min GROWLITHE<...>"
+	line "Hvorfor døde du?"
 	done
 
 _PokemonTower1FGirl2Text::
-	text "Sniff<...>"
-	para "What's that?"
-	para "You want to hear"
-	line "about my darling"
+	text "Snøft<...>"
+	para "Hvad er det?"
+	para "Du vil høre"
+	line "om min skatte"
 	cont "@"
 	text_ram_namebuffer
 	text "?"
 	prompt
 
 _PokemonTower1FChannelerText::
-	text "I am a CHANNELER!"
-	line "There are spirits"
-	cont "up to mischief!"
+	text "Jeg er et MEDIUM!"
+	line "Der er ånder"
+	cont "der laver ballade!"
 	done
 
 _PokemonTower1FRocketText::
-	text "Scram! No one's"
-	line "going downstairs!"
+	text "Forsvind! Ingen"
+	line "kommer nedenunder!"
 	prompt
 
 _PokemonTower1FRocketText2::
-	text "Here's a better"
-	line "idea:"
-	para "Why don't you"
-	line "head west to"
-	cont "CELADON CITY's"
-	cont "GAME CORNER?"
-	para "Spend lots of"
-	line "money while you're"
-	cont "there!"
-	para "Hyuck hyuck"
-	line "hyuck hyuck!"
+	text "Her er et bedre"
+	line "forslag:"
+	para "Hvorfor ikke"
+	line "tage vestpå til"
+	cont "CELADON CITYs"
+	cont "SPILLEHAL?"
+	para "Brug mange penge"
+	line "mens du er"
+	cont "der!"
+	para "Høh høh"
+	line "høh høh!"
 	done
 
 _PokemonTower1FRocketText3::
-	text "We've got an"
-	line "operation going!"
-	para "Until the boys"
-	line "come back from"
-	cont "the upper floors"
-	cont "I ain't moving!"
+	text "Vi har en"
+	line "operation i gang!"
+	para "Indtil drengene"
+	line "kommer tilbage fra"
+	cont "de øvre etager"
+	cont "flytter jeg mig"
+	cont "ikke!"
 	done

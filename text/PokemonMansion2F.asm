@@ -1,132 +1,133 @@
 _PokemonMansion2FSuperNerdBattleText::
-	text "I can't get out!"
-	line "This old place is"
-	cont "one big puzzle!"
+	text "Jeg kan ikke komme"
+	line "ud! Dette gamle"
+	cont "sted er et stort"
+	cont "puslespil!"
 	done
 
 _PokemonMansion2FSuperNerdEndBattleText::
-	text "Oh no!"
-	line "My bag of loot!"
+	text "Åh nej!"
+	line "Min taske med"
+	cont "tyvegods!"
 	prompt
 
 _PokemonMansion2FSuperNerdAfterBattleText::
-	text "Switches open and"
-	line "close alternating"
-	cont "sets of doors!"
+	text "Kontakter åbner"
+	line "og lukker skiftende"
+	cont "sæt af døre!"
 	done
 
 _Mansion2BattleText2::
-	text "Man."
-	para "Exploring"
-	line "abandoned places"
-	cont "is amazing."
+	text "Mand."
+	para "At udforske"
+	line "forladte steder"
+	cont "er fantastisk."
 	done
 
 _Mansion2EndBattleText2::
 	text ""
-	line "Whoops!"
+	line "Hovsa!"
 	prompt
 
 _Mansion2AfterBattleText2::
-	text "An abandoned"
-	line "researcher's"
-	cont "mansion."
-	para "So cool."
-	para "Wonder if they"
-	line "did any weird"
-	cont "experiments?"
+	text "En forladt"
+	line "forskers"
+	cont "herregård."
+	para "Så sejt."
+	para "Gad vide om de"
+	line "lavede nogle"
+	cont "mærkelige"
+	cont "eksperimenter?"
 	done
 
 _Mansion2BattleText3::
-	text "I'm an urban"
-	line "spelunker!"
+	text "Jeg er en urban"
+	line "huleudforsker!"
 	done
 
 _Mansion2EndBattleText3::
-	text "Ker-"
-	line "plunk!"
+	text "Klap-"
+	line "træ!"
 	prompt
 
 _Mansion2AfterBattleText3::
-	text "It's my hobby"
-	line "to explore"
-	cont "abandoned places."
-	para "Have you been to"
-	line "the POWER PLANT?"
-	para "That place is"
-	line "so cool!"
-	para "But this place"
-	line "really takes the"
-	cont "cake."
+	text "Det er min hobby"
+	line "at udforske"
+	cont "forladte steder."
+	para "Har du været på"
+	line "KRAFTVÆRKET?"
+	para "Det sted er"
+	line "så sejt!"
+	para "Men dette sted"
+	line "tager virkelig"
+	cont "prisen."
 	done
 
 _Mansion2BattleText4::
-	text "Don't touch"
-	line "anything!"
+	text "Rør ikke"
+	line "ved noget!"
 	done
 
 _Mansion2EndBattleText4::
 	text "Hey!"
-	line "Careful!"
+	line "Forsigtig!"
 	prompt
 
 _Mansion2AfterBattleText4::
-	text "Sometimes data"
-	line "that was hidden"
-	cont "from the public"
-	cont "is sequestered"
-	cont "away in these"
-	cont "facilities."
-	para "Then they forget"
-	line "to destroy data"
-	cont "when the research"
-	cont "lab is abandoned."
-	para "As a researcher"
-	line "it's my job to"
-	cont "uncover these"
-	cont "experiments!"
+	text "Nogle gange bliver"
+	line "data, der var skjult"
+	cont "for offentligheden,"
+	cont "gemt væk i disse"
+	cont "faciliteter."
+	para "Så glemmer de at"
+	line "ødelægge data,"
+	cont "når forsknings-"
+	cont "laboratoriet"
+	cont "forlades."
+	para "Som forsker er det"
+	line "mit job at afdække"
+	cont "disse"
+	cont "eksperimenter!"
 	done
 
 _Mansion2BattleText5::
-	text "Groan! Another"
-	line "dead end?"
+	text "Øv! Endnu en"
+	line "blindgyde?"
 	done
 
 _Mansion2EndBattleText5::
 	text ""
-	line "Augh!!"
+	line "Av!!"
 	prompt
 
 _Mansion2AfterBattleText5::
-	text "I'm getting"
-	line "totally fed up"
-	cont "with this place!"
+	text "Jeg er ved at"
+	line "være totalt træt"
+	cont "af dette sted!"
 	done
 
 _PokemonMansion2FDiary1Text::
-	text "Diary: July 5"
+	text "Dagbog: 5. juli"
 	line "Guyana,"
-	cont "South America"
-
-	para "A new #MON was"
-	line "discovered deep"
-	cont "in the jungle."
+	cont "Sydamerika"
+	para "Et nyt #MON blev"
+	line "opdaget dybt"
+	cont "inde i junglen."
 	done
 
 _PokemonMansion2FDiary2Text::
-	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
+	text "Dagbog: 10. juli"
+	line "Vi døbte det"
+	cont "nyopdagede"
 	cont "#MON, MEW."
 	done
 
-
 _PokemonMansion2FDiary3Text::
-	text "Diary: Sept 6"
-	para "We have tested"
-	line "the abilities of"
-	cont "the captive MEW."
-	para "Its learning"
-	line "capacity seems"
-	cont "almost limitless."
+	text "Dagbog: 6. sept"
+	para "Vi har testet"
+	line "evnerne hos"
+	cont "den fangede MEW."
+	para "Dens indlærings-"
+	line "kapacitet virker"
+	cont "næsten grænseløs."
 	done

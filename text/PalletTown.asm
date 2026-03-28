@@ -1,62 +1,63 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "OAK: Hey! Vent!"
+	line "Gå ikke ud!@"
 	text_end
 
 _PalletTownOakItsUnsafeText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "OAK: Det er"
+	line "farligt!"
+	cont "Vilde #MON lever"
+	cont "i det høje græs!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Du har brug for"
+	line "dit eget #MON"
+	cont "til beskyttelse."
+	cont "Jeg ved det!"
 
-	para "Here, come with"
-	line "me!"
+	para "Kom med"
+	line "mig!"
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "Jeg opdrager"
+	line "#MON også!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "Når de bliver"
+	line "stærke, kan de"
+	cont "beskytte mig!"
 	done
 
 _PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
+	text "Teknologi er"
+	line "fantastisk!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
+	para "Du kan nu opbevare"
+	line "og hente ting"
+	cont "og #MON som"
 	cont "data via <PC>!"
 	
-	para "You can even"
-	line "store items any"
-	cont "time by pressing"
-	cont "START on the"
-	cont "items menu!"
+	para "Du kan endda"
+	line "opbevare ting når"
+	cont "som helst ved at"
+	cont "trykke START på"
+	cont "ting-menuen!"
 	done
 
 _PalletTownOaksLabSignText::
 	text "OAK #MON"
-	line "RESEARCH LAB"
+	line "FORSKNINGSLAB"
 	done
 
 _PalletTownSignText::
 	text "PALLET TOWN"
-	para "Shades of your"
-	line "journey await!"
+	para "Skygger af din"
+	line "rejse venter!"
 	done
 
 _PalletTownPlayersHouseSignText::
-	text "<PLAYER>'s house"
+	text "<PLAYER>s hus"
 	done
 
 _PalletTownRivalsHouseSignText::
-	text "<RIVAL>'s house"
+	text "<RIVAL>s hus"
 	done

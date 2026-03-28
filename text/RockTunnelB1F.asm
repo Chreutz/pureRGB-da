@@ -1,109 +1,118 @@
 _RockTunnelB1FCooltrainerF1BattleText::
-	text "Hikers leave twigs"
-	line "as trail markers."
+	text "Vandrere"
+	line "efterlader"
+	cont "kviste som"
+	cont "stimarkører."
 	done
 
 _RockTunnelB1FCooltrainerF1EndBattleText::
-	text "Ohhh!"
-	line "I did my best!"
+	text "Åh!"
+	line "Jeg gjorde mit"
+	cont "bedste!"
 	prompt
 
 _RockTunnelB1FCooltrainerF1AfterBattleText::
-	text "I want to go"
-	line "home!"
+	text "Jeg vil gerne"
+	line "hjem!"
 	done
 
 _RockTunnelB1FHiker1BattleText::
-	text "Hahaha! Can you"
-	line "beat my power?"
+	text "Hahaha! Kan du"
+	line "slå min styrke?"
 	done
 
 _RockTunnelB1FHiker1EndBattleText::
-	text "Oops!"
-	line "Out-muscled!"
+	text "Ups!"
+	line "Blev overmusklet!"
 	prompt
 
 _RockTunnelB1FHiker1AfterBattleText::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "Jeg går efter"
+	line "styrke, fordi"
+	cont "jeg hader at"
+	cont "tænke!"
 	done
 
 _RockTunnelB1FSuperNerd1BattleText::
-	text "You have a"
-	line "#DEX?"
-	cont "I want one too!"
+	text "Har du en"
+	line "Pokédex?"
+	cont "Jeg vil også have"
+	cont "en!"
 	done
 
 _RockTunnelB1FSuperNerd1EndBattleText::
-	text "Shoot!"
-	line "I'm so jealous!"
+	text "Øv!"
+	line "Jeg er så jaloux!"
 	prompt
 
 _RockTunnelB1FSuperNerd1AfterBattleText::
-	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	text "Når du er færdig"
+	line "med din Pokédex,"
+	cont "kan jeg så få"
+	cont "den?"
 	done
 
 _RockTunnelB1FSuperNerd2BattleText::
-	text "Do you know about"
-	line "costume players?"
+	text "Kender du til"
+	line "kostumespillere?"
 	done
 
 _RockTunnelB1FSuperNerd2EndBattleText::
-	text "Well,"
-	line "that's that."
+	text "Nå,"
+	line "sådan er det."
 	prompt
 
 _RockTunnelB1FSuperNerd2AfterBattleText::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "Kostumespillere"
+	line "klæder sig ud"
+	cont "som Pokémon for"
+	cont "sjov."
 	done
 
 _RockTunnelB1FHiker2BattleText::
-	text "My #MON"
-	line "techniques will"
-	cont "leave you crying!"
+	text "Mine Pokémon-"
+	line "teknikker vil"
+	cont "få dig til at"
+	cont "græde!"
 	done
 
 _RockTunnelB1FHiker2EndBattleText::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "Jeg giver op!"
+	line "Du er en bedre"
+	cont "tekniker!"
 	prompt
 
 _RockTunnelB1FHiker2AfterBattleText::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "I bjerge finder"
+	line "man ofte"
+	cont "sten-Pokémon."
 	done
 
 _RockTunnelB1FCooltrainerF2BattleText::
-	text "I don't often"
-	line "come here, but I"
-	cont "will fight you."
+	text "Jeg kommer ikke"
+	line "ofte her, men jeg"
+	cont "vil kæmpe mod"
+	cont "dig."
 	done
 
 _Route19Swimmer5EndBattleText::
 _RockTunnelB1FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "Åh!"
+	line "Jeg tabte!"
 	prompt
 
 _RockTunnelB1FCooltrainerF2AfterBattleText::
-	text "I like tiny"
-	line "#MON, big ones"
-	cont "are too scary!"
+	text "Jeg kan lide små"
+	line "Pokémon, store"
+	cont "er for uhyggelige!"
 	done
 
 _RockTunnelB1FHiker3BattleText::
-	text "Hit me with your"
-	line "best shot!"
+	text "Giv mig dit"
+	line "bedste skud!"
 	done
 
 _RockTunnelB1FHiker3EndBattleText::
-	text "Fired"
-	line "away!"
+	text "Fyr"
+	line "løs!"
 	prompt

@@ -1,54 +1,54 @@
 _MrPsychicsHouseMrPsychicYouWantedThisText::
-	text "<...>Wait! Don't"
-	line "say a word!"
+	text "<...>Vent! Sig"
+	line "ikke et ord!"
 
-	para "You wanted this!"
+	para "Du ville have den!"
 	prompt
 
 _MrPsychicsHouseMrPsychicTM29ExplanationText::
-	text "<TM>29 is PSYCHIC!"
+	text "<TM>29 er PSYCHIC!"
 	
-	para "It uses powerful"
-	line "psychic waves to"
-	cont "inflict damage!"
+	para "Den bruger stærke"
+	line "psykiske bølger til"
+	cont "at påføre skade!"
 
-	para "It has a chance to"
-	line "lower the target's"
+	para "Den har en chance"
+	line "for at sænke"
+	cont "modstanderens"
 	cont "SPECIAL stat."
 	done
 
 _MrPsychicsHouseMrPsychicTM29NoRoomText::
-	text "Where do you plan"
-	line "to put this?"
+	text "Hvor vil du"
+	line "putte dette?"
 	done
 
 _MrPsychicsHouseBookText::
-	text "THE KADABRA BOOK"
-	line "OF PSYCHIC THEORY@"
+	text "KADABRA BOGEN"
+	line "OM PSYKISK TEORI@"
 	text_end
 
 _MrPsychicsHouseBookText2::
-	text "<PARA>KADABRA's powerful"
-	line "PSYCHIC presence"
-	cont "causes strange"
-	cont "shadows on TVs"
-	cont "and computer"
-	cont "monitors."
-	para "If you see one"
-	line "of these shadows,"
-	cont "it's considered"
-	cont "very bad luck."
+	text "<PARA>KADABRAs kraftige"
+	line "PSYKISKE nærvær"
+	cont "skaber mærkelige"
+	cont "skygger på TV'er"
+	cont "og computerskærme."
+	para "Hvis du ser en"
+	line "af disse skygger,"
+	cont "betragtes det"
+	cont "som meget uheld."
 	done
 
 _MrPsychicsHouseIKnowWhatYouWantText::
-	text "I know what you"
-	line "want!"
-	para "But first do this"
-	line "for me:"
-	para "Go rough up the"
-	line "trainers in the"
-	cont "FIGHTING DOJO!"
-	para "It's on the north"
-	line "side of town."
+	text "Jeg ved hvad du"
+	line "vil have!"
+	para "Men gør dette"
+	line "først"
+	line "for mig:"
+	para "Giv trænerne i"
+	line "FIGHTING DOJO en"
+	cont "omgang!"
+	para "Den ligger på"
+	line "nordsiden af byen."
 	done
-

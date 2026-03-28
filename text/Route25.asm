@@ -1,183 +1,187 @@
 _Route25Youngster1BattleText::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+	text "Lokale trænere"
+	line "kommer her for"
+	cont "at øve!"
 	done
 
 _Route25Youngster1EndBattleText::
-	text "You're"
-	line "decent."
+	text "Du er"
+	line "ordentlig."
 	prompt
 
 _Route25Youngster1AfterBattleText::
-	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "Alle #MON har"
+	line "svagheder. Det er"
+	cont "bedst at opdrætte"
+	cont "forskellige slags."
 	done
 
 _Route25Youngster2BattleText::
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S.ANNE at"
+	text "Far tog mig med"
+	line "til en fest på"
+	cont "S.S.ANNE i"
 	cont "VERMILION CITY!"
 	done
 
 _Route25Youngster2EndBattleText::
-	text "I'm"
-	line "not mad!"
+	text "Jeg er"
+	line "ikke vred!"
 	prompt
 
 _Route25Youngster2AfterBattleText::
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "På S.S.ANNE så jeg"
+	line "trænere fra"
+	cont "hele verden."
 	done
 
 _Route25CooltrainerMBattleText::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "Jeg er en sej fyr."
+	line "Jeg har en"
+	cont "kæreste!"
 	done
 
 _Route25CooltrainerMEndBattleText::
-	text "Aww,"
-	line "darn<...>"
+	text "Åh,"
+	line "søren<...>"
 	prompt
 
 _Route25CooltrainerMAfterBattleText::
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "Nå ja. Min kæreste"
+	line "vil trøste mig."
 	done
 
 _Route25CooltrainerF1BattleText::
-	text "Hi! My boyfriend"
-	line "is cool!"
+	text "Hej! Min kæreste"
+	line "er sej!"
 	done
 
 _Route25CooltrainerF1EndBattleText::
-	text "I was in"
-	line "bad condition!"
+	text "Jeg var i"
+	line "dårlig form!"
 	prompt
 
 _Route25CooltrainerF1AfterBattleText::
-	text "I wish my guy was"
-	line "as good as you!"
+	text "Jeg ønsker min fyr"
+	line "var så god"
+	cont "som dig!"
 	done
 
 _Route25Youngster3BattleText::
-	text "I knew I had to"
-	line "fight you!"
+	text "Jeg vidste jeg"
+	line "måtte kæmpe"
+	cont "mod dig!"
 	done
 
 _Route25Youngster3EndBattleText::
-	text "I knew"
-	line "I'd lose too!"
+	text "Jeg vidste"
+	line "jeg ville tabe!"
 	prompt
 
 _Route25Youngster3AfterBattleText::
-	text "If your #MON"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "Hvis dit #MON"
+	line "bliver forvirret"
+	cont "eller falder"
+	cont "i søvn,"
+	cont "skift det ud!"
 	done
 
 _Route25CooltrainerF2BattleText::
-	text "My friend has a"
-	line "cute #MON."
-	cont "I'm so jealous!"
+	text "Min ven har et"
+	line "sødt #MON."
+	cont "Jeg er så"
+	cont "misundelig!"
 	done
 
 _Route25CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not so jealous!"
+	text "Jeg er"
+	line "ikke så misundelig!"
 	prompt
 
 _Route25CooltrainerF2AfterBattleText::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "Kom du fra MT."
+	line "MOON? Må jeg få"
+	cont "en CLEFAIRY?"
 	done
 
 _Route25Hiker1BattleText::
-	text "I just got down"
-	line "from MT.MOON,"
-	cont "but I'm ready!"
+	text "Jeg lige kom ned"
+	line "fra MT.MOON,"
+	cont "men jeg er klar!"
 	done
 
 _Route25Hiker1EndBattleText::
-	text "You"
-	line "worked hard!"
+	text "Du"
+	line "arbejdede hårdt!"
 	prompt
 
 _Route25Hiker1AfterBattleText::
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
+	text "Søren!"
+	line "En ZUBAT bed mig"
+	cont "derinde tilbage."
 	done
 
 _Route25Hiker2BattleText::
-	text "I'm off to see a"
-	line "#MON collector"
-	cont "at the cape!"
+	text "Jeg er på vej til"
+	line "at se en #MON"
+	cont "samler ved kappen!"
 	done
 
 _Route25Hiker2EndBattleText::
-	text "You"
-	line "got me."
+	text "Du"
+	line "fik mig."
 	prompt
 
 _Route25Hiker2AfterBattleText::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #MON."
+	text "Samleren har mange"
+	line "sjældne slags"
+	cont "#MON."
 	done
 
 _Route25Hiker3BattleText::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+	text "Du skal til at"
+	line "se BILL? Først,"
+	cont "lad os kæmpe!"
 	done
 
 _Route25Hiker3EndBattleText::
-	text "You're"
-	line "something."
+	text "Du er"
+	line "noget særligt."
 	prompt
 
 _Route25Hiker3AfterBattleText::
-	text "The trail below"
-	line "is a shortcut to"
+	text "Stien nedenfor"
+	line "er en genvej til"
 	cont "CERULEAN CITY."
 	done
 
 _MankeyLearnsetText::
 	text "@"
 	text_ram_namebuffer
-	text " and I hike"
-	line "it every day!"
+	text " og jeg"
+	line "vandrer det"
+	cont "hver dag!"
 	para "@"
 	text_ram_namebuffer
-	text " is always"
-	line "brimming with"
-	cont "energy!"
+	text " summer altid"
+	line "af energi!"
 	para "@"
 	text_end
 
 _Route25BillSignText::
 	text "SEA COTTAGE"
-	line "BILL lives here!"
+	line "BILL bor her!"
 	done
 
 _Route25Text12::
 	text "<TIPS>"
-	para "Hold both the"
-	line "A and B Buttons" 
-	cont "while standing"
-	cont "still."
-	para "Then press any" 
-	line "direction on the" 
-	cont "D-PAD to change"
-	cont "the direction"
-	cont "you're facing"
-	cont "without walking."
+	para "Hold både A og B"
+	line "knapperne"
+	cont "nede mens du"
+	cont "står stille."
+	para "Tryk så en"
+	line "vilkårlig retning"
+	cont "på D-PADen for at"
+	cont "skifte den"
+	cont "retning du vender"
+	cont "uden at gå."
 	done

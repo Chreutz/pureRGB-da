@@ -1,18 +1,19 @@
 _CopycatsHouse1FMiddleAgedWomanText::
-	text "My daughter is so"
-	line "self-centered."
-	cont "She only has a"
-	cont "few friends."
+	text "Min datter er så"
+	line "egocentrisk."
+	cont "Hun har kun"
+	cont "nogle få venner."
 	done
 
 _CopycatsHouse1FMiddleAgedManText::
-	text "My daughter likes"
-	line "to mimic people."
+	text "Min datter kan"
+	line "lide at efterabe"
+	cont "folk."
 
-	para "Her mimicry has"
-	line "earned her the"
-	cont "nickname COPYCAT"
-	cont "around here!"
+	para "Hendes efterabning"
+	line "gav hende"
+	cont "navnet COPYCAT"
+	cont "her i området!"
 	done
 
 _CopycatsHouse1FChanseyText::
@@ -21,11 +22,11 @@ _CopycatsHouse1FChanseyText::
 	text_end
 
 _CopycatsHouse1FChanseyText2::
-	text "LADY: That's our"
-	line "CHANSEY."
-	para "She's named"
-	line "SMILY."
-	para "She loves to lay"
-	line "eggs for us!"
-	para "Very nutritious!"
+	text "DAME: Det er vor-"
+	line "es CHANSEY."
+	para "Hun hedder SMILY."
+	para "Hun elsker at"
+	line "lægge æg til os!"
+	para "Meget nærings-"
+	line "rige!"
 	prompt

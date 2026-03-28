@@ -1,150 +1,151 @@
 _MoveMysticIntro::
-	text "I am the"
+	text "Jeg er"
 	line "MOVE MYSTIC!"
-	para "Certain #MON"
-	line "have hidden"
-	cont "talents!"
-	para "I can scry for"
-	line "their secrets in"
-	cont "my crystal ball!"
-	para "But only if"
-	line "you've seen the"
-	cont "#MON before!"
+	para "Visse #MON"
+	line "har skjulte"
+	cont "talenter!"
+	para "Jeg kan spå om"
+	line "deres hemmeligheder"
+	cont "i min krystalkugle!"
+	para "Men kun hvis"
+	line "du har set"
+	cont "#MON før!"
 	prompt
 
 _MoveMysticAgain::
-	text "You've returned to"
-	line "the MOVE MYSTIC!"
+	text "Du er vendt"
+	line "tilbage til"
+	cont "MOVE MYSTIC!"
 	prompt
 
 _MoveMysticQuestion::
-	text "What #MON"
-	line "shall I divine"
-	cont "the secrets of?"
+	text "Hvilken #MON"
+	line "skal jeg spå"
+	cont "hemmelighederne om?"
 	prompt
 
 _MoveMysticLookDeep::
-	text "Look deep into"
-	line "my crystal ball!"
+	text "Se dybt ind i"
+	line "min krystalkugle!"
 	prompt
 
 _MoveMysticAhYes::
-	text "Ah yes<...>"
-	line "I see it."
+	text "Åh ja<...>"
+	line "jeg ser det."
 	para "@"
 	text_ram_stringbuffer
-	text ", the@"
+	text ", den@"
 	text_end
 
 _BeedrillMoveMysticText::
 	text_start
-	line "hypodermic"
-	cont "hornet."
+	line "hypodermisk"
+	cont "hveps."
 	prompt
 
 _ArbokMoveMysticText::
 	text_start
-	line "venomous viper."
+	line "giftig hugorm."
 	prompt
 
 _FearowMoveMysticText::
 	text_start
-	line "bloodthirsty"
-	cont "beak."
+	line "blodtørstigt"
+	cont "næb."
 	prompt
 
 _GolemMoveMysticText::
 	text_start
-	line "rolling rock."
+	line "rullende sten."
 	prompt
 
 _HitmonleeMoveMysticText::
 	text_start
-	line "king of kicks."
+	line "sparkekongen."
 	prompt
 
 _HitmonchanMoveMysticText::
 	text_start
-	line "furious fist."
+	line "rasende næve."
 	prompt
 
 _ElectabuzzMoveMysticText::
 	text_start
-	line "voltaic vanguard."
+	line "volt-vanguard."
 	prompt
 
 _MagmarMoveMysticText::
 	text_start
-	line "pyroclastic"
-	cont "punisher."
+	line "pyroklastisk"
+	cont "straffer."
 	prompt
 
 _JynxMoveMysticText::
 	text_start
-	line "glacial goddess."
+	line "glacial gudinde."
 	prompt
 
 _HypnoMoveMysticText::
 	text_start
-	line "hypnotic horror."
+	line "hypnotisk horror."
 	prompt
 
 _DragoniteMoveMysticText::
 	text_start
-	line "mystical monarch."
+	line "mystisk monark."
 	prompt
 
 _SeakingMoveMysticText::
 	text_start
-	line "fabulous fish."
+	line "fabelagtig fisk."
 	prompt
 	
 _KangaskhanMoveMysticText::
 	text_start
-	line "parental"
-	cont "powerhouse."
+	line "forældre-"
+	cont "kraftcenter."
 	prompt
 	
 _LickitungMoveMysticText::
 	text_start
-	line "salivating"
+	line "savlende"
 	cont "slurper."
 	prompt
 
 _OmastarMoveMysticText::
 	text_start
-	line "ancient ammonite."
+	line "gammel ammonit."
 	prompt
 
 _JigglypuffMoveMysticText::
 	text_start
-	line "spherical"
-	cont "songstress."
+	line "sfærisk"
+	cont "sangerinde."
 	prompt
 
 _WigglytuffMoveMysticText::
 	text_start
-	line "globular glory."
+	line "globulær pragt."
 	prompt
 
 _GolduckMoveMysticText::
 	text_start
-	line "dangerous duck."
+	line "farlig and."
 	prompt
 
 _DewgongMoveMysticText::
 	text_start
-	line "splendid seal."
+	line "pragtfuld sæl."
 	prompt
 
 _ArcanineMoveMysticText::
 	text_start
-	line "heroic hound."
+	line "heroisk hund."
 	prompt
 
 _MoveMysticMasterOfMoveText::
-	text "It's a master"
-	line "of @"
+	text "Det er en mester"
+	line "i @"
 	text_ram_namebuffer
 	text "!"
 	prompt
@@ -153,71 +154,73 @@ _MoveMysticTalentOfMoveText::
 	text "@"
 	text_ram_namebuffer
 	text ""
-	line "is its talent!"
+	line "er dens talent!"
 	prompt
 
 _MoveMysticSoulCallsForMoveText::
-	text "Its soul calls"
-	line "for @"
+	text "Dens sjæl kalder"
+	line "på @"
 	text_ram_namebuffer
 	text "!"
 	prompt
 
 _MoveMysticLovesMoveText::
-	text "It loves to use"
-	line "@"
+	text "Den elsker at"
+	line "bruge @"
 	text_ram_namebuffer
 	text "!"
 	prompt
 
 _MoveMysticBeedrillText::
-	text "Its deadly"
-	line "stingers help in"
-	cont "multiple ways!"
+	text "Dens dødelige"
+	line "brod hjælper på"
+	cont "flere måder!"
 	para "POISON STING's"
-	line "POWER triples to"
-	cont "45!"
-	para "On top of that,"
-	line "TWINEEDLE's POWER"
-	cont "increases to 65!"
+	line "STYRKE tredobles"
+	cont "til 45!"
+	para "Udover det,"
+	line "øges TWINEEDLE's"
+	cont "STYRKE til 65!"
 	done
 
 _MoveMysticAccuracy85::
-	text "Its ACCURACY"
-	line "increases to 85%!"
+	text "Dens NØJAGTIGHED"
+	line "øges til 85%!"
 	done
 
 _MoveMysticAccuracy100::
-	text "Its ACCURACY"
-	line "increases to 100%!"
+	text "Dens NØJAGTIGHED"
+	line "øges til 100%!"
 	done
 
 _MoveMysticJigglyWigglyOnlyLevel20Text::
 	text_start
-	para "But only when"
-	line "above level 20!"
+	para "Men kun når"
+	line "over niveau 20!"
 	done
 
 _GenericMovePowerIncreasesText::
-	text "Its POWER"
-	line "increases to @"
+	text "Dens STYRKE"
+	line "øges til @"
 	text_decimal w2CharStringBuffer, 1, 3
 	text "!"
 	done
 
 _MoveMysticInfoText::
-	text "If ON, a new house"
-	line "will be available"
-	cont "in SAFFRON CITY."
-	para "The MOVE MYSTIC"
-	line "here will tell"
-	cont "you about #MON"
-	cont "SIGNATURE MOVEs."
-	para "Some #MON will"
-	line "have bonus power"
-	cont "or accuracy when"
-	cont "using some moves."
-	para "If turned OFF,"
-	line "these bonuses are"
-	cont "turned off too."
+	text "Hvis TIL, vil et"
+	line "nyt hus være"
+	cont "tilgængeligt i"
+	cont "SAFFRON CITY."
+	para "MOVE MYSTIC"
+	line "her vil fortælle"
+	cont "dig om #MON"
+	cont "SIGNATUR-ANGREB."
+	para "Visse #MON vil"
+	line "have bonus-styrke"
+	cont "eller nøjagtighed,"
+	cont "når de bruger"
+	cont "visse angreb."
+	para "Hvis slået FRA,"
+	line "er disse bonusser"
+	cont "også slået fra."
 	prompt

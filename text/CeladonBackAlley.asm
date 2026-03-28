@@ -30,7 +30,7 @@ _CeladonBackAlleyCircleRocker2Text::
 _CeladonBackAlleyCircleLeftBikerText::
 	text "Den her gyde er"
 	line "vores territorium!"
-	para "NO <ROCKET>s"
+	para "INGEN <ROCKET>S"
 	line "TILLADT!"
 	done
 

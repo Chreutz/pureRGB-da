@@ -1,64 +1,64 @@
 _LancesRoomLanceBeforeBattleText::
-	text "Ah! I heard about"
-	line "you <PLAYER>!"
+	text "Ah! Jeg har hørt"
+	line "om dig, <PLAYER>!"
 
-	para "I lead the ELITE"
-	line "FOUR! You can"
-	cont "call me LANCE the"
-	cont "dragon trainer!"
+	para "Jeg leder ELITE"
+	line "FOUR! Du kan"
+	cont "kalde mig LANCE,"
+	cont "dragetræneren!"
 
-	para "You know that"
-	line "dragons are"
-	cont "mythical #MON!"
+	para "Du ved, at drager"
+	line "er mytiske #MON!"
 
-	para "They're hard to"
-	line "catch and raise,"
-	cont "but their powers"
-	cont "are superior!"
+	para "De er svære at"
+	line "fange og opdrage,"
+	cont "men deres kræfter"
+	cont "er overlegne!"
 
-	para "They're virtually"
-	line "indestructible!"
+	para "De er nærmest"
+	line "uovervindelige!"
 
-	para "Well, are you"
-	line "ready to lose?"
+	para "Nå, er du klar"
+	line "til at tabe?"
 
-	para "Your LEAGUE"
-	line "challenge ends"
-	cont "with me, <PLAYER>!"
+	para "Din LEAGUE-"
+	line "udfordring slutter"
+	cont "hos mig, <PLAYER>!"
 	done
 
 _LancesRoomLanceEndBattleText::
-	text "That's it!"
+	text "Det var det!"
 
-	para "I hate to admit"
-	line "it, but you are a"
-	cont "#MON master!"
+	para "Jeg hader at"
+	line "indrømme det, men"
+	cont "du er en #MON-"
+	cont "mester!"
 	prompt
 
 _LancesRoomLanceAfterBattleText::
-	text "I still can't"
-	line "believe my"
-	cont "dragons lost to"
-	cont "you, <PLAYER>!"
+	text "Jeg kan stadig"
+	line "ikke tro, at mine"
+	cont "drager tabte til"
+	cont "dig, <PLAYER>!"
 
-	para "You are now the"
-	line "#MON LEAGUE"
-	cont "champion!"
+	para "Du er nu #MON"
+	line "LEAGUE-mester!"
 
-	para "<...>Or, you would"
-	line "have been, but"
-	cont "you have one more"
-	cont "challenge ahead."
+	para "<...>Eller, det ville"
+	line "du have været, men"
+	cont "du har én udford-"
+	cont "ring mere foran"
+	cont "dig."
 
-	para "You have to face"
-	line "another trainer!"
-	cont "His name is<...>"
+	para "Du skal møde en"
+	line "anden træner!"
+	cont "Hans navn er<...>"
 
 	para "<RIVAL>!"
-	line "He beat the ELITE"
-	cont "FOUR before you!"
+	line "Han slog ELITE"
+	cont "FOUR før dig!"
 
-	para "He is the real"
-	line "#MON LEAGUE"
-	cont "champion!@"
+	para "Han er den rigtige"
+	line "#MON LEAGUE-"
+	cont "mester!@"
 	text_end

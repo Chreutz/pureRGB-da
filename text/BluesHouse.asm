@@ -1,51 +1,53 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "Hej <PLAYER>!"
+	line "<RIVAL> er ude ved"
+	cont "bedstefars lab."
 	done
 
 _BluesHouseDaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "Bad bedstefar dig"
+	line "om at løbe et"
+	cont "ærinde?"
+	cont "Her, det her vil"
+	cont "hjælpe dig!"
 	prompt
 
 _GotMapText::
-	text "<PLAYER> got a"
-	line "TOWN MAP!@"
+	text "<PLAYER> fik"
+	line "et KORT!@"
 	text_end
 
 _MapHelpText::
-	text "Press SELECT"
-	line "when looking at"
-	cont "your POKéDEX to"
-	cont "view the TOWN"
-	cont "MAP. Easy!"
+	text "Tryk på SELECT"
+	line "når du ser på"
+	cont "din Pokédex for"
+	cont "at se KORTET."
+	cont "Let!"
 	done
 
 _Route1Youngster1NoRoomText::
 _BluesHouseDaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "Du har for mange"
+	line "ting med dig."
 	done
 
 _BluesHouseDaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
-	para "Just press SELECT"
-	line "in the POKéDEX!"
+	text "Brug KORTET"
+	line "til at finde ud af"
+	cont "hvor du er."
+	para "Tryk SELECT"
+	line "i din Pokédex!"
 	done
 
 _BluesHouseDaisyWalkingText::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "Pokémon er levende"
+	line "væsner! Hvis de"
+	cont "bliver trætte, så"
+	cont "giv dem en pause!"
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map!"
-	line "This is useful!"
+	text "Det er et stort"
+	line "kort! Det her er"
+	cont "nyttigt!"
 	done

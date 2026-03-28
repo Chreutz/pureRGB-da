@@ -1,138 +1,145 @@
 _CeruleanGymMistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "Hej, du er et"
+	line "nyt ansigt!"
 
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
+	para "Trænere som vil"
+	line "være de bedste,"
+	cont "må have en"
+	cont "holdning til"
+	cont "#MON!"
 
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
+	para "Hvad er din"
+	line "tilgang, når du"
+	cont "fanger #MON?"
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
+	para "Min holdning er"
+	line "ren offensiv med"
+	cont "vand-type"
 	cont "#MON!"
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
-	text "<TM>11 teaches"
+	text "<TM>11 lærer"
 	line "BUBBLEBEAM!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "Brug den på et"
+	line "vand-#MON!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
+	text "CASCADEBADGE"
+	line "får alle #MON"
+	cont "op til L30 til at"
+	cont "lytte!"
 
-	para "That includes"
-	line "even outsiders!"
+	para "Det gælder også"
+	line "dem fra andre!"
 
-	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
+	para "Der er mere, du"
+	line "kan nu bruge CUT"
+	cont "når som helst!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "Du kan CUT små"
+	line "buske for at åbne"
+	cont "nye stier!"
 
-	para "You can also have"
-	line "my favorite <TM>!"
+	para "Du kan også få"
+	line "min yndlings-<TM>!"
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
 	text "Wow!"
-	line "You're too much!"
+	line "Du er for meget!"
 
-	para "All right!"
+	para "Så er det godt!"
 
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!@"
+	para "Du kan få"
+	line "CASCADEBADGE"
+	cont "for at vise du"
+	cont "slog mig!@"
 	text_end
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "Jeg er mere end"
+	line "god nok til dig!"
 
-	para "MISTY can wait!"
+	para "MISTY kan vente!"
 	done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
+	text "Du"
+	line "overvældede mig!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Du skal møde"
+	line "andre trænere for"
+	cont "at finde ud af"
+	cont "hvor god du"
+	cont "virkelig er."
 	done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
+	text "Plask!"
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "Jeg er først!"
+	line "Lad os gøre det!"
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "Det kan"
+	line "ikke være sandt!"
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
+	text "MISTY vil blive"
+	line "ved med at blive"
+	cont "bedre!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "Hun taber ikke"
+	line "til en som dig!"
 	done
 
 _GymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!<PARA>@"
+	text "Yo! Fremtidig"
+	line "mester!<PARA>@"
 	text_end
 
 _CeruleanGymGymGuideChampInMakingText::
-	text "Here's my advice!"
+	text "Her er mit råd!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
+	para "LEDEREN, MISTY,"
+	line "er en professionel"
+	cont "der bruger vand"
+	cont "#MON!"
 
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
+	para "Du kan dræne alt"
+	line "deres vand med"
+	cont "plante #MON!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "Eller, giv dem"
+	line "stød med"
+	cont "elektricitet!"
 	done
 
 _CeruleanGymGymGuideBeatMistyText::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
+	text "Du slog MISTY!"
+	line "Hvad sagde jeg?"
 
-	para "You and me kid,"
-	line "we make a pretty"
-	cont "darn good team!@"
+	para "Du og jeg makker,"
+	line "vi er et ret"
+	cont "godt hold!@"
 	text_end
 
 _GymGuideMoreApexChipText::
-	text "I've got two more"
-	line "APEX CHIPs, here!"
+	text "Jeg har to flere"
+	line "APEX CHIPs, her!"
 	prompt
 
 _CeruleanGymGuideApexChipWaterText::
-	text "For water #MON,"
-	line "an APEX CHIP will"
-	cont "evoke a beautiful"
-	cont "ocean or river"
-	cont "biome."
+	text "For vand #MON"
+	line "vil en APEX CHIP"
+	cont "fremkalde et"
+	cont "smukt hav eller"
+	cont "flod-biome."
 	prompt

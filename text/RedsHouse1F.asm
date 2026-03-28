@@ -1,52 +1,51 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
-
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	text "MOR: Rigtigt."
+	line "Alle drenge"
+	cont "forlader hjemmet"
+	cont "en dag."
+	cont "Det stod på TV."
+	para "PROF.OAK, der bor"
+	line "ved siden af,"
+	cont "leder efter dig."
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	text "MOR: <PLAYER>!"
+	line "Du bør hvile"
+	cont "dig lidt."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MOR: Åh godt!"
+	line "Du og dit"
+	cont "Pokémon ser"
+	cont "fantastisk ud!"
+	cont "Pas på dig selv!"
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
-
-	para "I better go too."
+	text "Der er en film"
+	line "på TV. Fire drenge"
+	cont "går på"
+	cont "jernbaneskinner."
+	para "Jeg burde også gå."
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "Ups, forkert side."
 	done
 
 _DadHealText1::
-	text "DAD: <PLAYER>!"
-	line "Let's sit down and"
-	cont "talk, maybe play"
-	cont "some SNES."
+	text "FAR: <PLAYER>!"
+	line "Lad os sætte os"
+	cont "og snakke,"
+	cont "måske spille SNES."
 	prompt
 
 _DadHealText2::
-	text "DAD: Looks like"
-	line "you're raring to"
-	cont "go! Good stuff."
-	para "Get back out"
-	line "there, son!"
+	text "FAR: Det ligner at"
+	line "du er klar til"
+	cont "at gå! Dejligt."
+	para "Kom ud"
+	line "og vær med, søn!"
 	done

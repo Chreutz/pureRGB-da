@@ -1,46 +1,50 @@
 _Route1Youngster1MartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Hej! Jeg arbejder"
+	line "på et Pokémon"
+	cont "MART."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "Det er en bekvem"
+	line "butik, så besøg"
+	cont "os i VIRIDIAN"
+	cont "CITY."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Jeg ved hvad, jeg"
+	line "giver dig en"
+	cont "prøve! Værsgo!"
 	prompt
 
 _SilphCo2FSilphWorkerFReceivedTM50Text::
 _Route1Youngster1GotPotionText::
-	text "<PLAYER> got"
+	text "<PLAYER> fik"
 	line "@"
 	text_ram_stringbuffer
 	text "!@"
 	text_end
 
 _Route1Youngster1AlsoGotPokeballsText::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "Vi sælger også"
+	line "Poké Balls til"
+	cont "at fange Pokémon!"
 	done
 
 _Route1Youngster2Text::
-	text "See those ledges"
-	line "along the road?"
+	text "Ser du de"
+	line "skrænter langs"
+	cont "vejen?"
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para "Det er lidt"
+	line "skræmmende, men"
+	cont "du kan hoppe fra"
+	cont "dem."
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "Du kan komme"
+	line "hurtigere tilbage"
+	cont "til PALLET TOWN"
+	cont "på den måde."
 	done
 
 _Route1SignText::
-	text "ROUTE 1"
+	text "RUTE 1"
 	line "PALLET TOWN -"
 	cont "VIRIDIAN CITY"
 	done

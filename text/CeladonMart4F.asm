@@ -1,26 +1,26 @@
 _CeladonMart4FSuperNerdText::
-	text "I'm getting a"
-	line "# DOLL for my"
-	cont "girl friend!"
+	text "Jeg køber en"
+	line "# DUKKE til min"
+	cont "kæreste!"
 	done
 
 _CeladonMart4FYoungsterText::
-	text "I heard something"
-	line "useful."
+	text "Jeg hørte noget"
+	line "nyttigt."
 
-	para "You can run from"
-	line "wild #MON by"
-	cont "distracting them"
-	cont "with a # DOLL!"
+	para "Du kan løbe fra"
+	line "ville #MON ved"
+	cont "at distrahere dem"
+	cont "med en # DUKKE!"
 	done
 
 _CeladonMart4FCurrentFloorSignText::
-	text "Express yourself"
-	line "with gifts!"
+	text "Udtryk dig med"
+	line "gaver!"
 
-	para "4F: WISEMAN GIFTS"
+	para "4F: GAVEBODEN"
 
-	para "Evolution Special!"
-	line "Element STONEs on"
-	cont "sale now!"
+	para "Udviklingstilbud!"
+	line "Elementstene på"
+	cont "udsalg nu!"
 	done

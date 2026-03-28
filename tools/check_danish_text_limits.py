@@ -40,6 +40,7 @@ class Issue:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Validate localized text width and charmap support.")
     parser.add_argument("--changed-only", action="store_true", help="Only check changed .asm files.")
+    parser.add_argument("file", nargs="*", help="File(s) to check.")
     parser.add_argument("--format", choices=["plain", "github"], default="plain", help="Output format.")
     parser.add_argument("--default-max-width", type=int, default=DEFAULT_WIDTH, help="Fallback width limit.")
     parser.add_argument(
@@ -80,10 +81,16 @@ def changed_files() -> set[pathlib.Path]:
     return candidates
 
 
-def collect_files(extra_globs: Iterable[str], only_changed: bool) -> list[pathlib.Path]:
+def collect_files(extra_globs: Iterable[str], only_changed: bool, explicit_files: list[str]) -> list[pathlib.Path]:
     files: set[pathlib.Path] = set()
-    for pattern in [*DEFAULT_GLOBS, *extra_globs]:
-        files.update(path for path in ROOT.glob(pattern) if path.is_file())
+    if explicit_files:
+        for f in explicit_files:
+            p = pathlib.Path(f)
+            if p.exists():
+                files.add(p)
+    else:
+        for pattern in [*DEFAULT_GLOBS, *extra_globs]:
+            files.update(path for path in ROOT.glob(pattern) if path.is_file())
 
     if only_changed:
         changed = changed_files()
@@ -190,7 +197,7 @@ def main() -> int:
         return 2
 
     tokens = load_charmap_tokens(CHARMAP_PATH)
-    files = collect_files(args.include, args.changed_only)
+    files = collect_files(args.include, args.changed_only, args.file)
 
     if not files:
         print("No files matched for Danish text checks.")

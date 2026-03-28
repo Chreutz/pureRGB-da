@@ -1,48 +1,48 @@
 _PewterNidoranHouseNidoranText::
-	text "NIDORAN: Bowbow!@"
+	text "NIDORAN: Vovvov!@"
 	text_end
 
 _PewterNidoranHouseLittleBoyText::
-	text "NIDORAN sit!"
+	text "NIDORAN sæt dig!"
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "Vores #MON er"
+	line "en fremmed, så den"
+	cont "er svær at styre."
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
+	para "En fremmed er et"
+	line "#MON, som man"
+	cont "får i bytte."
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
+	para "Den vokser hurtigt"
+	line "men kan ignorere"
+	cont "en ubegyndt træner"
+	cont "i kamp!"
 
-	para "If only we had"
-	line "some BADGEs<...>"
+	para "Hvis bare vi havde"
+	line "nogle BADGEs<...>"
 	done
 
 _PewterHouse1Text4Color::
-	text "Down south, near"
+	text "Mod syd, nær"
 	line "FUCHSIA CITY,"
-	para "I hear NIDORAN♂"
-	line "are blue, and"
-	cont "NIDORAN♀ are"
-	cont "purple!"
-	para "The opposite of"
-	line "up here."
-	para "Interesting how"
-	line "#MON colors"
-	cont "vary by region!"
+	para "hører jeg at"
+	line "NIDORAN♂ er blå,"
+	cont "og NIDORAN♀ er"
+	cont "lilla!"
+	para "Det modsatte af"
+	line "heroppe."
+	para "Interessant hvordan"
+	line "#MON-farver"
+	cont "varierer efter"
+	cont "region!"
 	done
 
 _PewterHouse1Text4::
-	text "NIDORAN is such"
-	line "a nice shade of"
-	cont "purplish pink!"
-	para "What a stunning"
+	text "NIDORAN er en så"
+	line "flot nuance af"
+	cont "lilla pink!"
+	para "Så et betagende"
 	line "#MON!"
 	done
-	

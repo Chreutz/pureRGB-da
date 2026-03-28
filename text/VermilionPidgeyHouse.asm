@@ -1,22 +1,22 @@
 _VermilionPidgeyHouseYoungsterText::
-	text "I'm getting my"
-	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
-	cont "in the north!"
+	text "Jeg får min PIDGEY"
+	line "til at flyve et"
+	cont "brev til SAFFRON"
+	cont "mod nord!"
 	done
 
 _VermilionPidgeyHouseYoungsterLearnset::
 	text "@"
 	text_ram_namebuffer
-	text " is actually"
-	line "a very capable"
-	cont "letter deliverer!"
-	para "Amazing sense of"
-	line "direction!"
-	para "So useful."
-	para "Interested in"
-	line "hearing more?"
-	para "Have a seat!"
+	text " er faktisk"
+	line "en meget dygtig"
+	cont "brevbud!"
+	para "Fantastisk"
+	line "sandsynlighed!"
+	para "Så nyttigt."
+	para "Interesseret i at"
+	line "høre mere?"
+	para "Sæt dig ned!"
 	prompt
 
 _VermilionPidgeyHousePidgeyText::
@@ -24,13 +24,15 @@ _VermilionPidgeyHousePidgeyText::
 	done
 
 _VermilionPidgeyHouseLetterText::
-	text "Dear PIPPI, I hope"
-	line "to see you soon."
+	text "Kære PIPPI, jeg"
+	line "håber at se dig"
+	cont "snart."
 
-	para "I heard SAFFRON"
-	line "has problems with"
+	para "Jeg hørte SAFFRON"
+	line "har problemer med"
 	cont "<TEAM><ROCKET>."
 
-	para "VERMILION appears"
-	line "to be safe."
+	para "VERMILION ser ud"
+	line "til at være"
+	cont "sikkert."
 	done

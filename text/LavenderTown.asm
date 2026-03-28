@@ -1,64 +1,71 @@
 _LavenderTownLittleGirlDoYouBelieveInGhostsText::
-	text "Do you believe in"
-	line "GHOSTs?"
+	text "Tror du på"
+	line "SPØGELSER?"
 	done
 
 _LavenderTownLittleGirlSoThereAreBelieversText::
-	text "Really? So there"
-	line "are believers<...>"
+	text "Virkelig? Så der"
+	line "findes troende<...>"
 	done
 
 _LavenderTownLittleGirlHaHaGuessNotText::
-	text "Hahaha, I guess"
-	line "not."
+	text "Haha, vist ikke."
+	line ""
 
-	para "That white hand"
-	line "on your shoulder,"
-	cont "it's not real."
+	para "Den hvide hånd"
+	line "på din skulder,"
+	cont "den er ikke ægte."
+	done
+
+_LavenderTownPokemonTowerSignText::
+	text "Må alle #MONs"
+	line "sjæle hvile"
+	cont "i fred."
+	cont "#MON TÅRNET"
 	done
 
 _LavenderTownCooltrainerMText::
-	text "This town is known"
-	line "as the grave site"
-	cont "of #MON."
+	text "Denne by er kendt"
+	line "som gravstedet"
+	cont "for #MON."
 
-	para "Memorial services"
-	line "are held in"
-	cont "#MON TOWER."
+	para "Mindeseremonier"
+	line "afholdes i"
+	cont "#MON TÅRNET."
 	done
 
 _LavenderTownSuperNerdText::
-	text "GHOSTs appeared"
-	line "in #MON TOWER."
+	text "SPØGELSER viste"
+	line "sig i #MON TÅRNET."
 
-	para "I think they're"
-	line "the spirits of"
-	cont "#MON that the"
-	cont "<ROCKET>s killed."
+	para "Jeg tror de er"
+	line "ånderne af"
+	cont "#MON som"
+	cont "<ROCKET> dræbte."
 	done
 
 _LavenderTownSignText::
-	text "LAVENDER TOWN"
-	para "The Noble"
-	line "Purple Town"
+	text "LAVENDER BY"
+	para "Den Ædle"
+	line "Lilla By"
 	done
 
 _LavenderTownSilphScopeSignText::
-	text "New SILPH SCOPE!"
+	text "Ny SILPH SCOPE!"
 
-	para "Make the Invisible"
-	line "Plain to See!"
+	para "Gør det Usynlige"
+	line "Klart at Se!"
 
 	para "SILPH CO."
 	done
 
 _LavenderTownPokemonHouseSignText::
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "LAVENDER FRIVILLIG"
+	line "#MON HJEM"
 	done
 
 _LavenderTownPokemonTowerSignText::
-	text "May the Souls of"
-	line "#MON Rest Easy"
-	cont "#MON TOWER"
+	text "Må #MONners"
+	line "Sjæle Hvile i Fred"
+	cont "#MON TÅRNET"
 	done

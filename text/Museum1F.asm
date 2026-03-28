@@ -1,108 +1,115 @@
 _Museum1FScientist1ComeAgainText::
-	text "Come again!"
+	text "Kom snart igen!"
 	done
 
 _Museum1FScientist1WouldYouLikeToComeInText::
-	text "It's ¥50 for a"
-	line "child's ticket."
+	text "Det koster ¥50"
+	line "for en billet."
 
-	para "Would you like to"
-	line "come in?"
+	para "Vil du gerne"
+	line "komme ind?"
 	done
 
 _Museum1FScientist1ThankYouText::
-	text "Right, ¥50!"
-	line "Thank you!"
+	text "Det var ¥50!"
+	line "Mange tak!"
 	done
 
 _Museum1FScientist1DoYouKnowWhatAmberIsText::
-	text "You can't sneak"
-	line "in the back way!"
+	text "Du kan ikke"
+	line "snige dig ind"
+	cont "bagvejen!"
 
-	para "Oh, whatever!"
-	line "Do you know what"
-	cont "AMBER is?"
+	para "Åh, ligemeget!"
+	line "Ved du hvad"
+	cont "RAV er?"
 	done
 
 _Museum1FScientist1TheresALabSomewhereText::
-	text "There's a lab"
-	line "somewhere trying"
-	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	text "Der er et lab et"
+	line "eller andet sted"
+	cont "der forsøger at"
+	cont "genoplive gamle"
+	cont "#MON fra RAV."
 	done
 
 _Museum1FScientist1AmberIsFossilizedTreeSapText::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "RAV er"
+	line "fossiliseret"
+	cont "træharpiks."
 	done
 
 _Museum1FScientist1GoToOtherSideText::
-	text "Please go to the"
-	line "other side!"
+	text "Gå venligst til"
+	line "den anden side!"
 	done
 
 _Museum1FScientist1TakePlentyOfTimeText::
-	text "Take plenty of"
-	line "time to look!"
+	text "Brug endelig"
+	line "tiden på at"
+	cont "kigge dig omkring!"
 	done
 
 _Museum1FGamblerText::
-	text "That is one"
-	line "magnificent"
+	text "Det er et"
+	line "storslået"
 	cont "fossil!"
 	done
 
 _Museum1FScientist2TakeThisToAPokemonLabText::
-	text "Ssh! I think that"
-	line "this chunk of"
-	cont "AMBER contains"
+	text "Ssh! Jeg tror at"
+	line "denne klump"
+	cont "RAV indeholder"
 	cont "#MON DNA!"
 
-	para "It would be great"
-	line "if #MON could"
-	cont "be resurrected"
-	cont "from it!"
+	para "Det ville være"
+	line "fantastisk hvis"
+	cont "#MON kunne"
+	cont "genoplives!"
 
-	para "But, my colleagues"
-	line "just ignore me!"
+	para "Men mine kollegaer"
+	line "ignorerer mig"
+	cont "bare!"
 
-	para "So I have a favor"
-	line "to ask!"
+	para "Så jeg har en"
+	line "tjeneste at"
+	cont "bede om!"
 
-	para "Take this to a"
-	line "#MON LAB and"
-	cont "get it examined!"
+	para "Tag denne til"
+	line "et #MON LAB og"
+	cont "få den undersøgt!"
 	prompt
 
 _Museum1FScientist2GetTheOldAmberCheckText::
-	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	text "Ssh! Få det GAMLE"
+	line "RAV undersøgt!"
 	done
 
 _Museum1FScientist2GetTheOldAmberRevivedText::
 	text "WOW!"
-	para "You revived the"
-	line "AMBER into a live"
+	para "Du genoplivede"
+	line "RAV'et til en"
+	cont "levende"
 	cont "AERODACTYL?!"
-	para "I'm gonna go brag"
-	line "to my colleagues"
-	cont "now!"
+	para "Jeg vil gå og"
+	line "prale til mine"
+	cont "kollegaer nu!"
 	done
 
 _Museum1FScientist2YouDontHaveSpaceText::
-	text "You don't have"
-	line "space for this!"
+	text "Du har ikke"
+	line "plads til dette!"
 	done
 
 _Museum1FScientist3Text::
-	text "We are proud of 2"
-	line "fossils of very"
-	cont "rare, prehistoric"
+	text "Vi er stolte af"
+	line "2 fossiler af"
+	cont "meget sjældne,"
+	cont "forhistoriske"
 	cont "#MON!"
 	done
 
 _Museum1FOldAmberText::
-	text "The AMBER is"
-	line "clear and gold!"
+	text "RAV'et er"
+	line "klart og guld!"
 	done

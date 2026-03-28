@@ -330,7 +330,7 @@ _BillsGardenAgathaText::
 _BillsGardenOakText::
 	text "PROF.OAK: Hej"
 	line "med dig, <PLAYER>!"
-	para "Nej, AGATHA får"
+	para "Nå, AGATHA får"
 	line "et hysterisk anfald"
 	cont "hvis jeg tjekker"
 	cont "dit #DEX her."

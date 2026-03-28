@@ -1,15 +1,15 @@
 _CeladonMart2FMiddleAgedManText::
-	text "SUPER REPEL keeps"
-	line "weak #MON at"
-	cont "bay<...>"
+	text "SUPER SPRØJTE"
+	line "holder svage"
+	cont "#MON væk..."
 
-	para "Hmm, it's a more"
-	line "powerful REPEL!"
+	para "Hmm, den er mere"
+	line "effektiv end en"
+	cont "alm. SPRØJTE!"
 	done
 
 _CeladonMart2FGirlText::
-	text "For long outings,"
-	line "you should buy"
-	cont "REVIVE."
+	text "Til lange ture"
+	line "bør du købe"
+	cont "GENOPVÆKNING."
 	done
-

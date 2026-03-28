@@ -1,21 +1,21 @@
 _SSAnne1FWaiterText::
 	text "Bonjour!"
-	line "I am le waiter on"
-	cont "this ship!"
+	line "Jeg er tjeneren"
+	cont "på dette skib!"
 
-	para "I will be happy"
-	line "to serve you any-"
-	cont "thing you please!"
+	para "Jeg vil gerne"
+	line "servere dig hvad"
+	cont "som helst!"
 
-	para "Ah! Le strong"
-	line "silent type!"
+	para "Ah! Den stærke"
+	line "tavse type!"
 	done
 
 _SSAnne1FSailorText::
-	text "The passengers"
-	line "are restless!"
+	text "Passagererne"
+	line "er rastløse!"
 
-	para "You might be"
-	line "challenged by the"
-	cont "more bored ones!"
+	para "De kedsomme vil"
+	line "måske udfordre"
+	cont "dig!"
 	done

@@ -1,24 +1,25 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
-	line "in CINNABAR!"
+	text "Jeg fik min"
+	line "KOFFING i"
+	cont "CINNABAR!"
 
-	para "It's nice, but it"
-	line "breathes poison"
-	cont "when it's angry!"
+	para "Den er sød, men"
+	line "den ånder gift ud"
+	cont "når den er vred!"
 	done
 
 _CeladonCityLittleGirlText2::
-	text "Want to see?"
+	text "Vil du se?"
 	done
 
 _CeladonCityLittleGirlText3::
-	text "Haha, it is pretty"
-	line "cool after all!"
+	text "Haha, den er"
+	line "faktisk ret sej!"
 	done
 
 _KoffingLearnsetText::
-	text "Watch this!"
-	para "Go, KOFFING!@"
+	text "Se her!"
+	para "Kom an, KOFFING!@"
 	text_asm
 	ld a, [wPlayerDirection]
 	cp PLAYER_DIR_RIGHT
@@ -40,60 +41,66 @@ _KoffingLearnsetText::
 	rst TextScriptEnd
 
 _CeladonCityGramps1Text::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "Heheh! Denne GYM"
+	line "er fantastisk!"
+	cont "Den er fuld af"
+	cont "kvinder!"
 	done
 
 _CeladonCityGirlText::
-	text "The GAME CORNER"
-	line "is bad for our"
-	cont "city's image!"
+	text "GAME CORNER er"
+	line "dårligt for vores"
+	cont "bys image!"
 	done
 
 _CeladonCityGramps2Text::
-	text "Moan! I blew it"
-	line "all at the slots!"
+	text "Åh nej! Jeg tabte"
+	line "det hele ved"
+	cont "spillemaskinerne!"
 
-	para "I knew I should"
-	line "have cashed in my"
-	cont "coins for prizes!"
+	para "Jeg vidste, jeg"
+	line "skulle have"
+	cont "vekslet mine"
+	cont "mønter til"
+	cont "præmier!"
 	done
 
 _CeladonCityGramps3Text::
-	text "Hello, there!"
+	text "Hej, der!"
 
-	para "I've seen you,"
-	line "but I never had a"
-	cont "chance to talk!"
+	para "Jeg har set dig,"
+	line "men fik aldrig"
+	cont "lejlighed til at"
+	cont "snakke!"
 
-	para "Shall I reward you"
-	line "for dropping by?"
+	para "Skal jeg belønne"
+	line "dig for at kigge"
+	cont "forbi?"
 
 	para "Hmm<...>"
-	line "I know!"
+	line "Jeg ved det!"
 
-	para "I'm a retired"
-	line "teacher."
+	para "Jeg er en pension-"
+	line "eret lærer."
 
-	para "I know a lot about"
-	line "less popular"
-	cont "#MON moves!"
+	para "Jeg ved meget om"
+	line "mindre populære"
+	cont "#MON-angreb!"
 
-	para "So I'll teach"
-	line "your #MON!"
+	para "Så jeg lærer dine"
+	line "#MON!"
 	prompt
 
 _CeladonCityGramps3Text2::
-	text "Hello again!"
-	para "Do your #MON"
-	line "want to learn?"
+	text "Hej igen!"
+	para "Vil dine #MON"
+	line "lære noget?"
 	prompt
 
 _CeladonPoolGrampsAfterTeachText::
-	text "A new move is"
-	line "always exciting!"
-	para "Use it well!"
+	text "Et nyt angreb er"
+	line "altid spændende!"
+	para "Brug det godt!"
 	done
 
 _GenericPlayerReceivedText::
@@ -115,7 +122,7 @@ _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
 _ViridianCityFisherReceivedTM42Text::
 _ViridianGymGiovanniReceivedTM27Text::
 _Route12Gate2FBrunetteGirlReceivedTM39Text::
-	text "<PLAYER> received"
+	text "<PLAYER> fik"
 	line "@"
 	text_ram_stringbuffer
 	text "!@"
@@ -123,39 +130,41 @@ _Route12Gate2FBrunetteGirlReceivedTM39Text::
 
 ; PureRGBnote: CHANGED: he is now a tutor
 ;_CeladonCityGramps3TM41ExplanationText::
-;	text "<TM>41 teaches"
+;	text "<TM>41 lærer"
 ;	line "MEDITATE!"
 ;
-;	para "It raises ATTACK,"
-;	line "SPECIAL and SPEED"
-;	cont "all by one stage!"
+;	para "Det hæver ANGREB,"
+;	line "SPECIAL og HASTIGHED"
+;	cont "alle med ét trin!"
 ;
-;	para "Your #MON will"
-;	line "be unstoppable!"
+;	para "Dine #MON vil"
+;	line "være uovervindelige!"
 ;	done
 
 ;_CeladonCityGramps3TM41NoRoomText::
 _GenericPackIsFullOfItemsText::
-	text "Oh, your pack is"
-	line "full of items!"
+	text "Åh, din taske er"
+	line "fuld af ting!"
 	done
 
 _CeladonCityFisherText::
-	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	text "Dette er min"
+	line "trofaste ven,"
+	cont "POLIWRATH!"
 
-	para "It evolved from"
-	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	para "Den udviklede sig"
+	line "fra POLIWHIRL da"
+	cont "jeg brugte"
+	cont "VANDSTEN!"
 	done
 
 _CeladonCityFisher2Text::
-	text "Want to see some"
-	line "of its moves?"
+	text "Vil du se nogle"
+	line "af dens angreb?"
 	done
 
 _PoliwrathLearnsetText::
-	text "Ready, @"
+	text "Klar, @"
 	text_ram_namebuffer
 	text "?"
 	prompt
@@ -166,45 +175,46 @@ _CeladonCityPoliwrathText::
 	text_end
 
 _CeladonCityRocket1Text::
-	text "What are you"
-	line "staring at?"
+	text "Hvad stirrer"
+	line "du på?"
 	done
 
 _CeladonCityRocket2Text::
-	text "Keep out of <TEAM>"
-	line "<ROCKET>'s way!"
+	text "Hold dig uden for"
+	line "<TEAM><ROCKET>s"
+	cont "vej!"
 	done
 
 _CeladonCityTrainerTips1Text::
 	text "<TIPS>"
 
-	para "X ACCURACY boosts"
-	line "the accuracy of"
-	cont "techniques!"
+	para "X PRECISION for-"
+	line "bedrer præcisionen"
+	cont "af teknikker!"
 
-	para "DIRE HIT jacks up"
-	line "the likelihood of"
-	cont "critical hits!"
+	para "DIREKTE TRAF øger"
+	line "chancen for"
+	cont "kritiske ram!"
 	; fall through
 _GetYourItemsAtDeptStore::
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "Få dine ting hos"
+	line "CELADON VAREHUS!"
 	done
 
 _CeladonCitySignText::
 	text "CELADON CITY"
-	para "The City of"
-	line "Rainbow Dreams"
+	para "Byen med"
+	line "Regnbuedrømme"
 	done
 
 _CeladonCityGymSignText::
 	text "CELADON CITY"
 	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	cont "LEDER: ERIKA"
 
-	para "The Nature Loving"
-	line "Princess!"
+	para "Den natur-"
+	line "elskende"
+	cont "prinsesse!"
 	done
 
 _CeladonCityMansionSignText::
@@ -212,42 +222,42 @@ _CeladonCityMansionSignText::
 	done
 
 _CeladonCityDeptStoreSignText::
-	text "Find what you"
-	line "need at CELADON"
-	cont "DEPT. STORE!"
+	text "Find hvad du"
+	line "behøver hos"
+	cont "CELADON VAREHUS!"
 	done
 
 _CeladonCityTrainerTips2Text::
 	text "<TIPS>"
 
-	para "GUARD SPEC."
-	line "protects #MON"
-	cont "against status"
-	cont "moves like LEER"
-	cont "or SAND-ATTACK!@"
+	para "BESKYT SPEC."
+	line "beskytter #MON"
+	cont "mod status-"
+	cont "angreb som BLIK"
+	cont "eller SAND-"
+	cont "ANGREB!@"
 
 	text_jump _GetYourItemsAtDeptStore
 
 _CeladonCityPrizeExchangeSignText::
-	text "Coins exchanged"
-	line "for prizes!"
-	cont "PRIZE EXCHANGE"
+	text "Mønter veksles"
+	line "til præmier!"
+	cont "PRÆMIEVEKSLING"
 	done
 
 _CeladonCityGameCornerSignText::
 	text "<ROCKET> GAME CORNER"
-	line "The playground"
-	cont "for grown-ups!"
+	line "Legepladsen for"
+	cont "voksne!"
 	done
 
 _CeladonCityText19::
 	text "<TIPS>"
-	para "Open the START"
-	line "menu and scroll"
-	cont "down to the SAVE"
-	cont "option."
-	para "Then press SELECT"
-	line "to change <PC>"
-	cont "boxes whenever"
-	cont "you like!"
+	para "Åbn START-menuen"
+	line "og rul ned til"
+	cont "GEM-muligheden."
+	para "Tryk så SELECT"
+	line "for at skifte <PC>"
+	cont "kasser når som"
+	cont "helst du vil!"
 	done

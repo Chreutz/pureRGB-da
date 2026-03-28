@@ -1,38 +1,38 @@
 _SaffronGateGuardGeeImThirstyText::
-	text "I'm on guard duty."
-	line "Gee, I'm thirsty,"
-	cont "though!"
+	text "Jeg er på vagt."
+	line "Øv, jeg er dog"
+	cont "tørstig!"
 
-	para "Oh wait there,"
-	line "the road's closed."
+	para "Åh vent der,"
+	line "vejen er lukket."
 	done
 
 _SaffronGateGuardImParchedText::
-	text "Whoa, boy!"
-	line "I'm parched!"
+	text "Av for søren!"
+	line "Jeg er så tørstig!"
 	cont "<...>"
-	cont "Huh? I can have"
-	cont "this drink?"
-	cont "Gee, thanks!@"
+	cont "Hva'? Jeg må få"
+	cont "denne drink?"
+	cont "Tak skal du have!@"
 	text_end
 
 _SaffronGateGuardYouCanGoOnThroughText::
 	text_start
 
 	para "<...>"
-	line "Glug glug<...>"
+	line "Kluk kluk<...>"
 	cont "<...>"
 	cont "Gulp<...>"
-	cont "If you want to go"
-	cont "to SAFFRON CITY<...>"
+	cont "Hvis du vil til"
+	cont "SAFFRON CITY<...>"
 	cont "<...>"
-	cont "You can go on"
-	cont "through. I'll"
-	cont "share this with"
-	cont "the other guards!"
+	cont "Så kan du gå"
+	cont "igennem. Jeg"
+	cont "deler den med de"
+	cont "andre vagter!"
 	done
 
 _SaffronGateGuardThanksForTheDrinkText::
-	text "Hi, thanks for"
-	line "the cool drinks!"
+	text "Hej, tak for de"
+	line "kølige drikke!"
 	done

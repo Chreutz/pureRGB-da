@@ -1,203 +1,196 @@
 _FuchsiaGymKogaPostBattleAdviceText::
-	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
+	text "Når det rammes af"
+	line "TOXIC, lider"
+	cont "#MON mere og"
+	cont "mere efterhånden"
+	cont "som kampen skrider frem!"
 
-	para "It will surely"
-	line "terrorize foes!"
+	para "Det vil helt sikkert"
+	line "terrorisere fjender!"
 	done
 
 _FuchsiaGymKogaSoulBadgeInfoText::
-	text "Now that you have"
-	line "the SOULBADGE,"
-	cont "the DEFENSE of"
-	cont "your #MON"
-	cont "increases!"
+	text "Nu hvor du har"
+	line "SOULBADGE,"
+	cont "øges DEFENSE"
+	cont "på dine #MON!"
 
-	para "It also lets you"
-	line "SURF outside of"
-	cont "battle!"
+	para "Den lader dig også"
+	line "SURF uden for kamp!"
 
-	para "Ah! Take this"
-	line "too!"
+	para "Ah! Tag dette"
+	line "også!"
 	done
 
 _FuchsiaGymKogaTM06ExplanationText::
 	text_start
 	para "@"
 	text_ram_stringbuffer
-	text " contains"
+	text " indeholder"
 	line "TOXIC!"
 
-	para "It is a secret"
-	line "technique over"
-	cont "400 years old!"
+	para "Det er en hemmelig"
+	line "teknik over"
+	cont "400 år gammel!"
 	done
 
 _FuchsiaGymKogaTM06NoRoomText::
-	text "Make space for"
-	line "this, child!"
+	text "Gør plads til"
+	line "dette, barn!"
 	done
 
 _FuchsiaGymJuggler1BattleText::
-	text "Strength isn't"
-	line "the key for"
+	text "Styrke er ikke"
+	line "nøglen for"
 	cont "#MON!"
 
-	para "It's strategy!"
+	para "Det er strategi!"
 
-	para "I'll show you how"
-	line "strategy can beat"
-	cont "brute strength!"
+	para "Jeg viser dig hvordan"
+	line "strategi kan slå"
+	cont "brutal styrke!"
 	done
 
 _FuchsiaGymJuggler1EndBattleText::
-	text "What?"
-	line "Extraordinary!"
+	text "Hvad?"
+	line "Enestående!"
 	prompt
 
 _FuchsiaGymJuggler1AfterBattleText::
-	text "So, you mix brawn"
-	line "with brains?"
-	cont "Good strategy!"
+	text "Så du blander muskler"
+	line "med hjerne?"
+	cont "God strategi!"
 	done
 
 _FuchsiaGymJuggler2BattleText::
-	text "I wanted to become"
-	line "a ninja, so I"
-	cont "joined this GYM!"
+	text "Jeg ville blive en"
+	line "ninja, så jeg"
+	cont "meldte mig til dette GYM!"
 	done
 
 _FuchsiaGymJuggler2EndBattleText::
-	text "I'm done"
-	line "for!"
+	text "Jeg er færdig!"
 	prompt
 
 _FuchsiaGymJuggler2AfterBattleText::
-	text "I will keep on"
-	line "training under"
-	cont "KOGA, my ninja"
-	cont "master!"
+	text "Jeg vil fortsætte"
+	line "med at træne under"
+	cont "KOGA, min ninjamester!"
 	done
 
 _FuchsiaGymJuggler3BattleText::
-	text "Let's see you"
-	line "beat my special"
-	cont "techniques!"
+	text "Lad os se dig"
+	line "slå mine specielle"
+	cont "teknikker!"
 	done
 
 _FuchsiaGymJuggler3EndBattleText::
-	text "You"
-	line "had me fooled!"
+	text "Du"
+	line "narrede mig!"
 	prompt
 
 _FuchsiaGymJuggler3AfterBattleText::
-	text "I like poison and"
-	line "sleep techniques,"
-	cont "as they linger"
-	cont "after battle!"
+	text "Jeg kan lide gift- og"
+	line "søvnteknikker,"
+	cont "da de varer ved"
+	cont "efter kamp!"
 	done
 
 _FuchsiaGymTamer1BattleText::
-	text "Stop right there!"
+	text "Stop der!"
 
-	para "Our invisible"
-	line "walls have you"
-	cont "frustrated?"
+	para "Vores usynlige"
+	line "mure har dig"
+	cont "frustreret?"
 	done
 
 _FuchsiaGymTamer1EndBattleText::
-	text "Whoa!"
-	line "He's got it!"
+	text "Hov!"
+	line "Han fik det!"
 	prompt
 
 _FuchsiaGymTamer1AfterBattleText::
-	text "You impressed me!"
-	line "Here's a hint!"
+	text "Du imponerede mig!"
+	line "Her er et tip!"
 
-	para "Look very closely"
-	line "for gaps in the"
-	cont "invisible walls!"
+	para "Se meget nøje"
+	line "efter huller i de"
+	cont "usynlige mure!"
 	done
 
 _FuchsiaGymTamer1AfterBattleGymDefeatedText::
-	text "I've never seen a"
-	line "ninja master lose"
-	cont "until today!"
-	para "You're insane!"
+	text "Jeg har aldrig set en"
+	line "ninjamester tabe"
+	cont "før i dag!"
+	para "Du er skør!"
 	done
 
 _FuchsiaGymTamer2BattleText::
-	text "I also study the"
-	line "way of the ninja"
-	cont "with master KOGA!"
+	text "Jeg studerer også"
+	line "ninjaens vej"
+	cont "med mester KOGA!"
 
-	para "Ninja have a long"
-	line "history of using"
-	cont "animals!"
+	para "Ninjaer har en lang"
+	line "historie med at bruge"
+	cont "dyr!"
 	done
 
 _FuchsiaGymTamer2EndBattleText::
-	text "Awoo!"
+	text "Auu!"
 	prompt
 
 _FuchsiaGymTamer2AfterBattleText::
-	text "I still have much"
-	line "to learn!"
+	text "Jeg har stadig meget"
+	line "at lære!"
 	done
 
 _FuchsiaGymJuggler4BattleText::
-	text "Master KOGA comes"
-	line "from a long line"
-	cont "of ninjas!"
+	text "Mester KOGA kommer"
+	line "fra en lang række"
+	cont "af ninjaer!"
 
-	para "What did you"
-	line "descend from?"
+	para "Hvad stammer"
+	line "du fra?"
 	done
 
 _FuchsiaGymJuggler4EndBattleText::
-	text "Dropped"
-	line "my balls!"
+	text "Tabte"
+	line "mine bolde!"
 	prompt
 
 _FuchsiaGymJuggler4AfterBattleText::
-	text "Where there is"
-	line "light, there is"
-	cont "shadow!"
+	text "Hvor der er lys,"
+	line "er der skygge!"
 
-	para "Light and shadow!"
-	line "Which do you"
-	cont "choose?"
+	para "Lys og skygge!"
+	line "Hvad vælger du?"
 	done
 
 _FuchsiaGymGymGuideChampInMakingText::
-	text "FUCHSIA GYM is"
-	line "riddled with"
-	cont "invisible walls!"
+	text "FUCHSIA GYM er"
+	line "fyldt med"
+	cont "usynlige mure!"
 
-	para "KOGA might appear"
-	line "close, but he's"
-	cont "blocked off!"
+	para "KOGA kan virke"
+	line "tæt på, men han er"
+	cont "afspærret!"
 
-	para "You have to find"
-	line "gaps in the walls"
-	cont "to reach him!"
+	para "Du skal finde"
+	line "huller i murene"
+	cont "for at nå ham!"
 	done
 
 _FuchsiaGymGymGuideBeatKogaText::
-	text "It's amazing how"
-	line "ninja can terrify"
-	cont "even now!@"
+	text "Det er fantastisk"
+	line "hvordan ninjaer"
+	cont "kan skræmme selv nu!@"
 	text_end
 
 _FuchsiaGymGuideApexChipPoisonText::
-	text "For poison"
-	line "#MON, an"
-	cont "APEX CHIP will"
-	cont "conjure up images"
-	cont "of a dark,"
-	cont "totally overgrown"
-	cont "mangrove swamp."
+	text "For gift-"
+	line "#MON vil en"
+	cont "APEX CHIP fremkalde"
+	cont "billeder af en mørk,"
+	cont "fuldt overgroet"
+	cont "mangrove sump."
 	prompt

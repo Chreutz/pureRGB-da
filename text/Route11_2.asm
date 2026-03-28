@@ -1,28 +1,28 @@
 _Route11SuperNerd2EndBattleText::
-	text "Whoa!"
-	line "You spark plug!"
+	text "Hov!"
+	line "Du lille stifter!"
 	prompt
 
 _Route11SuperNerd2AfterBattleText::
-	text "Well, better get"
-	line "back to work."
+	text "Nå, tilbage"
+	line "til arbejdet."
 	done
 
 _Route11Youngster4BattleText::
-	text "My #MON should"
-	line "be ready by now!"
+	text "Mine #MON burde"
+	line "være klar nu!"
 	done
 
 _Route11Youngster4EndBattleText::
-	text "Too"
-	line "much, too young!"
+	text "For"
+	line "meget, for ung!"
 	prompt
 
 _Route11Youngster4AfterBattleText::
-	text "I better go find"
-	line "stronger ones!"
+	text "Jeg må finde"
+	line "stærkere!"
 	done
 
 _Route11DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "DIGLETTs GROTTE"
 	done

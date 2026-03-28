@@ -1,227 +1,238 @@
 _CeruleanBallDesignerSwitchBallMenuStart::
-	text "Change a #MON's"
+	text "Skift et #MONs"
 	line "#BALL?"
 	done
 
 _CeruleanBallDesignerCustomizeBallMenuStart::
-	text "Edit custom"
-	line "#BALLs?"
+	text "Rediger bruger-"
+	line "definerede #BALLs?"
 	done
 
 _NoBallsToSwitch::
-	text "No BALLs"
-	line "available in bag!"
+	text "Ingen BALLs"
+	line "tilgængelige i"
+	cont "tasken!"
 	done
 
 _CurrentlyInABall::
-	text "Currently in:"
+	text "Er i øjeblikket i:"
 	line "@"
 	text_ram_namebuffer
 	text_end
 
 _AlreadyInThatBall::
-	text "It's already in"
-	line "that type of BALL."
+	text "Den er allerede i"
+	line "den type BALL."
 	done
 
 _NoRoomForBall::
-	text "No room for the"
-	line "previous #BALL!"
+	text "Ingen plads til"
+	line "den forrige"
+	cont "#BALL!"
 	done
 
 _ChangedBallText1::
-	text "Put @"
+	text "Satte @"
 	text_ram_namebuffer
 	text ""
-	line "into a pristine"
+	line "i en spritny"
 	cont "@"
 	text_ram_stringbuffer
 	text "!"
 	done
 
 _ChangedBallText2::
-	text "Put the old"
+	text "Lagde den gamle"
 	line "@"
 	text_ram_namebuffer
-	text " into"
-	cont "your bag."
+	text " i"
+	cont "din taske."
 	done
 
 _ChangeIntoWarning::
-	text "If you put it"
-	line "in a @"
+	text "Hvis du sætter"
+	line "den i en @"
 	text_ram_stringbuffer
 	text ","
-	para "you can't get the"
+	para "kan du ikke få"
 	line "@"
 	text_ram_stringbuffer
-	text " back."
-	para "Due to a powerful"
-	line "catch mechanism,"
-	para "@"
+	text " tilbage."
+	para "På grund af en"
+	line "kraftig"
+	cont "fangstmekanisme,"
+	para "kan @"
 	text_ram_stringbuffer
-	text "s can't"
-	line "be reused!"
-	para "Change anyway?"
+	text "s ikke"
+	line "bruges igen!"
+	para "Skift alligevel?"
 	done
 
 _ChangeOutOfWarning::
-	text "Taking it out of"
-	line "a @"
+	text "At tage den ud af"
+	line "en @"
 	text_ram_namebuffer
 	text ""
-	cont "will destroy the"
+	cont "vil ødelægge"
 	cont "@"
 	text_ram_namebuffer
 	text "."
-	para "Its powerful catch"
-	line "mechanism can"
-	cont "only work once!"
-	para "Change anyway?"
+	para "Dens kraftige"
+	line "fangstmekanisme"
+	cont "virker kun én"
+	cont "gang!"
+	para "Skift alligevel?"
 	done
 
 _CeruleanBallDesignerBlankPokeballText::
-	text "It's a blank white"
-	line "# BALL!"
-	para "It's ready for a"
-	line "cool design!"
+	text "Det er en blank"
+	line "hvid # BALL!"
+	para "Den er klar til"
+	line "et sejt design!"
 	done
 
 _CeruleanBallDesignerCameraText::
-	text "It's an instant"
-	line "film CAMERA!"
-	para "It prints out a"
-	line "photo right after"
-	cont "taking it!"
+	text "Det er et"
+	line "øjebliks-KAMERA!"
+	para "Den printer et"
+	line "billede ud lige"
+	cont "efter det tages!"
 	done
 
 _CeruleanBallDesignerCamera2Text::
-	text "Time to take some"
-	line "inspiring photos!"
+	text "Tid til at tage"
+	line "nogle inspirerende"
+	cont "billeder!"
 	prompt
 
 _CeruleanBallDesignerDarkRoomSignText::
-	text "DARKROOM"
-	para "Keep door closed!"
-	para "Photos are"
-	line "developing."
+	text "MØRKERUM"
+	para "Hold døren lukket!"
+	para "Billeder"
+	line "fremkaldes."
 	done
 
 _CeruleanBallDesignerBallDisplayText::
-	text "A solid silver"
-	line "# BALL is on"
-	cont "display!"
-	para "The engraving"
-	line "reads:"
-	para "THANKS FOR YOUR"
-	line "EXCELLENT WORK!"
+	text "En solid sølv"
+	line "# BALL er på"
+	cont "fremvisning!"
+	para "Indgraveringen"
+	line "lyder:"
+	para "TAK FOR DIT"
+	line "FREMRA DENDE"
+	cont "ARBEJDE!"
 	para "-SILPH CO."
 	done
 
 _CeruleanBallDesignerPhotosText::
-	text "A bunch of photos"
-	line "are developing!"
-	para "Shouldn't touch!"
+	text "En masse billeder"
+	line "bliver fremkaldt!"
+	para "Bør ikke røres!"
 	done
 
 _CeruleanBallDesignerSinkText::
-	text "Sinks for chemical"
-	line "photo baths,"
-	cont "and an enlarger!"
+	text "Vask til"
+	line "kemiske"
+	cont "fotobade,"
+	cont "og en forstørrer!"
 	done
 
 _CeruleanBallDesignerPosterText::
-	text "A poster"
-	line "advertisement."
-	para "MISTY's wearing"
-	line "a red lifeguard"
-	cont "outfit, blowing"
-	cont "a whistle."
-	para "She's holding a new"
-	line "GREAT BALL up to"
-	cont "the viewer."
-	para "“You won't need"
-	line "saving-"
-	para "when you've got"
-	line "a GREAT BALL!”"
+	text "En plakat"
+	line "reklame."
+	para "MISTY har en rød"
+	line "redningsdragt på,"
+	cont "og fløjter."
+	para "Hun holder en ny"
+	line "GREAT BALL op"
+	cont "mod betragteren."
+	para "“Du behøver ikke"
+	line "blive reddet-"
+	para "når du har en"
+	line "GREAT BALL!”"
 	para "-SILPH CO."
 	done
 
 _CeruleanBallDesignerDesignerGreeting::
-	text "I'm a # BALL"
+	text "Jeg er en # BALL"
 	line "DESIGNER!"
-	para "SILPH CO. creates"
-	line "capture tech, I"
-	cont "design the look!"
-	para "Check out my"
-	line "latest design-"
-	para "In all its blue"
-	line "glory!"
+	para "SILPH CO. laver"
+	line "fangstteknologi,"
+	cont "jeg designer"
+	cont "udseendet!"
+	para "Se mit seneste"
+	line "design-"
+	para "I al sin blå"
+	line "herlighed!"
 	prompt
 
 _CeruleanBallDesignerDesignerSecondTime::
-	text "I'm brainstorming"
-	line "new ideas on this"
-	cont "notepad."
+	text "Jeg brainstormer"
+	line "nye ideer på denne"
+	cont "notesblok."
 	para "# BALL design"
-	line "ideas!"
-	para "Agh, I can't think"
-	line "of anything good!"
+	line "ideer!"
+	para "Ah, jeg kan ikke"
+	line "tænke på noget"
+	cont "godt!"
 	para "Hmm<...>"
-	para "Maybe you could"
-	line "help."
-	para "Want to become my"
-	line "assistant?"
+	para "Måske du kunne"
+	line "hjelpe."
+	para "Vil du blive min"
+	line "assistent?"
 	done
 
 _CeruleanBallDesignerDesignerBecameAssistant::
-	text "Hooray! I've got"
-	line "an assistant now!"
-	para "Ready to start?<PARA>@"
+	text "Hurra! Jeg har"
+	line "fået en assistent!"
+	para "Klar til at"
+	line "begynde?<PARA>@"
 	text_end
 
 _CeruleanBallDesignerGoGetCamera::
-	text "Go to my DARKROOM"
-	line "over there and"
-	cont "grab the CAMERA."
+	text "Gå hen til mit"
+	line "MØRKERUM derovre"
+	cont "og hent KAMERAET."
 
-	para "Take some photos"
-	line "with it, find me"
-	cont "some inspiration!"
+	para "Tag nogle billeder"
+	line "med det, find mig"
+	cont "noget inspiration!"
 	done
 
 _CeruleanBallDesignerDesignerGotCamera::
-	text "Got my new CAMERA?"
-	para "Good!"
-	para "I wrote down some"
-	line "concepts that may"
-	cont "inspire me on"
-	cont "that clipboard!"
-	para "Take a look!"
+	text "Fik du mit nye"
+	line "KAMERA?"
+	para "Godt!"
+	para "Jeg skrev nogle"
+	line "koncepter ned der"
+	cont "måske inspirerer"
+	cont "mig på den"
+	cont "udklipsholder!"
+	para "Kig på det!"
 	done
 
 _CeruleanBallDesignerDesignerWaitingForPhotos::
-	text "Got any new"
-	line "photos?"
-	para "No?"
-	para "By the way,"
-	para "You can switch"
-	line "your #MON's"
-	cont "# BALLs at my"
-	cont "work bench!"
-	para "Try it out!"
+	text "Har du nogle nye"
+	line "billeder?"
+	para "Nej?"
+	para "Forresten,"
+	para "Du kan skifte"
+	line "dine #MONs"
+	cont "# BALLs ved mit"
+	cont "arbejdsbord!"
+	para "Prøv det!"
 	done
 
 _CeruleanBallDesignerNewPhoto::
-	text "Oh? You have a"
-	line "new photo?!"
-	para "Ah, so exciting!"
-	line "Show me! Show me!"
+	text "Hvad? Du har et"
+	line "nyt billede?!"
+	para "Ah, så spændende!"
+	line "Vis mig! Vis mig!"
 	prompt
 
 _CeruleanBallDesignerWait::
 	text "!!!"
-	line "Wait a sec<...>"
+	line "Vent lidt<...>"
 	prompt
 
 _CeruleanBallDesignerEureka::
@@ -229,349 +240,380 @@ _CeruleanBallDesignerEureka::
 	prompt
 
 _CeruleanBallDesignerDesigned::
-	text "With your photo's"
+	text "Med dit billedes"
 	line "inspiration,"
-	para "I designed the"
+	para "designede jeg"
 	line "@"
 	text_ram_stringbuffer
 	text "!"
 	done
 
 _CeruleanBallDesignerDesigned2::
-	text "<PARA>You can put your"
-	line "#MON in it at"
-	cont "my workbench,"
-	para "or customize it"
-	line "with my tools!"
-	para "Thanks again,"
-	line "my assistant!"
+	text "<PARA>Du kan sætte dit"
+	line "#MON i den ved"
+	cont "mit arbejdsbord,"
+	para "eller tilpas den"
+	line "med mine"
+	cont "værktøjer!"
+	para "Tak igen,"
+	line "min assistent!"
 	done
 
 _BallDesignerPokemonBreederReaction::
-	text "#MON and humans"
-	line "living together"
-	cont "off of this green"
-	cont "earth!"
-	para "Our planet is like"
-	line "one big tree!"
+	text "#MON og mennesker"
+	line "lever sammen"
+	cont "på denne grønne"
+	cont "jord!"
+	para "Vor planet er som"
+	line "ét stort træ!"
 	prompt
 
 _BallDesignerPsyduckReaction::
-	text "Its beautiful soul"
-	line "is reflected in"
-	cont "rippling water!"
+	text "Dens smukke sjæl"
+	line "spejles i"
+	cont "krusede vand!"
 	prompt
 
 _BallDesignerFlareonReaction::
-	text "A ball of blazing"
-	line "fluff!"
+	text "En kugle af"
+	line "flammende dun!"
 	prompt
 
 _BallDesignerJigglypuffReaction::
-	text "OH. MY. GOSH!"
-	para "That is soooo"
-	line "cute!"
+	text "ÅH. MIN. GUD!"
+	para "Det er såååå"
+	line "sødt!"
 	prompt
 
 _BallDesignerJolteonReaction::
-	text "Shocking!"
-	para "It's lookin' real"
-	line "sharp!"
+	text "Sjovt!"
+	para "Det ser virkelig"
+	line "skarpt ud!"
 	prompt
 
 _BallDesignerPorygonReaction::
-	text "Whoa!"
-	para "Is it surfing"
-	line "the virtual web?"
+	text "Hvema!"
+	para "Surfer den på"
+	line "det virtuelle"
+	cont "net?"
 	prompt
 
 _BallDesignerFossilReaction::
-	text "These ancient"
-	line "stones:"
-	para "gardens of bone!"
+	text "Disse gamle"
+	line "sten:"
+	para "haver af knogler!"
 	prompt
 
 _BallDesignerArticunoReaction::
-	text "Brrr! You must"
-	line "have froze while"
-	cont "taking that pic!"
+	text "Brrr! Du må"
+	line "være frosset"
+	cont "mens du tog det"
+	cont "billede!"
 	prompt
 
 _BallDesignerAbraReaction::
-	text "I wonder what"
-	line "it's seeing in"
-	cont "its dreams?"
+	text "Jeg undrer mig"
+	line "over hvad den ser"
+	cont "i sine drømme?"
 	prompt
 
 _BallDesignerPidgeotReaction::
-	text "Wow! So dynamic!"
-	para "It's soaring on"
-	line "the wind!"
+	text "Wow! Så dynamisk!"
+	para "Den svæver på"
+	line "vinden!"
 	prompt
 
 _BallDesignerGrimerReaction::
-	text "It's somehow cute"
-	line "while also being"
-	cont "toxic sludge!"
+	text "Den er på en"
+	line "eller anden måde"
+	cont "sød mens den"
+	cont "også er giftig"
+	cont "snavs!"
 	prompt
 
 _BallDesignerGastlyReaction::
-	text "What a spooky"
-	line "piece that is!"
+	text "Sikke et"
+	line "uhyggeligt stykke"
+	cont "det er!"
 	prompt
 
 _BallDesignerScytherReaction::
-	text "It's slicing right"
-	line "through a field!"
+	text "Den skærer lige"
+	line "igennem en mark!"
 	prompt
 
 _BallDesignerLassReaction::
-	text "Look at her"
-	line "beautiful smile!"
-	para "What an angel!"
+	text "Se hendes"
+	line "smukke smil!"
+	para "Hvilken engel!"
 	prompt
 
 _BallDesignerMankeyReaction::
-	text "It looks so angry"
-	line "it could explode!"
+	text "Den ser så vred"
+	line "ud den kunne"
+	cont "eksplodere!"
 	prompt
 
 _BallDesignerGamblerReaction::
-	text "A picture of dice?"
-	para "That's pretty"
-	line "random! Hehe."
+	text "Et billede af"
+	line "terninger?"
+	para "Det er ret"
+	line "tilfældigt! Hehe."
 	prompt
 
 _BallDesignerPokemonBreederHint::
-	text "A man in a straw"
-	line "hat tending a"
-	cont "green field."
+	text "En mand i"
+	line "stråhat der"
+	cont "passer et grønt"
+	cont "mark."
 	prompt
 
 _BallDesignerPsyduckHint::
-	text "A #MON living"
-	line "in a pond near"
-	cont "a port city."
+	text "Et #MON der"
+	line "lever i en dam"
+	cont "tæt på en"
+	cont "havnby."
 	prompt
 
 _BallDesignerFlareonHint::
-	text "A fiery #MON"
-	line "living in a rocky"
-	cont "eastern ROUTE."
+	text "Et ild #MON"
+	line "der lever i en"
+	cont "klipperig østlig"
+	cont "ROUTE."
 	prompt
 
 _BallDesignerJigglypuffHint::
-	text "A cute round"
-	line "singing #MON"
-	cont "living south of"
-	cont "the gray city."
+	text "Et sødt rundt"
+	line "syngende #MON"
+	cont "der lever syd for"
+	cont "den grå by."
 	prompt
 
 _BallDesignerJolteonHint::
-	text "An electric"
-	line "#MON living on"
-	cont "the outskirts of"
-	cont "a big city."
+	text "Et elektrisk"
+	line "#MON der lever"
+	cont "i udkanten af"
+	cont "en stor by."
 	prompt
 
 _BallDesignerPorygonHint::
-	text "A virtual #MON"
-	line "cruising through"
+	text "Et virtuelt"
+	line "#MON der"
+	cont "cruiser gennem"
 	cont "cyberspace."
 	prompt
 
 _BallDesignerFossilHint::
-	text "Stone cold proof"
-	line "of prehistoric"
+	text "Stenkold bevis"
+	line "på forhistoriske"
 	cont "#MON!"
 	prompt
 
 _BallDesignerArticunoHint::
-	text "A super-rare"
-	line "#MON in an"
-	cont "icy area!"
+	text "Et super-sjældent"
+	line "#MON i et"
+	cont "isområde!"
 	prompt
 
 _BallDesignerAbraHint::
-	text "A sleepy little"
-	line "#MON living in"
-	cont "a northern ROUTE."
+	text "Et søvnigt lille"
+	line "#MON der lever"
+	cont "i en nordlig"
+	cont "ROUTE."
 	prompt
 
 _BallDesignerPidgeotHint::
-	text "A stunning bird"
-	line "#MON in a"
-	cont "ROUTE with many"
-	cont "fences."
+	text "Et fantastisk"
+	line "fugle #MON i en"
+	cont "ROUTE med mange"
+	cont "hegn."
 	prompt
 
 _BallDesignerGrimerHint::
-	text "A #MON living"
-	line "secretly below an"
-	cont "underground path!"
+	text "Et #MON der"
+	line "lever hemmeligt"
+	cont "under en"
+	cont "underjordisk"
+	cont "sti!"
 	prompt
 
 _BallDesignerGastlyHint::
-	text "A little girl who"
-	line "is in touch with"
-	cont "the supernatural!"
+	text "En lille pige"
+	line "der er i kontakt"
+	cont "med det"
+	cont "overnaturlige!"
 	prompt
 
 _BallDesignerScytherHint::
-	text "A fast #MON"
-	line "zooming through a"
-	cont "ROUTE with lots"
-	cont "of tall grass."
+	text "Et hurtigt"
+	line "#MON der"
+	cont "suser gennem en"
+	cont "ROUTE med meget"
+	cont "højt græs."
 	prompt
 
 _BallDesignerLassHint::
-	text "A skirt-wearing"
-	line "girly girl who"
-	cont "loves CLEFAIRY."
+	text "En skørt-klædt"
+	line "pige der elsker"
+	cont "CLEFAIRY."
 	prompt
 
 _BallDesignerMankeyHint::
-	text "An angry looking"
-	line "ball of fluff"
-	cont "living near the"
-	cont "path for BIKERs!"
+	text "En vred"
+	line "dunbold der lever"
+	cont "tæt på stien for"
+	cont "BIKERe!"
 	prompt
 
 _BallDesignerGamblerHint::
-	text "A lucky man who"
-	line "embraces random"
-	cont "chaos in battle!"
+	text "En heldig mand"
+	line "der omfavner"
+	cont "tilfældigt kaos"
+	cont "i kamp!"
 	prompt
 
 _CeruleanBallDesignerThanksForHelp::
-	text "You helped me"
-	line "design so many"
-	cont "new # BALLs!"
-	para "Now customize"
-	line "some of your own!"
-	para "Head to my bench"
-	line "and get busy!"
-	para "Good job,"
-	line "assistant!"
+	text "Du hjalp mig med"
+	line "at designe så"
+	cont "mange nye"
+	cont "# BALLs!"
+	para "Tilpas nu nogle"
+	line "af dine egne!"
+	para "Gå hen til mit"
+	line "bord og kom i"
+	cont "gang!"
+	para "Godt gået,"
+	line "assistent!"
 	done
 
 _CeruleanBallDesignerBenchCustomizeNoPermission::
-	text "A bunch of tools"
-	line "and doodads for"
-	cont "designing new"
+	text "En masse værktøjer"
+	line "og dimser til at"
+	cont "designe nye"
 	cont "# BALLs!"
-	para "I don't have"
-	line "permission to use"
-	cont "these yet."
+	para "Jeg har ikke"
+	line "tilladelse til at"
+	cont "bruge disse endnu."
 	done
 
 _NeedWorkBenchInfo::
-	text "Need info on using"
-	line "the workbench?"
+	text "Brug for info om"
+	line "at bruge"
+	cont "arbejdsbordet?"
 	prompt
 
 _WorkbenchInfoBasic::
-	text "Custom # BALLs"
-	line "are special."
-	para "They have unique"
-	line "animations when"
-	cont "sending out your"
-	cont "#MON!"
-	para "But these custom"
-	line "BALLs don't have"
-	cont "catch mechanisms!"
-	para "You cannot catch"
-	line "wild #MON with"
-	cont "them."
+	text "Brugerdefinerede"
+	line "# BALLs er"
+	cont "specielle."
+	para "De har unikke"
+	line "animationer når"
+	cont "du sender dine"
+	cont "#MON ud!"
+	para "Men disse"
+	line "special-BALLs har"
+	cont "ikke"
+	cont "fangstmekanismer!"
+	para "Du kan ikke fange"
+	line "vilde #MON med"
+	cont "dem."
 	prompt
 
 _WorkbenchInfoChangingBalls::
-	text "You can change the"
-	line "# BALLs your"
-	cont "#MON are in."
-	para "For item BALLs,"
-	line "you will need one"
-	cont "in your bag to"
-	cont "switch a #MON"
-	cont "into it."
-	para "But custom BALLs"
-	line "are unlimited!"
-	para "By switching a"
-	line "#MON to a"
-	cont "custom BALL,"
-	para "you can get back"
-	line "your item BALL!"
-	para "Save your money"
-	line "and reuse item"
-	cont "BALLs to catch"
-	cont "more #MON!"
+	text "Du kan skifte"
+	line "# BALLs dine"
+	cont "#MON er i."
+	para "For item-BALLs,"
+	line "skal du bruge en"
+	cont "i din taske for at"
+	cont "skifte et #MON"
+	cont "ind i den."
+	para "Men bruger-"
+	line "definerede BALLs"
+	cont "er ubegrænsede!"
+	para "Ved at skifte et"
+	line "#MON til en"
+	cont "brugerdefineret"
+	cont "BALL,"
+	para "kan du få din"
+	line "item-BALL"
+	cont "tilbage!"
+	para "Spar dine penge"
+	line "og genbrug item"
+	cont "BALLs til at fange"
+	cont "flere #MON!"
 	prompt 
 
 _WorkbenchInfoCustomizingBalls::
-	text "You can modify"
-	line "custom BALLs that"
-	cont "you've unlocked."
-	para "You can change"
-	line "their audiovisual"
-	cont "effects!"
-	para "As the DESIGNER"
-	line "makes new BALLs,"
-	cont "you will unlock"
-	cont "more options."
+	text "Du kan ændre"
+	line "brugerdefinerede"
+	cont "BALLs du har"
+	cont "låst op."
+	para "Du kan ændre"
+	line "deres"
+	cont "audiovisuelle"
+	cont "effekter!"
+	para "Efterhånden som"
+	line "DESIGNEREN laver"
+	cont "nye BALLs, vil du"
+	cont "låse flere"
+	cont "muligheder op."
 	prompt
 
 _CeruleanBallDesignerBookshelfText::
-	text "A reel-to-reel"
-	line "audio system!"
-	para "Lots of tapes"
-	line "on the shelf too!"
-	para "Classical, jazz,"
+	text "Et spole-til-spole"
+	line "lydsystem!"
+	para "Mange bånd på"
+	line "hylden også!"
+	para "Klassisk, jazz,"
 	line "big band<...>"
 	done
 
 _CeruleanBallDesignerCannotChangeTile::
-	text "You cannot change"
-	line "tile of this poof"
-	cont "animation."
+	text "Du kan ikke ændre"
+	line "flise på denne"
+	cont "poof-animation."
 	para "OG Poof + Explode"
-	line "animations use"
-	cont "static graphics."
+	line "animationer bruger"
+	cont "statisk grafik."
 	prompt
 
 _CeruleanBallDesignerCannotChangeColor::
-	text "Cannot edit color"
-	line "on this system."
+	text "Kan ikke ændre"
+	line "farve på dette"
+	cont "system."
 	prompt
 
 _BallDesignerInfoText::
-	text "If ON, in CERULEAN"
-	line "CITY a new house"
-	cont "will contain the"
-	cont "BALL DESIGNER."
-	para "You can work"
-	line "with the DESIGNER"
-	cont "to create new"
+	text "Hvis TIL, vil et"
+	line "nyt hus i"
+	cont "CERULEAN CITY"
+	cont "indeholde BALL"
+	cont "DESIGNEREN."
+	para "Du kan arbejde"
+	line "med DESIGNEREN"
+	cont "for at skabe nye"
 	cont "# BALLs."
-	para "Customize BALLs"
-	line "with unlockable"
-	cont "audiovisual"
-	cont "effects!"
+	para "Tilpas BALLs"
+	line "med oplåselige"
+	cont "audiovisuelle"
+	cont "effekter!"
 	prompt
 
 _BallDesignerCameraBack::
-	text "By the way,"
-	para "Can I have my"
-	line "CAMERA back?"
+	text "Forresten,"
+	para "Må jeg få mit"
+	line "KAMERA tilbage?"
 	done
 
 _BallDesignerCameraBackPC::
-	text "It's in your PC!"
-	line "Retrieve it first."
+	text "Det er i din PC!"
+	line "Hent det først."
 	done
 
 _BallDesignerCameraBorrowAgain::
-	text "Thanks!"
-	para "Feel free to"
-	line "borrow it again"
-	cont "from my DARKROOM!"
+	text "Tak!"
+	para "Du må gerne"
+	line "låne det igen"
+	cont "fra mit MØRKERUM!"
 	done

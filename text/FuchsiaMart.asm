@@ -1,22 +1,22 @@
 _FuchsiaMartMiddleAgedManText::
-	text "Do you have a"
+	text "Har du et"
 	line "SAFARI ZONE flag?"
 
-	para "What about cards"
-	line "or calendars?"
+	para "Hvad med kort"
+	line "eller kalendere?"
 	done
 
 _FuchsiaMartCooltrainerFText::
-	text "Did you try X"
-	line "SPEED? It speeds"
-	cont "up a #MON in"
-	cont "battle!"
+	text "Har du prøvet X"
+	line "SPEED? Det gør et"
+	cont "#MON hurtigere"
+	cont "i kamp!"
 	done
 
 _FuchsiaMartTMKidFlavor::
-	text "<PARA>I hear someone"
-	line "donated a"
-	cont "prehistoric"
-	cont "#MON to the"
-	cont "zoo here! Cool!@"
+	text "<PARA>Jeg hørte nogen"
+	line "donerede et"
+	cont "forhistorisk"
+	cont "#MON til zooen"
+	cont "her! Fedt!@"
 	text_end

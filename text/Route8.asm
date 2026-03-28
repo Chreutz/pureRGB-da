@@ -1,216 +1,235 @@
 _Route8SuperNerd1BattleText::
-	text "You look good at"
-	line "#MON, but"
-	cont "how's your chem?"
+	text "Du ser ud til at"
+	line "kunne klare #MON,"
+	cont "men hvordan er"
+	cont "din kemi?"
 	done
 
 _Route8SuperNerd1EndBattleText::
-	text "Ow!"
-	line "Meltdown!"
+	text "Av!"
+	line "Nedsmeltning!"
 	prompt
 
 _Route8SuperNerd1AfterBattleText::
-	text "I am better at"
-	line "school than this!"
+	text "Jeg er bedre"
+	line "til skole end"
+	cont "dette!"
 	done
 
 _Route8Gambler1BattleText::
-	text "All right! Let's"
-	line "roll the dice!"
+	text "Okay! Lad os"
+	line "kaste terningerne!"
 	done
 
 _Route8Gambler1EndBattleText::
-	text "Drat!"
-	line "Came up short!"
+	text "Pokker!"
+	line "Blev for kort!"
 	prompt
 
 _Route8Gambler1AfterBattleText::
-	text "Lady Luck's not"
-	line "with me today!"
+	text "Frøken Lykke"
+	line "er ikke med mig"
+	cont "i dag!"
 	done
 
 _Route8SuperNerd2BattleText::
-	text "You need strategy"
-	line "to win at this!"
+	text "Du skal bruge"
+	line "strategi for at"
+	cont "vinde her!"
 	done
 
 _Route8SuperNerd2EndBattleText::
-	text "It's"
-	line "not logical!"
+	text "Det er"
+	line "ikke logisk!"
 	prompt
 
 _Route8SuperNerd2AfterBattleText::
-	text "Go with GRIMER"
-	line "first<...>and<...>"
-	cont "<...>and<...>then<...>"
+	text "Start med GRIMER<...>"
+	line "og<...>"
+	cont "<...>og<...>så<...>"
 	done
 
 _MukLearnset::
-	text "But if they switch"
-	line "then I should<...>"
-	para "<...>and use"
+	text "Men hvis de"
+	line "skifter så"
+	cont "bør jeg<...>"
+	para "<...>og bruge"
 	line "MINIMIZE<...>"
-	para "<...>then they'll"
-	line "run out of PP<...>"
-	para "it was so perfect"
-	line "<...>how could I"
-	cont "blah blah blah<...>"
+	para "<...>så løber"
+	line "de tør for PP<...>"
+	para "det var så"
+	line "perfekt <...>hvordan"
+	cont "kunne jeg blah"
+	cont "blah blah<...>"
 	prompt
 
 _MukLearnset2::
-	text "The @"
+	text "@"
 	text_ram wTrainerName
 	text_start
-	line "revealed their"
-	cont "battle strategy"
-	cont "in detail-"
-	para "Saying it out"
-	line "loud so everyone"
-	cont "here knows it."
-	para "You didn't ask for"
-	line "it, but you heard"
-	cont "a lot about MUK."
+	line "afslørede deres"
+	cont "kampstrategi i"
+	cont "detalje-"
+	para "At sige det højt"
+	line "så alle her"
+	cont "kender den."
+	para "Du bad ikke om"
+	line "det, men du hørte"
+	cont "meget om MUK."
 	prompt
 
 _Route8CooltrainerF1BattleText::
-	text "I like NIDORAN, so"
-	line "I collect them!"
+	text "Jeg kan lide"
+	line "NIDORAN, så jeg"
+	cont "samler på dem!"
 	done
 
 _Route8CooltrainerF1EndBattleText::
-	text "Why? Why??"
+	text "Hvorfor? Hvorfor??"
 	prompt
 
 _Route8CooltrainerF1AfterBattleText::
-	text "When #MON grow"
-	line "up they get ugly!"
-	para "They shouldn't"
-	line "evolve!"
+	text "Når #MON vokser"
+	line "op bliver de"
+	cont "grimme!"
+	para "De bør ikke"
+	line "udvikle sig!"
 	done
 
 _NidorinaLearnset::
-	text "Hmm? Some of"
-	line "them stay cute?!"
-	para "Should I evolve"
+	text "Hmm? Nogle af"
+	line "dem forbliver"
+	cont "søde?!"
+	para "Skal jeg udvikle"
 	line "@"
 	text_ram_namebuffer
-	text " with"
-	cont "a MOON STONE?"
-	para "I can't decide!"
-	para "Why don't we go"
-	line "on a walk and"
-	cont "talk about it!"
-	para "Tee hee!"
+	text " med"
+	cont "en MOON STONE?"
+	para "Jeg kan ikke"
+	line "beslutte mig!"
+	para "Hvad med at vi"
+	line "går en tur og"
+	cont "taler om det!"
+	para "Hi hi!"
 	prompt
 
 _Route8SuperNerd3BattleText::
-	text "School is fun, but"
-	line "so are #MON."
+	text "Skole er sjovt,"
+	line "men #MON er"
+	cont "også sjovt."
 	done
 
 _Route8SuperNerd3EndBattleText::
-	text "I'll"
-	line "stay with school."
+	text "Jeg"
+	line "bliver ved skolen."
 	prompt
 
 _Route8SuperNerd3AfterBattleText::
-	text "We're stuck here"
-	line "because of the"
-	cont "gates at SAFFRON."
+	text "Vi er fastlåst"
+	line "her på grund af"
+	cont "portene i SAFFRON."
 	done
 
 _Route8CooltrainerF2BattleText::
-	text "MEOWTH is so cute,"
-	line "meow, meow, meow!"
+	text "MEOWTH er så sødt,"
+	line "miav, miav, miav!"
 	done
 
 _Route8CooltrainerF2EndBattleText::
-	text "Meow!"
+	text "Miav!"
 	prompt
 
 _Route8CooltrainerF2AfterBattleText::
-	text "I think EEVEE"
-	line "and FARFETCH'D"
-	cont "are cute too!"
+	text "Jeg synes EEVEE"
+	line "og FARFETCH'D"
+	cont "også er søde!"
 	done
 
 _LearnsetMeowth::
-	text "But cats are the"
-	line "cutest!"
-	para "They curl up and"
-	line "love to cuddle!"
-	para "Meow meow meow!"
+	text "Men katte er"
+	line "de sødeste!"
+	para "De ruller sig"
+	line "sammen og elsker"
+	cont "at kramme!"
+	para "Miav miav miav!"
 	prompt
 
 _Route8CooltrainerF3BattleText::
-	text "We must look"
-	line "silly standing"
-	cont "here like this!"
+	text "Vi må se"
+	line "fjollet ud når"
+	cont "vi står her sådan!"
 	done
 
 _Route8CooltrainerF3EndBattleText::
-	text "Look what"
-	line "you did!"
+	text "Se hvad"
+	line "du gjorde!"
 	prompt
 
 _Route8CooltrainerF3AfterBattleText::
-	text "SAFFRON's gate"
-	line "keeper won't let"
-	cont "us through."
-	cont "He's so mean!"
+	text "SAFFRONs portvagt"
+	line "lader os ikke"
+	cont "komme igennem."
+	cont "Han er så ond!"
 	done
 
 _Route8Gambler2BattleText::
-	text "I'm a rambling,"
-	line "gambling dude!"
+	text "Jeg er en"
+	line "omstrejfende,"
+	cont "spillende fyr!"
 	done
 
 _Route8Gambler2EndBattleText::
-	text "Missed"
-	line "the big score!"
+	text "Mistede"
+	line "den store gevinst!"
 	prompt
 
 _Route8Gambler2AfterBattleText::
-	text "Gambling and"
-	line "#MON are like"
-	cont "eating peanuts!"
-	cont "Just can't stop!"
+	text "Spil og #MON"
+	line "er som at spise"
+	cont "jordnødder!"
+	cont "Man kan ikke"
+	cont "stoppe!"
 	done
 
 _Route8CooltrainerF4BattleText::
-	text "What's a cute,"
-	line "round and fluffy"
+	text "Hvad er et sødt,"
+	line "rundt og blødt"
 	cont "#MON?"
 	done
 
 _Route8CooltrainerF4EndBattleText::
 	text "Stop!"
 
-	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	para "Vær ikke så"
+	line "ondsindet mod min"
+	cont "CLEFAIRY!"
 	prompt
 
 _Route8CooltrainerF4AfterBattleText::
-	text "CLEFAIRY evolves"
-	line "when it's exposed"
-	cont "to a MOON STONE."
+	text "CLEFAIRY udvikler"
+	line "sig når den"
+	cont "udsendes for en"
+	cont "MOON STONE."
 	done
 
 _ClefableLearnset::
-	text "That's how I got"
-	line "my CLEFABLE!"
-	para "I hear @"
+	text "Sådan fik jeg min"
+	line "CLEFABLE!"
+	para "Jeg hører at"
+	line "@"
 	text_ram_namebuffer
-	text "<LINE>and CLEFABLE came"
-	cont "from outer space!"
-	para "I like to imagine"
-	line "them on a little"
-	cont "flying saucer!"
+	text "<LINE>og CLEFABLE"
+	cont "kom fra rummet!"
+	para "Jeg kan godt lide"
+	line "at forestille dem"
+	cont "på en lille"
+	cont "flyvende"
+	cont "tallerken!"
 	para "@"
 	text_end
 
 _Route8UndergroundSignText::
-	text "UNDERGROUND PATH"
+	text "UNDERGRUNDSSTI"
 	line "CELADON CITY -"
 	cont "LAVENDER TOWN"
 	done

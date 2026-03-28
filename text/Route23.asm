@@ -1,28 +1,28 @@
 _Route23YouDontHaveTheBadgeYetText::
-	text "You can pass here"
-	line "only if you have"
-	cont "the @"
+	text "Du kan passere her"
+	line "kun, hvis du har"
+	cont "@"
 	text_ram_namebuffer
 	text "!"
 
-	para "You don't have the"
+	para "Du har ikke"
 	line "@"
 	text_ram_namebuffer
-	text " yet!"
+	text " endnu!"
 
-	para "You have to have"
-	line "it to get to"
-	cont "#MON LEAGUE!@"
+	para "Du skal have den"
+	line "for at komme til"
+	cont "Pokémon LEAGUE!@"
 	text_end
 
 _Route23OhThatIsTheBadgeText::
-	text "You can pass here"
-	line "only if you have"
-	cont "the @"
+	text "Du kan passere her"
+	line "kun, hvis du har"
+	cont "@"
 	text_ram_namebuffer
 	text "!"
 
-	para "Oh! That is the"
+	para "Åh! Det er"
 	line "@"
 	text_ram_namebuffer
 	text "!"
@@ -31,11 +31,11 @@ _Route23OhThatIsTheBadgeText::
 _Route23GoRightAheadText::
 	text_start
 
-	para "OK then! Please,"
-	line "go right ahead!"
+	para "OK så! Venligst,"
+	line "bare gå igennem!"
 	done
 
 _Route23VictoryRoadGateSignText::
-	text "VICTORY ROAD GATE"
-	line "- #MON LEAGUE"
+	text "VICTORY ROAD PORT"
+	line "- Pokémon LEAGUE"
 	done

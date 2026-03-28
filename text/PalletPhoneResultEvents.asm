@@ -1,185 +1,190 @@
 _MomDadNotHereText::
-	text "You're back,"
+	text "Du er tilbage,"
 	line "<PLAYER>!"
-	para "Where's DAD?"
-	para "You just missed"
-	line "him!"
-	para "He had something"
-	line "urgent at work."
-	para "Don't worry,"
-	line "you'll see him"
-	cont "sometime soon."
+	para "Hvor er FAR?"
+	para "Du lige akkurat"
+	line "mistede ham!"
+	para "Han havde noget"
+	line "haster på"
+	cont "arbejdet."
+	para "Bare rolig,"
+	line "du vil se ham"
+	cont "snart."
 	done
 
 _MomFoodReadyText::
-	text "There you are!"
-	para "Your food is"
-	line "ready!"
+	text "Der er du!"
+	para "Din mad er"
+	line "klar!"
 	prompt
 
 _MomFoodBonAppetit::
-	text "Bon appetit!"
+	text "Velbekomme!"
 	prompt
 
 _MomFoodRiceBallsText::
-	text "Every rice"
-	line "ball from MOM"
-	cont "was like a"
-	cont "surprise."
-	para "They all had"
-	line "something"
-	cont "different and"
-	cont "tasty inside."
+	text "Hver eneste"
+	line "riskugle fra MOR"
+	cont "var som en"
+	cont "overraskelse."
+	para "De havde alle"
+	line "noget"
+	cont "forskelligt og"
+	cont "lækkert indeni."
 	prompt
 
 _MomFoodJellyDonutsText::
-	text "Nothing beats"
-	line "the sweetness of"
-	cont "MOM's scrumptious"
-	cont "jelly-filled"
+	text "Intet slår"
+	line "sødmen fra"
+	cont "MORs lækre"
+	cont "fyldte"
 	cont "donuts."
 	prompt
 
 _MomFoodBrisketText::
-	text "The brisket"
-	line "prepared from"
-	cont "DAD's recipe"
-	cont "was totally"
-	cont "delicious!"
+	text "Oksekødet"
+	line "tilberedt fra"
+	cont "FARs opskrift"
+	cont "var helt"
+	cont "vidunderligt!"
 	prompt
 
 _DadFoodBrisketText::
-	text "DAD brought out"
-	line "his slow-cooked"
-	cont "BBQ brisket."
-	para "It was totally"
-	line "delicious!"
+	text "FAR tog sin"
+	line "langtidskogte"
+	cont "BBQ oksekød frem."
+	para "Det var virkelig"
+	line "lækkert!"
 	prompt
 
 _MomFoodBrisketText2::
-	text "The savory"
-	line "sauce was"
-	cont "perfect."
+	text "Den krydrede"
+	line "sovs var"
+	cont "perfekt."
 	prompt
 
 _MomFoodLasagnaText::
-	text "Mom's cheesy"
-	line "lasagna couldn't"
-	cont "be beat."
-	para "<PLAYER> ate"
-	line "every last morsel"
-	cont "of the meal."
+	text "MORs ostede"
+	line "lasagne kunne"
+	cont "ikke slås."
+	para "<PLAYER> spiste"
+	line "hver eneste"
+	cont "bid af måltidet."
 	prompt
 
 _DadChowedDownText::
-	text "DAD wolfed his"
-	line "down with gusto."
+	text "FAR spiste sin"
+	line "med stor appetit."
 	prompt
 
 _MomFoodPokemonJoinsText::
 	text "@"
 	text_ram_namebuffer
 	text " "
-	line "had some as well!"
+	line "fik også noget!"
 	prompt
 
 _MomFoodPokemonChowedDownText::
-	text "It chowed down"
-	line "like crazy."
+	text "Den spiste"
+	line "vildt meget."
 	prompt
 
 _MomFoodPokemonShowText::
-	text "MOM looked"
-	line "really happy!"
+	text "MOR så"
+	line "virkelig glad ud!"
 	done
 
 _MomFoodDone::
-	text "You'd better"
-	line "get going!"
-	para "Have fun!"
+	text "Du burde"
+	line "komme afsted!"
+	para "Hav det sjovt!"
 	done
 
 _DaisyTeaEvent::
-	text "Oh, hi there"
+	text "Åh, hej med dig"
 	line "<PLAYER>!"
-	para "Are you here"
-	line "for some tea?"
+	para "Er du her"
+	line "for at få te?"
 	prompt
 
 _DaisyTeaEventNo::
-	text "Okay, come back"
-	line "later!"
+	text "Okay, kom tilbage"
+	line "senere!"
 	done
 
 _DaisyTeaPeppermint::
-	text "Today's tea is"
-	line "peppermint."
-	para "Its lovely aroma"
-	line "helps you wake up"
-	cont "in the morning."
-	para "It helps digestion"
-	line "after a meal as"
-	cont "well."
+	text "Dagens te er"
+	line "pebermynte."
+	para "Dens dejlige duft"
+	line "hjælper dig med"
+	cont "at vågne om"
+	cont "morgenen."
+	para "Den hjælper også"
+	line "fordøjelsen"
+	cont "efter et måltid."
 	prompt
 
 _DaisyTeaBarley::
-	text "Today I've made"
-	line "barley tea."
-	para "It's served cold"
-	line "and tastes great"
-	cont "on a hot summer"
-	cont "day."
+	text "I dag har jeg"
+	line "lavet bygthe."
+	para "Den serveres kold"
+	line "og smager godt"
+	cont "på en varm"
+	cont "sommerdag."
 	prompt
 
 _DaisyTeaChai::
-	text "Today I've made"
-	line "spiced chai tea."
-	para "It's a black tea"
-	line "brewed with milk."
-	para "Some spices are"
-	line "added, including"
-	cont "ginger, green"
-	cont "cardamom, nutmeg,"
-	cont "cinnamon, and"
-	cont "brown sugar."
-	para "It really has a"
-	line "diverse powerful"
-	cont "taste."
-	para "It's common as"
-	line "an alternative to"
-	cont "coffee."
+	text "I dag har jeg"
+	line "lavet krydret"
+	cont "chai the."
+	para "Det er en sort te"
+	line "brygget med mælk."
+	para "Nogle krydderier"
+	line "tilføjes:"
+	cont "ingefær, grønt"
+	cont "kardemomme,"
+	cont "muskatnød, kanel"
+	cont "og brunt sukker."
+	para "Den har virkelig"
+	line "en mangfoldig"
+	cont "stærk smag."
+	para "Den er almindelig"
+	line "som alternativ"
+	cont "til kaffe."
 	prompt
 
 _DaisyTeaSitDown::
-	text "Okay! But first,"
-	line "have a seat!"
+	text "Okay! Men først,"
+	line "sæt dig ned!"
 	done
 
 _TeaDrink::
-	text "<PLAYER> tried"
-	line "DAISY's tea."
+	text "<PLAYER> prøvede"
+	line "DAISYs te."
 	done
 
 _TeaReaction::
-	text "It had a nice"
-	line "calming effect."
-	para "It's so very"
-	line "revitalizing!"
+	text "Den havde en"
+	line "dejlig beroligende"
+	cont "effekt."
+	para "Den er meget"
+	line "opkvikkende!"
 	para "@"
 	text_ram_namebuffer
 	text " "
-	line "is looking at"
+	line "kigger på"
 	cont "DAISY."
-	para "It really seems"
-	line "to like her."
-	para "It's totally"
-	line "relaxed!"
+	para "Den ser virkelig"
+	line "ud til at like"
+	cont "hende."
+	para "Den er helt"
+	line "afslappet!"
 	done
 
 _DaisyTeaEnd::
-	text "I'll be right here"
-	line "whenever you feel"
-	cont "like some tea."
-	para "Thanks for"
-	line "coming, bye!"
+	text "Jeg er lige her"
+	line "når du har lyst"
+	cont "til lidt te."
+	para "Tak for"
+	line "at komme, farvel!"
 	done

@@ -4,10 +4,10 @@ _DexCompletionText::
 
 	para "@"
 	text_decimal hDexRatingNumMonsSeen, 1, 3
-	text " #MON seen"
+	text " Pokémon seen"
 	line "@"
 	text_decimal hDexRatingNumMonsOwned, 1, 3
-	text " #MON owned"
+	text " Pokémon owned"
 
 	para "PROF.OAK's"
 	line "Rating:"
@@ -16,7 +16,7 @@ _DexCompletionText::
 _DexRatingText_Own0To9::
 	text "You still have"
 	line "lots to do."
-	cont "Look for #MON"
+	cont "Look for Pokémon"
 	cont "in grassy areas!"
 	done
 
@@ -29,7 +29,7 @@ _DexRatingText_Own10To19::
 
 _DexRatingText_Own20To29::
 	text "You still need"
-	line "more #MON!"
+	line "more Pokémon!"
 	cont "Try to catch"
 	cont "other species!"
 	done
@@ -44,7 +44,7 @@ _DexRatingText_Own30To39::
 _DexRatingText_Own40To49::
 	text "Very good!"
 	line "Go fish for some"
-	cont "marine #MON!"
+	cont "marine Pokémon!"
 	done
 
 _DexRatingText_Own50To59::
@@ -89,7 +89,7 @@ _DexRatingText_Own100To109::
 _DexRatingText_Own110To119::
 	text "You even have the"
 	line "evolved forms of"
-	cont "#MON! Super!"
+	cont "Pokémon! Super!"
 	done
 
 _DexRatingText_Own120To129::

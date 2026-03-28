@@ -1,74 +1,75 @@
 _RocketHideoutB1FRocket5EndBattleText::
-	text "Why<...>?@"
+	text "Hvorfor<...>?@"
 	text_end
 
 _RocketHideoutB1FRocket1BattleText::
-	text "Who are you? How"
-	line "did you get here?"
+	text "Hvem er du? Hvordan"
+	line "kom du herind?"
 	done
 
 _RocketHideoutB1FRocket1EndBattleText::
 	text "Oww!"
-	line "Beaten!"
+	line "Besejret!"
 	prompt
 
 _RocketHideoutB1FRocket1AfterBattleText::
-	text "Are you dissing"
-	line "<TEAM><ROCKET>?"
+	text "Håner du"
+	line "TEAM ROCKET?"
 	done
 
 _RocketHideoutB1FRocket2BattleText::
-	text "You broke into"
-	line "our operation?"
+	text "Brød du ind i"
+	line "vores operation?"
 	done
 
 _RocketHideoutB1FRocket2EndBattleText::
-	text "Burnt!"
+	text "Brændt!"
 	prompt
 
 _RocketHideoutB1FRocket2AfterBattleText::
-	text "You're not going"
-	line "to get away with"
-	cont "this, brat!"
+	text "Du slipper ikke"
+	line "godt fra det"
+	cont "her, knægt!"
 	done
 
 _RocketHideoutB1FRocket3BattleText::
-	text "Intruder alert!"
+	text "Indtrængende!"
 	done
 
 _RocketHideoutB1FRocket3EndBattleText::
-	text "I"
-	line "can't do it!"
+	text "Jeg"
+	line "kan ikke!"
 	prompt
 
 _RocketHideoutB1FRocket3AfterBattleText::
 	text "SILPH SCOPE?"
-	line "I don't know"
-	cont "where it is!"
+	line "Jeg ved ikke"
+	cont "hvor det er!"
 	done
 
 _RocketHideoutB1FRocket4BattleText::
-	text "Why did you come"
-	line "here?"
+	text "Hvorfor kom du"
+	line "herind?"
 	done
 
 _RocketHideoutB1FRocket4EndBattleText::
-	text "This"
-	line "won't do!"
+	text "Det"
+	line "går ikke!"
 	prompt
 
 _RocketHideoutB1FRocket4AfterBattleText::
-	text "OK, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
+	text "OK, jeg taler!"
+	line "Tag elevatoren"
+	cont "for at se min"
+	cont "BOSS!"
 	done
 
 _RocketHideoutB1FRocket5BattleText::
-	text "Are you lost, you"
-	line "little rat?"
+	text "Er du faret vild,"
+	line "lille rotte?"
 	done
 
 _RocketHideoutB1FRocket5AfterBattleText::
-	text "Uh-oh, that fight"
-	line "opened the door!"
+	text "Uh-oh, den kamp"
+	line "åbnede døren!"
 	done

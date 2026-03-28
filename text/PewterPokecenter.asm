@@ -1,11 +1,11 @@
 _PewterPokecenterGentlemanText::
-	text "What!?"
+	text "Hvad!?"
 
-	para "<TEAM><ROCKET> is"
-	line "at MT.MOON? Huh?"
-	cont "I'm on the phone!"
+	para "<TEAM><ROCKET> er"
+	line "på MT.MOON? Hvad?"
+	cont "Jeg taler i rør!"
 
-	para "Scram!"
+	para "Forsvind!"
 	done
 
 _PewterPokecenterJigglypuffText::
@@ -14,20 +14,19 @@ _PewterPokecenterJigglypuffText::
 	done
 
 _PewterPokecenterBenchGuyLearnsetText1::
-	text "Oh?"
+	text "Åh?"
 	done
 
 _PewterPokecenterBenchGuyLearnsetText2::
-	text "You have a"
+	text "Du har din egen"
 	line "@"
 	text_ram_namebuffer
-	text " of"
-	cont "your own?"
-	para "This one keeps"
-	line "SINGing me to"
-	cont "sleep."
-	para "I've been having"
-	line "weird dreams."
-	para "Maybe you can make"
-	line "sense of them."
+	text "?"
+	para "Den her bliver"
+	line "ved med at SYN-GE"
+	cont "mig i søvn."
+	para "Jeg har haft"
+	line "mærkelige drømme."
+	para "Måske kan du"
+	line "tyde dem."
 	prompt

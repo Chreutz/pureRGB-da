@@ -1,176 +1,175 @@
 _Route3Text1::
-	text "Whew<...> I better"
-	line "take a rest<...>"
-	cont "Groan<...>"
+	text "Pust<...> Jeg burde"
+	line "hvile mig<...>"
+	cont "Støn<...>"
 
-	para "That tunnel from"
-	line "CERULEAN takes a"
-	cont "lot out of you!"
+	para "Den tunnel fra"
+	line "CERULEAN tager"
+	cont "al din energi!"
 	done
 
 _Route3Youngster1BattleText::
-	text "Hey! I met you in"
-	line "VIRIDIAN FOREST!"
+	text "Hey! Jeg mødte dig"
+	line "i VIRIDIAN FOREST!"
 	done
 
 _Route3Youngster1EndBattleText::
-	text "You"
-	line "beat me again!"
+	text "Du"
+	line "slog mig igen!"
 	prompt
 
 _Route3Youngster1AfterBattleText::
-	text "There are other"
-	line "kinds of #MON"
-	cont "than those found"
-	cont "in the forest!"
+	text "Der findes andre"
+	line "slags #MON"
+	cont "end dem i skoven!"
 	done
 
 _Route3Youngster2BattleText::
-	text "Hi! I like shorts!"
-	line "They're comfy and"
-	cont "easy to wear!"
+	text "Hej! Jeg kan"
+	line "lide shorts!"
+	cont "De er behagelige"
+	cont "og nemme at bruge!"
 	done
 
 _Route3Youngster2EndBattleText::
-	text "I don't"
-	line "believe it!"
+	text "Jeg"
+	line "tror det ikke!"
 	prompt
 
 _Route3Youngster2AfterBattleText::
-	text "I always wear"
-	line "shorts, even in"
-	cont "winter!"
+	text "Jeg har altid"
+	line "shorts på, selv"
+	cont "om vinteren!"
 	done
 
 _Route3Youngster2AfterBattleText2::
-	text "Do you like"
-	line "shorts?"
+	text "Kan du lide shorts?"
 	done
 
 _Route3Youngster2AfterBattleText3Yes::
-	text "Awesome!"
+	text "Fedt!"
 	done
 
 _Route3Youngster2AfterBattleText3Yes2::
-	text "Here's some info"
-	line "about RATTATA-"
-	para "from shorts fan"
-	line "to shorts fan!"
+	text "Her er lidt info"
+	line "om RATTATA-"
+	para "fra en shorts-fan"
+	line "til en shorts-fan!"
 	prompt
 
 _Route3Youngster2AfterBattleText3No::
-	text "Lame!"
+	text "Lamt!"
 	done
 
 _Route3CooltrainerF1BattleText::
-	text "You looked at me,"
-	line "didn't you?"
+	text "Du kiggede på mig,"
+	line "gjorde du ikke?"
 	done
 
 _Route3CooltrainerF1EndBattleText::
-	text "You're"
-	line "mean!"
+	text "Du er"
+	line "ondsindet!"
 	prompt
 
 _Route3CooltrainerF1AfterBattleText::
-	text "Quit staring if"
-	line "you don't want to"
-	cont "fight!"
+	text "Hold op med at"
+	line "kigge hvis du"
+	cont "ikke vil kæmpe!"
 	done
 
 _Route3Youngster3BattleText::
-	text "Are you a trainer?"
-	line "Let's fight!"
+	text "Er du en træner?"
+	line "Lad os kæmpe!"
 	done
 
 _Route3Youngster3EndBattleText::
-	text "If I"
-	line "had new #MON I"
-	cont "would've won!"
+	text "Hvis jeg"
+	line "havde nye #MON"
+	cont "ville jeg have"
+	cont "vundet!"
 	prompt
 
 _Route3Youngster3AfterBattleText::
-	text "If a #MON BOX"
-	line "on the <PC> gets"
-	cont "full, just switch"
-	cont "to another BOX!"
+	text "Hvis en #MON BOX"
+	line "på <PC>en bliver"
+	cont "fuld, så skift"
+	cont "til en anden BOX!"
 	done
 
 _Route3CooltrainerF2BattleText::
-	text "That look you"
-	line "gave me, it's so"
-	cont "intriguing!"
+	text "Det blik du gav"
+	line "mig, det er så"
+	cont "intrigende!"
 	done
 
 _Route3CooltrainerF2EndBattleText::
-	text "Be nice!"
+	text "Vær sød!"
 	prompt
 
 _Route3CooltrainerF2AfterBattleText::
-	text "Avoid fights by"
-	line "not letting"
-	cont "people see you!"
+	text "Undgå kampe ved"
+	line "ikke at lade"
+	cont "folk se dig!"
 	done
 
 _Route3Youngster4BattleText::
-	text "Hey! You're not"
-	line "wearing shorts!"
+	text "Hey! Du har ikke"
+	line "shorts på!"
 	done
 
 _Route3Youngster4EndBattleText::
-	text "Lost!"
-	line "Lost! Lost!"
+	text "Tabt!"
+	line "Tabt! Tabt!"
 	prompt
 
 _Route3Youngster4AfterBattleText::
-	text "Are you storing"
-	line "your #MON on"
-	cont "<PC>? Each BOX can"
-	cont "hold 20 #MON!"
+	text "Gemmer du dine"
+	line "#MON på <PC>en?"
+	cont "Hver BOX kan"
+	cont "holde 20 #MON!"
 	done
 
 _Route3Youngster5BattleText::
-	text "You can fight my"
-	line "new #MON!"
+	text "Du kan kæmpe mod"
+	line "mine nye #MON!"
 	done
 
 _Route3Youngster5EndBattleText::
-	text "Done"
-	line "like dinner!"
+	text "Færdig"
+	line "som en middag!"
 	prompt
 
 _Route3Youngster5AfterBattleText::
-	text "Trained #MON"
-	line "are stronger than"
-	cont "the wild ones!"
+	text "Trænede #MON"
+	line "er stærkere end"
+	cont "de vilde!"
 	done
 
 _Route3CooltrainerF3BattleText::
-	text "Eek! Did you"
-	line "touch me?"
+	text "Ih! Rørte du mig?"
 	done
 
 _Route3CooltrainerF3EndBattleText::
-	text "That's it?"
+	text "Det var det?"
 	prompt
 
 _Route3CooltrainerF3AfterBattleText::
-	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	text "RUTE 4 ligger ved"
+	line "foden af MT.MOON."
 	done
 
 _Route3CooltrainerF3AfterBattleText2::
-	text "But @"
+	text "Men @"
 	text_ram_namebuffer
 	text_start
-	line "and I met here"
-	cont "on ROUTE 3!"
-	para "What a sweet"
-	line "memory."
+	line "og jeg mødtes her"
+	cont "på RUTE 3!"
+	para "En så sød"
+	line "erindring."
 	para "@"
 	text_end
 
 _Route3SignText::
-	text "ROUTE 3"
-	line "MT.MOON AHEAD"
+	text "RUTE 3"
+	line "MT.MOON FREMAD"
 	done

@@ -1,129 +1,130 @@
 _ViridianSchoolHouseBrunetteGirlText::
-	text "Whew! I'm trying"
-	line "to memorize all"
-	cont "my notes."
+	text "Puha! Jeg prøver"
+	line "at lære alle mine"
+	cont "noter udenad."
 	done
 
 _ViridianSchoolHouseCooltrainerFText::
 	text "Okay!"
 
-	para "Be sure to read"
-	line "the blackboard"
-	cont "carefully!"
+	para "Sørg for at læse"
+	line "tavlen grundigt!"
 	done
 
 _SchoolText3::
-	text "Whew! Detention"
-	line "feels like it"
-	cont "never ends!"
+	text "Puha! Efterår"
+	line "føles som om det"
+	cont "aldrig slutter!"
 	done
 
 _SchoolText4::
-	text "DETENTION ROOM"
+	text "EFTERARSRUM"
 	done
 
 ; basement
 
 _SchoolB1FGuyNearStairs::
-	text "Why do we have"
-	line "our classrooms"
-	cont "in the basement?"
+	text "Hvorfor har vi"
+	line "vores klasser"
+	cont "i kælderen?"
 
-	para "Well, we love"
+	para "Nå ja, vi elsker"
 	line "GROUND-type"
-	cont "#MON here in"
+	cont "Pokémon her i"
 	cont "VIRIDIAN CITY!"
 
-	para "So it's only"
-	line "natural we study"
-	cont "below ground!"
+	para "Så det er kun"
+	line "naturligt at vi"
+	cont "studerer under"
+	cont "jorden!"
 	done
 
 _SchoolB1FCornerGameboyKid::
-	text "Shh! Don't tell"
-	line "anyone that I'm"
-	cont "hiding here."
+	text "Shh! Fortæl ikke"
+	line "nogen at jeg"
+	cont "gemmer mig her."
 
-	para "I already"
-	line "memorized the"
-	cont "whole textbook"
-	cont "anyway."
-	
-	para "Gotta beat this"
-	line "videogame!"
-	
-	para "What is it?"
-	line "It's called:"
-	
+	para "Jeg har alligevel"
+	line "allerede lært hele"
+	cont "lærebogen udenad."
+
+	para "Skal slå dette"
+	line "videospil!"
+
+	para "Hvad er det?"
+	line "Det hedder:"
+
 	para "FOR THE FROG"
 	line "THE BELL TOLLS"
-	
-	para "I'm totally"
+
+	para "Jeg er helt"
 	line "hooked!"
 	done
 
 
 _SchoolB1FLittleGirlProdigy::
-	text "I skipped 3"
-	line "grades!"
+	text "Jeg sprang 3"
+	line "klasser over!"
 
-	para "Mom says I'm"
-	line "going places!"
-	
-	para "Did you know?"
-	
-	para "A move that is"
-	line "the same TYPE"
-	cont "as the #MON"
-	cont "using it gets"
-	cont "bonus damage!"
-	
-	para "I find that so"
-	line "fascinating!"
+	para "Mor siger jeg"
+	line "går langt!"
+
+	para "Vidste du?"
+
+	para "Et angreb der er"
+	line "samme TYPE som"
+	cont "Pokémonnet der"
+	cont "bruger det får"
+	cont "bonus skade!"
+
+	para "Jeg synes det er"
+	line "så fascinerende!"
 	done
 
 
 _SchoolB1FNerd::
-	text "Ahh! Don't"
-	line "distract me!"
-	
-	para "I won't let this"
-	line "tiny girl insult"
-	cont "my superior"
-	cont "intellect!"
-	
-	para "Here's a smidgen"
-	line "of knowledge from"
-	cont "the vast database"
-	cont "that is my brain:"
-	
+	text "Ahh! Forstyr"
+	line "mig ikke!"
+
+	para "Jeg lader ikke"
+	line "denne lille pige"
+	cont "fornærme min"
+	cont "store intelligens!"
+
+	para "Her er et gran"
+	line "af viden fra den"
+	cont "store database der"
+	cont "er min hjerne:"
+
 	para "PSYCHIC-type"
-	line "#MON are near"
-	cont "unstoppable due"
-	cont "to having zero"
-	cont "weaknesses!"
+	line "Pokémon er næsten"
+	cont "ustoppelige fordi"
+	cont "de har nul"
+	cont "svagheder!"
 	prompt
 
 _SchoolB1FLittleGirlRetort::
-	text "Actually, they're"
-	line "weak to BUG-type."
+	text "Faktisk er de"
+	line "svage over for"
+	cont "BUG-type."
 	prompt
 
 _SchoolB1FLittleGirlRetort2::
-	text "Actually, they're"
-	line "weak to BUG and"
-	cont "GHOST types."
+	text "Faktisk er de"
+	line "svage over for"
+	cont "BUG og GHOST"
+	cont "typer."
 	prompt
 
 _SchoolB1FNerdSilence::
-	text "Silence!!"
+	text "Ti stil!!"
 	prompt
 
 _SchoolB1FLittleGirlBro::
-	text "Don't forget to"
-	line "eat the greens"
-	cont "mom gave you at"
-	cont "lunch, big bro!"
+	text "Glem ikke at"
+	line "spise de grøntsager"
+	cont "mor gav dig til"
+	cont "frokost, storebror!"
 	prompt
 
 _SchoolB1FNerdAck::
@@ -131,299 +132,299 @@ _SchoolB1FNerdAck::
 	done
 
 _SchoolB1FRocker::
-	text "GUS: Bah. School"
-	line "is for losers."
-	para "Cool people learn"
-	line "about #MON by"
-	cont "battling theirs!"
-	para "Am I right?"
+	text "GUS: Bah. Skole"
+	line "er for tabere."
+	para "Seje folk lærer"
+	line "om Pokémon ved at"
+	cont "kæmpe med deres!"
+	para "Har jeg ikke ret?"
 	done
 
 _SchoolB1FRockerYes::
-	text "Winners like us"
-	line "think the same!"
-	para "You're firin'"
-	line "me up, dude!@"
+	text "Vindere som os"
+	line "tænker ens!"
+	para "Du fyrer mig op,"
+	line "makker!@"
 	text_jump _SchoolB1FRockerBattleNow
 
 _SchoolB1FRockerNo::
-	text "Now I'm angry!"
-	para "Dweebs like you"
-	line "need to be taken"
-	cont "down a peg!"
+	text "Nu er jeg vred!"
+	para "Nørder som dig"
+	line "skal tages ned"
+	cont "et par hak!"
 	; fall through
 _SchoolB1FRockerBattleNow::
-	para "Let's battle right"
-	line "here, right now!!"
+	para "Lad os battle lige"
+	line "her og nu!!"
 	done
 
 _SchoolB1FDetentionText::
 	text "PA: GUS G -"
-	line "PLEASE REPORT"
-	para "TO THE DETENTION"
-	line "ROOM FOR BATTLING"
-	cont "DURING CLASS."
-	para "GUS: Yikes!"
+	line "VIL DE VENLIGST"
+	para "MØDE I"
+	line "EFTERARSRUMMET FOR"
+	cont "AT BATLE I SKOLEN."
+	para "GUS: Hovsa!"
 	done
 
-_SchoolB1FStudentTeacher::	
-	text "I'm a teacher-in-"
-	line "-training."
-	para "I'm helping out"
-	line "this class!"
-	para "Did you know?"
-	para "There's a move"
-	line "that has elements"
-	cont "of three TYPEs:"
-	para "FIRE, ICE, and"
+_SchoolB1FStudentTeacher::
+	text "Jeg er en lærer-"
+	line "i-uddannelse."
+	para "Jeg hjælper med"
+	line "denne klasse!"
+	para "Vidste du?"
+	para "Der er et angreb"
+	line "der har elementer"
+	cont "af tre TYPEr:"
+	para "FIRE, ICE og"
 	line "ELECTRIC!"
-	para "It's called"
+	para "Det hedder"
 	line "TRI ATTACK!"
 	done
 
 _SchoolB1FBrunetteGirl::
 	text "JEN: Psst!"
-	para "What's the answer"
-	line "to number 3?"
+	para "Hvad er svaret"
+	line "på nummer 3?"
 	done
 
 _SchoolB1FDetention2Text::
 	text "PA: JEN J -"
-	line "PLEASE REPORT"
-	para "TO DETENTION FOR"
-	line "TRYING TO CHEAT"
-	cont "ON YOUR QUIZ."
+	line "VIL DE VENLIGST"
+	para "MØDE I"
+	line "EFTERARSRUMMET FOR"
+	cont "AT PRØVE AT SNYDE."
 	prompt
 
 _SchoolB1FNotAgainText::
-	text "JEN: Not again!"
+	text "JEN: Ikke igen!"
 	done
 
 _SchoolB1FTutorText::
-	text "You guys have to"
-	line "learn about all"
-	cont "15 #MON types!"
-	para "Not just half of"
-	line "them!"
-	para "You asked me to"
-	line "tutor you after"
-	cont "all!"
+	text "I skal lære om"
+	line "alle 15 Pokémon"
+	cont "typer!"
+	para "Ikke kun halvdelen"
+	line "af dem!"
+	para "I bad mig om"
+	line "at undervise jer"
+	cont "efter alt!"
 	done
 
 _SchoolB1FLeftTuteeText::
-	text "Moves that do"
-	line "physical damage"
-	cont "are my favorite!"
-	para "That means they"
-	line "use the ATTACK"
-	cont "and DEFENSE stats"
-	cont "to determine"
-	cont "their damage."
-	para "It all depends on"
-	line "the move's TYPE!"
-	para "I wrote down the"
-	line "physical TYPEs"
-	cont "in my notebook."
+	text "Angreb der gør"
+	line "fysisk skade er"
+	cont "mine favoritter!"
+	para "Det betyder de"
+	line "bruger ATTACK og"
+	cont "DEFENSE stats til"
+	cont "at bestemme deres"
+	cont "skade."
+	para "Det hele afhænger"
+	line "af angrebets TYPE!"
+	para "Jeg skrev de"
+	line "fysiske TYPEr ned"
+	cont "i min notesbog."
 	done
 
 _SchoolB1FRightTuteeText::
 	text "Flashy special"
-	line "moves are my"
-	cont "favorite!"
-	para "That means they"
-	line "use the SPECIAL"
-	cont "stat to determine"
-	cont "their damage."
-	para "It all depends on"
-	line "the move's TYPE!"
-	para "My tutor wrote"
-	line "the special TYPEs"
-	cont "in her notebook."
+	line "angreb er mine"
+	cont "favoritter!"
+	para "Det betyder de"
+	line "bruger SPECIAL"
+	cont "stat til at"
+	cont "bestemme deres"
+	cont "skade."
+	para "Det hele afhænger"
+	line "af angrebets TYPE!"
+	para "Min tutor skrev"
+	line "de special TYPEr"
+	cont "ned i hendes"
+	cont "notesbog."
 	done
 
 _SchoolB1FLeftTuteeNotebook::
-	text "Physical move"
-	line "TYPEs list:"
-	para "NORMAL, FIGHTING," 
-	line "BUG, ROCK, GROUND" 
+	text "Fysiske angrebs"
+	line "TYPEr liste:"
+	para "NORMAL, FIGHTING,"
+	line "BUG, ROCK, GROUND"
 	para "POISON, FLYING"
 	done
 
 _SchoolB1FTutorNotebook::
-	text "Special move"
-	line "TYPEs list:"
-	para "FIRE, WATER, ICE" 
-	line "GRASS, ELECTRIC" 
+	text "Special angrebs"
+	line "TYPEr liste:"
+	para "FIRE, WATER, ICE"
+	line "GRASS, ELECTRIC"
 	para "PSYCHIC, DRAGON"
 	done
 
 _SchoolB1FBottomLeftNotebook::
-	text "In battle, some"
-	line "moves always go"
-	cont "first!"
+	text "I kamp, nogle"
+	line "angreb går altid"
+	cont "først!"
 	para "QUICK ATTACK,"
-	line "COMET PUNCH, and"
-	cont "WING ATTACK are"
-	cont "some examples."
+	line "COMET PUNCH og"
+	cont "WING ATTACK er"
+	cont "nogle eksempler."
 	done
 
 _SchoolB1FRightBlackboard::
-	text "FIRE beats GRASS"
-	para "GRASS beats WATER"
-	para "WATER beats FIRE!"
-	para "Just like rock-"
-	line "-paper-scissors!"
+	text "FIRE slår GRASS"
+	para "GRASS slår WATER"
+	para "WATER slår FIRE!"
+	para "Ligesom sten-saks-"
+	line "-papir!"
 	done
 
 _SchoolB1FBottomRightNotebook::
 	text "WOW!"
-	para "GHOST-type #MON"
-	line "are immune to"
-	para "both FIGHTING"
-	line "and NORMAL-type"
-	cont "moves!"
+	para "GHOST-type Pokémon"
+	line "er immune over for"
+	para "både FIGHTING"
+	line "og NORMAL-type"
+	cont "angreb!"
 	done
 
 
 _SchoolB1FNerdTextbook::
-	text "Notes on each"
-	line "#MON stat."
+	text "Noter om hver"
+	line "Pokémon stat."
 	prompt
 
 _SchoolB1FNerdNotebookRepeat::
-	text "Read about which"
+	text "Læs om hvilken"
 	line "stat?"
 	done
 
 _SchoolB1FNerdNotebookHP::
-	text "Decides how much"
-	line "HP (Hit points)"
-	cont "a #MON has."
-	para "The more it has,"
-	line "the harder it is"
-	cont "to faint."
+	text "Bestemmer hvor"
+	line "meget HP et"
+	cont "Pokémon har."
+	para "Jo mere det har,"
+	line "jo sværere er det"
+	cont "at besvime."
 	prompt
 
 _SchoolB1FNerdNotebookAttack::
-	text "Decides how much"
-	line "damage a #MON's"
-	cont "physical attacks"
-	cont "do."
+	text "Bestemmer hvor"
+	line "meget skade et"
+	cont "Pokémons fysiske"
+	cont "angreb gør."
 	prompt
 
 _SchoolB1FNerdNotebookDefense::
-	text "Decides how much"
-	line "damage a #MON"
-	cont "takes when hit by"
-	cont "physical attacks."
+	text "Bestemmer hvor"
+	line "meget skade et"
+	cont "Pokémon tager når"
+	cont "det rammes af"
+	cont "fysiske angreb."
 	prompt
 
 _SchoolB1FNerdNotebookSpeed::
-	text "Decides which"
-	line "#MON will go"
-	cont "first in battle."
-	para "Whoever has the"
-	line "highest SPEED"
-	cont "will go first."
+	text "Bestemmer hvilket"
+	line "Pokémon der går"
+	cont "først i kamp."
+	para "Den med højest"
+	line "SPEED går først."
 	prompt
 
 _SchoolB1FNerdNotebookSpecial::
-	text "Decides how much"
-	line "damage a #MON's"
-	cont "special attacks"
-	cont "do, as well as"
-	cont "how much damage"
-	cont "it will take from"
-	cont "special attacks."
+	text "Bestemmer hvor"
+	line "meget skade et"
+	cont "Pokémons special"
+	cont "angreb gør, samt"
+	cont "hvor meget skade"
+	cont "det tager fra"
+	cont "special angreb."
 	prompt
 
 _SchoolB1FRightTeacher::
-	text "Knowing which"
-	line "TYPEs are good"
-	cont "against which"
-	cont "takes a lot of"
-	cont "memorization!"
-	para "But if you're on"
-	line "a big #MON"
-	cont "adventure, you'll"
-	cont "learn quick!"
-	para "Have fun!"
+	text "At vide hvilke"
+	line "TYPEr der er gode"
+	cont "mod hvilke kræver"
+	cont "meget udenadslære!"
+	para "Men hvis du er på"
+	line "et stort Pokémon"
+	cont "eventyr, lærer du"
+	cont "hurtigt!"
+	para "Hav det sjovt!"
 	done
 
 _SchoolB1FRockerNotebook::
-	text "It's a bunch of"
-	line "detailed doodles."
-	para "A goofy version"
-	line "of the teacher"
-	cont "is being attacked"
-	cont "by a flock of"
-	cont "angry SPEAROW."
+	text "Det er en masse"
+	line "sjove tegninger."
+	para "En fjollet version"
+	line "af læreren bliver"
+	cont "angrebet af en"
+	cont "flok vrede FUGLE."
 	done
 
 _SchoolB1FBrunetteGirlNotebook::
-	text "Cutest #MON:"
+	text "Sødeste Pokémon:"
 	line "DIGLETT"
-	para "Cutest guy: He"
-	line "sits behind me!"
+	para "Sødeste fyr: Han"
+	line "sidder bag mig!"
 	done
 
 _SchoolB1FBottomCenterNotebook::
-	text "Some moves cause"
-	line "confusion."
-	para "When a #MON is"
-	line "confused, it can"
-	cont "hurt itself by"
-	cont "accident when"
-	cont "attacking."
-	para "This confusion"
-	line "lasts 2-5 turns."
-	para "It goes away by"
-	line "switching #MON"
-	cont "or finishing the"
-	cont "battle."
+	text "Nogle angreb"
+	line "forvirrer."
+	para "Når et Pokémon"
+	line "er forvirret, kan"
+	cont "det skade sig selv"
+	cont "ved uheld når det"
+	cont "angriber."
+	para "Denne forvirring"
+	line "varer 2-5 ture."
+	para "Den forsvinder ved"
+	line "at skifte Pokémon"
+	cont "eller afslutte"
+	cont "kampen."
 	done
 
 _SchoolB1FLeftClassroomSign::
-	text "CLASS 2A -"
-	line "#MON MOVES"
+	text "KLASSE 2A -"
+	line "Pokémon ANGREB"
 	done
 
 _SchoolB1FRightClassroomSign::
-	text "CLASS 1A -"
-	line "#MON BASICS"
+	text "KLASSE 1A -"
+	line "Pokémon BASIS"
 	done
 
 _SchoolB1FRightPoster::
-	text "It's a beautiful"
-	line "landscape artwork"
-	cont "of VIRIDIAN CITY."
-	para "It says in big"
-	line "letters:"
-	para "THE WONDERFUL"
-	line "WORLD OF #MON"
-	para "-It starts with"
-	line "learning!-"
+	text "Det er en smuk"
+	line "landskabs kunst"
+	cont "af VIRIDIAN CITY."
+	para "Der står med"
+	line "store bogstaver:"
+	para "DEN VIDUNDERLIGE"
+	line "VERDEN AF Pokémon"
+	para "-Det starter med"
+	line "at lære!-"
 	done
 
 _SchoolB1FLeftPoster::
-	text "A chart of all"
-	line "15 #MON TYPEs"
-	cont "as colorful"
-	cont "circular icons."
-	para "Behind it is a"
-	line "sunset photo of"
-	cont "INDIGO PLATEAU."
+	text "Et diagram over"
+	line "alle 15 Pokémon"
+	cont "TYPEr som flotte"
+	cont "cirkulære ikoner."
+	para "Bagved er et"
+	line "solnedgangs foto"
+	cont "af INDIGO PLATEAU."
 	done
 
 _SchoolB1FLeftBlackboard::
-	text "TODAY'S HOMEWORK:"
-	para "Write a poem"
-	line "about 10 #MON"
-	cont "moves you love!"
-	para "EXAMPLE:"
-	para "WATER GUN is fun"
-	line "SQUIRTLE is the"
-	cont "one-a nice shower"
-	cont "waters my flowers!"
+	text "DAGENS LEKTIE:"
+	para "Skriv et digt"
+	line "om 10 Pokémon"
+	cont "angreb du elsker!"
+	para "EKSEMPEL:"
+	para "WATER GUN er sjov"
+	line "SQUIRTLE er den"
+	cont "en-sjov bruser"
+	cont "vander blomster!"
 	done
 

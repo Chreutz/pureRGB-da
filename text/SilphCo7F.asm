@@ -1,204 +1,211 @@
 _SilphCo7FSilphWorkerM1HaveThisPokemonText::
-	text "Oh! Hi! You're"
-	line "not a <ROCKET>! You"
-	cont "came to save us?"
-	cont "Why, thank you!"
+	text "Åh! Hej! Du er"
+	line "ikke en <ROCKET>! Du"
+	cont "kom for at redde"
+	cont "os? Tusind tak!"
 
-	para "I want you to"
-	line "have this #MON"
-	cont "for saving us."
+	para "Jeg vil gerne have"
+	line "at du får dette"
+	cont "#MON for at"
+	cont "redde os."
 	prompt
 
 _SilphCo7FSilphWorkerM1LaprasDescriptionText::
-	text "It's LAPRAS. It's"
-	line "very intelligent."
+	text "Det er LAPRAS. Den"
+	line "er intelligent."
 
-	para "We kept it in our"
-	line "lab, but it will"
-	cont "be much better"
-	cont "off with you!"
+	para "Vi holdt den i"
+	line "vores laboratorie,"
+	cont "men den vil være"
+	cont "bedre af med dig!"
 
-	para "I think you will"
-	line "be a good trainer"
+	para "Jeg tror du vil"
+	line "være en god træner"
 	cont "for LAPRAS!"
 
-	para "It's a good"
-	line "swimmer. It'll"
-	cont "give you a lift!"
+	para "Den er god til at"
+	line "svømme. Den kan"
+	cont "føre dig!"
 	done
 
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::
-	text "<TEAM><ROCKET>'s"
-	line "BOSS went to the"
-	cont "boardroom! Is our"
-	cont "PRESIDENT OK?"
+	text "<TEAM><ROCKET>s"
+	line "BOSS gik til"
+	cont "bestyrelsen!"
+	cont "Er vor PRESIDENT"
+	cont "ok?"
 	done
 
 _SilphCo7FSilphWorkerM1SavedText::
-	text "Saved at last!"
-	line "Thank you!"
+	text "Endelig reddet!"
+	line "Tak skal du have!"
 	done
 
 _SilphCo7FSilphWorkerM2AfterTheMasterBallText::
-	text "<TEAM><ROCKET> was"
-	line "after the MASTER"
-	cont "BALL which will"
-	cont "catch any #MON!"
+	text "<TEAM><ROCKET> var"
+	line "ude efter MASTER"
+	cont "BALL som kan fange"
+	cont "ethvert #MON!"
 	done
 
 _SilphCo7FSilphWorkerM2CancelledMasterBallText::
-	text "We canceled the"
-	line "MASTER BALL"
-	cont "project because"
-	cont "of <TEAM><ROCKET>."
+	text "Vi aflyste MASTER"
+	line "BALL projektet på"
+	cont "grund af <TEAM>"
+	cont "<ROCKET>."
 	done
 
 _SilphCo7FSilphWorkerM3ItWouldBeBadText::
-	text "It would be bad"
-	line "if <TEAM><ROCKET>"
-	cont "took over SILPH"
-	cont "or our #MON!"
+	text "Det ville være"
+	line "dårligt hvis"
+	cont "<TEAM><ROCKET>"
+	cont "overtog SILPH"
+	cont "eller vores #MON!"
 	done
 
 _SilphCo7FSilphWorkerM3YouChasedOffTeamRocketText::
-	text "Wow! You chased"
-	line "off <TEAM><ROCKET>"
-	cont "all by yourself?"
+	text "Wow! Du jagtede"
+	line "<TEAM><ROCKET> væk"
+	cont "helt på egen hånd?"
 	done
 
 _SilphCo7FSilphWorkerM4ItsReallyDangerousHereText::
-	text "You! It's really"
-	line "dangerous here!"
-	cont "You came to save"
-	cont "me? You can't!"
+	text "Du! Det er"
+	line "virkelig farligt"
+	cont "her! Du kom for at"
+	cont "redde mig? Det kan"
+	cont "du ikke!"
 	done
 
 _SilphCo7FSilphWorkerM4SafeAtLastText::
-	text "Safe at last!"
-	line "Oh thank you!"
+	text "Endelig sikker!"
+	line "Tak skal du have!"
 	done
 
 _SilphCo7FRocket1BattleText::
-	text "Oh ho! I smell a"
-	line "little rat!"
+	text "Åh ho! Jeg lugter"
+	line "en lille rotte!"
 	done
 
 _SilphCo7FRocket1EndBattleText::
-	text "Lights"
-	line "out!"
+	text "Slukket!"
 	prompt
 
 _SilphCo7FRocket1AfterBattleText::
-	text "You won't find my"
-	line "BOSS by just"
-	cont "scurrying around!"
+	text "Du finder ikke min"
+	line "BOSS ved bare at"
+	cont "løbe rundt!"
 	done
 
 _SilphCo7FScientistBattleText::
-	text "Heheh!"
+	text "Hehe!"
 
-	para "You mistook me for"
-	line "a SILPH worker?"
+	para "Du forvekslede mig"
+	line "med en SILPH"
+	cont "arbejder?"
 	done
 
 _SilphCo7FScientistEndBattleText::
-	text "I'm"
-	line "done!"
+	text "Jeg er"
+	line "færdig!"
 	prompt
 
 _SilphCo7FScientistAfterBattleText::
-	text "Despite your age,"
-	line "you are a skilled"
-	cont "trainer!"
+	text "På trods af din"
+	line "alder er du en"
+	cont "dygtig træner!"
 	done
 
 _SilphCo7FRocket2EndBattleText::
-	text "Aack!"
-	line "Brothers, I lost!"
+	text "Aargh!"
+	line "Brødre, jeg tabte!"
 	prompt
 
 _SilphCo7FRocket2AfterBattleText::
-	text "Doesn't matter."
-	line "My brothers will"
-	cont "repay the favor!"
+	text "Gør ikke noget."
+	line "Mine brødre vil"
+	cont "hævne mig!"
 	done
 
 _SilphCo7FRocket3BattleText::
-	text "A child intruder?"
-	line "That must be you!"
+	text "En indtrænger?"
+	line "Det må være dig!"
 	done
 
 _SilphCo7FRocket3EndBattleText::
-	text "Fine!"
-	line "I lost!"
+	text "Godt!"
+	line "Jeg tabte!"
 	prompt
 
 _SilphCo7FRocket3AfterBattleText::
-	text "Go on home"
-	line "before my BOSS"
-	cont "gets ticked off!"
+	text "Gå hjem"
+	line "før min BOSS"
+	cont "bliver sur!"
 	done
 
 _SilphCo7FRivalText::
-	text "<RIVAL>: What"
-	line "kept you <PLAYER>?"
+	text "<RIVAL>: Hvad"
+	line "holdt dig tilbage"
+	cont "<PLAYER>?"
 	done
 
 _SilphCo7FRivalWaitedHereText::
 	text "<RIVAL>: Hahaha!"
-	line "I thought you'd"
-	cont "turn up if I"
-	cont "waited here!"
+	line "Jeg tænkte at du"
+	cont "ville dukke op hvis"
+	cont "jeg ventede her!"
 
-	para "I guess <TEAM>"
-	line "<ROCKET> slowed you"
-	cont "down! Not that I"
-	cont "care!"
+	para "Jeg gætter på at"
+	line "<TEAM><ROCKET>"
+	cont "bremsede dig! Men"
+	cont "jeg bekymrer mig"
+	cont "ikke!"
 
-	para "I saw you in"
-	line "SAFFRON, so I"
-	cont "decided to see if"
-	cont "you got better!"
+	para "Jeg så dig i"
+	line "SAFFRON, så jeg"
+	cont "ville se om du"
+	cont "blev bedre!"
 	done
 
 _SilphCo7FRivalDefeatedText::
-	text "Oh ho!"
-	line "So, you are ready"
-	cont "for BOSS <ROCKET>!"
+	text "Åh ho!"
+	line "Så er du klar til"
+	cont "BOSS <ROCKET>!"
 	prompt
 
 _SilphCo7FRivalVictoryText::
-	text "How can"
-	line "I put this?"
+	text "Hvordan"
+	line "skal jeg sige det?"
 
-	para "You're not good"
-	line "enough to play"
-	cont "with us big boys!"
+	para "Du er ikke god"
+	line "nok til at lege"
+	cont "med os store!"
 	prompt
 
 _SilphCo7FRivalGoodLuckToYouText::
-	text "Well, <PLAYER>!"
+	text "Nå, <PLAYER>!"
 
-	para "I'm moving on up"
-	line "and ahead!"
+	para "Jeg går videre og"
+	line "fremad!"
 
-	para "By checking my"
-	line "#DEX, I'm"
-	cont "starting to see"
-	cont "what's strong and"
-	cont "how they evolve!"
+	para "Ved at tjekke min"
+	line "#DEX begynder"
+	cont "jeg at se hvad der"
+	cont "er stærkt og"
+	cont "hvordan de udvikler"
+	cont "sig!"
 
-	para "I'm going to the"
+	para "Jeg tager til"
 	line "#MON LEAGUE"
-	cont "to boot out the"
-	cont "ELITE FOUR!"
+	cont "for at smide"
+	cont "ELITE FOUR ud!"
 
-	para "I'll become the"
-	line "world's most"
-	cont "powerful trainer!"
+	para "Jeg bliver verdens"
+	line "mest magtfulde"
+	cont "træner!"
 
-	para "<PLAYER>, well"
-	line "good luck to you!"
-	cont "Don't sweat it!"
-	cont "Smell ya!"
+	para "<PLAYER>, held og"
+	line "lykke med dig!"
+	cont "Lad være at gå op"
+	cont "i det! Snakkes!"
 	done

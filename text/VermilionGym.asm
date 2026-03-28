@@ -1,62 +1,62 @@
 _VermilionGymLTSurgePreBattleText::
-	text "Hey, kid! What do"
-	line "you think you're"
-	cont "doing here?"
+	text "Hey, knægt! Hvad"
+	line "får dig til at"
+	cont "tro du hører til"
+	cont "her?"
 
-	para "You won't live"
-	line "long in combat!"
-	cont "That's for sure!"
+	para "Du overlever ikke"
+	line "længe i kamp!"
+	cont "Det er sikkert!"
 
-	para "I tell you kid,"
-	line "electric #MON"
-	cont "saved me during"
-	cont "the war!"
+	para "Jeg fortæller dig,"
+	line "elektriske Pokémon"
+	cont "reddede mig under"
+	cont "krigen!"
 
-	para "They zapped my"
-	line "enemies into"
-	cont "paralysis!"
+	para "De chokerede mine"
+	line "fjender til"
+	cont "lamphed!"
 
-	para "The same as I'll"
-	line "do to you!"
+	para "På samme måde som"
+	line "jeg gør med dig!"
 	done
 
 _VermilionGymGarbageNearSurgeText::
-	text "An empty can is"
-	line "in the trash."
-	para "ARMY FIELD RATION"
-	line "CHEDDAR CHEESE"
-	cont "is written on it."
+	text "En tom dåse ligger"
+	line "i skraldespanden."
+	para "HÆRFELT RATION"
+	line "CHEDDAR OST"
+	cont "står på den."
 	done
 
 _VermilionGymBookshelfText::
-	text "A bunch of books"
-	line "on military"
-	cont "topics."
-	para "A HISTORY OF"
-	line "SERVICE #MON,"
-	para "RECONNAISSANCE"
-	line "SPEAROW STYLE,"
-	para "THE DANGER OF"
-	line "DITTO SPIES<...>"
+	text "En bunke bøger"
+	line "om militære emner."
+	para "EN HISTORIE OM"
+	line "SERVICE Pokémon,"
+	para "REKOGNOSCERING"
+	line "SPEAROW STIL,"
+	para "FAREN VED DITTO"
+	line "SPIES<...>"
 	done
 
 _VermilionGymGentlemanAfterBattleGymDefeatedText::
-	text "War ain't pretty,"
-	line "kid!"
-	para "Some say it's the"
-	line "fifth season!"
+	text "Krig er ikke"
+	line "smukt, knægt!"
+	para "Nogle siger det er"
+	line "den femte årstid!"
 	done
 
 _VermilionGymSuperNerdAfterBattleGymDefeatedText::
-	text "I'm going to"
-	line "boot camp soon!"
-	para "Joining the army!"
+	text "Jeg skal i"
+	line "militæret snart!"
+	para "Bliver soldat!"
 	done
 
 _VermilionGymSailorAfterBattleGymDefeatedText::
-	text "LT.SURGE won't be"
-	line "pleased about his"
-	cont "loss!"
-	para "Sorry, sir!"
-	line "We blew it!"
+	text "LT.SURGE bliver"
+	line "ikke glad for sit"
+	cont "nederlag!"
+	para "Undskyld, hr!"
+	line "Vi fejlede!"
 	done

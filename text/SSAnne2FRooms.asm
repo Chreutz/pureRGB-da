@@ -1,113 +1,118 @@
 _SSAnne2FRoomsGentleman3Text::
-	text "In all my travels"
-	line "I've never seen"
-	cont "any #MON sleep"
-	cont "like this one!"
+	text "På alle mine"
+	line "rejser har jeg"
+	cont "aldrig set nogen"
+	cont "Pokémon sove som"
+	cont "denne!"
 
-	para "It was something"
-	line "like this!"
+	para "Det var noget"
+	line "lignende dette!"
 	prompt
 
 _SSAnne2FRoomsGentleman4Text::
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "Åh ja, jeg har"
+	line "set nogle Pokémon"
+	cont "færge mennesker"
+	cont "over vandet!"
 	done
 
 _SSAnne2FRoomsGrampsText::
-	text "#MON can CUT"
-	line "down small bushes."
+	text "Pokémon kan bruge"
+	line "BESKÆR til at"
+	cont "fælde små buske."
 	done
 
 _SSAnne2FRoomsGentleman5Text::
-	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
+	text "Har du været i"
+	line "SAFARI ZONE i"
+	cont "FUCHSIA BY?"
 
-	para "It had many rare"
-	line "kinds of #MON!!"
+	para "Der findes mange"
+	line "sjældne Pokémon!"
 	done
 
 _SSAnne2FRoomsLittleBoyText::
-	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	text "Min far og jeg"
+	line "synes SAFARI ZONE"
+	cont "er fantastisk!"
 	done
 
 _SSAnne2FRoomsBrunetteGirlText::
-	text "The CAPTAIN looked"
-	line "really sick and"
-	cont "pale!"
+	text "KAPTEJNEN så"
+	line "virkelig syg og"
+	cont "bleg ud!"
 	done
 
 _SSAnne2FRoomsBeautyText::
-	text "I hear many people"
-	line "get seasick!"
+	text "Jeg hører mange"
+	line "mennesker får"
+	cont "søsyge!"
 	done
 
 _SSAnne2FRoomsGentleman1BattleText::
-	text "Competing against"
-	line "the young keeps"
-	cont "me youthful."
+	text "At konkurrere mod"
+	line "de unge holder mig"
+	cont "ungdommelig."
 	done
 
 _SSAnne2FRoomsGentleman1EndBattleText::
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "God kamp!"
+	line "Ah, jeg føler mig"
+	cont "ung igen!"
 	prompt
 
 _SSAnne2FRoomsGentleman1AfterBattleText::
-	text "15 years ago, I"
-	line "would have won!"
+	text "For 15 år siden"
+	line "ville jeg have"
+	cont "vundet!"
 	done
 
 _SSAnne2FRoomsFisherBattleText::
-	text "Check out what I"
-	line "fished up!"
+	text "Se hvad jeg"
+	line "fiskede op!"
 	done
 
 _SSAnne2FRoomsFisherEndBattleText::
-	text "I'm"
-	line "all out!"
+	text "Jeg er"
+	line "færdig!"
 	prompt
 
 _SSAnne2FRoomsFisherAfterBattleText::
-	text "Party?"
+	text "Fest?"
 
-	para "The cruise ship's"
-	line "party should be"
-	cont "over by now."
+	para "Krydstogtskibets"
+	line "fest bør være"
+	cont "slut nu."
 	done
 
 _SSAnne2FRoomsGentleman2BattleText::
-	text "Which do you like,"
-	line "a strong or a"
-	cont "rare #MON?"
+	text "Hvad foretrækker"
+	line "du, stærk eller"
+	cont "sjælden Pokémon?"
 	done
 
 _SSAnne2FRoomsGentleman2EndBattleText::
-	text "I must"
-	line "salute you!"
+	text "Jeg må"
+	line "hylde dig!"
 	prompt
 
 _SSAnne2FRoomsGentleman2AfterBattleText::
-	text "I prefer strong"
-	line "and rare #MON."
+	text "Jeg foretrækker"
+	line "stærke og sjældne"
+	cont "Pokémon."
 	done
 
 _SSAnne2FRoomsCooltrainerFBattleText::
-	text "I never saw you"
-	line "at the party."
+	text "Jeg så dig ikke"
+	line "til festen."
 	done
 
 _SSAnne2FRoomsCooltrainerFEndBattleText::
-	text "Take"
-	line "it easy!"
+	text "Tag det"
+	line "roligt!"
 	prompt
 
 _SSAnne2FRoomsCooltrainerFAfterBattleText::
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "Åh, jeg elsker"
+	line "dine Pokémon!"
 	done

@@ -1,169 +1,242 @@
 _SafariZoneEastRestHouseSignText::
-	text "REST HOUSE"
+	text "HVILSTED"
 	done
 
 _SafariZoneEastTrainerTipsText::
 	text "<TIPS>"
 
-	para "The remaining time"
-	line "declines only"
-	cont "while you walk!"
+	para "Resttiden falder"
+	line "kun mens du går!"
 	done
 
 _SafariZoneEastSignText::
-	text "AREA 1"
-	line "WEST: CENTER AREA"
+	text "OMRÅDE 1"
+	line "VEST: MIDTEROMRÅDE"
 	done
 
 _SafariZoneEastRangerText::
-	text "Oh my goodness!"
-	line "It seems you've"
-	cont "found me!"
+	text "Åh, gode gud!"
+	line "Det lader til, at"
+	cont "du har fundet mig!"
 
-	para "I'm RANGER number"
-	line "2! I've been"
-	cont "waiting for you."
+	para "Jeg er RANGER"
+	line "nummer 2! Jeg har"
+	cont "ventet på dig."
 	done
 
 _SafariZoneEastRangerEndBattleText::
-	text "Have"
-	line "a lovely day!"
+	text "Hav"
+	line "en dejlig dag!"
 	prompt
 
 _SafariZoneEastRangerAfterBattleText::
-	text "You did great!"
-	line "I love seeing"
-	cont "skilled trainers"
-	cont "battle."
+	text "Du gjorde det"
+	line "godt! Jeg elsker"
+	cont "at se dygtige"
+	cont "trænere kæmpe."
 
-	para "I'll battle you"
-	line "anytime."
+	para "Jeg kæmper mod"
+	line "dig når som helst."
 	done
 
 _SafariZoneEastPsychicText::
-	text "The tall grass"
-	line "bows deeply to"
-	cont "my telekinesis."
+	text "Det høje græs"
+	line "bukker dybt for"
+	cont "min telekinese."
 
-	para "A lone trainer"
-	line "approaches, all"
-	cont "but cowering at"
-	cont "the sight of my"
-	cont "abilities."
+	para "En ensom træner"
+	line "nærmer sig, næsten"
+	cont "krybende ved synet"
+	cont "af mine evner."
 	done
 
 _SafariZoneEastPsychicEndBattleText::
-	text "Now"
-	line "humiliated, I"
-	cont "resign myself to"
-	cont "a state of silent"
-	cont "contemplation."
+	text "Nu"
+	line "ydmyget, jeg"
+	cont "resignerer til"
+	cont "en tavs efter-"
+	cont "tanke."
 	prompt
 
-_SafariZoneEastPsychicAfterBattleText::
-	text "I continued to"
-	line "make a mental"
-	cont "note of my total"
-	cont "failure as the"
-	cont "trainer looked on"
-	cont "in disgust."
+_SafariZoneEastRockerText::
+	text "Mit band har"
+	line "brug for en ny"
+	cont "maskot!"
+	para "Hvad er den"
+	line "største, sejeste"
+	cont "POKéMON dette"
+	cont "sted har at"
+	cont "byde på?"
 	done
 
+_SafariZoneEastRockerAfterBattleText::
+	text "Jeg sætter ild"
+	line "til min pisk,"
+	cont "når jeg spiller"
+	cont "heavy metal på"
+	cont "scenen!"
+
+	para "Pyroteknik og"
+	line "300BPM er vores"
+	cont "varemærke!"
+
+	para "Det er derfor,"
+	line "jeg har"
+	cont "ELECTRODE!"
+
+	para "Hurtigt og vildt"
+	line "er sådan vi"
+	cont "spiller!"
+
+	para "Giv aldrig op"
+	line "på dine drømme!"
+	done
+
+_SafariZoneEastCooltrainerMEndBattleText::
+	text "Jeg er"
+	line "blindet af"
+	cont "kærlighed!"
+	prompt
+
+_SafariZoneEastCooltrainerMAfterBattleText::
+	text "RANGER nummer 2"
+	line "er den sødeste."
+
+	para "Sikke en dejlig"
+	line "pige<...>"
+
+	para "Jeg er alt for"
+	line "nervøs til at"
+	cont "flirte med hende,"
+	cont "da vi har kæmpet."
+
+	para "Har du nogle tips"
+	line "til romantik?"
+	done
+
+_SafariZoneEastEngineerAfterBattleText::
+	text "Regnvand samler"
+	line "sig på det flade"
+	cont "tag og lækker ind."
+
+	para "Bare fordi det"
+	line "ikke regner meget"
+	cont "her, betyder det"
+	cont "ikke, det er okay!"
+
+	para "Jeg kan ikke tro"
+	line "det!"
+
+	para "Den rene mangel"
+	line "på fremsyn!"
+
+	para "Nå, så er det."
+	line "Det er tid til"
+	cont "reparation!"
+
+	para "Jeg vil gøre dette"
+	line "HVILSTED til mit"
+	cont "mesterværk!"
+	done
+
+
 _SafariZoneEastRockerText::
-	text "My band needs"
-	line "another mascot!"
-	para "What's the"
-	line "biggest, baddest"
-	cont "#MON this"
-	cont "place has to"
-	cont "offer?"
+	text "Mit band har"
+	line "brug for en ny"
+	cont "maskot!"
+	para "Hvad er den største,"
+	line "sejeste POKéMON"
+	cont "dette sted har"
+	cont "at byde på?"
 	done
 
 _SafariZoneEastRockerEndBattleText::
 	text "Heavy"
-	line "metal never dies!"
+	line "metal dør aldrig!"
 	prompt
 
 _SafariZoneEastRockerAfterBattleText::
-	text "I set my whip on"
-	line "fire when I"
-	cont "play heavy metal"
-	cont "on stage!"
+	text "Jeg sætter ild til"
+	line "min pisk, når jeg"
+	cont "spiller heavy metal"
+	cont "på scenen!"
 
-	para "Pyrotechnics and"
-	line "300BPM are our"
-	cont "mainstays!"
+	para "Pyroteknik og"
+	line "300BPM er vores"
+	cont "varemærke!"
 
-	para "That's why I've"
-	line "got ELECTRODE!"
+	para "Det er derfor, jeg"
+	line "har ELECTRODE!"
 
-	para "Fast and furious"
-	line "is how we play!"
+	para "Hurtigt og vildt"
+	line "er sådan vi"
+	cont "spiller!"
 
-	para "Never give up on"
-	line "your dreams, kid!"
+	para "Giv aldrig op på"
+	line "dine drømme, knægt!"
 	done
 
 _SafariZoneEastCooltrainerMText::
-	text "I have a huge"
-	line "crush on one"
-	cont "of the SAFARI"
-	cont "ZONE RANGERs."
+	text "Jeg er vildt"
+	line "forelsket i en"
+	cont "af SAFARI ZONE-"
+	cont "RANGERne."
 	done
 
 _SafariZoneEastCooltrainerMEndBattleText::
-	text "I'm"
-	line "blinded by love!"
+	text "Jeg er"
+	line "blindet af kærlighed!"
 	prompt
 
 _SafariZoneEastCooltrainerMAfterBattleText::
-	text "RANGER number 2"
-	line "is the cutest."
+	text "RANGER nummer 2"
+	line "er den sødeste."
 
-	para "What a lovely"
-	line "girl<...>"
+	para "Sikke en dejlig"
+	line "pige<...>"
 
-	para "I'm way too"
-	line "nervous to flirt"
-	cont "with her after"
-	cont "we battle."
+	para "Jeg er alt for"
+	line "nervøs til at"
+	cont "flirte med hende,"
+	cont "efter vi har kæmpet."
 
-	para "Do you have any"
-	line "tips for romance?"
+	para "Har du nogle tips"
+	line "til romantik?"
 	done
 
 _SafariZoneEastEngineerText::
-	text "Who's the"
-	line "nincompoop who"
-	cont "designed this"
-	cont "REST HOUSE?"
+	text "Hvem er den"
+	line "fjollegøj, der"
+	cont "designede dette"
+	cont "HVILSTED?"
 	done
 
 _SafariZoneEastEngineerEndBattleText::
-	text "Quiet!"
-	line "I'm thinking."
+	text "Stille!"
+	line "Jeg tænker."
 	prompt
 
 _SafariZoneEastEngineerAfterBattleText::
-	text "Rain pools on"
-	line "the flat roof"
-	cont "and leaks inside."
+	text "Regnvand samler"
+	line "sig på det flade"
+	cont "tag og lækker ind."
 
-	para "Just because it"
-	line "doesn't rain much"
-	cont "here doesn't mean"
-	cont "that's okay!"
+	para "Bare fordi det"
+	line "ikke regner meget"
+	cont "her, betyder det"
+	cont "ikke, det er okay!"
 
-	para "I can't believe"
-	line "this!"
+	para "Jeg kan ikke tro"
+	line "det!"
 
-	para "The sheer lack of"
-	line "foresight!"
+	para "Den rene mangel"
+	line "på fremsyn!"
 
-	para "Alright, so be it."
-	line "It's fixing time!"
+	para "Nå, så må det være."
+	line "Det er tid til"
+	cont "reparation!"
 
-	para "I'm going to make"
-	line "this REST HOUSE"
-	cont "my work of art!"
+	para "Jeg vil gøre dette"
+	line "HVILSTED til mit"
+	cont "mesterværk!"
 	done

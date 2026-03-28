@@ -1,234 +1,247 @@
 _FightingBrosRocketText::
-	text "Ow<...>"
-	para "They roughed me"
-	line "up for trying to"
-	cont "block their door."
-	para "Now I'm cleaning"
-	line "up the mess<...>"
+	text "Av<...>"
+	para "De gennembankede"
+	line "mig for at prøve"
+	line "at spærre deres"
+	cont "dør."
+	para "Nu gør jeg rent"
+	line "efter svineriet<...>"
 	prompt
 
 _FightingBrosRocketText2::
-	text "BRO: We'll sort"
-	line "this <ROCKET> out!"
-	para "He needs courtesy,"
-	line "integrity,"
-	cont "perseverance,"
-	cont "self-control,"
-	para "and indomitable"
-	line "spirit!"
-	para "Those are the five"
-	line "tenets of the"
+	text "BROR: Vi skal nok"
+	line "få styr på denne"
+	cont "<ROCKET>!"
+	para "Han har brug for"
+	line "høflighed, ærlig-"
+	cont "hed, vedholdenhed,"
+	cont "selvbeherskelse,"
+	para "og en uovervind-"
+	cont "elig ånd!"
+	para "Det er de fem"
+	line "grundsætninger i"
 	cont "FIGHTING DOJO!"
-	para "You're going there"
-	line "tomorrow for some"
-	cont "tough guidance!"
-	para "Understand,"
-	line "trainee?"
+	para "Du skal derhen"
+	line "i morgen for at"
+	cont "få hård vejledning!"
+	para "Forstår du,"
+	line "lærling?"
 	prompt
 
 _FightingBrosRocketText3::
-	text "<ROCKET>: Yipes!"
-	line "Y-yes sir!"
+	text "<ROCKET>: Av!"
+	line "J-ja, hr.!"
 	done
 
 _FightingBrosWelcomeText::
-	text "We're the"
+	text "Vi er"
 	line "FIGHTING BROS.!"
-	para "Members of the"
+	para "Medlemmer af"
 	line "FIGHTING DOJO."
 	prompt
 
 _FightingBrosSabrinaText::
-	text "SABRINA defeated"
-	line "the DOJO<...>"
-	para "she made us lose"
-	line "<PK><MN> GYM status!"
-	para "We're looking for"
-	line "someone to beat"
-	cont "her as revenge!"
-	para "Get into SAFFRON"
-	line "GYM and show her"
-	cont "who's boss for us!"
-	para "If you do, we'll"
-	line "treat you as a"
-	cont "brother!"
+	text "SABRINA besejrede"
+	line "DOJO<...>"
+	para "hun fik os til at"
+	line "miste <PK><MN> GYM-"
+	cont "status!"
+	para "Vi leder efter"
+	line "nogen til at"
+	cont "besejre hende"
+	cont "som hævn!"
+	para "Tag ind i SAFFRON"
+	line "GYM og vis hende"
+	line "hvem der"
+	cont "bestemmer!"
+	para "Hvis du gør, vil"
+	line "vi behandle dig"
+	cont "som en bror!"
 	done
 
 _FightingBrosGotMarshBadge::
-	text "The golden glare"
-	line "of the MARSHBADGE"
-	cont "is unmissable!"
-	para "So you beat"
-	line "SABRINA, brother!"
-	para "The FIGHTING BROS."
-	line "will reward you"
-	cont "any way we can!"
+	text "Det gyldne skær"
+	line "fra MARSHBADGE"
+	line "kan ikke overses!"
+	para "Så du besejrede"
+	line "SABRINA, bror!"
+	para "FIGHTING BROS."
+	line "vil belønne dig"
+	cont "på enhver måde!"
 	prompt
 
 _FightingBrosRightBro::
-	text "As the older"
+	text "Som den ældste"
 	line "FIGHTING BRO,"
-	para "I'm the calm,"
-	line "collected one."
-	para "I use reason"
-	line "before violence,"
-	cont "meditating daily."
-	para "Do you know the"
-	line "moves FIRE PUNCH,"
-	cont "ICE PUNCH, and"
+	para "er jeg den rolige"
+	line "og samlede type."
+	para "Jeg bruger fornuft"
+	line "før vold,"
+	line "og mediterer hver"
+	cont "dag."
+	para "Kender du trækket"
+	line "FIRE PUNCH,"
+	cont "ICE PUNCH, og"
 	cont "THUNDERPUNCH?"
-	para "You may have seen"
-	line "ALAKAZAM cannot"
-	cont "learn them."
-	para "Actually<...>"
-	line "it can!"
-	para "It's a genius"
-	line "you know!"
-	para "But it refuses to!"
-	para "It sees the moves"
-	line "as barbaric."
-	para "I can convince"
-	line "your ALAKAZAM to"
-	cont "learn them-"
-	para "through pure"
-	line "logic!"
-	para "But it isn't easy."
-	para "So I'll only do"
-	line "it once!"
-	para "How about it?"
+	para "Du har måske set"
+	line "at ALAKAZAM ikke"
+	cont "kan lære dem."
+	para "Faktisk<...>"
+	line "kan den godt!"
+	para "Det er et geni,"
+	line "ved du nok!"
+	para "Men den nægter!"
+	para "Den ser træk"
+	line "som barbariske."
+	para "Jeg kan overtale"
+	line "din ALAKAZAM til"
+	cont "at lære dem-"
+	para "gennem ren"
+	line "logik!"
+	para "Men det er ikke"
+	line "let."
+	para "Så jeg gør det"
+	line "kun én gang!"
+	para "Hvad siger du til"
+	line "det?"
 	done
 
 _FightingBrosRightBroShort::
-	text "So, how about it?"
-	para "Shall I teach your"
-	line "ALAKAZAM an"
-	cont "elemental punch?"
-	para "Remember, I'll"
-	line "only do it once!"
+	text "Så, hvad siger"
+	line "du til det?"
+	para "Skal jeg lære din"
+	line "ALAKAZAM et"
+	cont "elementært slag?"
+	para "Husk, jeg gør det"
+	line "kun én gang!"
 	done
 
 _FightingBrosRightBroWhich::
-	text "Which punch move"
-	line "should I teach?"
+	text "Hvilket slag skal"
+	line "jeg lære den?"
 	done
 
 _FightingBrosRightBroConvene::
-	text "Perfect."
+	text "Perfekt."
 	line "@"
 	text_ram_namebuffer
 	text "!"
-	para "Give me some time"
-	line "to speak with"
+	para "Giv mig lidt tid"
+	line "til at tale med"
 	cont "@"
 	text_ram_stringbuffer
-	text "<CONT>to convince it!"
+	line "for at overbevise"
+	cont "den!"
 	prompt
 
 _FightingBrosRightBroConvene2::
-	text "It took a while,"
-	para "but @"
+	text "Det tog lidt tid,"
+	para "men @"
 	text_ram_stringbuffer
-	text "<LINE>trusts your"
-	cont "judgement!"
-	para "It'll allow it."
-	line "Here we go!"
+	text "<LINE>stoler på din"
+	cont "dømmekraft!"
+	para "Den vil acceptere"
+	line "det. Nu kører vi!"
 	prompt
 
 _FightingBrosRightBroEnd::
-	text "You might have the"
-	line "only ALAKAZAM in"
-	cont "the whole world"
-	cont "with that move!"
-	para "Isn't that cool"
-	line "to think of?"
+	text "Du har måske den"
+	line "eneste ALAKAZAM i"
+	cont "hele verden"
+	cont "med det træk!"
+	para "Er det ikke sejt"
+	line "at tænke på?"
 	done
 
 _FightingBrosRightBroAfter::
 	text "ALAKAZAM!"
-	para "Go forth and punch"
-	line "the heavens!"
+	para "Gå ud og slå"
+	line "himlen i stykker!"
 	done
 
 _FightingBrosLeftBro::
-	text "As the younger"
+	text "Som den yngste"
 	line "FIGHTING BRO,"
-	para "I'm the go-getter"
-	line "and mood-maker!"
-	para "I love learning"
-	line "and teaching"
-	cont "many techniques!"
-.showMe
-	para "Show me a #MON"
-	line "and I'll tell you"
-	cont "the moves I can"
-	cont "teach it!"
+	para "er jeg den aktive"
+	line "og humørskabende!"
+	para "Jeg elsker at"
+	line "lære og undervise"
+	cont "i mange teknikker!"
+	.showMe
+	para "Vis mig en #MON"
+	line "og jeg fortæller"
+	cont "dig hvilke træk"
+	cont "jeg kan lære den!"
 	prompt
 
 _FightingBrosLeftBroShort::
-	text "Hey, brother!@"
+	text "Hej, bror!@"
 	text_jump _FightingBrosLeftBro.showMe
 
 _FightingBrosLeftBroAfterTeachText::
-	text "Good choice!"
-	line "That move rules!"
+	text "Godt valg!"
+	line "Det træk er sejt!"
 	done
 
 _MoveTutorChooseMoveToLearnText::
 	text "@"
 	text_ram_namebuffer
 	text "?"
-	para "I can teach it"
-	line "these moves."
+	para "Jeg kan lære den"
+	line "disse træk."
 	prompt
 
 _MoveTutorCantTeach::
 	text "@"
 	text_ram_namebuffer
 	text "?"
-	line "Ah, sorry!"
-	para "It can't learn any"
-	line "of my moves!"
+	line "Åh, beklager!"
+	para "Den kan ikke lære"
+	line "nogle af mine"
+	cont "træk!"
 	prompt
 
 _MoveTutorLearnMoveCost::
-	text "Learning a move"
-	line "costs ¥@"
+	text "At lære et træk"
+	line "koster ¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "."
 	prompt
 
 _MoveTutorFreebie::
-	text "This time only"
-	line "it'll be free!"
+	text "Denne gang er det"
+	line "gratis!"
 	prompt
 
 _MoveTutorNotEnoughCash::
-	text "Whoops! You don't"
-	line "have enough cash!"
+	text "Hov! Du har ikke"
+	line "nok penge!"
 	done
 
 _FightingBrosHouseCatalogueText::
 	text "FIGHTING BROS."
-	line "sensei services!"
-	para "Choose any move"
-	line "from our catalog!"
+	line "sensei-tjenester!"
+	para "Vælg et træk fra"
+	line "vores katalog!"
 	prompt
 
 _FightingBrosHouseCatalogue2Text::
-	text "Join the FIGHTING"
-	line "BROS. family!"
-	para "NEVER GIVE UP!"
+	text "Bliv en del af"
+	line "FIGHTING BROS."
+	cont "familien!"
+	para "GIV ALDRIG OP!"
 	done
 
 _FightingBrosRocketText4::
-	text "I'm a humble"
-	line "WHITEBELT at the"
+	text "Jeg er en ydmyg"
+	line "WHITEBELT i"
 	cont "FIGHTING DOJO!"
-	para "I'm just starting"
-	line "out now,"
-	para "but it beats a"
-	line "life of crime"
-	cont "as a ROCKET!"
+	para "Jeg starter ud"
+	line "nu,"
+	para "men det er bedre"
+	line "end et liv med"
+	cont "kriminalitet"
+	cont "som ROCKET!"
 	para "FIGHTING BROS."
-	line "NEVER GIVE UP!"
+	line "GIV ALDRIG OP!"
 	done

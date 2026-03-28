@@ -49,7 +49,7 @@ _BikeShopClerkHowDoYouLikeYourBicycleText::
 
 _CeruleanGymMistyTM11NoRoomText::
 _BikeShopBagFullText::
-	text "Lav plads i tasken"
+	text "Gør plads i tasken"
 	line "før du tager den!"
 	done
 
@@ -86,7 +86,7 @@ _BikeShopToolboxText::
 	line "CYKLER!"
 	para "Lappegrej, pumpe,"
 	line "unbrakonøgler, og"
-	cont "masse værktøj!"
+	cont "en masse værktøj!"
 	done
 
 _BikeShopSignRightText::

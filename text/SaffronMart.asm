@@ -1,31 +1,31 @@
 _SaffronMartSuperNerdText::
-	text "MAX REPEL lasts"
-	line "longer than SUPER"
-	cont "REPEL for keeping"
-	cont "weaker #MON"
-	cont "away!"
+	text "MAX REPEL varer"
+	line "længere end SUPER"
+	cont "REPEL til at"
+	cont "holde svagere"
+	cont "#MON væk!"
 	done
 
 _SaffronMartCooltrainerFText::
-	text "REVIVE is costly,"
-	line "but it revives"
-	cont "fainted #MON!"
+	text "REVIVE er dyrt,"
+	line "men det genopliv-"
+	cont "er besvimet #MON!"
 	done
 
 _SaffronMartTMKidFlavor::
-	text "<PARA>My dad snuck"
-	line "into SAFFRON GYM"
-	cont "when <TEAM><ROCKET>"
-	cont "wasn't looking!"
+	text "<PARA>Min far sneg"
+	line "sig ind i SAFFRON"
+	cont "GYM da <TEAM>"
+	cont "<ROCKET> ikke"
+	cont "kiggede!"
 
-	para "I'm selling <TM>s"
-	line "to <TEAM><ROCKET>"
-	cont "actually."
+	para "Jeg sælger <TM>s"
+	line "til <TEAM><ROCKET>"
+	cont "faktisk."
 
-	para "Except they're"
-	line "blanks, and only"
-	cont "teach SPLASH!"
+	para "Undtagen de er"
+	line "blanke, og lærer"
+	cont "kun SPLASH!"
 
-	para "Take that," 
-	line "thieves!@"
+	para "Det må I tyve!@" 
 	text_end

@@ -1,116 +1,120 @@
 _Route4CooltrainerF1Text::
-	text "Ouch! I tripped"
-	line "over a rocky"
-	cont "#MON, GEODUDE!"
+	text "Av! Jeg faldt over"
+	line "en klippe-#MON,"
+	cont "GEODUDE!"
 	done
 
 _Route4CooltrainerF2BattleText::
-	text "I came to get my"
-	line "mushroom #MON!"
+	text "Jeg kom for at få"
+	line "min svampe-#MON!"
 	done
 
 _Route4CooltrainerF2EndBattleText::
-	text "Oh! My cute"
-	line "mushroom #MON!"
+	text "Åh! Min søde"
+	line "svampe-#MON!"
 	prompt
 
 _Route4CooltrainerF2AfterBattleText::
-	text "There might not"
-	line "be any more"
-	cont "mushrooms here."
+	text "Der er måske"
+	line "ikke flere"
+	cont "svampe her."
 
-	para "I think I got"
-	line "them all."
+	para "Jeg tror jeg fik"
+	line "dem alle."
 	done
 
 _Route4MtMoonSignText::
 	text "MT.MOON"
-	line "Tunnel Entrance"
+	line "Tunnelindgang"
 	done
 
 _Route4SignText::
-	text "ROUTE 4"
+	text "RUTE 4"
 	line "MT.MOON -"
 	cont "CERULEAN CITY"
 	done
 
 _Route4BattleText2::
-	text "Trying to butt"
-	line "in on our battle?"
-	para "I'll take you"
-	line "all on!"
+	text "Prøver du at"
+	line "blande dig i"
+	cont "vores kamp?"
+	para "Jeg tager kampen"
+	line "mod jer alle!"
 	done
 
 _Route4EndBattleText2::
-	text "I"
-	line "overextended!"
+	text "Jeg"
+	line "overstrakte mig!"
 	prompt
 
 _Route4AfterBattleText2::
-	text "This is a great"
-	line "open place to"
-	cont "train with my"
-	cont "rival!"
+	text "Dette er et"
+	line "fantastisk åbent"
+	cont "sted at træne med"
+	cont "min rival!"
 	done
 
 _Route4BattleText3::
-	text "You want a piece"
-	line "of me too?"
-	para "Get in here!"
+	text "Vil du også"
+	line "have et stykke"
+	cont "af mig?"
+	para "Kom an!"
 	done
 
 _Route4EndBattleText3::
-	text "You're"
-	line "on my list!"
+	text "Du er"
+	line "på min liste!"
 	prompt
 
 _Route4AfterBattleText3::
-	text "Even though we're"
-	line "rivals, when we"
-	cont "battle together"
-	cont "we both improve!"
+	text "Selvom vi er"
+	line "rivaler, når vi"
+	cont "kæmper sammen"
+	cont "bliver vi begge"
+	cont "bedre!"
 	done
 
 _Route4BattleText4::
-	text "I'm on a journey"
-	line "to MT.MOON to"
-	cont "catch some rare"
-	cont "#MON."
+	text "Jeg er på en"
+	line "rejse til MT.MOON"
+	cont "for at fange nogle"
+	cont "sjældne #MON."
 	done
 
 _Route4EndBattleText4::
-	text "Almost"
-	line "made it!"
+	text "Næsten"
+	line "lykkedes det!"
 	prompt
 
 _Route4AfterBattleText4::
-	text "Luckily you took"
-	line "me down near a"
-	cont "#MON CENTER"
-	cont "or I would've"
-	cont "turned back!"
+	text "Heldigt at du"
+	line "slog mig tæt på"
+	cont "et #MON CENTER"
+	cont "ellers var jeg"
+	cont "vendt om!"
 	done
 
 _Route4Text8::
 	text "<TIPS>"
-	para "Press LEFT D-PAD"
-	line "at the top of the"
-	cont "ITEM menu to"
-	cont "jump to the"
-	cont "bottom and back."
+	para "Tryk VENSTRE"
+	line "D-PAD øverst i"
+	cont "GENSTAND-menuen"
+	cont "for at hoppe til"
+	cont "bunden og tilbage."
 
-	para "This works with"
-	line "<PC> menus as well!"
+	para "Dette virker også"
+	line "med <PC>-menuer!"
 	done
 
 _Route4Text9::
 	text "<TIPS>"
-	para "You can hold up"
-	line "to 30 items."
-	para "If you run out"
-	line "of item space,"
-	cont "press START in"
-	cont "the ITEM menu to"
-	cont "deposit an item"
-	cont "to your <PC>!"
+	para "Du kan bære"
+	line "op til 30 ting."
+	para "Hvis du løber"
+	line "tør for plads,"
+	cont "tryk START i"
+	cont "GENSTAND-menuen"
+	cont "for at deponere"
+	cont "en genstand til"
+	cont "din <PC>!"
 	done

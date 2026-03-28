@@ -1,11 +1,11 @@
 
 _SaffronPidgeyHousePaperText:: ; PureRGBnote: FIXED: this text entry was originally mixed up with the text for talking to the girl.
-	text "Thank you for"
-	line "writing. I hope"
-	cont "to see you soon!"
+	text "Tak for at"
+	line "skrive. Jeg håber"
+	cont "at se dig snart!"
 
-	para "Hey! Don't look"
-	line "at my letter!"
+	para "Hey! Ikke kig på"
+	line "mit brev!"
 	done
 
 _SaffronPidgeyHousePidgeyText::
@@ -13,16 +13,16 @@ _SaffronPidgeyHousePidgeyText::
 	text_end
 
 _SaffronPidgeyHouseYoungsterText::
-	text "The COPYCAT is"
-	line "cute! I'm getting"
-	cont "her a # DOLL!"
+	text "COPYCAT er sød!"
+	line "Jeg køber hende en"
+	cont "# DUKKE!"
 	done
 
 _SaffronPidgeyHouseBrunetteGirlText:: ; PureRGBnote: FIXED: this text entry was originally mixed up with the text for the letter.
-	text "I was given a PP"
-	line "UP as a gift."
+	text "Jeg fik et PP UP"
+	line "som gave."
 
-	para "It's used for"
-	line "increasing the PP"
-	cont "of techniques!"
+	para "Det bruges til at"
+	line "forøge PP for"
+	cont "teknikker!"
 	done

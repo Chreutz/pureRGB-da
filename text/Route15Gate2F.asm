@@ -1,43 +1,44 @@
 _Route15Gate2FOaksAideBoosterChipText::
-	text "A BOOSTER CHIP"
-	line "increases EXP"
-	cont "gained by all"
-	cont "your #MON!"
+	text "En BOOSTER CHIP"
+	line "øger EXP"
+	cont "opnået af alle"
+	cont "dine #MON!"
 	
-	para "Just slot it in"
-	line "to your POKéBALL"
-	cont "belt!"
+	para "Klik den bare ind"
+	line "i dit POKéBALL"
+	cont "bælte!"
 	
-	para "It's a bit hard"
-	line "to uninstall"
-	cont "though."
+	para "Det er lidt svært"
+	line "at fjerne"
+	cont "igen dog."
 
-	para "If you want to,"
-	line "just speak to me!"
+	para "Hvis du vil,"
+	line "bare tal med mig!"
 	done
 
 _Route15Gate2FBinocularsText::
-	text "It looks like a"
-	line "small island!"
+	text "Det ligner en"
+	line "lille ø!"
 	done
 
 _Route15GateUpstairsRemoveBoosterText::
-	text "Ah, I see you"
-	line "installed the"
-	cont "BOOSTER CHIP that"
-	cont "I gave you!"
+	text "Åh, jeg ser du"
+	line "installerede den"
+	cont "BOOSTER CHIP jeg"
+	cont "gav dig!"
 	
-	para "Is it working"
-	line "well?"
+	para "Virker den"
+	line "godt?"
 	
-	para "Or would you like"
-	line "me to unplug it?"
+	para "Eller vil du have"
+	line "mig til at fjerne"
+	cont "den?"
 	
-	para "I'll give it back"
-	line "to you after.@"
+	para "Jeg giver den"
+	line "tilbage bagefter.@"
 	text_end
 
 _Route15GateUpstairsDoneText::
-	text "Done! Here's the"
-	line "BOOSTER CHIP!@"
+	text "Færdig! Her er"
+	line "BOOSTER CHIPpen!@"
 	text_end

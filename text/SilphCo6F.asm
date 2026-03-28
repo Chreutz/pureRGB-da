@@ -1,110 +1,114 @@
 _SilphCo6FSilphWorkerM1TookOverTheBuildingText::
-	text "The <ROCKET>s came"
-	line "and took over the"
-	cont "building!"
+	text "<ROCKET>s kom"
+	line "og overtog"
+	cont "bygningen!"
 	done
 
 _SilphCo6FSilphWorkerM1BackToWorkText::
-	text "Well, better get"
-	line "back to work!"
+	text "Nå, bedre kom"
+	line "igen i gang med"
+	cont "arbejdet!"
 	done
 
 _SilphCo6FSilphWorkerMHelpMePleaseText::
-	text "Oh dear, oh dear."
-	line "Help me please!"
+	text "Åh nej, åh nej."
+	line "Hjælp mig!"
 	done
 
 _SilphCo6FSilphWorkerMWeGotEngagedText::
-	text "We got engaged!"
-	line "Heheh!"
+	text "Vi blev forlovet!"
+	line "Hehe!"
 	done
 
 _SilphCo6FSilphWorkerF1SuchACowardText::
-	text "Look at him! He's"
-	line "such a coward!"
+	text "Se på ham! Han er"
+	line "en sådan fej!"
 	done
 
 _SilphCo6FSilphWorkerF1HaveToMarryHimText::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
+	text "Jeg føler så"
+	line "meget medlidenhed"
+	cont "med ham, at jeg må"
+	cont "giftes med ham!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketConquerWorldText::
-	text "<TEAM><ROCKET> is"
-	line "trying to conquer"
-	cont "the world with"
+	text "<TEAM><ROCKET> vil"
+	line "erobre verden med"
 	cont "#MON!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketRanText::
-	text "<TEAM><ROCKET> ran"
-	line "because of you!"
+	text "<TEAM><ROCKET> løb"
+	line "væk på grund af"
+	cont "dig!"
 	done
 
 _SilphCo6FSilphWorkerM3TargetedSilphText::
-	text "They must have"
-	line "targeted SILPH"
-	cont "for our #MON"
-	cont "products."
+	text "De må have"
+	line "udvalgt SILPH for"
+	cont "vore #MON"
+	cont "produkter."
 	done
 
 _SilphCo6FSilphWorkerM3WorkForSilphText::
-	text "Come work for"
-	line "SILPH when you"
-	cont "get older!"
+	text "Kom og arbejd for"
+	line "SILPH når du"
+	cont "bliver ældre!"
 	done
 
 _SilphCo9FRocket2BattleText::
 _SilphCo8FRocket2BattleText::
 _SilphCo7FRocket2BattleText::
 _SilphCo6FRocket1BattleText::
-	text "I am one of the 4"
-	line "<ROCKET> BROTHERS!"
+	text "Jeg er en af de 4"
+	line "<ROCKET> BRØDRE!"
 	done
 
 _SilphCo6FRocket1EndBattleText::
-	text "Flame"
-	line "out!"
+	text "Flammed"
+	line "ud!"
 	prompt
 
 _SilphCo6FRocket1AfterBattleText::
-	text "No matter!"
-	line "My brothers will"
-	cont "avenge me!"
+	text "Ingen fare!"
+	line "Mine brødre vil"
+	cont "hævne mig!"
 	done
 
 _SilphCo6FScientistBattleText::
-	text "That rotten"
+	text "Den rådne"
 	line "PRESIDENT!"
 
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	para "Han skulle ikke"
+	line "have sendt mig til"
+	cont "TIKSI AFDELINGEN!"
 	done
 
 _SilphCo6FScientistEndBattleText::
-	text "Shoot!"
+	text "Pokker!"
 	prompt
 
 _SilphCo6FScientistAfterBattleText::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "TIKSI AFDELING?"
+	line "Den ligger i det"
+	cont "russiske ødeland!"
 	done
 
 _SilphCo6FRocket2BattleText::
-	text "You dare betray"
-	line "<TEAM><ROCKET>?"
+	text "Vover du at"
+	line "forråde <TEAM>"
+	cont "<ROCKET>?"
 	done
 
 _SilphCo6FRocket2EndBattleText::
-	text "You"
-	line "traitor!"
+	text "Du"
+	line "forræder!"
 	prompt
 
 _SilphCo6FRocket2AfterBattleText::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
+	text "Hvis du står for"
+	line "retfærdighed,"
+	cont "forråder du det"
+	cont "onde!"
 	done

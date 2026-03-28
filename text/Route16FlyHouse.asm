@@ -1,30 +1,29 @@
 _Route16FlyHouseBrunetteGirlText::
-	text "Oh, you found my"
-	line "secret retreat!"
+	text "Åh, du fandt mit"
+	line "hemmelige sted!"
 
-	para "Please don't tell"
-	line "anyone I'm here."
-	cont "I'll make it up"
-	cont "to you with this!"
+	para "Fortæl venligst"
+	line "ingen at jeg er her."
+	cont "Jeg gør det godt"
+	cont "igen med dette!"
 	prompt
 
 _Route16FlyHouseBrunetteGirlReceivedHM02Text::
-	text "<PLAYER> received"
+	text "<PLAYER> modtog"
 	line "HM02!"
 	done
 
 _Route16FlyHouseBrunetteGirlHM02ExplanationText::
-	text "HM02 is FLY."
-	line "It will take you"
-	cont "back to any town."
+	text "HM02 er FLY."
+	line "Den bringer dig"
+	cont "til enhver by."
 
-	para "Put it to good"
-	line "use!"
+	para "Brug den godt!"
 	done
 
 _Route16FlyHouseBrunetteGirlHM02NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "Du har ikke plads"
+	line "til dette."
 	done
 
 _Route16FlyHouseFearowText::
@@ -34,12 +33,11 @@ _Route16FlyHouseFearowText::
 _Route16FlyHouseFearow2Text::
 	text "@"
 	text_ram wTrainerName
-	text ": That's"
-	line "my FEAROW, POLLY."
-	para "She FLYs me around"
-	line "everywhere for"
-	cont "maximum privacy!"
-	para "Such a beautiful"
-	line "affectionate"
-	cont "birdy!"
+	text ": Det er"
+	line "min FEAROW, POLLY."
+	para "Hun FLYr mig rundt"
+	line "overalt for"
+	cont "maksimal privatliv"
+	para "Sådan en smuk"
+	line "hengiven fugl!"
 	done

@@ -1,155 +1,163 @@
 _CeladonMart3FClerkTM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "Åh, hej! Jeg er"
+	line "endelig færdig med"
+	cont "#MON!"
 
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	para "Ikke færdig endnu?"
+	line "Dette kan være"
+	cont "nyttigt!"
 	prompt
 
 _CeladonMart3FClerkTM18ExplanationText::
-	text "<TM>35 is AGILITY!"
-	para "Use speed to your"
-	line "advantage!"
-	para "If you go first,"
-	line "you can control"
-	cont "what happens in"
-	cont "battle easily!"
-	para "Trust me, I know"
-	line "how things work!"
-	para "That's why I'm"
-	line "the one behind"
-	cont "this counter!"
+	text "<TM>35 er HURTIGHED!"
+	para "Brug fart til din"
+	line "fordel!"
+	para "Hvis du kommer"
+	line "først, kan du"
+	cont "kontrollere hvad"
+	cont "der sker i kamp"
+	cont "nemt!"
+	para "Stol på mig, jeg"
+	line "ved hvordan ting"
+	cont "virker!"
+	para "Derfor er jeg den"
+	line "der står bag"
+	cont "denne skranke!"
 	done
 
 _CeladonMart3FClerkTM18NoRoomText::
-	text "Your pack is full"
-	line "of items!"
+	text "Din taske er fuld"
+	line "af ting!"
 	done
 
 _CeladonMart3FGameBoyKid1Text::
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "Fangede #MON-er"
+	line "registreres med et"
+	cont "ID-nr. og OT,"
+	cont "navnet på den"
+	cont "Oprindelige Træner"
+	cont "der fangede det!"
 	done
 
 _CeladonMart3FGameBoyKid2Text::
-	text "All right!"
+	text "Fedt!"
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "Min ven vil bytte"
+	line "sin KANGASKHAN med"
+	cont "min GRAVELER!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Kom så GRAVELER!"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "Jeg elsker"
+	line "GRAVELER!"
+	cont "Jeg samler på dem!"
 
-	para "Huh?"
+	para "Hvad?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "GRAVELER"
+	line "forvandlede sig"
+	cont "til et andet #MON!"
 	done
 
 _CeladonMart3FLittleBoyText::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "Du kan"
+	line "identificere #MON"
+	cont "du fik i handler"
+	cont "med deres"
+	cont "ID-numre!"
 	done
 
 _CeladonMart3FSNESText::
-	text "It's an SNES!"
+	text "Det er en SNES!"
 	done
 
 _CeladonMart3FRPGText::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "Et RPG! Der er"
+	line "ingen tid til det!"
 	done
 
 _CeladonMart3FSportsGameText::
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "Et sportsspil!"
+	line "Far vil kunne lide"
+	cont "det!"
 	done
 
 _CeladonMart3FPuzzleGameText::
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "Et puslespil!"
+	line "Ser vanedannende"
+	cont "ud!"
 	done
 
 _CeladonMart3FFightingGameText::
-	text "A fighting game!"
-	line "Looks tough!"
+	text "Et kampspil!"
+	line "Ser svært ud!"
 	done
 
 _CeladonMart3FPokemonPosterText::
-	text "Red, Blue, and"
-	line "Green!"
-	cont "All are #MON!"
+	text "Rød, Blå og"
+	line "Grøn!"
+	cont "Alle er #MON!"
 	done
 
 _CeladonMartTMKidFlavor::
-	text "My dad got kicked"
-	line "out of CELADON"
-	cont "GYM! How funny is"
-	cont "that!"
+	text "Min far blev smidt"
+	line "ud af CELADON GYM!"
+	cont "Hvor sjovt er det!"
 
-	para "They said men"
-	line "aren't allowed to"
-	cont "loiter inside!"
+	para "De sagde mænd ikke"
+	line "må opholde sig"
+	cont "derinde!"
 
-	para "Now he's goofing"
-	line "off at the GAME"
-	cont "CORNER."
+	para "Nu hænger han ud"
+	line "ved GAME CORNER."
 
-	para "For once the"
-	line "MART here has <TM>s"
-	cont "so I'm not selling"
-	cont "any of my own!"
+	para "For en gangs"
+	line "skyld har"
+	cont "VAREHUSET her <TM>s"
+	cont "så jeg sælger"
+	cont "ikke nogen af"
+	cont "mine egne!"
 
-	para "I think I'll use"
-	line "some of the cash"
-	cont "I made selling"
-	cont "<TM>s to buy a"
-	cont "GAME BOY COLOR."
+	para "Jeg tror jeg bruger"
+	line "nogle af pengene"
+	cont "jeg tjente på at"
+	cont "sælge <TM>s til at"
+	cont "købe en GAME BOY"
+	cont "COLOR."
 	
-	para "I heard that"
-	line "WARIO LAND 3 is"
-	cont "the best game!"
+	para "Jeg hørte at"
+	line "WARIO LAND 3 er"
+	cont "det bedste spil!"
 	
-	para "Catch you later!"
+	para "Vi ses!"
 	done
 
 _CeladonMart3FPartyGameText::
-	text "A TV ad for a new"
-	line "party game!"
-	para "That'll be fun"
-	line "with friends!"
-	para "Bunch of kids are"
-	line "mashing buttons"
-	cont "and making crazy"
-	cont "faces."
+	text "En TV-reklame for"
+	line "et nyt festspil!"
+	para "Det bliver sjovt"
+	line "med venner!"
+	para "En bunke børn"
+	line "hamrer på knapper"
+	cont "og laver skøre"
+	cont "ansigter."
 	done
 
 _CeladonMart3FPlatformerGameText::
-	text "A TV ad for a new"
-	line "platformer game!"
-	para "Wow! It's in"
-	line "stunning 3D!"
-	para "The players are"
-	line "making MARIO jump"
-	cont "all over."
-	para "Whoa!"
-	para "MARIO came out"
-	line "of their TV!"
-	para "Now he raided"
-	line "their fridge!"
+	text "En TV-reklame for"
+	line "et nyt"
+	cont "platformspil!"
+	para "Wow! Det er i"
+	line "fantastisk 3D!"
+	para "Spillerne får"
+	line "MARIO til at hoppe"
+	cont "over det hele."
+	para "Hovsa!"
+	para "MARIO kom ud"
+	line "af deres TV!"
+	para "Nu har han"
+	line " plyndret deres"
+	cont "køleskab!"
 	done

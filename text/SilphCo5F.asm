@@ -1,51 +1,52 @@
 _SilphCo5FSilphWorkerMThatsYouRightText::
-	text "<TEAM><ROCKET> is"
-	line "in an uproar over"
-	cont "some intruder."
-	cont "That's you right?"
+	text "<TEAM><ROCKET> er"
+	line "i oprør over en"
+	cont "indtrænger."
+	cont "Det er dig, ikke?"
 	done
 
 _SilphCo5FSilphWorkerMYoureOurHeroText::
-	text "<TEAM><ROCKET> took"
-	line "off! You're our"
-	cont "hero! Thank you!"
+	text "<TEAM><ROCKET> er"
+	line "flygtet! Du er vor-"
+	cont "es helt! Tak!"
 	done
 
 _SilphCo5FRocket1BattleText::
-	text "I heard a kid was"
-	line "wandering around."
+	text "Jeg hørte at et"
+	line "barn flakkede"
+	cont "omkring."
 	done
 
 _SilphCo5FRocket1EndBattleText::
-	text "Boom!"
+	text "Bang!"
 	prompt
 
 _SilphCo5FRocket1AfterBattleText::
-	text "It's not smart"
-	line "to pick a fight"
-	cont "with <TEAM><ROCKET>!"
+	text "Det er ikke klogt"
+	line "at starte slagsmål"
+	cont "med <TEAM><ROCKET>!"
 	done
 
 _SilphCo5FScientistBattleText::
-	text "We study #"
-	line "BALL technology"
-	cont "on this floor!"
+	text "Vi studerer #"
+	line "BALL teknologi"
+	cont "på denne etage!"
 	done
 
 _SilphCo5FScientistEndBattleText::
-	text "Dang!"
-	line "Blast it!"
+	text "For pokker!"
+	line "Forbandet!"
 	prompt
 
 _SilphCo5FScientistAfterBattleText::
-	text "We worked on the"
-	line "ultimate #"
-	cont "BALL which would"
-	cont "catch anything!"
+	text "Vi arbejdede på"
+	line "den ultimative #"
+	cont "BALL som ville"
+	cont "fange alt!"
 	done
 
 _SilphCo5FRockerBattleText::
-	text "Whaaat? There"
-	line "shouldn't be any"
-	cont "children here?"
+	text "Hvaaad? Der"
+	line "burde ikke være"
+	cont "børn her?"
 	done

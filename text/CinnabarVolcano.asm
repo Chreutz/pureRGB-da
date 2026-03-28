@@ -1,527 +1,530 @@
 _CinnabarVolcanoBombRocksText::
-	text "These rocks are"
-	line "blocking the lava"
-	cont "from flowing out."
-	para "Smash them with"
-	line "a #MON?"
+	text "Disse sten"
+	line "blokkerer for"
+	cont "lavaen."
+	para "Knus dem med"
+	line "en #MON?"
 	done
 
 _CinnabarVolcanoBombRocksTextDoneJump::
 	para "@"
 _CinnabarVolcanoBombRocksTextDone::
-	text "Lava's flowing out"
-	line "of the volcano."
+	text "Lavaen flyder ud"
+	line "af vulkanen."
 	done
 
 _CinnabarVolcanoProspectorGreetingNotMetText::
-	text "Hey kid!"
-	para "This place is"
-	line "dangerous!"
-	para "What are you doing"
-	line "here?"
-	para "Huh! You've got"
-	line "strong #MON!"
+	text "Hey knægt!"
+	para "Dette sted er"
+	line "farligt!"
+	para "Hvad laver du"
+	line "her?"
+	para "Hvad! Du har"
+	line "stærke #MON!"
 	prompt
 
 _CinnabarVolcanoProspectorGreetingMetText::
 	text "PROSPECTOR: Hey"
-	line "kid!"
-	para "Imagine meeting"
-	line "you again here!"
-	para "You came at a"
-	line "great time!"
-	para "You've got strong"
+	line "knægt!"
+	para "Tænk at møde"
+	line "dig igen her!"
+	para "Du kom på et"
+	line "godt tidspunkt!"
+	para "Du har stærke"
 	line "#MON!"
 	prompt
 
 _CinnabarVolcanoProspectorStrongMonsText::
-	text "It's too hot in"
-	line "CINNABAR VOLCANO"
-	cont "for the average"
-	cont "explorer."
-	para "Maybe you can help"
-	line "us out in here!"
-	para "But first you'll"
-	line "need to put on"
-	cont "one of these-"
+	text "Det er for varmt"
+	line "i CINNABAR"
+	cont "VOLCANO for en"
+	cont "almindelig"
+	cont "opdager."
+	para "Måske kan du"
+	line "hjælpe os her!"
+	para "Men først skal"
+	line "du tage en af"
+	cont "disse på-"
 	prompt
 
 _CinnabarVolcanoProspectorLavaSuitText::
-	text "It's a LAVA SUIT!"
-	para "It'll protect you"
-	line "from the heat!"
-	para "It's like an oven"
-	line "in there!"
-	para "Here try this"
-	line "one on!"
+	text "Det er en"
+	line "LAVADRAGT!"
+	para "Den beskytter"
+	line "dig mod varmen!"
+	para "Det er som en"
+	line "ovn derinde!"
+	para "Prøv denne her!"
 	prompt
 
 _CinnabarVolcanoProspectorLetsGo::
-	text "Lookin' good!"
-	para "Alright,"
-	line "follow me!"
+	text "Det ser godt ud!"
+	para "Okay,"
+	line "følg efter mig!"
 	done
 
 _CinnabarVolcanoProspectorHeresProblem::
-	text "Alright kid, here's"
-	line "the problem-"
+	text "Okay knægt,"
+	line "her er"
+	cont "problemet-"
 	prompt
 
 _CinnabarVolcanoProspectorLavaExplain::
-	text "There's too much"
-	line "lava here in the"
-	cont "main lava cone!"
-	para "It usually flows"
-	line "out underwater."
-	para "If we don't drain"
-	line "out all the lava,"
-	para "the volcano will"
-	line "erupt soon!"
-	para "The lava must be"
-	line "clogged up below."
-	para "You've got to clear"
-	line "those blockages!"
+	text "Der er for meget"
+	line "lava her i"
+	cont "hovedkrateret!"
+	para "Det løber"
+	line "normalt ud"
+	cont "under vandet."
+	para "Hvis vi ikke"
+	line "dræner lavaen,"
+	para "vil vulkanen"
+	line "gå i udbrud!"
+	para "Lavaen må være"
+	line "stoppet til."
+	para "Du skal fjerne"
+	line "blokeringerne!"
 	prompt
 
 _CinnabarVolcanoProspectorBlowRocks::
-	text "Rocks that look"
-	line "like this one"
-	cont "create blockages!"
-	para "Find the blockages"
-	line "and blow them up,"
-	para "smash them, melt"
-	line "them down<...>"
-	para "Just do anything"
-	line "to destroy them!"
+	text "Sten der ligner"
+	line "denne her"
+	cont "skaber propper!"
+	para "Find dem og"
+	line "spræng dem væk,"
+	para "knus dem, smelt"
+	line "dem ned<...>"
+	para "Gør hvad som"
+	line "helst for at"
+	cont "ødelægge dem!"
 	prompt
 
 _CinnabarVolcanoGiveDrill::
-	text "You'll need to"
-	line "dig down deeper"
-	cont "into the volcano!"
-	para "There isn't any"
-	line "way down yet, so"
-	cont "take a DRILL!"
+	text "Du skal grave"
+	line "dybere ned i"
+	cont "vulkanen!"
+	para "Der er ikke"
+	line "nogen vej ned,"
+	cont "så tag en BORE!"
 	prompt
 
 _CinnabarVolcanoGotDrill::
-	text "<PLAYER> got a"
-	line "POWER DRILL!"
+	text "<PLAYER> fik en"
+	line "POWER BORE!"
 	done
 
 _CinnabarVolcanoDrill::
-	text "Press SELECT to"
-	line "use your DRILL."
-	para "You can drill a"
-	line "hole down where"
-	cont "you see cracks!"
-	para "But it'll take"
-	line "a lot of fuel to"
-	cont "dig down."
-	para "If you run out,"
-	line "just pop 3 RUBIES"
-	cont "into the DRILL!"
-	para "You should be"
-	line "able to find lots"
-	cont "of them here!"
+	text "Tryk SELECT for"
+	line "at bruge BOREN."
+	para "Du kan bore et"
+	line "hul, hvor du"
+	cont "ser revner!"
+	para "Men det kræver"
+	line "meget brændstof."
+	para "Hvis du løber"
+	line "tør, så put 3"
+	cont "RUBINER i den!"
+	para "Du bør kunne"
+	line "finde mange her!"
 	prompt
 
 _CinnabarVolcanoFriend::
-	text "This guy with his"
-	line "ARCANINE'll clear"
-	cont "the west side."
+	text "Ham her med sin"
+	line "ARCANINE klarer"
+	cont "vestsiden."
 	prompt
 
 _CinnabarVolcanoYouClearEast::
-	text "You clear the"
-	line "east side!"
-	para "Oh and one last"
-	line "thing."
-	para "It's too hot for"
-	line "most #MON!"
-	para "Stick to FIRE,ROCK"
-	line "and GROUND-types."
-	para "They're the only"
-	line "ones who can take"
-	cont "this heat!"
+	text "Du klarer"
+	line "østsiden!"
+	para "Og en sidste"
+	line "ting."
+	para "Det er for varmt"
+	line "for de fleste!"
+	para "Brug kun FIRE,"
+	line "ROCK og GROUND."
+	para "Kun de kan"
+	line "tåle varmen!"
 	prompt
 
 _ExplodeRocksExplosionText::
 	text_ram_namebuffer
-	text " used"
-	line "EXPLOSION to"
-	cont "blow up the rocks!"
+	text " brugte"
+	line "EKSPLOSION og"
+	cont "sprængte sten!"
 	done
 
 _ExplodeRocksSelfdestructText::
 	text_ram_namebuffer
-	text " used"
-	line "SELFDESTRUCT to"
-	cont "blow up the rocks!"
+	text " brugte"
+	line "SELVDESTRUKT og"
+	cont "sprængte sten!"
 	done
 
 _ShatteredRocksSkullBashText::
 	text_ram_namebuffer
-	text " smashed"
-	line "the rocks with"
+	text " knuste"
+	line "stenene med"
 	cont "SKULL BASH!"
 	done
 
 _ShatteredRocksText::
 	text_ram_namebuffer
-	text " smashed"
-	line "the rocks with"
-	cont "a powerful blow!"
+	text " knuste"
+	line "stenene med et"
+	cont "kraftigt slag!"
 	done
 
 _MeltedRocksText::
 	text_ram_namebuffer
-	text " melted"
-	line "the rocks with"
-	cont "superheated fire!"
+	text " smeltede"
+	line "stenene med"
+	cont "superhed ild!"
 	done
 
 _RocksGoneText::
-	text "The lava flow was"
-	line "unclogged!"
+	text "Lavaflowet er"
+	line "ikke længere"
+	cont "stoppet til!"
 	done
 
 _WhereRubiesText::
-	text "Time to find"
-	line "some RUBIES for"
-	cont "the DRILL!"
-	para "They should be"
-	line "on this floor!"
+	text "Find nogle"
+	line "RUBINER til"
+	cont "BOREN!"
+	para "De burde være"
+	line "på denne etage!"
 	done
 
 _FoundRubyText::
-	text "<PLAYER> found"
-	line "a RUBY!"
+	text "<PLAYER> fandt"
+	line "en RUBIN!"
 	done
 
 _RubyTwoMoreToGoText::
-	text "Two@"
+	text "To@"
 	text_jump _MoreToGoText
 	
 _MoreToGoText:
 	text_end
-	text " more to go!"
+	text " mere at finde!"
 	done
 
 _RubyOneMoreToGoText::
-	text "One@"
+	text "En@"
 	text_jump _MoreToGoText
 
 _RubyGotAllOfThemText::
-	text "<PLAYER> inserted"
-	line "the 3 RUBIES into"
-	cont "the DRILL."
+	text "<PLAYER> satte"
+	line "de 3 RUBINER i"
+	cont "BOREN."
 	done
 
 _RubyGoodToGo::
-	text "The DRILL entered"
-	line "power mode!"
-	para "Time to dig down"
-	line "to the next floor!"
+	text "BOREN er nu i"
+	line "power-mode!"
+	para "Tid til at grave"
+	line "ned til næste"
+	cont "etage!"
 	done
 
 _ItsRhydon::
-	text "It's a RHYDON."
-	para "It looks bored."
+	text "Det er en"
+	line "RHYDON."
+	para "Den ser ked"
+	line "ud af det."
 	prompt
 
 _RhydonGetOnBack::
-	text "Jump on its back?"
+	text "Hop op på den?"
 	done
 
 _RhydonGotOnBack::
-	text "Here we go!"
+	text "Så kører vi!"
 	done
 
 _GotRocksalts::
-	text "<PLAYER> found"
-	line "ROCK SALTS!"
+	text "<PLAYER> fandt"
+	line "STENSALT!"
 	done
 
 _GotLimestone::
-	text "<PLAYER> found"
-	line "LIMESTONE!"
+	text "<PLAYER> fandt"
+	line "KALKSTEN!"
 	done
 
 _ItsGraveler::
-	text "It's a GRAVELER."
-	para "It's enjoying a"
-	line "massage from the"
-	cont "flowing lava."
-	para "It looks a bit"
-	line "hungry."
+	text "Det er en"
+	line "GRAVELER."
+	para "Den nyder en"
+	line "massage af den"
+	cont "flydende lava."
+	para "Den ser lidt"
+	line "sulten ud."
 	done
 
 _GiveGravelerRockSalts::
-	text "Give it ROCK SALTS"
-	line "to eat?"
+	text "Giv den"
+	line "STENSALT?"
 	done
 
 _GravelerMunching::
-	text "The GRAVELER is"
-	line "munching on the"
-	cont "ROCK SALTS."
-	para "Looks satisfied!"
+	text "GRAVELER guffer"
+	line "STENSALTET i sig."
+	para "Den ser glad ud!"
 	done
 
 _ItsSickRhydon::
-	text "It's another"
+	text "Det er en anden"
 	line "RHYDON."
-	para "This one seems"
-	line "to have an upset"
-	cont "stomach."
+	para "Den ser ud til"
+	line "at have ondt i"
+	cont "maven."
 	done
 
 _GiveRhydonLimestone::
-	text "Give it some"
-	line "crushed LIMESTONE"
-	cont "to cure its"
-	cont "indigestion?"
+	text "Giv den noget"
+	line "knust KALKSTEN"
+	cont "mod dårlig mave?"
 	done
 
 _RhydonGrinded::
-	text "<PLAYER> ground"
-	line "the LIMESTONE to"
-	cont "a fine powder"
-	cont "with the DRILL."
+	text "<PLAYER> knuste"
+	line "KALKSTENEN til"
+	cont "fint pulver med"
+	cont "BOREN."
 	done
 
 _GotAntacidText::
-	text "The LIMESTONE"
-	line "became ANTACID!"
+	text "KALKSTENEN"
+	line "blev til SYRE!"
 	done
 
 _GaveRhydonAntacid::
-	text "The sick RHYDON"
-	line "swallowed the"
-	cont "ANTACID."
+	text "Den syge RHYDON"
+	line "slugte SYREN."
 	prompt
 
 _RhydonResting::
-	text "The sick RHYDON"
-	line "will feel better,"
-	cont "but needs rest!"
+	text "Den syge RHYDON"
+	line "får det bedre,"
+	cont "men hviler sig!"
 	done
 
 _MagmarBoss::
-	text "A big MAGMAR is"
-	line "blocking the way."
+	text "En stor MAGMAR"
+	line "spærrer vejen."
 	done
 
 _MagmarFight::
-	text "It looks very"
-	line "aggressive."
-	para "Fight it?"
+	text "Den ser meget"
+	line "aggressiv ud."
+	para "Kæmp mod den?"
 	done
 
 _VolcanoBattleBurnText::
-	text "The volcano's"
-	line "too hot for @"
+	text "Vulkanen er for"
+	line "varm for @"
 	text_ram_cont wBattleMonNick
 	text "!"
 	prompt
 
-
 _LetsDoThis::
-	text "Let's do this!"
+	text "Lad os gøre det!"
 	done
 
 _MagmarBattleInit::
-	text "A veil of magma"
-	line "covers @"
+	text "Et lag magma"
+	line "dækker @"
 	text_ram wEnemyMonNick
 	text "!"
-	para "It powered up!"
+	para "Den fik power!"
 	prompt
 
 _EnemyMonWasDefeatedText::
-	text "Enemy @"
+	text "Fjendtlig @"
 	text_ram wEnemyMonNick
 	text_start
-	line "was defeated!"
+	line "blev besejret!"
 	prompt
 
 _MagmarDefeat::
-	text "MAGMAR conceded"
-	line "defeat and moved"
-	cont "to let you pass."
+	text "MAGMAR gav op og"
+	line "rykkede til side."
 	done
 
 _UhohVolcano::
-	text "Uh oh. The lava"
-	line "is about to burst"
-	cont "through the whole"
-	cont "eastern wall!"
-	para "Gotta get behind"
-	line "cover quick!"
+	text "Åh nej. Lavaen"
+	line "er ved at bryde"
+	cont "igennem hele"
+	cont "østvæggen!"
+	para "Find dækning"
+	line "hurtigt!"
 	done
 
 _VolcanoBlockagesGone::
-	text "Wow! That should"
-	line "drain any excess"
+	text "Wow! Det bør"
+	line "dræne al"
+	cont "overskydende"
 	cont "lava!"
-	para "<PLAYER> cleared"
-	line "all blockages!"
+	para "<PLAYER> fjernede"
+	line "alle propper!"
 	done
 
 _VolcanoGoBackMainFloor::
 	text_start
-	para "Let's see how"
-	line "they did back"
-	cont "up at the top."
+	para "Lad os se hvordan"
+	line "det går oppe på"
+	cont "toppen."
 	done
 
 _VolcanoBlaineJoinUs::
-	text "Nice of you"
-	line "to join us!"
+	text "Dejligt at du"
+	line "vil være med!"
 	done
 
 _VolcanoProspectorDone::
-	text "Whoa!"
-	para "What did you do?"
-	para "The lava is"
-	line "draining out"
-	cont "like crazy!!"
-	para "Look!"
+	text "Hold da op!"
+	para "Hvad gjorde du?"
+	para "Lavaen dræner"
+	line "helt vildt!!"
+	para "Se!"
 	prompt
 
 _VolcanoProspectorDone2::
-	text "Well, that should"
-	line "stop an eruption!"
-	para "Let's get out"
-	line "of here, kid!"
-	para "I'm sweating like"
-	line "an ODDISH at a"
-	cont "salad bar!"
+	text "Nå, det burde"
+	line "stoppe udbruddet!"
+	para "Lad os komme"
+	line "væk herfra,"
+	cont "knægt!"
+	para "Jeg sveder som"
+	line "en ODDISH til en"
+	cont "salatbar!"
 	done
 
 _VolcanoProspectorPhew::
-	text "Phew, we can"
-	line "finally get out"
-	cont "of these suits!"
+	text "Puha, vi kan"
+	line "endelig komme ud"
+	cont "af dragterne!"
 	prompt
 
 _VolcanoProspectorRightBlaine::
-	text "Glad I got them!"
-	para "They came in"
-	line "handy!"
-	para "Even though you"
-	line "and BLAINE did"
-	cont "all the work!"
+	text "Glad for jeg"
+	line "havde dem!"
+	para "De var nyttige!"
+	para "Selvom du og"
+	line "BLAINE gjorde"
+	cont "alt arbejdet!"
 	prompt
 
 _VolcanoBlaineMessage1::
-	text "BLAINE: Well that"
-	line "should keep the"
-	cont "eruption at bay."
-	para "That heat is"
-	line "something else!"
-	para "Thought I might"
-	line "catch a glimpse"
-	cont "of a fiery bird"
-	cont "#MON I saw"
-	cont "many years ago."
-	para "Oh well!"
-	para "Maybe I'll see"
-	line "it again someday!"
+	text "BLAINE: Det burde"
+	line "holde udbruddet"
+	cont "i skak."
+	para "Den varme er"
+	line "helt utrolig!"
+	para "Tænkte jeg"
+	line "måske så en"
+	cont "ildfugle-#MON"
+	cont "for mange år"
+	cont "siden."
+	para "Nå ja!"
+	para "Måske ser jeg"
+	line "den igen en dag!"
 	prompt
 
 _VolcanoBlaineMessageNotDone::
-	text "<PLAYER> was your"
-	line "name, correct?"
-	para "Great work!"
-	para "I hope you come"
-	line "to challenge me"
-	cont "at CINNABAR GYM!"
-	para "That is, if you"
-	line "can get in!"
-	para "Hah! Until next"
-	line "time!"
+	text "<PLAYER> var dit"
+	line "navn, ikke?"
+	para "Godt gået!"
+	para "Håber du kommer"
+	line "og udfordrer mig"
+	cont "i CINNABAR GYM!"
+	para "Hvis du altså"
+	line "kan komme ind!"
+	para "Ha! Vi ses!"
 	done
 
 _VolcanoBlaineMessageGymDone::
-	text "We meet again,"
+	text "Vi ses igen,"
 	line "<PLAYER>!"
-	para "This young buck"
-	line "was one of the"
-	cont "two trainers who"
-	cont "trounced me at"
-	cont "the GYM recently!"
-	para "Keep at it, boy!"
-	para "Hah! Until next"
-	line "time!"
+	para "Denne knægt var"
+	line "en af de to"
+	cont "trænere, der"
+	cont "besejrede mig i"
+	cont "GYM'en for nylig!"
+	para "Fortsæt det"
+	line "gode arbejde!"
+	para "Ha! Vi ses!"
 	done
 
 _VolcanoProspectorAfterMessage::
-	text "I'll be here for"
-	line "a while, doing"
-	cont "what I do best-"
-	para "prospecting!"
-	para "You saw all those"
-	line "RUBIES!"
-	para "You can use that"
-	line "LAVA SUIT as much"
-	cont "as you like, kid!"
+	text "Jeg bliver her"
+	line "et stykke tid,"
+	cont "og gør det jeg"
+	cont "er bedst til-"
+	para "at lede efter"
+	line "ting!"
+	para "Du så alle de"
+	line "RUBINER!"
+	para "Du kan bruge"
+	line "LAVADRAGTEN alt"
+	cont "det du vil,"
+	cont "knægt!"
 	done
 
 _VolcanoAvoidWestSide::
-	text "Someone's taking"
-	line "care of the west"
-	cont "side already."
-	para "Gotta clear the"
-	line "blockages on the"
-	cont "other side!"
+	text "Nogen klarer"
+	line "allerede"
+	cont "vestsiden."
+	para "Find og fjern"
+	line "propperne på den"
+	cont "anden side!"
 	done
 
 _VolcanoGetToIt::
-	text "I'll keep an eye"
-	line "on the amount of"
-	cont "lava up here."
-	para "I'd join you, but I"
-	line "don't have #MON"
-	cont "to bring with me!"
+	text "Jeg holder øje"
+	line "med lavaen her."
+	para "Jeg ville hjælpe,"
+	line "men jeg har ingen"
+	cont "#MON med!"
 	prompt
 
 _VolcanoNeedSomeInfo::
-	text "Hmm<...>do you need"
-	line "more info?"
+	text "Hmm<...>har du brug"
+	line "for mere info?"
 	done
 
 _VolcanoGetToIt2::
-	text "Get to it, kid!"
+	text "Kom i gang,"
+	line "knægt!"
 	done
 
 _FailedDrillFloorText::
-	text "The DRILL doesn't"
-	line "have enough fuel!"
-	para "Find 3 RUBIES"
-	line "to fuel it up!"
+	text "BOREN har ikke"
+	line "nok brændstof!"
+	para "Find 3 RUBINER"
+	line "for at tanke!"
 	done
 
 _CinnabarVolcanoFloor2WarpTilesText::
-	text "Whoa! What are"
-	line "those?"
-	para "Looks like the"
-	line "lava flow opened"
-	cont "up the ground"
-	cont "over there!"
+	text "Hold da op! Hvad"
+	line "er det?"
+	para "Det ser ud til"
+	line "lavaflowet åbnede"
+	cont "jorden derovre!"
 	done
 
 _CinnabarVolcanoWestMagmar1Text::
-	text "Many MAGMAR are"
-	line "relaxing in the"
-	cont "lava flow."
+	text "Mange MAGMAR"
+	line "slapper af i"
+	cont "lavaflowet."
 	done
 
 _CinnabarVolcanoWestMagmar1QuestionText::
-	text "It looks like"
-	line "there's room for"
-	cont "one more!"
+	text "Det ser ud til"
+	line "der er plads til"
+	cont "én til!"
 	prompt
 
 _CinnabarVolcanoWestMagmar2Text::
@@ -533,65 +536,68 @@ _CinnabarVolcanoWestMagmar3Text::
 	done
 
 _CinnabarVolcanoWestLavaFlowText::
-	text "This is where"
-	line "BLAINE cleared a"
-	cont "lava blockage.@"
+	text "Her fjernede"
+	line "BLAINE en"
+	cont "lavaprop.@"
 	text_jump _CinnabarVolcanoBombRocksTextDoneJump
 
 _CinnabarVolcanoWestMagmarTransformText1::
 	text "@"
 	text_ram_namebuffer
-	text " looks"
-	line "excited for a"
-	cont "lava bath!"
+	text " ser"
+	line "ud til at ville"
+	cont "i lavabad!"
 	done
 
 _CinnabarVolcanoWestMagmarTransformText2::
 	text "@"
 	text_ram_namebuffer
-	text " did a"
-	line "cannonball into"
-	cont "the lava pool!"
+	text " lavede"
+	line "en kanonkugle i"
+	cont "lavapølen!"
 	done
 
 _CinnabarVolcanoWestMagmarTransformText3::
-	text "Volcanic power"
-	line "radiated through"
+	text "Vulkansk kraft"
+	line "strålede gennem"
 	cont "@"
 	text_ram_namebuffer
 	text "!"
 	done
 
 _MagmarEventAlready::
-	text "It's already"
-	line "filled with the"
-	cont "burning heat"
-	cont "of the volcano."
+	text "Den er allerede"
+	line "fyldt med"
+	cont "vulkanens hede"
+	cont "varme."
 	done
 
 _CinnabarVolcanoWestMagmarTransformText4::
-	text "<PARA>It became so"
-	line "scorchingly hot,"
-	cont "all water near it"
-	cont "will vaporize!"
+	text "<PARA>Den blev så"
+	line "skoldhed, at alt"
+	cont "vand i nærheden"
+	cont "fordamper!"
 	para "@"
 	text_ram_namebuffer
-	text " became"
-	line "immune to WATER"
-	cont "and FIRE-type"
-	cont "moves!"
-	para "The tectonic power"
-	line "of the volcano"
-	cont "flows through it!"
-	para "GROUND-type moves"
-	line "will get bonus"
-	cont "damage!"
+	text " blev"
+	line "immun mod WATER"
+	cont "og FIRE-type"
+	cont "angreb!"
+	para "Vulkanens"
+	line "tektoniske kraft"
+	cont "strømmer igennem"
+	cont "den!"
+	para "GROUND-type"
+	line "angreb får"
+	cont "bonusskade!"
 	done
 
 _Route21CinnabarVolcanoSignText::
-	text "CINNABAR VOLCANO"
-	para "DANGER!"
-	para "DO NOT ENTER"
-	line "WITHOUT HEAT-"
-	cont "RESISTANT KIT!"
+	text "CINNABAR"
+	line "VOLCANO"
+	para "FARE!"
+	para "GÅ IKKE IND"
+	line "UDEN VARME-"
+	cont "RESISTENT KIT!"
 	done
+

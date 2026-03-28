@@ -1,50 +1,54 @@
 _NameRatersHouseNameRaterWantMeToRateText::
-	text "Hello, hello!"
-	line "I am the official"
-	cont "NAME RATER!"
+	text "Hej, hej!"
+	line "Jeg er den"
+	cont "officielle"
+	cont "NAVNE-DOMMER!"
 
-	para "Want me to rate"
-	line "the nicknames of"
-	cont "your #MON?"
+	para "Vil du have mig"
+	line "til at bedømme"
+	cont "dine #MONs"
+	cont "kaldenavne?"
 	done
 
 _NameRatersHouseNameRaterWhichPokemonText::
-	text "Which #MON"
-	line "should I look at?"
+	text "Hvilken #MON"
+	line "skal jeg kigge på?"
 	prompt
 
 _NameRatersHouseNameRaterGiveItANiceNameText::
 	text_ram_namebuffer
-	text ", is it?"
-	line "That is a decent"
-	cont "nickname!"
+	text ", er det?"
+	line "Det er et pænt"
+	cont "kaldenavn!"
 
-	para "But, would you"
-	line "like me to give"
-	cont "it a nicer name?"
+	para "Men vil du have"
+	line "mig til at give"
+	cont "den et pænere"
+	cont "navn?"
 
-	para "How about it?"
+	para "Hvad siger du?"
 	done
 
 _NameRatersHouseNameRaterWhatShouldWeNameItText::
-	text "Fine! What should"
-	line "we name it?"
+	text "Godt! Hvad skal"
+	line "den hedde?"
 	prompt
 
 _NameRatersHouseNameRaterPokemonHasBeenRenamedText::
-	text "OK! This #MON"
-	line "has been renamed"
-	cont "@"
+	text "OK! Denne #MON"
+	line "er blevet omdøbt"
+	cont "til @"
 	text_ram wBuffer
 	text "!"
 
-	para "That's a better"
-	line "name than before!"
+	para "Det er et bedre"
+	line "navn end før!"
 	done
 
 _NameRatersHouseNameRaterComeAnyTimeYouLikeText::
-	text "Fine! Come any"
-	line "time you like!"
+	text "Meget vel!"
+	line "Kom igen når"
+	cont "som helst!"
 	done
 
 ;_NameRatersHouseNameRaterATrulyImpeccableNameText::

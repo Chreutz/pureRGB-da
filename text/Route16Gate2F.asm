@@ -1,20 +1,20 @@
 _Route16Gate2FLittleBoyText::
-	text "I'm going for a"
-	line "ride with my girl"
-	cont "friend!"
+	text "Jeg tager en"
+	line "tur med min kære"
+	cont "veninde!"
 	done
 
 _Route16Gate2FLittleGirlText::
-	text "We're going"
-	line "riding together!"
+	text "Vi tager"
+	line "en tur sammen!"
 	done
 
 _Route16Gate2FLeftBinocularsText::
-	text "It's CELADON DEPT."
-	line "STORE!"
+	text "Det er CELADON"
+	line "DEPT. STORE!"
 	done
 
 _Route16Gate2FRightBinocularsText::
-	text "There's a long"
-	line "path over water!"
+	text "Der er en lang"
+	line "sti over vand!"
 	done

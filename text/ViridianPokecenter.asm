@@ -1,16 +1,17 @@
 _ViridianPokecenterGentlemanText::
-	text "You can use that"
-	line "<PC> in the corner."
+	text "Du kan bruge den"
+	line "<PC> der i hjørnet."
 
-	para "The receptionist"
-	line "told me. So kind!"
+	para "Receptionisten"
+	line "fortalte mig. Så"
+	cont "venlig!"
 	done
 
 _ViridianPokecenterCooltrainerMText::
-	text "There's a #MON"
-	line "CENTER in every"
-	cont "town ahead."
+	text "Der er et Pokémon"
+	line "CENTER i hver"
+	cont "by herfra."
 
-	para "They don't charge"
-	line "any money either!"
+	para "De tager ikke"
+	line "penge for det!"
 	done

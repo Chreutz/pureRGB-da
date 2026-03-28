@@ -1,108 +1,111 @@
 _BillsHouseBillImNotAPokemonText::
-	text "Hiya! I'm a"
-	line "#MON<...>"
-	cont "<...>No I'm not!"
+	text "Hejsa! Jeg er et"
+	line "Pokémon<...>"
+	cont "<...>Nej, det er"
+	cont "jeg ikke!"
 
-	para "Call me BILL!"
-	line "I'm a true blue"
-	cont "#MANIAC! Hey!"
-	cont "What's with that"
-	cont "skeptical look?"
+	para "Kald mig BILL!"
+	line "Jeg er en ægte"
+	cont "Pokémon-fan! Hey!"
+	cont "Hvad er det for"
+	cont "et skeptisk blik?"
 
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
+	para "Jeg spøger ikke,"
+	line "jeg fejlede i et"
+	cont "eksperiment og"
+	cont "blev forenet med"
+	cont "en Pokémon!"
 
-	para "So, how about it?"
-	line "Help me out here!"
+	para "Så, hvad siger du?"
+	line "Hjælp mig her!"
 	done
 
 _BillsHouseBillUseSeparationSystemText::
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my <PC> and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "Når jeg er i"
+	line "TELEPORTEREN, gå"
+	cont "hen til min <PC>"
+	cont "og kør"
+	cont "Celleseparations-"
+	cont "Systemet!"
 	done
 
 _BillsHouseBillNoYouGottaHelpText::
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
+	text "Nej!? Kom nu, du"
+	line "skal hjælpe en fyr"
+	cont "i store problemer!"
 
-	para "What do you say,"
-	line "chief? Please?"
-	cont "OK? All right!"
+	para "Hvad siger du,"
+	line "chef? Please?"
+	cont "OK? Okay?"
 	prompt
 
 _BillsHouseBillThankYouText::
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
+	text "BILL: Jihah!"
+	line "Tak, makker! Jeg"
+	cont "skylder dig en!"
 
-	para "So, did you come"
-	line "to see my #MON"
-	cont "collection?"
-	cont "You didn't?"
-	cont "That's a bummer."
+	para "Så, kom du for"
+	line "at se min Pokémon-"
+	cont "samling?"
+	cont "Det gjorde du ikke?"
+	cont "Det er en skam."
 
-	para "I've got to thank"
-	line "you<...> Oh here,"
-	cont "maybe this'll do."
+	para "Jeg må takke"
+	line "dig<...> Åh her,"
+	cont "måske dette duer."
 	prompt
 
 _SSTicketReceivedText::
-	text "<PLAYER> received"
-	line "an @"
+	text "<PLAYER> fik"
+	line "en @"
 	text_ram_stringbuffer
 	text "!@"
 	text_end
 
 _SSTicketNoRoomText::
-	text "You've got too"
-	line "much stuff, bud!"
+	text "Du har for mange"
+	line "ting, makker!"
 	done
 
 _BillsHouseBillWhyDontYouGoInsteadOfMeText::
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
+	text "Det krydstogtskib,"
+	line "S.S.ANNE, er i"
 	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
+	cont "Passagererne er"
+	cont "alle trænere!"
 
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	para "De inviterede mig"
+	line "til deres fest,"
+	cont "men jeg kan ikke"
+	cont "lide fester."
+	cont "Hvorfor går du"
+	cont "ikke i mit sted?"
 	done
 
 _BillsHouseBillCheckOutMyRarePokemonText::
-	text "BILL: Look, bud,"
-	line "just check out"
-	cont "some of my rare"
-	cont "#MON on my <PC>!"
+	text "BILL: Hør, makker,"
+	line "tjek nogle af mine"
+	cont "sjældne #MON"
+	cont "på min <PC>!"
 	done
 
 _BillsHouseGardenInfo::
-	text "BILL: Hey bud!"
-	para "Just finished my"
-	line "new beach garden!"
-	para "Why don't you"
-	line "have a look?"
-	para "It's open to"
-	line "visitors!"
-	para "Just use the"
-	line "doors over there."
+	text "BILL: Hej makker!"
+	para "Er netop færdig"
+	line "med min nye"
+	cont "strandhave!"
+	para "Hvorfor kigger du"
+	line "ikke forbi?"
+	para "Den er åben for"
+	line "besøgende!"
+	para "Brug bare dørene"
+	line "derover."
 	done
 
 _BillsHousePCInfo::
-	text "The screen is"
-	line "listing tons of"
-	cont "info on @"
+	text "Skærmen viser"
+	line "masser af info om"
+	cont "@"
 	text_ram_namebuffer
 	text "!"
 	prompt

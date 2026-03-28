@@ -1,69 +1,71 @@
 _DiamondMineProspectorText::
-	text "Hey kid!"
-	para "There's gold in"
-	line "these hills!"
-	para "Or even better,"
-	line "diamonds!"
-	para "Want to help"
-	line "find some?"
+	text "Hej knægt!"
+	para "Der er guld i"
+	line "disse bakker!"
+	para "Eller endnu bedre,"
+	line "diamanter!"
+	para "Vil du hjælpe"
+	line "finde nogle?"
 	done
 
 _DiamondMineProspectorHelp::
-	text "I like the cut"
-	line "of your jib!"
-	para "The ZUBAT around"
-	line "here are getting"
-	cont "a bit ridiculous!"
-	para "I have to wear"
-	line "earplugs to drown"
-	cont "out their ear-"
-	cont "piercing cries!"
-	para "I want to spend"
-	line "my time digging,"
-	para "not swatting at"
-	line "ZUBATs!"
-	para "I need exactly"
+	text "Jeg kan lide din"
+	line "stil!"
+	para "De ZUBAT heromkring"
+	line "er ved at blive"
+	cont "lidt latterlige!"
+	para "Jeg er nødt til at"
+	line "bruge ørepropper"
+	cont "for at overdøve"
+	cont "deres øreskærende"
+	cont "skrig!"
+	para "Jeg bruger min tid"
+	line "på at grave,"
+	para "ikke på at vifte"
+	line "ZUBATs væk!"
+	para "Jeg skal bruge"
 	line "10 REPELs!"
 	done
 
 _DiamondProspectorRepels::
-	text "Did you pick up"
-	line "10 REPELs yet?"
+	text "Har du fundet"
+	line "10 REPELs endnu?"
 	done
 
 _DiamondProspectorGiveRepels::
-	text "Give 10 REPELs?"
+	text "Giv 10 REPELs?"
 	done
 
 _DiamondProspectorUseRepels::
-	text "Great, let's spray"
-	line "REPEL everywhere!"
+	text "Fedt, lad os"
+	line "spraye REPEL!"
 	prompt
 
 _DiamondMineProspectorHelp2::
-	text "The ZUBAT have"
-	line "gone away!"
-	para "Perfect!"
-	para "On to the"
-	line "next thing."
-	para "My boombox ran"
-	line "out of batteries!"
-	para "How about you"
-	line "give it a zap"
-	cont "with an ELECTRIC"
-	cont "#MON to start"
-	cont "it up again?"
-	para "Or a #MON with"
+	text "ZUBATerne er"
+	line "forsvundet!"
+	para "Perfekt!"
+	para "Videre til det"
+	line "næste."
+	para "Min boombox er"
+	line "løbet tør for"
+	cont "batterier!"
+	para "Hvad med at du"
+	line "giver den et stød"
+	cont "med en ELEKTRISK"
+	cont "#MON for at"
+	cont "starte den igen?"
+	para "Eller en #MON med"
 	line "THUNDER WAVE."
-	para "I need my fave"
-	line "digging music!"
+	para "Jeg mangler min"
+	line "yndlingsmusik!"
 	done
 
 _DiamondMineProspectorHelp3::
-	text "That's my jam!"
-	line "Oh yeah!"
-	para "Now we're cooking!"
-	para "Let's do this!"
+	text "Det er sagen!"
+	line "Oh ja!"
+	para "Nu kører det!"
+	para "Vi går i gang!"
 	prompt
 
 _DiamondMineProspectorRagh::
@@ -71,139 +73,139 @@ _DiamondMineProspectorRagh::
 	done
 
 _DiamondMineProspectorHelp4::
-	text "We're hitting"
-	line "bedrock!"
-	para "I need a #MON"
-	line "that can smash"
-	cont "hard stone!"
-	para "Do you have an"
+	text "Vi rammer"
+	line "klippegrund!"
+	para "Jeg skal bruge en"
+	line "#MON der kan"
+	cont "knuse sten!"
+	para "Har du en"
 	line "ONIX?"
 	done
 
 _DiamondMineBoomboxInitial::
-	text "It's a portable"
+	text "Det er en bærbar"
 	line "boombox!"
-	para "It doesn't seem"
-	line "to turn on."
+	para "Den ser ikke ud"
+	line "til at virke."
 	done
 
 _DiamondMineBoomboxZap::
-	text "Zap it with"
-	line "electricity?"
+	text "Giv den stød"
+	line "med elektricitet?"
 	done
 
 _DiamondMineBoomboxZapProc::
 	text_ram_namebuffer
-	text " zapped"
-	line "the boombox!"
+	text " gav"
+	line "boomboxen stød!"
 	done
 
 _DiamondMineBoomboxZapProc2::
 	text_ram_namebuffer
-	text " zapped"
-	line "the boombox with"
+	text " gav"
+	line "boomboxen stød med"
 	cont "THUNDER WAVE!"
 	done
 
 _DiamondMineBoomboxFunctional::
-	text "The boombox is"
-	line "playing a rather"
-	cont "bombastic tune."
+	text "Boomboxen spiller"
+	line "en ret bombastisk"
+	cont "melodi."
 	done
 
 _DiamondMinePickedOnix::
 	text "Okay @"
 	text_ram_namebuffer
 	text ","
-	line "now the real hard"
-	cont "work begins!"
+	line "nu begynder det"
+	cont "hårde arbejde!"
 	prompt
 
 _DiamondMineDownHere::
-	text "Hey, kid!"
-	line "Climb down!"
-	para "You won't believe"
-	line "your eyes!"
+	text "Hey, knægt!"
+	line "Kom herned!"
+	para "Du vil ikke tro"
+	line "dine egne øjne!"
 	done
 
 _DiamondMineWeeksOfWork::
-	text "<PLAYER>, the"
-	line "prospector, and"
+	text "<PLAYER>,"
+	line "prospektøren, og"
 	cont "@"
 	text_ram_namebuffer
-	text " spent"
-	cont "weeks digging"
-	cont "through the hard"
-	cont "bedrock."
-	para "Soon only"
+	text " brugte"
+	cont "uger på at grave"
+	cont "gennem den hårde"
+	cont "klippegrund."
+	para "Snart var det kun"
 	line "@"
 	text_ram_namebuffer
-	text " could"
-	cont "make progress."
-	para "Until<...>"
+	text " der"
+	cont "gjorde fremskridt."
+	para "Indtil<...>"
 	prompt
 
 _DiamondMineFinished::
-	text "Diamonds!!"
-	line "Everywhere!!"
-	para "It's all thanks"
-	line "to @"
+	text "Diamanter!!"
+	line "Overalt!!"
+	para "Det er alt sammen"
+	line "takket være @"
 	text_ram_namebuffer
 	text "!"
-	para "Looks like"
-	line "its rocky body"
-	cont "got harder from"
-	cont "all that digging!"
-	para "It's as hard as"
-	line "diamond now!"
+	para "Det ser ud til"
+	line "at dens klippekrop"
+	cont "blev hårdere af"
+	cont "alt gravearbejde!"
+	para "Den er så hård"
+	line "som en diamant nu!"
 	done
 
 _DiamondMineFinished2::
 	text_start
 	para "@"
 	text_ram_namebuffer
-	text " has"
-	line "been powered up!"
+	text " er"
+	line "blevet styrket!"
 	done
 
 _DiamondMineFinished3::
 	text_start
-	para "Its base HP"
-	line "increased! 55→80"
-	para "Its base ATTACK"
-	line "increased! 25→85"
-	para "It'll also take"
-	line "less damage from"
-	cont "WATER, ICE, and"
-	cont "GRASS attacks!"
+	para "Dens base HP"
+	line "steg! 55→80"
+	para "Dens base ATTACK"
+	line "steg! 25→85"
+	para "Den vil også tage"
+	line "mindre skade fra"
+	cont "VAND, IS, og"
+	cont "GRÆS angreb!"
 	done
 
 _DiamondMineEndText::
-	text "Whoo boy, kid!"
-	para "These diamonds"
-	line "will take a while"
-	cont "to cart out!"
-	para "I was down on my"
-	line "luck and you"
-	cont "helped me out!"
-	para "Come say hi at"
-	line "my house in"
+	text "Hold da op, knægt!"
+	para "Disse diamanter"
+	line "vil tage et stykke"
+	cont "tid at køre ud!"
+	para "Jeg var nede på"
+	line "lykken, og du"
+	cont "hjalp mig!"
+	para "Kom og sig hej i"
+	line "mit hus i"
 	cont "CELADON CITY"
-	cont "sometime!"
+	cont "en dag!"
 	done
 
 _DiamondMineMoreOnix::
-	text "Or did you want"
-	line "me to train with"
-	cont "another ONIX?"
+	text "Eller vil du"
+	line "at jeg træner"
+	cont "med en anden ONIX?"
 	done
 
 _DiamondMineMoreOnix2::
-	text "I'd love to!"
-	line "Here we go!"
+	text "Det vil jeg elske!"
+	line "Så kører vi!"
 	prompt
 
 _DiamondMineOnixTrainDone::
-	text "That was some"
-	line "intense digging!"
+	text "Det var noget"
+	line "intens gravning!"
 	done

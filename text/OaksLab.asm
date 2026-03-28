@@ -1,173 +1,177 @@
 _OaksLabRivalGrampsIsntAroundText::
 	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
-	cont "isn't around!"
+	line "<PLAYER>! Bedstefar"
+	cont "er ikke her!"
 	done
 
 _OaksLabRivalGoAheadAndChooseText::
-	text "<RIVAL>: Heh, I"
-	line "don't need to be"
-	cont "greedy like you!"
+	text "<RIVAL>: Heh, jeg"
+	line "behøver ikke være"
+	cont "grådig som dig!"
 
-	para "Go ahead and"
-	line "choose, <PLAYER>!"
+	para "Bare gå hen og"
+	line "vælg, <PLAYER>!"
 	done
 
 _OaksLabRivalMyPokemonLooksStrongerText::
-	text "<RIVAL>: My"
-	line "#MON looks a"
-	cont "lot stronger."
+	text "<RIVAL>: Mit"
+	line "#MON ser meget"
+	cont "stærkere ud."
 	done
 
 _OaksLabThoseArePokeBallsText::
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "Det er #"
+	line "BALLs. De"
+	cont "indeholder #MON!"
 	done
 
 _OaksLabYouWantCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
+	text "Så! Du vil have"
+	line "ild-#MON,"
 	cont "CHARMANDER?"
 	done
 
 _OaksLabYouWantSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
+	text "Så! Du vil have"
+	line "vand-#MON,"
 	cont "SQUIRTLE?"
 	done
 
 _OaksLabYouWantBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
+	text "Så! Du vil have"
+	line "plante-#MON,"
 	cont "BULBASAUR?"
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
-	line "really energetic!"
+	text "Dette #MON er"
+	line "virkelig energisk!"
 	prompt
 
 _OaksLabReceivedMonText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> modtog"
+	line "en @"
 	text_ram_namebuffer
 	text "!@"
 	text_end
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "Det er PROF.OAKs"
+	line "sidste #MON!"
 	done
 
 _OaksLabOak1WhichPokemonDoYouWantText::
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
-	cont "you want?"
+	text "OAK: Nu, <PLAYER>,"
+	line "hvilket #MON vil"
+	cont "du have?"
 	done
 
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "OAK: Hvis et vildt"
+	line "#MON dukker op,"
+	cont "kan dit #MON"
+	cont "kæmpe mod det!"
 	done
 
 _OaksLabOak1RaiseYourYoungPokemonText::
 	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	line "opdrag dit unge"
+	cont "#MON ved at lade"
+	cont "det kæmpe!"
 	done
 
 _OaksLabOak1DeliverParcelText::
-	text "OAK: Oh, <PLAYER>!"
+	text "OAK: Åh, <PLAYER>!"
 
-	para "How is my old"
-	line "#MON?"
+	para "Hvordan har mit"
+	line "gamle #MON?"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "Nå, det ser ud til"
+	line "at kunne lide dig"
+	cont "meget."
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "Du må være"
+	line "talentfuld som"
+	cont "#MON træner!"
 
-	para "What? You have"
-	line "something for me?"
+	para "Hvad? Du har"
+	line "noget til mig?"
 
-	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	para "<PLAYER> afleverede"
+	line "OAKs PAKKE.@"
 	text_end
 
 _OaksLabOak1ParcelThanksText::
 	text_start
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	para "Åh! Dette er den"
+	line "special-"
+	cont "lavede # BALL"
+	cont "jeg bestilte!"
+	cont "Tak!"
 	done
 
 _OaksLabOak1PokemonAroundTheWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "#MON rundt om"
+	line "verden venter på"
+	cont "dig, <PLAYER>!"
 	done
 
 _OaksLabOak1ReceivedPokeballsText::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "OAK: Du kan ikke"
+	line "få detaljerede"
+	cont "data om #MON"
+	cont "bare ved at se"
+	cont "dem."
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
+	para "Du skal fange"
+	line "dem! Brug disse"
+	cont "til at fange vilde"
 	cont "#MON."
 
-	para "<PLAYER> got 5"
+	para "<PLAYER> fik 5"
 	line "# BALLs!@"
 	text_end
 
 _OaksLabGivePokeballsExplanationText::
 	text_start
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "Når et vildt"
+	line "#MON dukker op,"
+	cont "er det frit vildt."
 
-	para "Just throw a #"
-	line "BALL at it and"
-	cont "try to catch it!"
+	para "Kast bare en #"
+	line "BALL efter det og"
+	cont "prøv at fange det!"
 
-	para "This won't always"
-	line "work, though."
+	para "Dette vil dog"
+	line "ikke altid virke."
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "Et sundt #MON"
+	line "kan flygte. Du"
+	cont "må være heldig!"
 	done
 
 _OaksLabOak1ComeSeeMeSometimesText::
-	text "OAK: Come see me"
-	line "sometimes."
+	text "OAK: Kom og"
+	line "besøg mig engang."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "Jeg vil vide"
+	line "hvordan dit"
+	cont "#DEX går."
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
-	text "OAK: Good to see"
-	line "you! How is your"
-	cont "#DEX coming?"
-	cont "Here, let me take"
-	cont "a look!"
+	text "OAK: Godt at se"
+	line "dig! Hvordan går"
+	cont "dit #DEX?"
+	cont "Her, lad mig kigge"
+	cont "på det!"
 	prompt
 
 _OaksLabPokedexText::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "Det er som en"
+	line "encyklopædi,"
+	cont "men siderne"
+	cont "er tomme!"
 	done
 
 _OaksLabOak2Text::
@@ -175,190 +179,199 @@ _OaksLabOak2Text::
 	done
 
 _OaksLabGirlText::
-	text "PROF.OAK is the"
-	line "authority on"
+	text "PROF.OAK er"
+	line "autoriteten på"
 	cont "#MON!"
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "Mange #MON-"
+	line "trænere har stor"
+	cont "respekt for ham!"
 	done
 
 _OaksLabRivalFedUpWithWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text "<RIVAL>: Bedstefar!"
+	line "Jeg er træt af"
+	cont "at vente!"
 	done
 
 _OaksLabOakChooseMonText::
 	text "OAK: <RIVAL>?"
-	line "Let me think<...>"
+	line "Lad mig tænke<...>"
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "Åh, det er"
+	line "rigtigt, jeg sagde"
+	cont "du skulle komme!"
+	cont "Vent lidt!"
 
-	para "Here, <PLAYER>!"
+	para "Her, <PLAYER>!"
 
-	para "There are 3"
-	line "#MON here!"
+	para "Der er 3"
+	line "#MON her!"
 
 	para "Haha!"
 
-	para "They are inside"
-	line "the # BALLs."
+	para "De er inde i"
+	line "# BALLs."
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
+	para "Da jeg var ung,"
+	line "var jeg en seriøs"
+	cont "#MON træner!"
 
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	para "I min alder har"
+	line "jeg kun 3 tilbage,"
+	cont "men du kan få"
+	cont "en! Vælg!"
 	done
 
 _OaksLabRivalWhatAboutMeText::
 	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	line "Bedstefar! Hvad"
+	cont "med mig?"
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient!"
-	line "<RIVAL>, you can"
-	cont "have one too!"
+	text "OAK: Vær tålmodig!"
+	line "<RIVAL>, du kan"
+	cont "også få en!"
 	done
 
 _OaksLabOakDontGoAwayYetText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "OAK: Hey! Gå ikke"
+	line "væk endnu!"
 	done
 
 _OaksLabRivalIllTakeThisOneText::
-	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	text "<RIVAL>: Så tager"
+	line "jeg denne her!"
 	done
 
 _OaksLabRivalReceivedMonText::
-	text "<RIVAL> received"
-	line "a @"
+	text "<RIVAL> modtog"
+	line "en @"
 	text_ram_namebuffer
 	text "!@"
 	text_end
 
 _OaksLabRivalIllTakeYouOnText::
-	text "<RIVAL>: Wait"
+	text "<RIVAL>: Vent"
 	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
+	cont "Lad os se"
+	cont "vores #MON!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "Kom så, jeg"
+	line "udfordrer dig!"
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "HVAD?"
+	line "Utroligt!"
+	cont "Jeg valgte det"
+	cont "forkerte #MON!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
-	text "Yeah! Am"
-	line "I great or what?"
+	text "Ja! Er jeg"
+	line "ikke fantastisk?"
 	prompt
 
 _OaksLabRivalSmellYouLaterText::
 	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	line "Jeg vil lade mit"
+	cont "#MON kæmpe for"
+	cont "at gøre det"
+	cont "stærkt!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "<PLAYER>! Bedstefar!"
+	line "Vi ses senere!"
 	done
 
 _OaksLabRivalGrampsText::
-	text "<RIVAL>: Gramps!"
+	text "<RIVAL>: Bedstefar!"
 	done
 
 _OaksLabRivalWhatDidYouCallMeForText::
-	text "<RIVAL>: What did"
-	line "you call me for?"
+	text "<RIVAL>: Hvad"
+	line "kaldte du mig for?"
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "OAK: Åh ja! Jeg"
+	line "har en anmodning"
+	cont "til jer to."
 	done
 
 _OaksLabOakMyInventionPokedexText::
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
+	text "På skrivebordet"
+	line "ligger min"
+	cont "opfindelse, #DEX!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "Den registrerer"
+	line "automatisk data"
+	cont "om #MON du har"
+	cont "set eller fanget!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Det er en"
+	line "højteknologisk"
+	cont "encyklopædi!"
 	done
 
 _OaksLabOakGotPokedexText::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
-	cont "these with you!"
+	text "OAK: <PLAYER> og"
+	line "<RIVAL>! Tag"
+	cont "disse med jer!"
 
-	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	para "<PLAYER> fik"
+	line "#DEX fra OAK!@"
 	text_end
 
 _OaksLabOakThatWasMyDreamText::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world<...>"
+	text "At lave en komplet"
+	line "guide til alle"
+	cont "#MON i"
+	cont "verden<...>"
 
-	para "That was my dream!"
+	para "Det var min drøm!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "Men, jeg er for"
+	line "gammel! Jeg kan"
+	cont "ikke gøre det!"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "Så, jeg vil have"
+	line "jer to til at"
+	cont "opfylde min drøm"
+	cont "for mig!"
 
-	para "Get moving, you"
-	line "two!"
+	para "Kom afsted, I"
+	line "to!"
 
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "Dette er en stor"
+	line "begivenhed i"
+	cont "#MON historie!"
 	done
 
 _OaksLabRivalLeaveItAllToMeText::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text "<RIVAL>: Okay"
+	line "bedstefar! Lad mig"
+	cont "klare det hele!"
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para "<PLAYER>, jeg"
+	line "hader at sige det,"
+	cont "men jeg behøver"
+	cont "ikke dig!"
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "Jeg ved det! Jeg"
+	line "vil låne et"
+	cont "BY-KORT fra min"
+	cont "søster!"
 
-	para "I'll tell her not"
-	line "to lend you one,"
+	para "Jeg vil sige til"
+	line "hende at hun ikke"
+	cont "skal låne dig et,"
 	cont "<PLAYER>! Hahaha!"
 	done
 
 _OaksLabScientistText::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "Jeg studerer #MON"
+	line "som PROF.OAKs"
+	cont "ASSISTENT."
 	done

@@ -1,28 +1,30 @@
 _UndergroundPathNorthSouthBattleText1::
-	text "I've got a"
-	line "business trip"
-	cont "in CERULEAN CITY!"
+	text "Jeg har en"
+	line "forretningsrejse"
+	cont "i CERULEAN BY!"
 	done
 
 _UndergroundPathNorthSouthEndBattleText1::
-	text "Not"
-	line "bad!"
+	text "Ikke"
+	line "så ringe!"
 	prompt
 
-_UndergroundPathNorthSouthAfterBattleText1::
-	text "I've been taking"
-	line "this path between"
-	cont "CERULEAN CITY and"
-	cont "VERMILION CITY"
-	cont "for years."
-	para "Walking is great"
-	line "exercise!"
+_UndergroundPathNorthSouthEndBattleText2::
+	text "Knockout!"
+	prompt
+
+_UndergroundPathNorthSouthBattleText3::
+	text "Undergrunds-"
+	line "kampklub!"
+	para "Invitation!"
+	para "Lad os komme i"
+	line "gang!"
 	done
 
 _UndergroundPathNorthSouthBattleText2::
-	text "Underground fight"
-	line "club!"
-	para "Challenge start!"
+	text "Undergrunds-"
+	line "kampklub!"
+	para "Udfordring starter!"
 	done
 
 _UndergroundPathNorthSouthEndBattleText2::
@@ -31,39 +33,39 @@ _UndergroundPathNorthSouthEndBattleText2::
 	prompt
  
 _UndergroundPathNorthSouthAfterBattleText2::
-	text "Battling in low-"
-	line "light conditions"
-	cont "is one of the"
-	cont "coolest things!"
-	para "Don't you agree?"
+	text "At kæmpe i"
+	line "svagt lys er en"
+	cont "af de sejeste"
+	cont "ting!"
+	para "Er du ikke enig?"
 	done
 
 _UndergroundPathNorthSouthBattleText3::
-	text "Underground fight"
-	line "club!"
-	para "Invitational!"
-	para "Let's go!"
+	text "Undergrunds-"
+	line "kampklub!"
+	para "Invitation!"
+	para "Lad os køre!"
 	done
 
 _UndergroundPathNorthSouthEndBattleText3::
-	text "You're"
-	line "good!"
+	text "Du er"
+	line "god!"
 	prompt
 
 _UndergroundPathNorthSouthAfterBattleText3::
-	text "We need strong"
-	line "trainers to join"
-	cont "our club."
-	para "Are you in or are"
-	line "you out?"
+	text "Vi har brug for"
+	line "stærke trænere"
+	cont "i vores klub."
+	para "Er du med eller"
+	line "ej?"
 	done
 
 _LearnsetKrabbyKid::
-	text "My @"
+	text "Min @"
 	text_ram_namebuffer
-	text " always"
-	line "likes a good"
-	cont "scrap!"
-	para "What a great"
-	line "little guy!"
+	text " kan"
+	line "altid lide en"
+	cont "god slåskamp!"
+	para "Sikke en fed"
+	line "lille fyr!"
 	prompt

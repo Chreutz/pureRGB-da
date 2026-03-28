@@ -1,164 +1,162 @@
 _VermilionGymLTSurgePostBattleAdviceText::
-	text "A little word of"
-	line "advice, kid!"
+	text "Et lille råd,"
+	line "knægt!"
 
-	para "Electricity is"
-	line "sure powerful!"
+	para "Elektricitet er"
+	line "virkelig stærkt!"
 
-	para "But, it's useless"
-	line "against ground-"
-	cont "type #MON!"
+	para "Men det er"
+	line "ubrugeligt mod"
+	cont "jord-type Pokémon!"
 	done
 
 _VermilionGymLTSurgeThunderBadgeInfoText::
-	text "The THUNDERBADGE"
-	line "cranks up your"
-	cont "#MON's SPEED!"
+	text "TORDENMÆRKET"
+	line "øger dine Pokémons"
+	cont "FART!"
 
-	para "It also lets your"
-	line "#MON FLY any"
-	cont "time, kid!"
+	para "Det lader dine"
+	line "Pokémon FLYVE når"
+	cont "som helst, knægt!"
 
-	para "You're special,"
-	line "kid! Take this!"
+	para "Du er speciel,"
+	line "knægt! Tag dette!"
 	done
 
 _TM24ExplanationText::
 	text_start
 	para "@"
 	text_ram_stringbuffer
-	text " contains"
-	line "THUNDERBOLT!"
+	text " indeholder"
+	line "TORDENBOLT!"
 
-	para "Teach it to an"
-	line "electric #MON!"
+	para "Lær det til et"
+	line "elektrisk Pokémon!"
 	done
 
 _VermilionGymLTSurgeTM24NoRoomText::
-	text "Yo kid, make room"
-	line "in your pack!"
+	text "Yo knægt, gør"
+	line "plads i din"
+	cont "rygsæk!"
 	done
 
 _VermilionGymLTSurgeReceivedThunderBadgeText::
-	text "Whoa!"
+	text "Hov!"
 
-	para "You're the real"
-	line "deal, kid!"
+	para "Du er den ægte"
+	line "vare, knægt!"
 
-	para "Fine then, take"
-	line "the THUNDERBADGE!"
+	para "Fint nok, tag"
+	line "TORDENMÆRKET!"
 	prompt
 
 _VermilionGymGentlemanBattleText::
-	text "When I was in the"
-	line "Army, LT.SURGE"
-	cont "was my strict CO!"
+	text "Da jeg var i"
+	line "hæren, var"
+	cont "LT.SURGE min"
+	cont "strenge chef!"
 	done
 
 _VermilionGymGentlemanEndBattleText::
 	text "Stop!"
-	line "You're very good!"
+	line "Du er god!"
 	prompt
 
 _VermilionGymGentlemanAfterBattleText::
-	text "The door won't"
-	line "open?"
+	text "Døren åbnes ikke?"
 
-	para "LT.SURGE always"
-	line "was cautious!"
+	para "LT.SURGE var"
+	line "altid forsigtig!"
 	done
 
 _VermilionGymSuperNerdBattleText::
-	text "I'm a lightweight,"
-	line "but I'm good with"
-	cont "electricity!"
+	text "Jeg er letvægt,"
+	line "men jeg er god til"
+	cont "elektricitet!"
 	done
 
 _VermilionGymSuperNerdEndBattleText::
-	text "Fried!"
+	text "Stegt!"
 	prompt
 
 _VermilionGymSuperNerdAfterBattleText::
-	text "OK, I'll talk!"
+	text "OK, jeg taler!"
 
-	para "LT.SURGE said he"
-	line "hid door switches"
-	cont "inside something!"
+	para "LT.SURGE sagde han"
+	line "gemte dørkontakter"
+	cont "inde i noget!"
 	done
 
 _VermilionGymSailorBattleText::
-	text "This is no place"
-	line "for kids!"
+	text "Her er ikke sted"
+	line "for børn!"
 	done
 
 _VermilionGymSailorEndBattleText::
 	text "Wow!"
-	line "Surprised me!"
+	line "Overraskede mig!"
 	prompt
 
 _VermilionGymSailorAfterBattleText::
-	text "LT.SURGE set up"
-	line "double locks!"
-	cont "Here's a hint!"
+	text "LT.SURGE satte"
+	line "dobbelte låse op!"
+	cont "Her er et hint!"
 
-	para "When you open the"
-	line "1st lock, the 2nd"
-	cont "lock is right"
-	cont "next to it!"
+	para "Når du åbner den"
+	line "1. lås, er den 2."
+	cont "lås lige ved"
+	cont "siden af!"
 	done
 
 _VermilionGymGymGuideChampInMakingText::
-	text "LT.SURGE has a"
-	line "nickname. People"
-	cont "refer to him as"
-	cont "the Lightning"
-	cont "American!"
+	text "LT.SURGE har et"
+	line "kaldenavn. Folk"
+	cont "kalder ham den"
+	cont "Lynende"
+	cont "Amerikaner!"
 
-	para "He's an expert on"
-	line "electric #MON!"
+	para "Han er ekspert i"
+	line "elektriske Pokémon!"
 
-	para "Birds and water"
-	line "#MON are at"
-	cont "risk! Beware of"
-	cont "paralysis too!"
+	para "Fugle og vand-"
+	line "Pokémon er i fare!"
+	cont "Pas på lammelse"
+	cont "også!"
 
-	para "LT.SURGE is very"
-	line "cautious!"
+	para "LT.SURGE er meget"
+	line "forsigtig!"
 
-	para "You'll have to"
-	line "break a code to"
-	cont "get to him!"
+	para "Du skal knække en"
+	line "kode for at komme"
+	cont "til ham!"
 	done
 
 _VermilionGymGymGuideBeatLTSurgeText::
-	text "Whew! That match"
-	line "was electric!@"
+	text "Huff! Den kamp var"
+	line "elektrisk!@"
 	text_end
 
 _VermilionGymGuideApexChipElectricText::
-	text "For electric"
-	line "#MON, an"
-	cont "APEX CHIP will"
-	cont "simulate a vast"
-	cont "grassy steppe"
-	cont "with frequent"
-	cont "storms,lightning"
-	cont "and thunder!"
+	text "For elektriske"
+	line "Pokémon vil en"
+	cont "APEX CHIP simulere"
+	cont "en enorm græssteppe"
+	cont "med hyppige storme,"
+	cont "lyn og torden!"
 	prompt
 
 _VermilionGymGentlemanAfterLocksText::
-	text "There you go."
-	para "The gates opened!"
-	line "Good job!"
+	text "Der er du."
+	para "Portene åbnede!"
+	line "Godt arbejde!"
 	done
 
 _VermilionGymSuperNerdAfterLocksText::
-	text "Hey! You figured"
-	line "it out! Cool!"
+	text "Hey! Du regnede"
+	line "det ud! Fedt!"
 	done
 
 _VermilionGymSailorAfterLocksText::
-	text "You found the"
-	line "locks?"
-	para "You're sharp!"
+	text "Du fandt låsene?"
+	para "Du er skarp!"
 	done

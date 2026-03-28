@@ -1,64 +1,68 @@
 _SSAnne2FWaiterText::
-	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
+	text "Dette skib er en"
+	line "luksusliner for"
+	cont "trænere!"
 
-	para "At every port, we"
-	line "hold parties with"
-	cont "invited trainers!"
+	para "I hver havn holder"
+	line "vi fester med"
+	cont "inviterede gæster!"
 	done
 
 _SSAnne2FRivalText::
 	text "<RIVAL>: Bonjour!"
 	line "<PLAYER>!"
 
-	para "Imagine seeing"
-	line "you here!"
+	para "Hvem kunne have"
+	line "troet at jeg"
+	cont "ville se dig her!"
 
-	para "<PLAYER>, were you"
-	line "really invited?"
+	para "<PLAYER>, blev du"
+	line "virkelig kaldet"
+	cont "ind?"
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "Hvordan går det"
+	line "med din Pokédex?"
 
-	para "I already caught"
-	line "40 kinds, pal!"
+	para "Jeg har allerede"
+	line "fanget 40 slags,"
+	cont "makker!"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "Forskellige slags"
+	line "findes overalt!"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "Kryb rundt i"
+	line "græsset!"
 	done
 
 _SSAnne2FRivalDefeatedText::
 	text "Humph!"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "I det mindste"
+	line "træner du dine"
+	cont "Pokémon!"
 	prompt
 
 _SSAnne2FRivalVictoryText::
 	text "<PLAYER>!"
-	line "What are you,"
-	cont "seasick?"
+	line "Hvad er der med"
+	cont "dig? Søsyge?"
 
-	para "You should shape"
-	line "up, pal!"
+	para "Du bør rette dig"
+	line "lidt op, makker!"
 	prompt
 
 _SSAnne2FRivalCutMasterText::
-	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<RIVAL>: Jeg hørte"
+	line "der var en BESKÆR-"
+	cont "mester om bord."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "Men han var bare"
+	line "en søsyg gammel"
+	cont "mand!"
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "Men BESKÆR er"
+	line "virkelig nyttigt!"
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Du burde gå hen"
+	line "og se ham! Vi ses!"
 	done

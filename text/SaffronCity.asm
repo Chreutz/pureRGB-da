@@ -1,67 +1,68 @@
 _SaffronCityRocket1Text::
-	text "What do you want?"
-	line "Get lost!"
+	text "Hvad vil du?"
+	line "Forsvind!"
 	done
 
 _SaffronCityRocket2Text::
-	text "BOSS said he'll"
-	line "take this town!"
+	text "BOSS sagde, at han"
+	line "vil tage denne by!"
 	done
 
 _SaffronCityRocket3Text::
-	text "Get out of the"
-	line "way!"
+	text "Flyt dig!"
 	done
 
 _SaffronCityRocket4Text::
-	text "SAFFRON belongs"
-	line "to <TEAM><ROCKET>!"
+	text "SAFFRON tilhører"
+	line "<TEAM><ROCKET>!"
 	done
 
 _SaffronCityRocket5Text::
-	text "Being evil makes"
-	line "me feel so alive!"
+	text "At være ond får"
+	line "mig til at føle"
+	cont "mig så levende!"
 	done
 
 _SaffronCityRocket6Text::
-	text "Ow! Watch where"
-	line "you're walking!"
+	text "Av! Pas på hvor"
+	line "du går!"
 	done
 
 _SaffronCityRocket7Text::
-	text "With SILPH under"
-	line "control, we can"
-	cont "exploit #MON"
-	cont "around the world!"
+	text "Med SILPH under"
+	line "kontrol kan vi"
+	cont "udnytte #MON"
+	cont "hele verden over!"
 	done
 
 _SaffronCityScientistText::
-	text "You beat <TEAM>"
-	line "<ROCKET> all alone?"
-	cont "That's amazing!"
+	text "Du slog <TEAM>"
+	line "<ROCKET> helt"
+	cont "alene? Det er"
+	cont "fantastisk!"
 	done
 
 _SaffronCitySilphWorkerMText::
-	text "Yeah! <TEAM><ROCKET>"
-	line "is gone!"
-	cont "It's safe to go"
-	cont "out again!"
+	text "Ja! <TEAM><ROCKET>"
+	line "er væk!"
+	cont "Det er sikkert at"
+	cont "gå ud igen!"
 	done
 
 _SaffronCitySilphWorkerFText::
-	text "People should be"
-	line "flocking back to"
-	cont "SAFFRON now."
+	text "Folk burde strømme"
+	line "tilbage til"
+	cont "SAFFRON nu."
 	done
 
 _SaffronCityGentlemanText::
-	text "I flew here on my"
-	line "PIDGEOT when I"
-	cont "read about SILPH."
+	text "Jeg fløj hertil"
+	line "på min PIDGEOT da"
+	cont "jeg læste det."
 
-	para "It's already over?"
-	line "I missed the"
-	cont "media action."
+	para "Er det allerede"
+	line "forbi? Jeg gik"
+	cont "glip af medierne."
 	done
 
 _SaffronCityPidgeotText::
@@ -69,31 +70,32 @@ _SaffronCityPidgeotText::
 	text_end
 
 _SaffronCityRockerText::
-	text "I saw <ROCKET>"
-	line "BOSS escaping"
-	cont "SILPH's building."
+	text "Jeg så <ROCKET>"
+	line "BOSS'en flygte"
+	cont "fra SILPHs bygning."
 	done
 
 _SaffronCityRocket8Text::
-	text "I'm a security"
-	line "guard."
+	text "Jeg er en"
+	line "sikkerhedsvagt."
 
-	para "Suspicious kids I"
-	line "don't allow in!"
+	para "Mistænkelige børn"
+	line "slipper jeg ikke"
+	cont "ind!"
 	done
 
 _SaffronCityRocket9Text::
 	text "<...>"
-	line "Snore<...>"
+	line "Snork<...>"
 
-	para "Hah! He's taking"
-	line "a snooze!"
+	para "Hah! Han tager"
+	line "sig en lur!"
 	done
 
 _SaffronCitySignText::
-	text "SAFFRON CITY"
-	para "Shining, Golden"
-	line "Land of Commerce"
+	text "SAFFRON BY"
+	para "Skinnende, Gyldne"
+	line "Handelsby"
 	done
 
 _SaffronCityFightingDojoSignText::
@@ -101,52 +103,52 @@ _SaffronCityFightingDojoSignText::
 	done
 
 _SaffronCityGymSignText::
-	text "SAFFRON CITY"
+	text "SAFFRON BY"
 	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	cont "LEDER: SABRINA"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "Mesteren af"
+	line "psykiske #MON!"
 	done
 
 _SaffronCityTrainerTips1Text::
 	text "<TIPS>"
 
-	para "FULL HEAL cures"
-	line "all ailments like"
-	cont "sleep and burns."
+	para "FULL HEAL kurerer"
+	line "alle lidelser som"
+	cont "søvn og forbrænd."
 
-	para "It costs a bit"
-	line "more, but it's"
-	cont "more convenient."
+	para "Den koster lidt"
+	line "mere, men er mere"
+	cont "praktisk."
 	done
 
 _SaffronCityTrainerTips2Text::
 	text "<TIPS>"
 
-	para "New GREAT BALL"
-	line "offers improved"
-	cont "capture rates."
+	para "Den nye GREAT BALL"
+	line "tilbyder forbedret"
+	cont "fangstrate."
 
-	para "Try it on those"
-	line "hard-to-catch"
+	para "Prøv den på de"
+	line "svært fangne"
 	cont "#MON."
 	done
 
 _SaffronCitySilphCoSignText::
 	text "SILPH CO."
-	line "OFFICE BUILDING →"
+	line "KONTORBYGNING →"
 	done
 
 _SaffronCityMrPsychicsHouseSignText::
-	text "MR.PSYCHIC's"
-	line "HOUSE"
+	text "MR.PSYCHICs"
+	line "HUS"
 	done
 
 _SaffronCitySilphCoLatestProductSignText::
-	text "SILPH's latest"
-	line "product!"
+	text "SILPHs nyeste"
+	line "produkt!"
 
-	para "Release to be"
-	line "determined<...>"
+	para "Udgivelse endnu"
+	line "ikke bestemt<...>"
 	done

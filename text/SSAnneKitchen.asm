@@ -1,84 +1,86 @@
 _SSAnneKitchenCook1Text::
-	text "You, mon petit!"
-	line "We're busy here!"
-	cont "Out of the way!"
+	text "Du, min lille!"
+	line "Vi har travlt her!"
+	cont "Væk med dig!"
 	done
 
 _SSAnneKitchenCook2Text::
-	text "I saw an odd ball"
-	line "in the trash."
+	text "Jeg så en mærkelig"
+	line "bold i skraldet."
 	done
 
 _SSAnneKitchenCook3Text::
-	text "I'm so busy I'm"
-	line "getting dizzy!"
+	text "Jeg har så travlt"
+	line "at jeg bliver"
+	cont "svimmel!"
 	done
 
 _SSAnneKitchenCook4Text::
 	text "Hum-de-hum-de-"
 	line "ho<...>"
 
-	para "I peel spuds"
-	line "every day!"
-	cont "Hum-hum<...>"
+	para "Jeg skræller"
+	line "kartofler hver"
+	cont "dag! Hum-hum<...>"
 	done
 
 _SSAnneKitchenCook5Text::
-	text "Did you hear about"
+	text "Har du hørt om"
 	line "SNORLAX?"
 
-	para "All it does is"
-	line "eat and sleep!"
+	para "Alt den gør er"
+	line "at spise og sove!"
 	done
 
 _SSAnneKitchenCook6Text::
-	text "Snivel<...>Sniff<...>"
+	text "Snøft<...>Snøft<...>"
 
-	para "I only get to"
-	line "peel onions<...>"
-	cont "Snivel<...>"
+	para "Jeg må kun skrælle"
+	line "løg<...>"
+	cont "Snøft<...>"
 	done
 
 _SSAnneKitchenCook7MainCourseIsText::
-	text "Er-hem! Indeed I"
-	line "am le CHEF!"
+	text "Ahem! Sandelig,"
+	line "jeg er KOKKEN!"
 
-	para "Le main course is:"
+	para "Le hovedret er:"
 	prompt
 
 SSAnneKitchenCook7SalmonDuSaladText::
-	text "Salmon du Salad!"
+	text "Laks du Salat!"
 
-	para "Les guests may"
-	line "gripe it's fish"
-	cont "again, however!"
+	para "Les gæster vil"
+	line "måske klage over"
+	cont "fisk igen, dog!"
 	done
 
 SSAnneKitchenCook7EelsAuBarbecueText::
-	text "Eels au Barbecue!"
+	text "Ål au Barbecue!"
 
-	para "Les guests will"
-	line "mutiny, I fear."
+	para "Les gæster vil"
+	line "gøre mytteri,"
+	cont "jeg er bange for."
 	done
 
 SSAnneKitchenCook7PrimeBeefSteakText::
-	text "Prime Beef Steak!"
+	text "Oksekød Fint!"
 
-	para "But, have I enough"
-	line "fillets du beef?"
+	para "Men, har jeg nok"
+	line "oksekødsfileter?"
 	done
 
 _SSAnneKitchenWaiter::
-	text "Would you like"
-	line "something to eat?"
+	text "Vil du have"
+	line "noget at spise?"
 	done
 
 _SSAnneKitchenWaiterHaveSeat::
-	text "Then have a seat"
-	line "right here."
+	text "Så sæt dig ned"
+	line "lige her."
 	done
 
 _SSAnneKitchenWaiterComingRightUp::
-	text "Great choice!"
-	line "Coming right up!"
+	text "Godt valg!"
+	line "Kommer straks!"
 	done

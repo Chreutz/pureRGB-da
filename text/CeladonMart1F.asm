@@ -1,266 +1,275 @@
 _CeladonMart1FReceptionistText::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "Hej! Velkommen til"
+	line "CELADON VAREHUS."
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "Tavlen til højre"
+	line "beskriver vare-"
+	cont "husets layout."
 	done
 
 _CeladonMart1FCurrentFloorSignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1F: SERVICE-"
+	line "    SKRANK"
 	done
 
 _CeladonMart2FCurrentFloorSignText::
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "Tophåndvarer for"
+	line "Trænere!"
 	prompt
 
 _CeladonMart2FDirectorySignText::
-	text "2F: <TRAINER>'S"
-	line "    MARKET"
+	text "2F: <TRAINER>S"
+	line "    MARKED"
 	done
 
 _CeladonMart3FCurrentFloorSignText::
-	text "3F: TV GAME SHOP"
+	text "3F: TV-SPILSHOP"
 	done
 
 _CeladonMart4FDirectorySignText::
-	text "4F: WISEMAN GIFTS"
+	text "4F: GAVEBODEN"
 	prompt
 
 _CeladonMart5FCurrentFloorSignText::
-	text "5F: DRUG STORE"
+	text "5F: APOTEK"
 	done
 
 _CeladonMartRoofCurrentFloorSignText::
-	text "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	text "TAGPLADS:"
+	line "AUTOMATER"
 	done
 
 _CeladonMartUsePhoneText::
-	text "Use the payphone?"
-	line "It costs ¥25."
+	text "Brug telefon-"
+	line "boksen? Det koster"
+	cont "¥25."
 	done
 
 _GenericForgetItText::
 _CeladonMartUsePhoneTextNo::
-	text "Forget it!"
+	text "Glem det!"
 	done
 
 _CeladonMartCallWhoText::
-	text "Call who?"
+	text "Ring til hvem?"
 	done
 
 _CeladonMartCallStartText::
-	text "Here we go!"
-	line "Dialing<...>"
+	text "Her går vi!"
+	line "Ringer<...>"
 	done
 
 _CeladonMartUsePhoneCallEnd::
-	text "Click!"
+	text "Klik!"
 	done
 
 _CeladonMartCallMomText::
-	text "MOM: <PLAYER>?!"
-	para "Is that you??"
-	para "I miss"
-	line "you so much!"
-	para "How are you"
-	line "feeling?"
+	text "MOR: <PLAYER>?!"
+	para "Er det dig??"
+	para "Jeg savner"
+	line "dig så meget!"
+	para "Hvordan har"
+	line "du det?"
 	prompt
 
 _CeladonMartCallMomGreatText::
-	text "Of course you"
-	line "are!"
-	para "You always were"
-	line "determined."
-	para "My son is doing"
-	line "well on his big"
-	cont "#MON journey."
-	para "Stay safe and"
-	line "have fun!"
+	text "Det har du"
+	line "naturligvis!"
+	para "Du var altid"
+	line "beslutsom."
+	para "Min søn klarer"
+	line "sig godt på sin"
+	cont "store #MON-"
+	cont "rejse."
+	para "Hold dig sikker"
+	line "og hav det sjovt!"
 	prompt
 
 _CeladonMartCallMomBoredText::
-	text "Getting bored of"
-	line "battling?"
-	para "Well, you're in"
+	text "Keder du dig med"
+	line "at battle?"
+	para "Nå, du er i"
 	line "CELADON CITY<...>"
-	para "I heard they have"
-	line "some sort of GAME"
-	cont "CORNER there."
-	para "I know you love"
-	line "games!"
-	para "You'd probably"
-	line "have fun there."
+	para "Jeg hørte de har"
+	line "en slags GAME"
+	cont "CORNER der."
+	para "Jeg ved du elsker"
+	line "spil!"
+	para "Du ville nok"
+	line "have det sjovt"
+	cont "der."
 	prompt
 
 _CeladonMartCallMomGoodIdeaText::
-	text "Perfect!"
-	para "Remember to save"
-	line "around half the"
-	cont "money you earn."
-	para "It's just a good"
-	line "rule to live by!"
-	para "Another one is"
-	line "to wear fresh"
-	cont "underwear daily."
-	para "You'd best follow"
-	line "that one too!"
+	text "Perfekt!"
+	para "Husk at spare"
+	line "omkring halvdelen"
+	cont "af pengene du"
+	cont "tjener."
+	para "Det er bare en"
+	line "god regel at leve"
+	cont "efter!"
+	para "En anden er at"
+	line "have rene"
+	cont "underbukser på"
+	cont "hver dag."
+	para "Du bør følge den"
+	line "også!"
 	prompt
 
 _CeladonMartCallMomGamblingText::
-	text "What??"
-	para "My son, gambling?"
-	para "Bad idea!"
-	para "Guess you'll have"
-	line "to go somewhere"
-	cont "else!"
-	para "How about"
-	line "CYCLING ROAD?"
-	para "I remember when"
-	line "DAD taught you to"
-	cont "ride a bike!"
-	para "You were so cute!"
-	para "You kept falling"
-	line "over but kept on"
-	cont "trying anyway!"
-	para "So tenacious!"
+	text "Hvad??"
+	para "Min søn, spiller?"
+	para "Dårlig idé!"
+	para "Gætter på du må"
+	line "hen et andet sted!"
+	para "Hvad med"
+	line "CYKELVEJEN?"
+	para "Jeg husker da"
+	line "FAR lærte dig at"
+	cont "cykle!"
+	para "Du var så sød!"
+	para "Du faldt hele"
+	line "tiden men fortsatte"
+	cont "alligevel!"
+	para "Så vedholdende!"
 	prompt
 
 _CeladonMartCallMomHomesickText::
-	text "You poor thing!"
-	para "You miss your"
-	line "MOM, I knew it!"
-	para "Come by PALLET"
-	line "TOWN any time!"
-	para "I'll make you"
-	line "some food."
+	text "Du stakkels skat!"
+	para "Du savner din"
+	line "MOR, jeg vidste"
+	cont "det!"
+	para "Kom forbi PALLET"
+	line "TOWN når som"
+	cont "helst!"
+	para "Jeg laver mad"
+	line "til dig."
 	para "@"
 	; fall through
 _WhatWouldYouLikeText::
-	text "What would you"
-	line "like?"
+	text "Hvad vil du"
+	line "gerne have?"
 	prompt
 
 _CeladonMartCallMomRiceBallsText::
-	text "Got it!"
-	para "I'll make you"
-	line "some rice balls"
-	cont "as a nice snack."
-	para "Some with"
-	line "tuna inside, and"
-	cont "some with boiled"
-	cont "eggs inside!"
-	para "I know you love"
-	line "those."
-	para "Come get them!"
+	text "Forstået!"
+	para "Jeg laver nogle"
+	line "risboller som en"
+	cont "lille snack."
+	para "Nogle med"
+	line "tun indeni, og"
+	cont "nogle med kogte"
+	cont "æg indeni!"
+	para "Jeg ved du elsker"
+	line "dem."
+	para "Kom og hent dem!"
 	prompt
 
 _CeladonMartCallMomJellyDonutsText::
-	text "Alright, jelly"
-	line "donuts it is!"
-	para "Just as a treat"
-	line "though!"
-	para "You mustn't have"
-	line "too much sugar."
-	para "You always had"
-	line "a sweet tooth!"
-	para "Come get them!"
+	text "Okay, fyldte"
+	line "boller det er!"
+	para "Bare som en snack"
+	line "dog!"
+	para "Du må ikke få"
+	line "for meget sukker."
+	para "Du har altid"
+	line "kunnet lide det"
+	cont "søde!"
+	para "Kom og hent dem!"
 	prompt
 
 _CeladonMartCallMomBrisketText::
-	text "Some of DAD's"
-	line "slow-cooked"
-	cont "brisket?"
-	para "Great idea!"
+	text "Noget af FARs"
+	line "langtids-"
+	cont "tilberedte"
+	cont "brystkød?"
+	para "God idé!"
 	prompt
 
 _CeladonMartCallMomBrisketText2::
-	text "He's not here"
-	line "right now, but"
-	cont "I'll use the"
-	cont "recipe he wrote"
-	cont "down."
+	text "Han er ikke her"
+	line "lige nu, men"
+	cont "jeg bruger"
+	cont "opskriften han"
+	cont "skrev ned."
 	prompt
 
 _CeladonMartDadBrisketText::
-	text "Honey! <PLAYER>"
-	line "wants brisket"
-	cont "for dinner!"
-	para "Okay, he's on it."
-	line "Sounds good!"
+	text "Skat! <PLAYER>"
+	line "vil have brystkød"
+	cont "til aftensmad!"
+	para "Okay, han går i"
+	line "gang. Lækkert!"
 	prompt
 
 _CeladonMartCallMomBrisketText3::
-	text "I wouldn't mind"
-	line "having some"
-	cont "either."
-	para "Come and get it!"
+	text "Jeg ville ikke"
+	line "have noget imod"
+	cont "at få noget selv."
+	para "Kom og hent det!"
 	prompt
 
 _CeladonMartCallMomLasagnaText::
-	text "Oh, you just love"
-	line "your MOM's home"
-	cont "cooked lasagna!"
-	para "I'll put in extra"
-	line "cheese, just how"
-	cont "you like it!"
-	para "A growing boy"
-	line "has to eat well!"
-	para "A hearty meal"
-	line "will be waiting"
-	cont "for you at home!"
+	text "Åh, du elsker bare"
+	line "din MORs hjemme-"
+	cont "lavet lasagne!"
+	para "Jeg putter ekstra"
+	line "ost i, lige som"
+	cont "du kan lide det!"
+	para "En voksende dreng"
+	line "skal spise godt!"
+	para "Et hjerteligt"
+	line "måltid venter dig"
+	cont "derhjemme!"
 	prompt
 
 _CeladonMartCallMomGoodbyeText::
-	text "Goodbye <PLAYER>!"
-	line "Love you!"
+	text "Farvel <PLAYER>!"
+	line "Elsker dig!"
 	prompt
 	
 _CeladonMartCallMomGoodbyeSweetSon::
-	text "Oh, my son is so"
-	line "sweet. Bye bye!"
+	text "Åh, min søn er så"
+	line "sød. Farvel!"
 	prompt
 
 _CeladonMartCallMomGoodbyeComplete::
-	text "Bye bye!"
+	text "Farvel!"
 	prompt
 
 _CeladonMartCallDadText::
-	text "DAD: Who is it?"
+	text "FAR: Hvem er det?"
 	para "<PLAYER>?"
-	para "You left without"
-	line "even saying bye"
-	cont "to your old man!"
-	para "Haha, I know you"
-	line "were eager to go"
-	cont "catch #MON."
-	para "I heard you chose"
-	line "@"
+	para "Du tog afsted"
+	line "uden engang at"
+	cont "sige farvel til"
+	cont "din gamle far!"
+	para "Haha, jeg ved du"
+	line "var ivrig efter at"
+	cont "fange #MON."
+	para "Jeg hørte du"
+	line "valgte @"
 	text_ram_namebuffer
 	text "!"
 	prompt
 
 _CeladonMartCallDadText2::
-	text "So you have @"
+	text "Så du har @"
 	text_ram w2CharStringBuffer
 	text " "
 	line "badges<...>"
-	para "I'm impressed!"
-	para "You're doing"
-	line "very well!"
-	para "Keep at it!"
-	para "I'm at home right"
-	line "now, why don't"
-	cont "you come say hi?"
-	para "We can play some"
+	para "Jeg er imponeret!"
+	para "Du klarer dig"
+	line "meget godt!"
+	para "Bliv ved!"
+	para "Jeg er hjemme"
+	line "lige nu, hvorfor"
+	cont "kommer du ikke og"
+	cont "siger hej?"
+	para "Vi kan spille lidt"
 	line "KIRBY SUPER STAR"
-	cont "on the SNES."
-	para "I'll be waiting!"
-	line "Bye now!"
+	cont "på SNES'en."
+	para "Jeg venter!"
+	line "Farvel nu!"
 	prompt
-

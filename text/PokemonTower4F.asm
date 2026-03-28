@@ -1,45 +1,46 @@
 _PokemonTower4FChanneler1BattleText::
-	text "GHOST! No!"
+	text "SPØGELSE! Nej!"
 	line "Kwaaah!"
 	done
 
 _PokemonTower4FChanneler1EndBattleText::
-	text "Where"
-	line "is the GHOST?"
+	text "Hvor"
+	line "er SPØGELSET?"
 	prompt
 
 _PokemonTower4FChanneler1AfterBattleText::
-	text "I must have been"
-	line "dreaming<...>"
+	text "Jeg må have"
+	line "drømt<...>"
 	done
 
 _PokemonTower4FChanneler2BattleText::
-	text "Be cursed with"
-	line "me! Kwaaah!"
+	text "Bliv forbandet"
+	line "med mig! Kwaaah!"
 	done
 
 _PokemonTower4FChanneler2EndBattleText::
-	text "What!"
+	text "Hvad!"
 	prompt
 
 _PokemonTower4FChanneler2AfterBattleText::
-	text "We can't crack"
-	line "the identity of"
-	cont "the GHOSTs."
+	text "Vi kan ikke"
+	line "gennemskue"
+	cont "SPØGELSERNES"
+	cont "identitet."
 	done
 
 _PokemonTower4FChanneler3BattleText::
 	text "Huhuhu<...>"
-	line "Beat me not!"
+	line "Slå mig ikke!"
 	done
 
 _PokemonTower4FChanneler3EndBattleText::
 	text "Huh?"
-	line "Who? What?"
+	line "Hvem? Hvad?"
 	prompt
 
 _PokemonTower4FChanneler3AfterBattleText::
-	text "May the departed"
-	line "souls of #MON"
-	cont "rest in peace<...>"
+	text "Må de afdøde"
+	line "#MON-sjæle"
+	cont "hvile i fred<...>"
 	done

@@ -1,247 +1,248 @@
 _Route14CooltrainerM1BattleText::
-	text "You need to use"
-	line "<TM>s to teach good"
-	cont "moves to #MON!"
+	text "Du skal bruge"
+	line "<TM>s til gode"
+	cont "angreb til #MON!"
 	done
 
 _Route14CooltrainerM1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Ikke"
+	line "godt nok!"
 	prompt
 
 _Route14CooltrainerM1AfterBattleText::
-	text "You have some HMs"
-	line "right?"
-	para "HM moves can be"
-	line "replaced just"
-	cont "like other moves"
-	cont "can, anytime,"
-	cont "anywhere!"
-	para "No worries!"
+	text "Du har nogle HM'er"
+	line "ikke?"
+	para "HM angreb kan"
+	line "erstattes ligesom"
+	cont "andre angreb kan,"
+	cont "når som helst,"
+	cont "hvor som helst!"
+	para "Ingen bekymringer!"
 	done
 
 _Route14CooltrainerM2BattleText::
-	text "My bird #MON"
-	line "should be ready"
-	cont "for battle."
+	text "Mine fugle-#MON"
+	line "burde være klar"
+	cont "til kamp."
 	done
 
 _Route14CooltrainerM2EndBattleText::
-	text "Not"
-	line "ready yet!"
+	text "Endnu"
+	line "ikke klar!"
 	prompt
 
 _Route14CooltrainerM2AfterBattleText::
-	text "They need to learn"
-	line "better moves."
+	text "De skal lære"
+	line "bedre angreb."
 	done
 
 _Route14CooltrainerM3BattleText::
-	text "<TM>s are on sale"
-	line "in CELADON!"
-	cont "But, only a few"
-	cont "people have HMs!"
+	text "<TM>s er til salg"
+	line "i CELADON!"
+	cont "Men kun få folk"
+	cont "har HM'er!"
 	done
 
 _Route14CooltrainerM3EndBattleText::
-	text "Aww,"
-	line "bummer!"
+	text "Åh,"
+	line "skuffelse!"
 	prompt
 
 _Route14CooltrainerM3AfterBattleText::
-	text "Teach #MON"
-	line "moves of the same"
+	text "Lær #MON"
+	line "angreb af samme"
 	cont "element type for"
-	cont "more power."
+	cont "mere styrke."
 	done
 
 _Route14CooltrainerM4BattleText::
-	text "Have you taught"
-	line "your bird #MON"
-	cont "how to FLY?"
+	text "Har du lært dine"
+	line "fugle-#MON"
+	cont "hvordan man FLYr?"
 	done
 
 _Route14CooltrainerM4EndBattleText::
-	text "Shot"
-	line "down in flames!"
+	text "Skudt"
+	line "ned i flammer!"
 	prompt
 
 _Route14CooltrainerM4AfterBattleText::
-	text "Bird #MON are"
-	line "my true love!"
+	text "Fugle-#MON er"
+	line "min store kærlighed"
 	done
 
 _Route14CooltrainerM5BattleText::
-	text "Have you heard of"
-	line "the legendary"
+	text "Har du hørt om"
+	line "de legendariske"
 	cont "#MON?"
 	done
 
 _Route14CooltrainerM5EndBattleText::
-	text "Why?"
-	line "Why'd I lose?"
+	text "Hvorfor?"
+	line "Hvorfor tabte jeg?"
 	prompt
 
 _Route14CooltrainerM5AfterBattleText::
-	text "The 3 legendary"
-	line "#MON are all"
-	cont "birds of prey."
+	text "De 3 legendariske"
+	line "#MON er alle"
+	cont "rovfugle."
 	done
 
 _LegendaryBirdLearnsetAn::
-	text "WHAT?!?"
-	para "You caught an"
+	text "HVAD?!?"
+	para "Du fangede en"
 	line "@"
 	text_ram_namebuffer
 	text "?!"
 	prompt
 
 _LegendaryBirdLearnsetA::
-	text "WHAT?!?"
-	para "You caught a"
+	text "HVAD?!?"
+	para "Du fangede en"
 	line "@"
 	text_ram_namebuffer
 	text "?!"
 	prompt
 
 _LegendaryBirdLearnset::
-	text "You're a legend!"
-	para "That's one of the"
-	line "legendary birds!"
-	para "Can I see it?!"
-	para "I'll tell you"
-	line "everything I know"
-	cont "about it!"
+	text "Du er en legende!"
+	para "Det er en af de"
+	line "legendariske fugle!"
+	para "Må jeg se den?!"
+	para "Jeg fortæller dig"
+	line "alt jeg ved"
+	cont "om den!"
 	done
 
 _Route14CooltrainerM6BattleText::
-	text "I'm not into it,"
-	line "but OK! Let's go!"
+	text "Jeg er ikke vild"
+	line "med det, men OK!"
+	cont "Kom an!"
 	done
 
 _Route14CooltrainerM6EndBattleText::
-	text "I"
-	line "knew it!"
+	text "Jeg"
+	line "vidste det!"
 	prompt
 
 _Route14CooltrainerM6AfterBattleText::
-	text "Winning, losing,"
-	line "it doesn't matter"
-	cont "in the long run!"
+	text "At vinde, tabe,"
+	line "betyder det ikke"
+	cont "noget på sigt!"
 	done
 
 _Route14Biker1BattleText::
-	text "C'mon, c'mon."
-	line "Let's go, let's"
-	cont "go, let's go!"
+	text "Kom an, kom an."
+	line "Lad os køre, lad"
+	cont "os køre!"
 	done
 
 _Route14Biker1EndBattleText::
-	text "Arrg!"
-	line "Lost! Get lost!"
+	text "Åh!"
+	line "Tabt! Forsvind!"
 	prompt
 
 _Route14Biker1AfterBattleText::
-	text "What, what, what?"
-	line "What do you want?"
+	text "Hvad, hvad, hvad?"
+	line "Hvad vil du have?"
 	done
 
 _Route14Biker2BattleText::
-	text "Perfect! I need to"
-	line "burn some time!"
+	text "Perfekt! Jeg skal"
+	line "brænde tid af!"
 	done
 
 _Route14Biker2EndBattleText::
-	text "What?"
-	line "You!?"
+	text "Hvad?"
+	line "Dig!?"
 	prompt
 
 _Route14Biker2AfterBattleText::
-	text "Raising #MON"
-	line "is a drag, man."
+	text "At opdrætte #MON"
+	line "er træls, mand."
 	done
 
 _Route14Biker3BattleText::
-	text "We ride out here"
-	line "because there's"
-	cont "more room!"
+	text "Vi kører herude"
+	line "fordi der er"
+	cont "mere plads!"
 	done
 
 _Route14Biker3EndBattleText::
-	text "Wipe out!"
+	text "Væltet!"
 	prompt
 
 _Route14Biker3AfterBattleText::
-	text "It's cool you"
-	line "made your #MON"
-	cont "so strong!"
+	text "Det er sejt at du"
+	line "gjorde dine #MON"
+	cont "så stærke!"
 
-	para "Might is right!"
-	line "And you know it!"
+	para "Styrke er ret!"
+	line "Og det ved du!"
 	done
 
 _Route14Biker4BattleText::
-	text "#MON fight?"
-	line "Cool! Rumble!"
+	text "#MON kamp?"
+	line "Sejt! Slagsmål!"
 	done
 
 _Route14Biker4EndBattleText::
-	text "Blown"
-	line "away!"
+	text "Blæst"
+	line "væk!"
 	prompt
 
 _Route14Biker4AfterBattleText::
-	text "You know who'd"
-	line "win, you and me"
-	cont "one on one!"
+	text "Du ved hvem der"
+	line "ville vinde, dig"
+	cont "og mig en mod en!"
 	done
 
 _Route14BattleText11::
-	text "Initiate"
-	line "power dive!"
+	text "Start"
+	line "styrtflyvning!"
 	done
 
 _Route14EndBattleText11::
-	text "Pull"
-	line "up!"
+	text "Træk"
+	line "op!"
 	prompt
 
 _Route14AfterBattleText11::
-	text "Looks like we"
-	line "lost another one,"
-	cont "flyboys."
+	text "Det ser ud til vi"
+	line "tabte en til,"
+	cont "flyvedrenge."
 	done
 
 _Route14BattleText12::
-	text "Lots of burly"
-	line "BIKERs here,"
-	cont "aren't there?"
+	text "Masser af seje"
+	line "BIKERe her,"
+	cont "ikke sandt?"
 	done
 
 _Route14EndBattleText12::
-	text "Goodness!"
+	text "Gud!"
 	prompt
 
 _Route14AfterBattleText12::
-	text "I've seen those"
-	line "BIKERs around"
-	cont "here before."
-	para "They might look"
-	line "scary, but they"
-	cont "are actually nice"
-	cont "guys."
+	text "Jeg har set de"
+	line "BIKERe heromkring"
+	cont "før."
+	para "De ser måske"
+	line "skræmmende ud, men"
+	cont "de er faktisk rare"
+	cont "fyre."
 	done	
 
 _Route14SignText::
-	text "ROUTE 14"
-	line "West to FUCHSIA"
+	text "RUTE 14"
+	line "Vest til FUCHSIA"
 	cont "CITY"
 	done
 
 _Route14Text12::
 	text "<TIPS>"
-	para "Press SELECT to"
-	line "use your BICYCLE."
-	para "Make sure to keep"
-	line "it in your bag."
+	para "Tryk SELECT for"
+	line "brug din BICYCLE."
+	para "Sørg for at have"
+	line "den i din taske."
 	done

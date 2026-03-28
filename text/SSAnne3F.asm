@@ -1,7 +1,7 @@
 _SSAnne3FSailorText::
-	text "Our CAPTAIN is a"
-	line "sword master!"
+	text "Vores KAPTEJN er"
+	line "en sværdmester!"
 
-	para "He even teaches"
-	line "CUT to #MON!"
+	para "Han lærer endda"
+	line "Pokémon BESKÆR!"
 	done

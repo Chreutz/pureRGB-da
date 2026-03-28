@@ -1,43 +1,43 @@
 _VermilionOldRodHouseFishingGuruDoYouLikeToFishText::
-	text "I'm the FISHING"
-	line "GURU's older"
-	cont "brother!@"
+	text "Jeg er FISKER-"
+	line "GURUENS ældre"
+	cont "bror!@"
 	text_end
 
 _VermilionOldRodHouseISimplyLoveFishing::
-	text "<PARA>I simply Looove"
-	line "fishing!"
+	text "<PARA>Jeg elsker"
+	line "simpelthen at fiske!"
 
-	para "Do you like to"
-	line "fish?"
+	para "Kan du lide at"
+	line "fiske?"
 	done
 
 _VermilionOldRodHouseFishingGuruTakeThisText::
-	text "Grand! I like"
-	line "your style!"
+	text "Formidabelt! Jeg"
+	line "kan lide din stil!"
 
-	para "Take this and"
-	line "fish, young one!<PARA>@"
+	para "Tag denne og fisk,"
+	line "min unge!<PARA>@"
 	text_end
 
 _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText::
-	text "Hello there,"
+	text "Hej med dig,"
 	line "<PLAYER>!"
 
-	para "How are the fish"
-	line "biting?@"
+	para "Hvordan bider"
+	line "fiskene?@"
 	text_end
 
 _VermilionOldRodHouseGoodRodInfo::
-	text "<PARA>That GOOD ROD I"
-	line "gave you is a"
-	cont "reliable piece!"
+	text "<PARA>Den GODE STANG"
+	line "jeg gav dig er et"
+	cont "pålideligt stykke!"
 
-	para "Try using it"
-	line "in lakes or"
-	cont "the ocean."
+	para "Prøv at bruge den"
+	line "i søer eller"
+	cont "i havet."
 
-	para "It can hook lots"
-	line "of different"
-	cont "#MON!"
+	para "Den kan fange"
+	line "mange forskellige"
+	cont "Pokémon!"
 	done

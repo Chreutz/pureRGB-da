@@ -1,161 +1,168 @@
 _CeruleanBadgeHouseMiddleAgedManText::
 	text "#MON BADGEs"
-	line "are owned only by"
-	cont "skilled trainers."
+	line "ejes kun af"
+	cont "dygtige trænere."
 
-	para "I see you have"
-	line "at least one."
+	para "Jeg kan se du har"
+	line "mindst én."
 
-	para "Those BADGEs have"
-	line "amazing secrets!"
+	para "De BADGEs har"
+	line "fantastiske"
+	cont "hemmeligheder!"
 	prompt
 
 _CeruleanBadgeHouseMiddleAgedManWhichBadgeText::
-	text "Now then<...>"
+	text "Nå da<...>"
 
-	para "Which of the 8"
-	line "BADGEs should I"
-	cont "describe?"
+	para "Hvilken af de 8"
+	line "BADGEs skal jeg"
+	cont "beskrive?"
 	done
 
 _CeruleanBadgeHouseMiddleAgedManVisitAnyTimeText::
-	text "Come visit me any"
-	line "time you wish."
+	text "Kom og besøg mig"
+	line "når du vil."
 	done
 
 _CeruleanBadgeHouseBoulderBadgeText::
-	text "The ATTACK of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Angrebet fra alle"
+	line "#MON stiger"
+	cont "lidt."
 
-	para "It also lets you"
-	line "use FLASH any"
-	cont "time you desire."
+	para "Den lader dig"
+	line "også bruge FLASH"
+	cont "når du vil."
 	prompt
 
 _CeruleanBadgeHouseCascadeBadgeText::
-	text "#MON up to L30"
-	line "will obey you."
+	text "#MON op til L30"
+	line "vil adlyde dig."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Højere, bliver de"
+	line "ulydige!"
 
-	para "It also lets you"
-	line "use CUT outside"
-	cont "of battle."
+	para "Den lader dig"
+	line "også bruge CUT"
+	cont "uden for kamp."
 	prompt
 
 _CeruleanBadgeHouseThunderBadgeText::
-	text "The SPEED of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Hastigheden af"
+	line "alle #MON stiger"
+	cont "lidt."
 
-	para "It also lets you"
-	line "use FLY outside"
-	cont "of battle."
+	para "Den lader dig"
+	line "også bruge FLY"
+	cont "uden for kamp."
 	prompt
 
 _CeruleanBadgeHouseRainbowBadgeText::
-	text "#MON up to L50"
-	line "will obey you."
+	text "#MON op til L50"
+	line "vil adlyde dig."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Højere, bliver de"
+	line "ulydige!"
 
-	para "It also lets you"
-	line "use STRENGTH out-"
-	cont "side of battle."
+	para "Den lader dig"
+	line "også bruge"
+	cont "STRENGTH uden"
+	cont "for kamp."
 	prompt
 
 _CeruleanBadgeHouseSoulBadgeText::
-	text "The DEFENSE of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Forsvaret af alle"
+	line "#MON stiger"
+	cont "lidt."
 
-	para "It also lets you"
-	line "use SURF outside"
-	cont "of battle."
+	para "Den lader dig"
+	line "også bruge SURF"
+	cont "uden for kamp."
 	prompt
 
 _CeruleanBadgeHouseMarshBadgeText::
-	text "#MON up to L70"
-	line "will obey you."
+	text "#MON op til L70"
+	line "vil adlyde dig."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Højere, bliver de"
+	line "ulydige!"
 	prompt
 
 _CeruleanBadgeHouseVolcanoBadgeText::
-	text "Your #MON's"
-	line "SPECIAL abilities"
-	cont "increase a bit."
+	text "Dine #MONs"
+	line "SPECIAL evner"
+	cont "stiger lidt."
 	prompt
 
 _CeruleanBadgeHouseEarthBadgeText::
-	text "All #MON will"
-	line "obey you!"
+	text "Alle #MON vil"
+	line "adlyde dig!"
 	prompt
 
 _GarbageCrumpledUpPaper::
-	text "What's in the"
-	line "garbage bin?"
-	para "A crumpled up"
-	line "sheet of paper."
-	para "What's on it?@"
+	text "Hvad er i"
+	line "skraldespanden?"
+	para "Et sammenkrøllet"
+	line "ark papir."
+	para "Hvad står der på?@"
 	text_end
 
 _CeruleanBadgeHouseGarbageText::
-	text "<PARA>Ohoho."
-	para "Some drawings"
-	line "of BADGEs."
-	para "Is he a designer?"
+	text "<PARA>Åhøhø."
+	para "Nogle tegninger"
+	line "af BADGEs."
+	para "Er han designer?"
 	done
 
 _CeruleanBadgeHouseLeftPaperText::
-	text "If you have a"
-	line "MOVEDEX, you can"
-	cont "record learnsets"
-	cont "for #MON in"
-	cont "your #DEX!"
-	para "Read books or"
-	line "talk to experts"
-	cont "on #MON to"
-	cont "register their"
-	cont "learnsets!"
+	text "Hvis du har en"
+	line "MOVEDEX, kan du"
+	cont "registrere"
+	cont "angrebslister for"
+	cont "#MON i dit"
+	cont "#DEX!"
+	para "Læs bøger eller"
+	line "tal med eksperter"
+	cont "på #MON for at"
+	cont "registrere deres"
+	cont "angrebslister!"
 	done
 
 _CeruleanBadgeHouseCenterLeftPaperText::
-	text "When you register"
-	line "a learnset for a"
-	cont "specific #MON,"
-	para "you will auto-"
-	line "register the"
-	cont "learnsets of its"
-	cont "whole evolution"
-	cont "family too!"
+	text "Når du registrerer"
+	line "en angrebsliste"
+	cont "for et specifikt"
+	cont "#MON,"
+	para "vil du automatisk"
+	line "registrere"
+	cont "angrebslister for"
+	cont "hele dens"
+	cont "evolutionsfamilie!"
 	done
 
 _CeruleanBadgeHouseCenterRightPaperText::
-	text "Learnset data will"
-	line "only show names"
-	cont "of moves you've"
-	cont "seen used before."
-	para "If you haven't seen"
-	line "the move,"
-	para "you can at least"
-	line "see what level"
-	cont "the #MON will"
-	cont "learn a new move!"
+	text "Angrebslist-data"
+	line "vil kun vise"
+	cont "navne på angreb"
+	cont "du har set før."
+	para "Hvis du ikke har"
+	line "set angrebet,"
+	para "kan du i det"
+	line "mindste se hvilket"
+	cont "niveau #MONet"
+	cont "lærer et nyt"
+	cont "angreb!"
 	done
 
 _CeruleanBadgeHouseRightPaperText::
-	text "If you train your"
-	line "#MON to a high"
-	cont "enough level,"
-	para "you'll master"
-	line "using it!"
-	para "This will unlock"
-	line "its learnset!"
-	para "If you don't"
-	line "already have it."
+	text "Hvis du træner"
+	line "dit #MON til"
+	cont "et højt nok"
+	cont "niveau,"
+	para "vil du mestre"
+	line "at bruge det!"
+	para "Dette vil låse"
+	line "op for dets"
+	cont "angrebsliste!"
+	para "Hvis du ikke"
+	line "allerede har den."
 	done

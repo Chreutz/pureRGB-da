@@ -1,39 +1,41 @@
 _PewterMartYoungsterText::
-	text "A shady, old man"
-	line "got me to buy"
-	cont "this really weird"
-	cont "fish #MON!"
+	text "En skyggefuld"
+	line "gammel mand fik"
+	cont "mig til at købe"
+	cont "dette virkelig"
+	cont "mærkelige fiske-"
+	cont "#MON!"
 
-	para "It's totally weak"
-	line "and it cost ¥500!"
+	para "Det er totalt"
+	line "svagt, og det"
+	cont "kostede ¥500!"
 	done
 
 _PewterMartSuperNerdText::
-	text "Good things can"
-	line "happen if you"
-	cont "raise #MON"
-	cont "diligently, even"
-	cont "the weak ones!"
+	text "Gode ting kan"
+	line "ske, hvis du"
+	cont "træner #MON"
+	cont "flittigt, selv"
+	cont "de svage!"
 	done
 
 _PewterMartTMKid::
-	text "Yo! There aren't"
-	line "any <TM>s here"
-	cont "either! Why are"
-	cont "MARTs so lame?"
+	text "Yo! Der er ikke"
+	line "nogen <TM>er her"
+	cont "heller! Hvorfor er"
+	cont "MARTs så kedelige?"
 
-	para "I have to do"
-	line "something about"
-	cont "this. I hope they"
-	cont "don't mind having"
-	cont "some competition!"
+	para "Jeg må gøre noget"
+	line "ved det! Jeg håber"
+	cont "de ikke har noget"
+	cont "imod konkurrence!"
 
-	para "When me and dad"
-	line "hit the next city,"
-	cont "my plan starts<...>"
+	para "Når mig og far"
+	line "når den næste by,"
+	cont "starter min plan<...>"
 
-	para "I'll need a cool"
-	line "name too! Let's"
-	cont "see<...>the <TM> Kid?"
-	cont "No<...>not that<...>"
+	para "Jeg skal bruge"
+	line "et sejt navn! Lad"
+	cont "os se<...><TM>-Kiden?"
+	cont "Nej<...>ikke det<...>"
 	done

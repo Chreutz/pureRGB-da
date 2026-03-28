@@ -1,67 +1,70 @@
 _CeladonMansion3FProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "Mig? Jeg er"
+	line "programmøren!"
 	done
 
 _CeladonMansion3FGraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "Jeg er den graf-"
+	line "iske kunstner!"
+	cont "Jeg tegnede dig!"
 	done
 
 _CeladonMansion3FWriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	text "Jeg skrev historien!"
+	line "Er ERIKA ikke sød?"
 
-	para "I like MISTY a"
-	line "lot too!"
+	para "Jeg kan også"
+	line "lide MISTY meget!"
 
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	para "Åh, og SABRINA,"
+	line "jeg kan lide"
+	cont "hende!"
 	done
 
 _CeladonMansion3FGameDesignerText::
-	text "Is that right?"
+	text "Er det rigtigt?"
 
-	para "I'm the game"
-	line "designer!"
+	para "Jeg er spil-"
+	line "designeren!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't quit!"
+	para "At udfylde din"
+	line "#DEX er svært,"
+	cont "men lad være med"
+	cont "at give op!"
 
-	para "When you finish,"
-	line "come tell me!"
+	para "Når du er færdig,"
+	line "kom og fortæl mig"
+	cont "det!"
 	done
 
 _CeladonMansion3FGameDesignerCompletedDexText::
-	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
-	cont "Congratulations!"
+	text "Wow! Fremragende!"
+	line "Du gennemførte"
+	cont "din #DEX!"
+	cont "Tillykke!"
 	cont "<...>@"
 	text_end
 
 _CeladonMansion3FGameProgramPCText::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	text "Det er spil-"
+	line "programmet! At"
+	cont "rode med det kan"
+	cont "ødelægge spillet!"
 	done
 
 _CeladonMansion3FPlayingGamePCText::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "Nogen spiller et"
+	line "spil i stedet for"
+	cont "at arbejde!"
 	done
 
 _CeladonMansion3FGameScriptPCText::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "Det er scriptet!"
+	line "Bedre ikke kigge"
+	cont "på slutningen!"
 	done
 
 _CeladonMansion3FDevRoomSignText::
 	text "GAME FREAK"
-	line "Development Room"
+	line "Udviklingsværelse"
 	done

@@ -1,52 +1,53 @@
 _SSAnneBowSuperNerdText::
-	text "The party's over."
-	line "The ship will be"
-	cont "departing soon."
+	text "Festen er slut."
+	line "Skibet sejler"
+	cont "afsted snart."
 	done
 
 _SSAnneBowSailor1Text::
-	text "Scrubbing decks"
-	line "is hard work!"
+	text "At skrubbe dæk"
+	line "er hårdt arbejde!"
 	done
 
 _SSAnneBowCooltrainerMText::
-	text "Urf. I feel ill."
+	text "Urf. Jeg føler"
+	line "mig syg."
 
-	para "I stepped out to"
-	line "get some air."
+	para "Jeg gik ud for at"
+	line "få lidt frisk luft."
 	done
 
 _SSAnneBowSailor2BattleText::
-	text "Hey matey!"
+	text "Hey makker!"
 
-	para "Let's do a little"
-	line "jig!"
+	para "Lad os danse en"
+	line "lille jig!"
 	done
 
 _SSAnneBowSailor2EndBattleText::
-	text "You're"
-	line "impressive!"
+	text "Du er"
+	line "imponerende!"
 	prompt
 
 _SSAnneBowSailor2AfterBattleText::
-	text "How many kinds of"
-	line "#MON do you"
-	cont "think there are?"
+	text "Hvor mange slags"
+	line "Pokémon tror du"
+	cont "findes?"
 	done
 
 _SSAnneBowSailor3BattleText::
-	text "Ahoy there!"
-	line "Are you seasick?"
+	text "Ahoy der!"
+	line "Er du søsyg?"
 	done
 
 _SSAnneBowSailor3EndBattleText::
-	text "I was"
-	line "just careless!"
+	text "Jeg var"
+	line "bare uheldig!"
 	prompt
 
 _SSAnneBowSailor3AfterBattleText::
-	text "My Pa said there"
-	line "are 100 kinds of"
-	cont "#MON. I think"
-	cont "there are more."
+	text "Min far sagde der"
+	line "er 100 slags"
+	cont "Pokémon. Jeg tror"
+	cont "der er flere."
 	done

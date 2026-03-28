@@ -1,103 +1,103 @@
 SilphCo2FSilphWorkerFPleaseTakeThisText::
-	text "Eeek!"
-	line "No! Stop! Help!"
+	text "Av for søren!"
+	line "Nej! Stop! Hjælp!"
 
-	para "Oh, you're not"
-	line "with <TEAM><ROCKET>."
-	cont "I thought<...>"
-	cont "I'm sorry. Here,"
-	cont "please take this!"
+	para "Åh, du er ikke"
+	line "fra <TEAM><ROCKET>."
+	cont "Jeg troede<...>"
+	cont "Undskyld. Her,"
+	cont "tag venligst det!"
 	prompt
 
 _SilphCo2FSilphWorkerFTM50ExplanationText::
-	text "<TM>50 is"
+	text "<TM>50 er"
 	line "SUBSTITUTE!"
 
-	para "A decoy will"
-	line "replace your"
+	para "En lokkedukke vil"
+	line "erstatte dit"
 	cont "#MON."
-	para "It'll take damage"
-	line "instead!"
-	para "Kind of like an"
-	line "imposter<...>"
+	para "Den tager skade"
+	line "i stedet!"
+	para "Lidt ligesom en"
+	line "impostor<...>"
 
-	para "Many of my SILPH"
-	line "team members were"
-	cont "imposters!"
+	para "Mange SILPH"
+	line "kollegaer var"
+	cont "forrædere!"
 	
-	para "They were just"
-	line "<ROCKET> spies!"
-	cont "Those snakes!"
+	para "De var bare"
+	line "<ROCKET> spioner!"
+	cont "De slanger!"
 
-	para "Be careful."
+	para "Vær forsigtig."
 	done
 
 _SilphCo2FSilphWorkerFTM50NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "Du har ikke plads"
+	line "til dette."
 	done
 
 _SilphCo2FScientist1BattleText::
-	text "Help! I'm a SILPH"
-	line "employee."
+	text "Hjælp! Jeg er en"
+	line "SILPH ansat."
 	done
 
 _SilphCo2FScientist1EndBattleText::
-	text "How"
-	line "did you know I"
-	cont "was a <ROCKET>?"
+	text "Hvordan"
+	line "vidste du at jeg"
+	cont "var en <ROCKET>?"
 	prompt
 
 _SilphCo2FScientist1AfterBattleText::
-	text "I work for both"
-	line "SILPH and <TEAM>"
-	cont "<ROCKET>!"
+	text "Jeg arbejder for"
+	line "både SILPH og"
+	cont "<TEAM><ROCKET>!"
 	done
 
 _SilphCo2FScientist2BattleText::
-	text "It's off limits"
-	line "here! Go home!"
+	text "Det er forbudt"
+	line "her! Gå hjem!"
 	done
 
 _SilphCo2FScientist2EndBattleText::
-	text "You're"
-	line "good."
+	text "Du er"
+	line "god."
 	prompt
 
 _SilphCo2FScientist2AfterBattleText::
-	text "Can you solve the"
-	line "maze in here?"
+	text "Kan du løse"
+	line "labyrinten her?"
 	done
 
 _SilphCo2FRocket1BattleText::
-	text "No kids are"
-	line "allowed in here!"
+	text "Ingen børn er"
+	line "tilladt her!"
 	done
 
 _SilphCo2FRocket1EndBattleText::
-	text "Tough!"
+	text "Hårdt!"
 	prompt
 
 _SilphCo2FRocket1AfterBattleText::
-	text "Diamond shaped"
-	line "tiles are"
-	cont "teleport blocks!"
+	text "Diamantformede"
+	line "fliser er"
+	cont "teleportblokke!"
 
-	para "They're hi-tech"
-	line "transporters!"
+	para "De er højteknolo-"
+	line "giske transportører!"
 	done
 
 _SilphCo2FRocket2BattleText::
-	text "Hey kid! What are"
-	line "you doing here?"
+	text "Hey kid! Hvad"
+	line "laver du her?"
 	done
 
 _SilphCo2FRocket2EndBattleText::
-	text "I goofed!"
+	text "Jeg fejlede!"
 	prompt
 
 _SilphCo2FRocket2AfterBattleText::
-	text "SILPH CO. will"
-	line "be merged with"
-	cont "<TEAM><ROCKET>!"
+	text "SILPH CO. vil"
+	line "blive fusioneret"
+	cont "med <TEAM><ROCKET>!"
 	done

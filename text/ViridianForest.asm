@@ -1,159 +1,155 @@
 _ViridianForestYoungster1Text::
-	text "I came here with"
-	line "some friends!"
+	text "Jeg kom hertil med"
+	line "nogle venner!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "De er ude efter"
+	line "Pokémon kampe!"
 	done
 
 _ViridianForestYoungster2BattleText::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "Hey! Du har"
+	line "Pokémon! Kom så!"
+	cont "Lad os battle!"
 	done
 
 _ViridianForestYoungster2EndBattleText::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "Nej!"
+	line "CATERPIE kan"
+	cont "ikke klare det!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Ssh! Du skræmmer"
+	line "insekterne væk!"
 	done
 
 _ViridianForestYoungster3BattleText::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "Yo! Du kan ikke"
+	line "hænge ud hvis du"
+	cont "er Pokémon træner!"
 	done
 
 _ViridianForestYoungster3EndBattleText::
 	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	line "Jeg løb tør for"
+	cont "Pokémon!"
 	prompt
 
 _ViridianForestYoungster3AfterBattleText::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "Pokkers! Jeg vil"
+	line "fange nogle"
+	cont "stærkere!"
 	done
 
 _ViridianForestYoungster4BattleText::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "Hey, vent!"
+	line "Hvor har du travlt?"
 	done
 
 _ViridianForestYoungster4EndBattleText::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "Jeg"
+	line "giver op! Du er"
+	cont "god til det!"
 	prompt
 
 _ViridianForestYoungster4AfterBattleText::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "Nogle gange kan"
+	line "du finde ting på"
+	cont "jorden!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "Jeg leder efter"
+	line "tingene jeg tabte!"
 	done
 
 _ViridianForestBattleTextPikaGirl::
-	text "Hi, do you have a"
+	text "Hej, har du en"
 	line "PIKACHU?"
 	done
 
 _ViridianForestEndBattleTextPikaGirl::
-	text "Oh no,"
-	line "really?"
+	text "Åh nej,"
+	line "virkelig?"
 	prompt
 
 _ViridianForestAfterBattleTextPikaGirl::
-	text "I've heard there"
-	line "are wild PIKACHU"
-	cont "here!"
-	para "Have you seen"
-	line "any?"
+	text "Jeg har hørt der"
+	line "er vilde PIKACHU"
+	cont "her!"
+	para "Har du set nogen?"
 	done
 
 _ViridianForestBattleTextSamurai::
-	text "I'm gonna be the"
-	line "best. You just"
-	cont "can't beat me!"
+	text "Jeg bliver den"
+	line "bedste. Du kan"
+	cont "ikke slå mig!"
 	done
 
 _ViridianForestEndBattleTextSamurai::
-	text "After"
-	line "all I did<...>"
+	text "Efter"
+	line "alt jeg gjorde<...>"
 	prompt
 
 _ViridianForestAfterBattleTextSamurai::
-	text "A METAPOD is cool"
-	line "because its"
-	cont "attack is its"
-	cont "defense!"
+	text "En METAPOD er fed"
+	line "fordi dens angreb"
+	cont "er dens forsvar!"
 	done
 
 _ViridianForestYoungster5Text::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "Jeg løb tør for #"
+	line "BALLs til at fange"
+	cont "Pokémon med!"
 
-	para "You should carry"
-	line "extras!"
+	para "Du bør bære"
+	line "ekstra med dig!"
 	done
 
 _ViridianForestTrainerTips1Text::
 	text "<TIPS>"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "Hvis du vil"
+	line "undgå kampe, så"
+	cont "hold dig væk fra"
+	cont "græsset!"
 	done
 
 _ViridianForestUseAntidoteSignText::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Mod gift, brug"
+	line "ANTIDOTE! Få det"
+	cont "på Pokémon MARTs!"
 	done
 
 _ViridianForestTrainerTips2Text::
 	text "<TIPS>"
 
-	para "Contact PROF.OAK"
-	line "via <PC> to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "Kontakt PROF.OAK"
+	line "via <PC> for at"
+	cont "få din #DEX"
+	cont "evalueret!"
 	done
 
 _ViridianForestTrainerTips3Text::
 	text "<TIPS>"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "Stjæl ikke Pokémon"
+	line "fra andre trænere!"
+	cont "Fang kun vilde"
+	cont "Pokémon!"
 	done
 
 _ViridianForestTrainerTips4Text::
 	text "<TIPS>"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
+	para "Svæk Pokémon"
+	line "før du prøver at"
+	cont "fange det!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "Når de er raske,"
+	line "kan de flygte!"
 	done
 
 _ViridianForestLeavingSignText::
-	text "LEAVING"
+	text "FORLADER"
 	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	cont "PEWTER CITY FORAN"
 	done

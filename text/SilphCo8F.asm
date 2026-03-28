@@ -1,51 +1,52 @@
 __SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "I wonder if SILPH"
-	line "is finished<...>"
+	text "Jeg spekulerer på"
+	line "om SILPH er"
+	cont "færdige<...>"
 	done
 
 _SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "Thanks for saving"
-	line "us!"
+	text "Tak for at redde"
+	line "os!"
 	done
 
 _SilphCo8FRocket1BattleText::
-	text "That's as far as"
-	line "you'll go!"
+	text "Du kommer ikke"
+	line "længere!"
 	done
 
 _SilphCo8FRocket1EndBattleText::
-	text "Not"
-	line "enough grit!"
+	text "Ikke modig nok!"
 	prompt
 
 _SilphCo8FRocket1AfterBattleText::
-	text "If you don't turn"
-	line "back, I'll call"
-	cont "for backup!"
+	text "Hvis du ikke vender"
+	line "om, ringer jeg efter"
+	cont "forstærkning!"
 	done
 
 _SilphCo8FScientistBattleText::
-	text "You're causing us"
-	line "problems!"
+	text "Du skaber"
+	line "problemer for os!"
 	done
 
 _SilphCo8FScientistEndBattleText::
 	text "Huh?"
-	line "I lost?"
+	line "Jeg tabte?"
 	prompt
 
 _SilphCo8FScientistAfterBattleText::
-	text "So, what do you"
-	line "think of SILPH"
-	cont "BUILDING's maze?"
+	text "Så, hvad synes du"
+	line "om SILPH BYGNINGs"
+	cont "labyrint?"
 	done
 
 _SilphCo8FRocket2EndBattleText::
-	text "Whoo!"
-	line "Oh brothers!"
+	text "Uuh!"
+	line "Åh brødre!"
 	prompt
 
 _SilphCo8FRocket2AfterBattleText::
-	text "I'll leave you up"
-	line "to my brothers!"
+	text "Jeg lader mine"
+	line "brødre tage sig af"
+	cont "dig!"
 	done

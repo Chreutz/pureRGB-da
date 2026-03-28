@@ -1,72 +1,74 @@
 _Route2SignText::
-	text "ROUTE 2"
+	text "RUTE 2"
 	line "VIRIDIAN CITY -"
 	cont "PEWTER CITY"
 	done
 
 _Route2DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "DIGLETTs GROTTE"
 	done
 
 _Route2BattleText1::
-	text "This field is a"
-	line "nice place!"
-	para "So much sunnier"
-	line "than VIRIDIAN"
-	cont "FOREST."
+	text "Dette felt er et"
+	line "dejligt sted!"
+	para "Meget mere"
+	line "solrigt end"
+	cont "VIRIDIAN FOREST."
 	done
 
 _Route2EndBattleText1::
-	text "I"
-	line "don't mind losing!"
+	text "Jeg"
+	line "har det fint med"
+	cont "at tabe!"
 	prompt
 
 _Route2AfterBattleText1::
-	text "Imagine a thunder"
-	line "storm hitting"
-	cont "this field."
-	para "Wouldn't that be"
-	line "exciting!"
+	text "Forestil dig en"
+	line "tordenstorm der"
+	cont "rammer dette felt."
+	para "Ville det ikke"
+	line "være spændende!"
 	done
 
 _Route2AfterBattle1Learnset::
-	text "What do you"
-	line "think?"
-	para "Who'd be better at"
-	line "braving a storm?"
-	para "SCYTHER or PINSIR?"
+	text "Hvad synes du?"
+	line "Hvem ville være"
+	cont "bedre til at"
+	cont "udstå en storm?"
+	para "SCYTHER eller"
+	line "PINSIR?"
 	prompt
 
 _Route2AfterBattle2Learnset::
-	text "Everybody loves"
+	text "Alle elsker"
 	line "@"
 	text_ram_namebuffer
 	text "!"
-	para "Come on! Let's"
-	line "hang out."
-	para "I'll tell you"
-	line "more about it."
+	para "Kom så! Lad os"
+	line "hænge sammen."
+	para "Jeg fortæller dig"
+	line "mere om det."
 	prompt
 
 _Route2BattleText2::
-	text "Amazing how"
-	line "DIGLETT'S CAVE"
-	cont "leads all the way"
-	cont "to the outskirts"
-	cont "of VIRIDIAN CITY!"
+	text "Fantastisk hvordan"
+	line "DIGLETTS GROTTE"
+	cont "fører hele vejen"
+	cont "til udkanten af"
+	cont "VIRIDIAN CITY!"
 	done
 
 _Route2EndBattleText2::
-	text "Not"
-	line "enough DIGLETTs!"
+	text "Ikke"
+	line "nok med DIGLETTs!"
 	prompt
 
 _Route2AfterBattleText2::
-	text "Wouldn't it be"
-	line "intimidating if"
-	cont "I had an army of"
-	cont "DIGLETTs trailing"
-	cont "everywhere I go?"
+	text "Ville det ikke"
+	line "være skræmmende"
+	cont "hvis jeg havde en"
+	cont "hær af DIGLETTs"
+	cont "efter mig overalt?"
 	done
 
 _TextNothing::
@@ -74,28 +76,28 @@ _TextNothing::
 	done
 	
 _Route2BattleText3::
-	text "Don't trod on"
-	line "the flowers!"
+	text "Træd ikke på"
+	line "blomsterne!"
 	done
 
 _Route2EndBattleText3::
-	text "Be"
-	line "careful!"
+	text "Pas"
+	line "på!"
 	prompt
 
 _Route2AfterBattleText3::
-	text "I come here for"
-	line "picnics."
-	para "It's a beautiful"
-	line "quiet spot to"
-	cont "relax."
+	text "Jeg kommer hertil"
+	line "til picnic."
+	para "Det er et smukt"
+	line "stille sted at"
+	cont "slappe af."
 	done
 
 _Route2AfterBattle3Learnset::
 	text "@"
 	text_ram_namebuffer
-	text " likes"
-	line "to doze among"
-	cont "the flowers."
+	text " kan"
+	line "lide at blunde"
+	cont "blandt blomsterne."
 	para "@"
 	text_end

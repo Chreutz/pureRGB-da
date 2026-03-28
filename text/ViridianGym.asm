@@ -1,67 +1,67 @@
 _ViridianGymGiovanniPreBattleText::
-	text "Fwahahaha! This is"
-	line "my hideout!"
+	text "Fwahahaha! Her er"
+	line "mit skjul!"
 
-	para "I planned to"
-	line "resurrect <TEAM>"
-	cont "<ROCKET> here!"
+	para "Jeg planlagde at"
+	line "genoplive <TEAM>"
+	cont "<ROCKET> her!"
 
-	para "But, you have"
-	line "caught me again!"
-	cont "So be it! This"
-	cont "time, I'm not"
-	cont "holding back!"
+	para "Men du har"
+	line "fanget mig igen!"
+	cont "Så værsgo! Denne"
+	cont "gang holder jeg"
+	cont "ikke tilbage!"
 
-	para "Once more, you"
-	line "shall face"
-	cont "GIOVANNI, the"
-	cont "greatest trainer!"
+	para "Endnu en gang skal"
+	line "du møde GIOVANNI,"
+	cont "den bedste træner!"
 	done
 
 _ViridianGymGiovanniReceivedEarthBadgeText::
 	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@"
+	line "Det var en sand"
+	cont "intens kamp!"
+	cont "Du har vundet!"
+	cont "Som bevis, her er"
+	cont "EARTHBADGE!@"
 	text_end
 
 _ViridianGymGiovanniPostBattleAdviceText::
-	text "Having lost, I"
-	line "cannot face my"
-	cont "underlings!"
-	cont "<TEAM><ROCKET> is"
-	cont "finished forever!"
+	text "Efter at have tabt"
+	line "kan jeg ikke møde"
+	cont "mine underordnede!"
+	cont "<TEAM><ROCKET> er"
+	cont "færdig for altid!"
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "Jeg vil vie mit"
+	line "liv til studiet af"
+	cont "Pokémon!"
 
-	para "Let us meet again"
-	line "some day!"
-	cont "Farewell!@"
+	para "Lad os mødes igen"
+	line "en skønne dag!"
+	cont "Farvel!@"
 	text_end
 
 _ViridianGymGiovanniEarthBadgeInfoText::
-	text "The EARTHBADGE"
-	line "makes #MON of"
-	cont "any level obey!"
+	text "EARTHBADGE får"
+	line "Pokémon på alle"
+	cont "niveauer til at"
+	cont "lytte!"
 
-	para "It is evidence of"
-	line "your mastery as a"
-	cont "#MON trainer!"
+	para "Det er bevis på"
+	line "din mestring som"
+	cont "Pokémon træner!"
 
-	para "With it, you can"
-	line "enter the #MON"
+	para "Med den kan du"
+	line "gå ind i Pokémon"
 	cont "LEAGUE!"
 
-	para "It is my gift for"
-	line "your #MON"
-	cont "LEAGUE challenge!"
+	para "Det er min gave"
+	line "til din Pokémon"
+	cont "LEAGUE udfordring!"
 
-	para "Take this <TM>"
-	line "as well!"
+	para "Tag denne <TM>"
+	line "med også!"
 	done
 
 _ViridianGymGiovanniTM27ExplanationText::
@@ -70,41 +70,43 @@ _ViridianGymGiovanniTM27ExplanationText::
 	para "@"
 	text_ram_stringbuffer
 	text ": EARTHQUAKE!"
-	line "A reliable and"
-	cont "immensely strong"
-	cont "GROUND-type move!"
+	line "Et pålideligt og"
+	cont "immens stærkt"
+	cont "GROUND-angreb!"
 
-	para "I made it when I"
-	line "ran the GYM here,"
-	cont "too long ago<...>"
+	para "Jeg lavede det da"
+	line "jeg bestred GYMmet"
+	cont "her, alt for længe"
+	cont "siden<...>"
 	done
 
 _ViridianGymGiovanniTM27NoRoomText::
-	text "You do not have"
-	line "space for this!"
+	text "Du har ikke plads"
+	line "til dette!"
 	done
 
 _ViridianGymCooltrainerM1BattleText::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "Heh! Du må være"
+	line "ved at løbe tør"
+	cont "for kræfter nu!"
 	done
 
 _ViridianGymCooltrainerM1EndBattleText::
-	text "I"
-	line "ran out of gas!"
+	text "Jeg"
+	line "løb tør for benzin!"
 	prompt
 
 _ViridianGymCooltrainerM1AfterBattleText::
-	text "You need power to"
-	line "keep up with our"
-	cont "GYM LEADER!"
+	text "Du har brug for"
+	line "styrke for at"
+	cont "følge med vores"
+	cont "GYM LEDER!"
 	done
 
 _ViridianGymHiker1BattleText::
-	text "Rrrroar! I'm"
-	line "working myself"
-	cont "into a rage!"
+	text "Rrrroar! Jeg"
+	line "arbejder mig op"
+	cont "i et raseri!"
 	done
 
 _ViridianGymHiker1EndBattleText::
@@ -112,31 +114,31 @@ _ViridianGymHiker1EndBattleText::
 	prompt
 
 _ViridianGymHiker1AfterBattleText::
-	text "I'm still not"
-	line "worthy!"
+	text "Jeg er stadigvæk"
+	line "ikke værdig!"
 	done
 
 _ViridianGymRocker1BattleText::
-	text "#MON and I, we"
-	line "make wonderful"
-	cont "music together!"
+	text "Pokémon og jeg, vi"
+	line "laver vidunderlig"
+	cont "musik sammen!"
 	done
 
 _ViridianGymRocker1EndBattleText::
-	text "You are in"
-	line "perfect harmony!"
+	text "Du er i"
+	line "perfekt harmoni!"
 	prompt
 
 _ViridianGymRocker1AfterBattleText::
-	text "Do you know the"
-	line "identity of our"
-	cont "GYM LEADER?"
+	text "Kender du vores"
+	line "GYM LEDERS"
+	cont "identitet?"
 	done
 
 _ViridianGymHiker2BattleText::
-	text "Karate is the"
-	line "ultimate form of"
-	cont "martial arts!"
+	text "Karate er den"
+	line "ultimate form for"
+	cont "kampsport!"
 	done
 
 _ViridianGymHiker2EndBattleText::
@@ -144,30 +146,31 @@ _ViridianGymHiker2EndBattleText::
 	prompt
 
 _ViridianGymHiker2AfterBattleText::
-	text "If my #MON"
-	line "were as good at"
-	cont "Karate as I<...>"
+	text "Hvis mit Pokémon"
+	line "kunne Karate som"
+	cont "jeg kan<...>"
 	done
 
 _ViridianGymCooltrainerM2BattleText::
-	text "The truly talented"
-	line "win with style!"
+	text "De virkeligt"
+	line "talentfulde vinder"
+	cont "med stil!"
 	done
 
 _ViridianGymCooltrainerM2EndBattleText::
-	text "I"
-	line "lost my grip!"
+	text "Jeg"
+	line "mistede grebet!"
 	prompt
 
 _ViridianGymCooltrainerM2AfterBattleText::
-	text "The LEADER will"
-	line "scold me!"
+	text "LEDEREN vil"
+	line "skælde mig ud!"
 	done
 
 _ViridianGymHiker3BattleText::
-	text "I'm the KARATE"
-	line "KING! Your fate"
-	cont "rests with me!"
+	text "Jeg er KARATE"
+	line "KONGEN! Din skæbne"
+	cont "ligger hos mig!"
 	done
 
 _ViridianGymHiker3EndBattleText::
@@ -175,81 +178,80 @@ _ViridianGymHiker3EndBattleText::
 	prompt
 
 _ViridianGymHiker3AfterBattleText::
-	text "#MON LEAGUE?"
-	line "You? Don't get"
-	cont "cocky!"
+	text "Pokémon LEAGUE?"
+	line "Dig? Bliv ikke"
+	cont "arrogant!"
 	done
 
 _ViridianGymRocker2BattleText::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "Dine Pokémon vil"
+	line "skælve ved smældet"
+	cont "af min pisk!"
 	done
 
 _ViridianGymRocker2EndBattleText::
-	text "Yowch!"
-	line "Whiplash!"
+	text "Av!"
+	line "Piskesmæld!"
 	prompt
 
 _ViridianGymRocker2AfterBattleText::
-	text "Wait! I was just"
-	line "careless!"
+	text "Vent! Jeg var bare"
+	line "uforsigtig!"
 	done
 
 _ViridianGymCooltrainerM3BattleText::
-	text "VIRIDIAN GYM was"
-	line "closed for a long"
-	cont "time, but now our"
-	cont "LEADER is back!"
+	text "VIRIDIAN GYM var"
+	line "lukket i lang tid,"
+	cont "men nu er vores"
+	cont "LEDER tilbage!"
 	done
 
 _ViridianGymCooltrainerM3EndBattleText::
-	text "I"
-	line "was beaten?"
+	text "Jeg"
+	line "blev slået?"
 	prompt
 
 _ViridianGymCooltrainerM3AfterBattleText::
-	text "You can go onto"
-	line "#MON LEAGUE"
-	cont "only by defeating"
-	cont "our GYM LEADER!"
+	text "Du kan kun komme"
+	line "til Pokémon LEAGUE"
+	cont "ved at slå vores"
+	cont "GYM LEDER!"
 	done
 
 _ViridianGymGuidePreBattleText::
-	text "Even I don't know"
-	line "VIRIDIAN LEADER's"
-	cont "identity!"
+	text "Selv jeg kender"
+	line "ikke VIRIDIAN"
+	cont "LEDERS identitet!"
 
-	para "This will be the"
-	line "toughest of all"
-	cont "the GYM LEADERs!"
+	para "Dette bliver den"
+	line "sværeste af alle"
+	cont "GYM LEDERne!"
 
-	para "I heard that the"
-	line "trainers here"
-	cont "like ground-type"
-	cont "#MON!"
+	para "Jeg hørte at"
+	line "trænerne her"
+	cont "kan lide ground-"
+	cont "type Pokémon!"
 	done
 
 _ViridianGymGuidePostBattleText::
-	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?@"
+	text "Hold da op!"
+	line "GIOVANNI var"
+	cont "GYM LEDEREN her?@"
 	text_end
 
 _ViridianGymGuideApexChipGroundText::
 	text "For ground"
-	line "#MON, an"
-	cont "APEX CHIP will"
-	cont "simulate a sandy"
-	cont "dry badland"
-	cont "environment with"
-	cont "rolling hills"
-	cont "and burrowable"
-	cont "earth below."
+	line "Pokémon vil en"
+	cont "APEX CHIP simulere"
+	cont "et sandet tørt"
+	cont "ørkenmiljø med"
+	cont "rullende bakker"
+	cont "og gravbar jord"
+	cont "underneden."
 	prompt 
 
 _ViridianGymGuideSeeAtPokemonLeagueText::
-	text "See you at the"
-	line "#MON LEAGUE!"
+	text "Vi ses ved"
+	line "Pokémon LEAGUE!"
 	done
 

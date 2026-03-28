@@ -1,13 +1,13 @@
 _CeladonMansion1FMeowthText::
-	text "MEOWTH: Meow!@"
+	text "MEOWTH: Miav!@"
 	text_end
 
 _CeladonMansion1FGrannyText::
-	text "My dear #MON"
-	line "keep me company."
+	text "Mine kære #MON"
+	line "holder mig med"
 
-	para "MEOWTH even brings"
-	line "money home!"
+	para "MEOWTH bringer"
+	line "endda penge hjem!"
 	done
 
 _CeladonMansion1FClefairyText::
@@ -22,39 +22,42 @@ _CeladonMansion1FNidoranFText::
 
 _CeladonMansion1FManagersSuiteSignText::
 	text "CELADON MANSION"
-	line "Manager's Suite"
+	line "Direktørens Suite"
 	done
 
 _CeladonMansion1FBookCaseLeftText::
-	text "THE SUNNY SIDE:"
-	line "EXEGGCUTE's STORY"
-	para "A children's fable"
-	line "about EXEGGCUTE.@"
+	text "SOLSIDEN:"
+	line "EXEGGCUTEs"
+	cont "HISTORIE"
+	para "En børnefabel"
+	line "om EXEGGCUTE.@"
 	text_end
 
 _CeladonMansion1FBookCaseLeft2Text::
-	text "<PARA>All 6 of them"
-	line "finally team up!"
-	para "They calm a raging"
-	line "TAUROS with each"
-	cont "of their own"
-	cont "unique skills."
+	text "<PARA>Alle 6 af dem"
+	line "endelig holder"
+	cont "sammen!"
+	para "De beroliger et"
+	line "rasende TAUROS med"
+	cont "hver deres unikke"
+	cont "evne."
 	done
 
 _CeladonMansion1FBookCaseRightText::
-	text "THREE HEADS ARE"
-	line "BETTER THAN TWO"
-	para "A legend about"
+	text "TRE HJERNER ER"
+	line "BEDRE END TO"
+	para "En legende om"
 	line "DODRIO.@"
 	text_end
 
 _CeladonMansion1FBookCaseRight2Text::
-	text "<PARA>Two of DODRIO's"
-	line "heads just ignore"
-	cont "the third, who"
-	cont "jokes around."
-	para "It turns out this"
-	line "goofy head's idea"
-	cont "was needed to"
-	cont "save the flock."
+	text "<PARA>To af DODRIOs"
+	line "hjerner ignorerer"
+	cont "den tredje, der"
+	cont "driller."
+	para "Det viser sig at"
+	line "denne tossede"
+	cont "hjerne havde en"
+	cont "idé der reddede"
+	cont "flokken."
 	done

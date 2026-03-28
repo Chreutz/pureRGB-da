@@ -1,95 +1,95 @@
 _PewterSpeechHouseGamblerText::
-	text "#MON learn new"
-	line "techniques as"
-	cont "they grow!"
+	text "#MON lærer nye"
+	line "teknikker, når"
+	cont "de vokser!"
 
-	para "But, some moves"
-	line "must be taught by"
-	cont "the trainer!"
+	para "Men nogle angreb"
+	line "skal læres af"
+	cont "træneren!"
 	done
 
 _PewterSpeechHouseYoungsterText::
-	text "#MON become"
-	line "easier to catch"
-	cont "when they are"
-	cont "hurt or asleep!"
+	text "#MON bliver"
+	line "nemmere at fange,"
+	cont "når de er sårede"
+	cont "eller sover!"
 
-	para "But, it's not a"
-	line "sure thing!"
+	para "Men det er ikke"
+	line "sikkert!"
 	done
 
 _PewterHouse2Text3Intro::
-	text "My husband lost"
-	line "his wallet!"
+	text "Min mand har"
+	line "mistet sin pung!"
 
-	para "He's very absent-"
-	line "minded! He's not"
-	cont "even concerned!"
+	para "Han er meget"
+	line "fraværende! Han er"
+	cont "ikke bekymret!"
 
-	para "I'll reward who-"
-	line "ever finds it!"
+	para "Jeg vil belønne"
+	line "ham der finder den"
 
-	para "He probably"
-	line "left it at the"
-	cont "PEWTER MUSEUM."
+	para "Han efterlod den"
+	line "sikkert på PEWTER"
+	cont "MUSEUM."
 	done
 
 _PewterHouse2Text3Found::
-	text "You found it!"
-	line "Thank goodness!"
+	text "Du fandt den!"
+	line "Gudskelov!"
 
-	para "Our S.S.TICKETs"
-	line "were in there!"
+	para "Vores S.S.TICKETs"
+	line "lå i den!"
 
-	para "We're going on"
-	line "an ocean cruise"
-	cont "vacation soon!"
+	para "Vi skal på"
+	line "krydstogt-ferie"
+	cont "snart!"
 
-	para "I'm a fashion"
-	line "designer and"
-	cont "#MON Breeder!"
+	para "Jeg er modemasker"
+	line "og #MON-"
+	cont "opdrætter!"
 
-	para "This is my newest"
-	line "idea:"
+	para "Dette er min"
+	line "nyeste idé:"
 
-	para "#MON fit in"
-	line "your pocket when"
-	cont "in their Poké"
-	cont "Balls."
+	para "#MON passer i"
+	line "lommen, når de er"
+	cont "i Poké Balls."
 
-	para "But cute #MON"
-	line "are meant to be"
-	cont "seen!"
+	para "Men søde #MON"
+	line "skal ses!"
 
-	para "We need #MON"
-	line "to carry around"
-	cont "and show off!"
+	para "Vi har brug for"
+	line "#MON, man kan"
+	cont "bære rundt på og"
+	cont "vise frem!"
 
-	para "So I'm breeding"
-	line "tinier #MON!"
+	para "Så jeg opdrætter"
+	line "mindre #MON!"
 
-	para "POCKET #MON,"
-	line "if you will!"
+	para "LOMME-#MON,"
+	line "hvis du vil!"
 
-	para "My first one!"
-	line "The POCKET ABRA!"
+	para "Min første!"
+	line "LOMME-ABRA'en!"
 
-	para "It fits in your"
-	line "bag, and can"
-	cont "TELEPORT you back"
-	cont "home whenever you"
-	cont "like! Useful!"
+	para "Den passer i din"
+	line "taske og kan"
+	cont "TELEPORTERE dig"
+	cont "hjem når som helst"
+	cont "Nyttigt!"
 
-	para "I want you to"
-	line "have one!"
+	para "Jeg vil gerne"
+	line "give dig en!"
 	prompt
 
 
 _PewterHouse2Text3After::
-	text "How's ABRA doing?@"
+	text "Hvordan går det"
+	line "med ABRA?@"
 	text_end
 
 _ReceivedPocketAbraText::
-	text "<PLAYER> received"
-	line "a POCKET ABRA!@"
+	text "<PLAYER> modtog"
+	line "en LOMME-ABRA!@"
 	text_end

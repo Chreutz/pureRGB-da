@@ -1,64 +1,65 @@
 _CeladonChiefHouseChiefText::
-	text "Hehehe! The slots"
-	line "just reel in the"
-	cont "dough, big time!"
+	text "Hehehe! Spilleau-"
+	line "tomaterne ruller"
+	cont "bare pengene ind!"
 	done
 
 _CeladonChiefHouseRocketText::
-	text "CHIEF!"
+	text "CHEF!"
 
-	para "We just shipped"
-	line "2000 #MON as"
-	cont "slot prizes!"
+	para "Vi har netop"
+	line "sendt 2000 #MON"
+	cont "som spilpræmier!"
 	done
 
 _CeladonChiefHouseSailorText::
-	text "Don't touch the"
-	line "poster at the"
-	cont "GAME CORNER!"
+	text "Rør ikke plakaten"
+	line "i GAME CORNER!"
 
-	para "There's no secret"
-	line "switch behind it!"
+	para "Der er ingen hem-"
+	line "melig kontakt bag!"
 	done
 
 _CeladonChiefHouseBookCaseLeftText::
-	text "LICKITUNG's"
-	line "SUSHI SHOP"
-	para "A comic book about"
-	line "a LICKITUNG that"
-	cont "makes sushi.@"
+	text "LICKITUNGs"
+	line "SUSHI BUTIK"
+	para "En tegneserie om"
+	line "en LICKITUNG der"
+	cont "laver sushi.@"
 	text_end
 
 _CeladonChiefHouseBookCaseLeft2Text::
-	text "<PARA>LICKITUNG sweats"
-	line "as a master chef"
-	cont "analyzes its"
-	cont "every move."
+	text "<PARA>LICKITUNG sveder"
+	line "mens en mesterkok"
+	cont "analyserer dens"
+	cont "hvert et træk."
 	done
 
 _CeladonChiefHouseBookCaseRightText::
-	text "MIMING FOR DUMMIES"
-	para "A starter's guide"
-	line "to miming."
-	para "Starring MR MIME!@"
+	text "PANTOMIME FOR"
+	line "BEGYNDERE"
+	para "En begynderguide"
+	line "til pantomime."
+	para "Med MR MIME!@"
 	text_end
 
 _CeladonChiefHouseBookCaseRight2Text::
-	text "<PARA>MR MIME is miming"
-	line "pulling someone"
-	cont "toward it as if"
-	cont "it had thrown a"
-	cont "lasso onto them."
+	text "<PARA>MR MIME laver"
+	line "pantomime som om"
+	cont "den trækker nogen"
+	cont "mod sig som om"
+	cont "den kastede et"
+	cont "lasso om dem."
 	para "Hahaha!"
-	para "The person looks"
-	line "weirded out."
+	para "Personen ser"
+	line "lidt forvirret ud."
 	done
 
 _CeladonChiefHousePlaqueText::
-	text "A gold plaque"
-	line "that reads:"
-	para "WHAT THE CHIEF"
-	line "SAYS GOES!"
-	para "THE HOUSE ALWAYS"
-	line "WINS!"
+	text "En guldfad med"
+	line "teksten:"
+	para "Hvad CHEFEN siger"
+	line "gælder!"
+	para "Huset vinder"
+	line "altid!"
 	done

@@ -1,74 +1,76 @@
 _CinnabarLabMetronomeRoomScientist1Text::
 	text "Tch-tch-tch!"
-	line "I made a cool <TM>!"
+	line "Jeg lavede en"
+	cont "fed <TM>!"
 
-	para "It can cause all"
-	line "kinds of fun!"
+	para "Den kan forårsage"
+	line "al slags sjov!"
 	prompt
 
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
 	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "a KINGLER makes!"
+	line "Det er lyden,"
+	cont "en KINGLER laver!"
 
-	para "CRABHAMMER is"
-	line "its signature"
-	cont "move!"
+	para "CRABHAMMER er"
+	line "dens signatur-"
+	cont "angreb!"
 
-	para "I love that move"
-	line "so much, I made a"
-	cont "<TM> to teach it to"
-	cont "other #MON!"
+	para "Jeg elsker det"
+	line "angreb så meget,"
+	cont "at jeg lavede en"
+	cont "<TM> til at lære"
+	cont "det til andre #MON!"
 
-	para "When in doubt:"
-	para "Drop a HAMMER on"
-	line "'em!"
+	para "Er du i tvivl:"
+	para "Smæk en HAMMER på"
+	line "dem!"
 	done
 
 _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
+	text "Din taske er"
+	line "propfuld!"
 	done
 
 _CinnabarLabMetronomeRoomScientist2Text::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
+	text "EEVEE kan udvikle"
+	line "sig til 1 af 3"
+	cont "slags #MON."
 	done
 
 _CinnabarLabMetronomeRoomPCText::
-	text "There's an e-mail"
-	line "message!"
+	text "Der er en e-mail-"
+	line "besked!"
 
 	para "<...>"
 
-	para "The 3 legendary"
-	line "bird #MON are"
+	para "De 3 legendariske"
+	line "fugle-#MON er"
 	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
+	cont "og MOLTRES."
 
-	para "Their whereabouts"
-	line "are unknown."
+	para "Deres opholdssted"
+	line "er ukendt."
 
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN."
+	para "Vi planlægger at"
+	line "undersøge hulen"
+	cont "tæt på CERULEAN."
 
-	para "From: #MON"
+	para "Fra: #MON"
 	line "RESEARCH <TEAM>"
 
 	para "<...>"
 	done
 
 _CinnabarLabMetronomeRoomAmberPipeText::
-	text "An amber pipe!"
+	text "En rav-pibe!"
 	done
 
 _CinnabarLabKinglerLearnset::
-	text "I think I'll HAMMER"
-	line "some awesome"
-	cont "@"
+	text "Jeg tror, jeg vil"
+	line "HAMRE nogle"
+	cont "fantastiske @"
 	text_ram_namebuffer
-	text " facts"
-	cont "into your skull!"
+	text "-fakta"
+	cont "ind i din kranie!"
 	prompt

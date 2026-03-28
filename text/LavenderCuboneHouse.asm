@@ -3,91 +3,91 @@ _LavenderCuboneHouseCuboneText::
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
-	text "I hate those"
-	line "horrible <ROCKET>s!"
+	text "Jeg hader de"
+	line "forfærdelige <ROCKET>s!"
 
-	para "That poor CUBONE's"
-	line "mother<...>"
+	para "Den stakkels"
+	line "CUBONEs mor<...>"
 
-	para "It was killed"
-	line "trying to escape"
-	cont "from <TEAM><ROCKET>!"
+	para "Den blev dræbt"
+	line "mens den flygtede"
+	cont "fra <TEAM><ROCKET>!"
 	done
 
 _LavenderCuboneHouseBrunetteGirlGhostIsGoneText::
-	text "The GHOST of"
-	line "#MON TOWER is"
-	cont "gone!"
+	text "SPØGELSET i"
+	line "#MON TÅRNET er"
+	cont "væk!"
 
-	para "Someone must have"
-	line "soothed its"
-	cont "restless soul!"
+	para "Nogen må have"
+	line "beroliget dens"
+	cont "hvileløse sjæl!"
 	done
 
 _LavenderCuboneLearnset::
-	text "You were the one"
-	line "who did it??"
-	para "Thank you!"
-	para "Maybe CUBONE"
-	line "will get some"
-	cont "peace of mind."
-	para "The poor thing!"
+	text "Det var dig som"
+	line "gjorde det??"
+	para "Tak skal du have!"
+	para "Måske får CUBONE"
+	line "lidt mere ro i"
+	cont "sindet."
+	para "Den stakkels ting!"
 	prompt
 
 _LightChannelerGreeting::
-	text "I'm the LIGHT"
-	line "CHANNELER."
-	para "I love charms,"
-	line "divination,"
-	cont "enchantments,"
-	cont "and especially"
-	cont "purifications!"
-	para "I can lift any"
-	line "curse."
-	para "If you have a"
-	line "#MON you think"
-	cont "has been cursed,"
-	cont "come to me."
+	text "Jeg er LYSET"
+	line "MEDIUM."
+	para "Jeg elsker"
+	line "amuletter,"
+	cont "spådomme,"
+	cont "fortrydelser,"
+	cont "og især"
+	cont "renselsesritualer!"
+	para "Jeg kan fjerne"
+	line "enhver forbandelse."
+	para "Hvis du har en"
+	line "#MON du tror"
+	cont "er forbandet,"
+	cont "kom til mig."
 	done
 
 _LightChannelerHaunter::
-	text "I can sense it,"
-	line "your HAUNTER has"
-	cont "been cursed."
-	para "Want me to remove"
-	line "this curse?"
-	para "It should go back"
-	line "to looking like a"
-	cont "GENGAR again."
+	text "Jeg kan mærke det,"
+	line "din HAUNTER er"
+	cont "blevet forbandet."
+	para "Vil du have mig"
+	line "til at fjerne"
+	cont "denne forbandelse?"
+	para "Den bør se ud som"
+	line "en GENGAR igen."
 	done
 
 _LightChannelerHaunterNo::
-	text "Curses are not"
-	line "to be trifled"
-	cont "with."
-	para "Come speak to me"
-	line "when you wish to"
-	cont "remove the curse."
+	text "Forbandelser er"
+	line "ikke til at"
+	cont "drille med."
+	para "Kom og tal med mig"
+	line "når du vil fjerne"
+	cont "forbandelsen."
 	done
 
 _LightChannelerHaunterYes::
-	text "So be it!"
-	para "Let's start the"
-	line "purification!"
+	text "Så være det!"
+	para "Lad os starte"
+	line "renselsen!"
 	prompt
 
 _LightChannelerPurificationTime::
-	text "CAST PURIFYING"
-	line "LIGHT ON THIS"
-	cont "CORRUPT SOUL!"
+	text "KAST RENSENDE"
+	line "LYS OVER DENNE"
+	cont "KORRUMPERTE SJÆL!"
 	prompt
 
 _LightChannelerPurificationComplete::
-	text "Wonderful!"
-	para "The curse is gone."
-	para "It looks just"
-	line "like a GENGAR"
-	cont "should again."
-	para "Safe travels!"
+	text "Vidunderligt!"
+	para "Forbandelsen er væk"
+	para "Den ser ud som"
+	line "en GENGAR skal"
+	cont "se ud igen."
+	para "God rejse!"
 	done
-	

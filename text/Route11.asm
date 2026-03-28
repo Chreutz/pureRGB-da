@@ -1,176 +1,183 @@
 _Route11Gambler1BattleText::
-	text "Win, lose or draw!"
+	text "Vind, tab eller"
+	line "uafgjort!"
 	done
 
 _Route11Gambler1EndBattleText::
-	text "Atcha!"
-	line "Didn't go my way!"
+	text "Nåhå!"
+	line "Gik ikke min vej!"
 	prompt
 
 _Route11Gambler1AfterBattleText::
-	text "#MON is life!"
-	line "And to live is to"
-	cont "gamble!"
+	text "#MON er livet!"
+	line "Og at leve er at"
+	cont "spille!"
 	done
 
 _Route11Gambler2BattleText::
-	text "Competition! I"
-	line "can't get enough!"
+	text "Konkurrence! Jeg"
+	line "kan ikke få nok!"
 	done
 
 _Route11Gambler2EndBattleText::
-	text "I had"
-	line "a chance!"
+	text "Jeg havde"
+	line "en chance!"
 	prompt
 
 _Route11Gambler2AfterBattleText::
-	text "You can't be a"
-	line "coward in the"
-	cont "world of #MON!"
+	text "Du kan ikke være"
+	line "en kujon i"
+	cont "#MON-verdenen!"
 	done
 
 _LearnsetBellsprout::
-	text "You've got to be"
-	line "flexible, like my"
+	text "Du skal være"
+	line "fleksibel, som min"
 	cont "@"
 	text_ram_namebuffer
 	text "!"
-	para "Move, sway, and"
-	line "adapt!"
+	para "Bevæge dig,"
+	line "svaje og tilpasse"
+	cont "dig!"
 	prompt
 
 _Route11Youngster1BattleText::
-	text "Let's go, but"
-	line "don't cheat!"
+	text "Lad os gå, men"
+	line "ingen snyd!"
 	done
 
 _Route11Youngster1EndBattleText::
-	text "Huh?"
-	line "That's not right!"
+	text "Hæ?"
+	line "Det passer ikke!"
 	prompt
 
 _Route11Youngster1AfterBattleText::
-	text "I did my best! I"
-	line "have no regrets!"
+	text "Jeg gjorde mit"
+	line "bedste! Jeg har"
+	cont "ingen fortrydelser!"
 	done
 
 _Route11SuperNerd1BattleText::
-	text "Careful!"
-	line "I'm laying down"
-	cont "some cables!"
+	text "Pas på!"
+	line "Jeg lægger nogle"
+	cont "kabler!"
 	done
 
 _Route11SuperNerd1EndBattleText::
-	text "That"
-	line "was electric!"
+	text "Det"
+	line "var elektrisk!"
 	prompt
 
 _Route11SuperNerd1AfterBattleText::
-	text "Spread the word"
-	line "to save energy!"
+	text "Spred budskabet"
+	line "om at spare"
+	cont "energi!"
 	done
 
 _LearnsetMagneton::
 	text "@"
 	text_ram_namebuffer
-	text " gather"
-	line "in places that"
-	cont "overuse energy."
-	para "They can cause"
-	line "big blackouts!"
+	text " samles"
+	line "på steder der"
+	cont "overbruger energi."
+	para "De kan forårsage"
+	line "store strømsvigt!"
 	para "@"
 	text_end
 
 
 _Route11Youngster2BattleText::
-	text "I just became a"
-	line "trainer! But, I"
-	cont "think I can win!"
+	text "Jeg er lige"
+	line "blevet træner! Men"
+	cont "jeg tror jeg kan"
+	cont "vinde!"
 	done
 
 _Route11Youngster2EndBattleText::
-	text "My"
-	line "#MON couldn't!"
+	text "Mine"
+	line "#MON kunne ikke!"
 	prompt
 
 _Route11Youngster2AfterBattleText5::
-	text "What do you want?"
-	line "Leave me alone!"
+	text "Hvad vil du?"
+	line "Lad mig være!"
 	done
 
 _Route11Gambler3BattleText::
-	text "Fwahaha! I have"
-	line "never lost!"
+	text "Fwahaha! Jeg har"
+	line "aldrig tabt!"
 	done
 
 _Route11Gambler3EndBattleText::
-	text "My"
-	line "first loss!"
+	text "Mit"
+	line "første nederlag!"
 	prompt
 
 _Route11Gambler3AfterBattleText::
-	text "Luck of the draw!"
-	line "Just luck!"
+	text "Held i trækningen!"
+	line "Bare held!"
 	done
 
 _Route11Gambler4BattleText::
-	text "I have never won"
-	line "before<...>"
+	text "Jeg har aldrig"
+	line "vundet før<...>"
 	done
 
 _Route11Gambler4EndBattleText::
-	text "I saw"
-	line "this coming<...>"
+	text "Jeg så"
+	line "dette komme<...>"
 	prompt
 
 _Route11Gambler4AfterBattleText::
-	text "It's just luck."
-	line "Luck of the draw."
+	text "Det er bare held."
+	line "Held i trækningen."
 	done
 
 _Route11Youngster3BattleText::
-	text "I'm the best in"
-	line "my class!"
+	text "Jeg er den bedste"
+	line "i min klasse!"
 	done
 
 _Route11Youngster3EndBattleText::
-	text "Darn!"
-	line "I need to make my"
-	cont "#MON stronger!"
+	text "Pokkers!"
+	line "Jeg skal gøre mine"
+	cont "#MON stærkere!"
 	prompt
 
 _Route11Youngster3AfterBattleText::
-	text "There's a fat"
-	line "#MON that"
-	cont "comes down from"
-	cont "the mountains."
+	text "Der er en tyk"
+	line "#MON der"
+	cont "kommer ned fra"
+	cont "bjergene."
 
-	para "It's strong if"
-	line "you can get it."
+	para "Den er stærk hvis"
+	line "du kan få den."
 	done
 
 _LearnsetStaryu::
-	text "But I've already"
-	line "got this @"
+	text "Men jeg har"
+	line "allerede denne"
+	cont "@"
 	text_ram_namebuffer
 	text "!"
-	para "It has such a"
-	line "peculiar shape."
-	para "Reminds me of"
-	line "outer space!"
+	para "Den har en så"
+	line "særlig form."
+	para "Minder mig om"
+	line "yderområdet!"
 	para "@"
 	text_end
 
 _Route11SuperNerd2BattleText::
-	text "Watch out for"
-	line "live wires!"
+	text "Pas på med"
+	line "strømførende"
+	cont "ledninger!"
 	done
 
 _LearnsetVulpixLuckyNumber::
-	text "Six is my lucky"
-	line "number!"
-	para "That's why I"
-	line "raised a @"
+	text "Seks er mit"
+	line "heldige tal!"
+	para "Derfor har jeg"
+	line "opdrættet en @"
 	text_ram_namebuffer
 	text "!"
 	prompt

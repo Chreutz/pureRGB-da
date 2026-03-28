@@ -1,22 +1,22 @@
 _Route24CooltrainerM2EndBattleText::
-	text "I"
-	line "thought not!"
+	text "Jeg"
+	line "troede det ikke!"
 	prompt
 
 _Route24CooltrainerM2AfterBattleText::
-	text "I hid because the"
-	line "people on the"
-	cont "bridge scared me!"
+	text "Jeg gemte mig fordi"
+	line "folkene på broen"
+	cont "skræmte mig!"
 	done
 
 _Route24CooltrainerM3BattleText::
-	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	text "OK! Jeg er nr. 5!"
+	line "Jeg knuser dig!"
 	done
 
 _Route24CooltrainerM3EndBattleText::
-	text "Whoa!"
-	line "Too much!"
+	text "Hvem!"
+	line "For meget!"
 	prompt
 
 _Route24CooltrainerF1AfterBattleText::
@@ -24,51 +24,53 @@ _Route24Youngster2AfterBattleText::
 _Route24CooltrainerF2AfterBattleText::
 _Route24Youngster1AfterBattleText::
 _Route24CooltrainerM3AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Jeg gjorde mit"
+	line "bedste, ingen"
+	cont "fortrydelser!"
 	done
 
 _Route24CooltrainerF1BattleText::
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "Jeg er nr. 4!"
+	line "Bliver træt?"
 	done
 
 _Route24CooltrainerF1EndBattleText::
-	text "I lost"
-	line "too!"
+	text "Jeg tabte"
+	line "også!"
 	prompt
 
 _Route24Youngster1BattleText::
-	text "Here's No. 3!"
-	line "I won't be easy!"
+	text "Her er nr. 3!"
+	line "Jeg er ikke nem!"
 	done
 
 _Route24Youngster1EndBattleText::
-	text "Ow!"
-	line "Stomped flat!"
+	text "Av!"
+	line "Trådt flad!"
 	prompt
 
 _Route24CooltrainerF2BattleText::
-	text "I'm second!"
-	line "Now it's serious!"
+	text "Jeg er nr. to!"
+	line "Nu bliver det"
+	cont "seriøst!"
 	done
 
 _Route24CooltrainerF2EndBattleText::
-	text "How could I"
-	line "lose?"
+	text "Hvordan kunne"
+	line "jeg tabe?"
 	prompt
 
 _Route24Youngster2BattleText::
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
+	text "Dette er NUGGET"
+	line "BRIDGE! Slå os 5"
+	cont "trænere og vind"
+	cont "en fed præmie!"
 
-	para "Think you got"
-	line "what it takes?"
+	para "Tror du du har"
+	line "hvad der skal til?"
 	done
 
 _Route24Youngster2EndBattleText::
-	text "Whoo!"
-	line "Good stuff!"
+	text "Huu!"
+	line "Godt gået!"
 	prompt

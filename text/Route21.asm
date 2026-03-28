@@ -1,32 +1,32 @@
 _Route21Fisher1BattleText::
-	text "You want to know"
-	line "if the fish are"
-	cont "biting?"
+	text "Vil du vide"
+	line "om fiskene bider?"
 	done
 
 _Route21Fisher1AfterBattleText::
-	text "I can't catch"
-	line "anything good!"
+	text "Jeg kan ikke fange"
+	line "noget godt!"
 	done
 
 _Route21Fisher2BattleText::
-	text "I got a big haul!"
-	line "Wanna go for it?"
+	text "Jeg har en stor"
+	line "fangst! Vil du"
+	cont "prøve?"
 	done
 
 _Route21Fisher2EndBattleText::
-	text "Darn"
+	text "Søren"
 	line "MAGIKARP!"
 	prompt
 
 _Route21Fisher2AfterBattleText::
-	text "I seem to only"
-	line "catch MAGIKARP!"
+	text "Jeg synes kun"
+	line "at fange MAGIKARP!"
 	done
 
 _Route21Swimmer1BattleText::
-	text "The sea cleanses"
-	line "my body and soul!"
+	text "Havet renser"
+	line "min krop og sjæl!"
 	done
 
 _Route21Swimmer1EndBattleText::
@@ -34,100 +34,102 @@ _Route21Swimmer1EndBattleText::
 	prompt
 
 _Route21Swimmer1AfterBattleText::
-	text "I like the"
-	line "mountains too!"
+	text "Jeg kan også lide"
+	line "bjergene!"
 	done
 
 _Route21Swimmer2BattleText::
-	text "What's wrong with"
-	line "me swimming?"
+	text "Hvad er der galt"
+	line "med at jeg svømmer"
 	done
 
 _Route21Swimmer2EndBattleText::
-	text "Cheap"
-	line "shot!"
+	text "Billigt"
+	line "trick!"
 	prompt
 
 _Route21Swimmer2AfterBattleText::
-	text "I look like what?"
-	line "A studded inner"
-	cont "tube? Get lost!"
+	text "Jeg ligner hvad?"
+	line "En pigget slange?"
+	cont "Forsvind!"
 	done
 
 _Route21Swimmer3BattleText::
-	text "I caught all my"
-	line "#MON at sea!"
+	text "Jeg fangede alle"
+	line "mine Pokémon på"
+	cont "havet!"
 	done
 
 _Route21Swimmer3EndBattleText::
-	text "Diver!!"
-	line "Down!!"
+	text "Dykker!!"
+	line "Ned!!"
 	prompt
 
 _Route21Swimmer3AfterBattleText::
-	text "Where'd you catch"
-	line "your #MON?"
+	text "Hvor fangede du"
+	line "dine Pokémon?"
 	done
 
 _Route21Swimmer4BattleText::
-	text "Right now, I'm in"
-	line "a triathlon meet!"
+	text "Lige nu er jeg i"
+	line "en triathlon!"
 	done
 
 _Route21Swimmer4EndBattleText::
-	text "Pant<...>"
-	line "pant<...>pant<...>"
+	text "Pust<...>"
+	line "Pust<...>pust<...>"
 	prompt
 
 _Route21Swimmer4AfterBattleText::
-	text "I'm beat!"
-	line "But, I still have"
-	cont "the bike race and"
-	cont "marathon left!"
+	text "Jeg er færdig!"
+	line "Men jeg har stadig"
+	cont "cykelløbet og"
+	cont "maraton tilbage!"
 	done
 
 _Route21Swimmer5BattleText::
-	text "Ahh! Feel the sun"
-	line "and the wind!"
+	text "Ahh! Føl solen"
+	line "og vinden!"
 	done
 
 _Route21Swimmer5EndBattleText::
-	text "Yow!"
-	line "I lost!"
+	text "Av!"
+	line "Jeg tabte!"
 	prompt
 
 _Route21Swimmer5AfterBattleText::
-	text "I'm sunburnt to a"
-	line "crisp!"
+	text "Jeg er solbrændt"
+	line "til ukendelighed!"
 	done
 
 _Route21Fisher3BattleText::
-	text "Hey, don't scare"
-	line "away the fish!"
+	text "Hey, skræm ikke"
+	line "fiskene væk!"
 	done
 
 _Route21Fisher3EndBattleText::
-	text "Sorry!"
-	line "I didn't mean it!"
+	text "Undskyld!"
+	line "Jeg mente det ikke"
 	prompt
 
 _Route21Fisher3AfterBattleText::
-	text "I was just angry"
-	line "that I couldn't"
-	cont "catch anything."
+	text "Jeg var bare vred"
+	line "over ikke at kunne"
+	cont "fange noget."
 	done
 
 _Route21Fisher4BattleText::
-	text "Keep me company"
-	line "'til I get a hit!"
+	text "Hold mig med"
+	line "selskab til jeg"
+	cont "får bid!"
 	done
 
 _Route21Fisher4EndBattleText::
-	text "That"
-	line "burned some time."
+	text "Det"
+	line "brugte lidt tid."
 	prompt
 
 _Route21Fisher4AfterBattleText::
-	text "Oh wait! I got a"
-	line "bite! Yeah!"
+	text "Åh vent! Jeg har"
+	line "et bid! Ja!"
 	done

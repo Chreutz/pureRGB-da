@@ -1,50 +1,51 @@
 _PokemonTower5FChanneler1Text::
-	text "Come, child! I"
-	line "sealed this space"
-	cont "with white magic!"
+	text "Kom, barn! Jeg"
+	line "forseglet dette"
+	cont "sted med"
+	cont "hvid magi!"
 
-	para "You can rest here!"
+	para "Du kan hvile her!"
 	done
 
 _PokemonTower5FChanneler2BattleText::
-	text "Give<...>me<...>"
-	line "your<...>soul<...>"
+	text "Giv<...>mig<...>"
+	line "din<...>sjæl<...>"
 	done
 
 _PokemonTower5FChanneler2EndBattleText::
-	text "Gasp!"
+	text "Gisp!"
 	prompt
 
 _PokemonTower5FChanneler2AfterBattleText::
-	text "I was under"
-	line "possession!"
+	text "Jeg var besat!"
 	done
 
 _PokemonTower5FChanneler3BattleText::
-	text "You<...>shall<...>"
-	line "join<...>us<...>"
+	text "Du<...>skal<...>"
+	line "slutte<...>dig<...>"
+	cont "til os<...>"
 	done
 
 _PokemonTower5FChanneler3EndBattleText::
-	text "What"
-	line "a nightmare!"
+	text "Sikke et"
+	line "mareridt!"
 	prompt
 
 _PokemonTower5FChanneler3AfterBattleText::
-	text "I was possessed!"
+	text "Jeg var besat!"
 	done
 
 _PokemonTower5FChanneler4BattleText::
-	text "Zombies!"
+	text "Zombier!"
 	done
 
 _PokemonTower5FChanneler4EndBattleText::
-	text "Ha?"
+	text "Hva?"
 	prompt
 
 _PokemonTower5FChanneler4AfterBattleText::
-	text "I regained my"
-	line "senses!"
+	text "Jeg fik mit"
+	line "fornuft tilbage!"
 	done
 
 _PokemonTower5FChanneler5BattleText::
@@ -53,19 +54,21 @@ _PokemonTower5FChanneler5BattleText::
 	done
 
 _PokemonTower5FChanneler5EndBattleText::
-	text "Whoo!"
+	text "Huu!"
 	prompt
 
 _PokemonTower5FChanneler5AfterBattleText::
-	text "I fell to evil"
-	line "spirits despite"
-	cont "my training!"
+	text "Jeg faldt for"
+	line "onde ånder"
+	cont "på trods"
+	cont "af min træning!"
 	done
 
 _PokemonTower5FPurifiedZoneText::
-	text "Entered purified,"
-	line "protected zone!"
+	text "Trådte ind i"
+	line "renset,"
+	cont "beskyttet zone!"
 
-	para "<PLAYER>'s #MON"
-	line "are fully healed!"
+	para "<PLAYER>s #MON"
+	line "er fuldt helbredt!"
 	done

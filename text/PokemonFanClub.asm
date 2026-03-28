@@ -1,41 +1,42 @@
 _PokemonFanClubPikachuFanNormalText::
-	text "Won't you admire"
-	line "my PIKACHU's"
-	cont "adorable tail?"
+	text "Vil du beundre"
+	line "min PIKACHUs"
+	cont "nydelige hale?"
 	done
 
 _PokemonFanClubPikachuFanYoursText::
-	text "Humph! My PIKACHU"
-	line "is twice as cute"
-	cont "as yours!"
+	text "Hum! Min PIKACHU"
+	line "er dobbelt så sød"
+	cont "som din!"
 	done
 
 _PokemonFanClubPikachuFanBetterText::
-	text "Pfft, my PIKACHU"
-	line "is way cuter"
-	cont "than her SEEL!"
+	text "Pyh, min PIKACHU"
+	line "er meget sødere"
+	cont "end hendes SEEL!"
 	done
 
 _PokemonFanClubSeelFanNormalText::
-	text "I just love my"
-	line "SEEL!"
+	text "Jeg elsker bare"
+	line "min SEEL!"
 
-	para "It squeals when I"
-	line "hug it!"
+	para "Den hyler når jeg"
+	line "krammer den!"
 	done
 
 _PokemonFanClubSeelFanBetterText::
-	text "His PIKACHU pales"
-	line "in comparison to"
-	cont "my beautiful SEEL!"
+	text "Hans PIKACHU"
+	line "blegner i"
+	cont "sammenligning med"
+	cont "min smukke SEEL!"
 	done
 
 _PokemonFanClubSeelFanYoursText::
-	text "Oh dear!"
+	text "Åh nej!"
 
-	para "My SEEL is far"
-	line "more attractive"
-	cont "than yours!"
+	para "Min SEEL er langt"
+	line "mere attraktiv"
+	cont "end din!"
 	done
 
 _PokemonFanClubPikachuText::
@@ -48,117 +49,117 @@ _PokemonFanClubSeelText::
 	done
 
 _PokemonFanClubChairmanIntroText::
-	text "I chair the"
-	line "#MON Fan Club!"
+	text "Jeg leder"
+	line "#MON Fanklubben!"
 
-	para "I have collected"
+	para "Jeg har samlet"
 	line "over 100 #MON!"
 
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#MON!"
+	para "Jeg er meget"
+	line "kræsen når det"
+	cont "kommer til #MON!"
 
-	para "So<...>"
+	para "Så<...>"
 
-	para "Did you come"
-	line "visit to hear"
-	cont "about my #MON?"
+	para "Kom du for at"
+	line "høre om mine"
+	cont "#MON?"
 	done
 
 _PokemonFanClubChairmanStoryText::
-	text "Good!"
-	line "Then listen up!"
+	text "Godt!"
+	line "Så lyt efter!"
 
-	para "My favorite"
+	para "Min yndlings"
 	line "RAPIDASH<...>"
 
-	para "It<...>cute<...>"
-	line "lovely<...>smart<...>"
-	cont "plus<...>amazing<...>"
-	cont "you think so?<...>"
-	cont "oh yes<...>it<...>"
-	cont "stunning<...>"
-	cont "kindly<...>"
-	cont "love it!"
+	para "Den<...>sød<...>dejlig<...>"
+	line "klog<...>plus<...>"
+	cont "fantastisk<...>"
+	cont "synes du?<...>"
+	cont "åh ja<...>den<...>"
+	cont "betagende<...>"
+	cont "venlig<...>"
+	cont "elsker den!"
 
-	para "Hug it<...>when<...>"
-	cont "sleeping<...>warm"
-	cont "and cuddly<...>"
-	cont "spectacular<...>"
-	cont "ravishing<...>"
-	cont "<...>Oops! Look at"
-	cont "the time! I kept"
-	cont "you too long!"
+	para "Kram den<...>når<...>"
+	cont "den sover<...>varm"
+	cont "og hyggelig<...>"
+	cont "spektakulær<...>"
+	cont "fængslende<...>"
+	cont "<...>Ups! Se"
+	cont "klokken! Jeg"
+	cont "holdt dig for længe"
 
-	para "Thanks for hearing"
-	line "me out! I want"
-	cont "you to have this!"
+	para "Tak for at høre"
+	line "efter! Jeg vil"
+	cont "give dig den!"
 	prompt
 
 _PokemonFanClubExplainBikeVoucherText::
 	text_start
 
-	para "Exchange that for"
-	line "a BICYCLE!"
+	para "Byt den til"
+	line "en CYKEL!"
 
-	para "Don't worry, my"
-	line "FEAROW will FLY"
-	cont "me anywhere!"
+	para "Ingen bekymringer,"
+	line "min FEAROW kan FLY"
+	cont "mig hvor som helst!"
 
-	para "So, I don't need a"
-	line "BICYCLE!"
+	para "Så jeg behøver"
+	line "ikke en CYKEL!"
 
-	para "I hope you like"
-	line "cycling!"
+	para "Håber du kan"
+	line "lide at cykle!"
 	done
 
 _PokemonFanClubNoStoryText::
-	text "Oh. Come back"
-	line "when you want to"
-	cont "hear my story!"
+	text "Åh. Kom tilbage"
+	line "når du vil høre"
+	cont "min historie!"
 	done
 
 _PokemonFanClubChairFinalText::
-	text "Hello, <PLAYER>!"
+	text "Hej, <PLAYER>!"
 
-	para "Did you come see"
-	line "me about my"
-	cont "#MON again?"
+	para "Kom du for at"
+	line "høre om mine"
+	cont "#MON igen?"
 
-	para "No? Too bad!"
+	para "Nej? Ærgerligt!"
 	done
 
 _PokemonFanClubBagFullText::
-	text "Make room for"
-	line "this!"
+	text "Gør plads"
+	line "til dette!"
 	done
 
 _PokemonFanClubReceptionistText::
-	text "Our Chairman is"
-	line "very vocal about"
+	text "Vores formand er"
+	line "meget vokal omkring"
 	cont "#MON."
 	done
 
 _PokemonFanClubSign1Text::
-	text "Let's all listen"
-	line "politely to other"
-	cont "trainers!"
+	text "Lad os alle lytte"
+	line "høfligt til andre"
+	cont "trænere!"
 	done
 
 _PokemonFanClubSign2Text::
-	text "If someone brags,"
-	line "brag right back!"
+	text "Hvis nogen praler,"
+	line "pral lige meget!"
 	done
 
 _PokemonFanClubChairMoreText::
-	text "Oh, <PLAYER>!"
-	para "Want to hear"
-	line "another story"
-	cont "about my RAPIDASH?"
+	text "Åh, <PLAYER>!"
+	para "Vil du høre"
+	line "en anden historie"
+	cont "om min RAPIDASH?"
 	done
 
 _PokemonFanClubChairLongOne::
-	text "Okay, get ready!"
-	para "This is a long"
-	line "story!"
+	text "Okay, vær klar!"
+	para "Dette er en"
+	line "lang historie!"
 	done

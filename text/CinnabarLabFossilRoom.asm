@@ -13,8 +13,8 @@ _CinnabarLabFossilRoomScientist1Text::
 	prompt
 
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "Nej! Det"
-	line "er tosset!"
+	text "Nej! Øv,"
+	line "ærgerligt!"
 	done
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText::

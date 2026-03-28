@@ -1,38 +1,38 @@
 _SafariZoneCenterRestHouseSignText::
-	text "REST HOUSE"
+	text "HVILSTED"
 	done
 
 _SafariZoneCenterTrainerTipsSignText::
 	text "<TIPS>"
 
-	para "Press the START"
-	line "Button to check"
-	cont "remaining time!"
+	para "Tryk på START-"
+	line "knappen for at"
+	cont "se resttiden!"
 	done
 
 _SafariZoneCenterRangerText::
-	text "RANGER number 1!"
-	line "At your service!"
+	text "RANGER nummer 1!"
+	line "Til din tjeneste!"
 	done
 
 _SafariZoneCenterRangerEndBattleText::
 	text "Wow!"
-	line "Good battle!"
+	line "God kamp!"
 	prompt
 
 _SafariZoneCenterRangerAfterBattleText::
-	text "I'm actually the"
-	line "lifeguard here!"
-	para "This tiny island"
-	line "is my happy place"
-	cont "of relaxation."
+	text "Jeg er faktisk"
+	line "livredderen her!"
+	para "Denne lille ø"
+	line "er mit yndlings-"
+	cont "sted at slappe af."
 	done
 
 _SafariZoneCenterEngineerText::
-	text "I'm on break!"
-	para "I'll eat a tasty"
-	line "sandwich while"
-	cont "battling you!"
+	text "Jeg holder pause!"
+	para "Jeg spiser en"
+	line "lækker sandwich,"
+	cont "mens jeg kæmper!"
 	done
 
 _SafariZoneCenterEngineerEndBattleText::
@@ -41,84 +41,100 @@ _SafariZoneCenterEngineerEndBattleText::
 	prompt
 
 _SafariZoneCenterEngineerAfterBattleText::
-	text "I'm installing AC"
-	line "on this REST"
-	cont "HOUSE."
-	para "I love my job!"
-	para "I also love my"
-	line "wife's pastrami"
-	cont "sandwiches."
-	para "I make her tasty"
-	line "grilled cheese"
-	cont "for her lunch!"
-	para "She's the nurse"
-	line "at the #MON"
-	cont "CENTER."
+	text "Jeg installerer"
+	line "aircondition i"
+	cont "dette HVILSTED."
+	para "Jeg elsker job!"
+	para "Jeg elsker også"
+	line "min kones"
+	cont "pastrami-sandwich."
+	para "Jeg laver hendes"
+	line "lækker grillede"
+	cont "ostemadder til"
+	cont "hendes frokost!"
+	para "Hun er sygepleje-"
+	line "rske på POKéMON"
+	cont "CENTERET."
+	done
+...
+_SafariZoneCenterRockerAfterBattleText::
+	text "Hvad? Forventede"
+	line "du ikke, at en"
+	cont "ROCKER så blid?"
+	done	
+...
+_SafariZoneCenterManiacText::
+	text "Lad mig præsen-"
+	line "tere Team"
+	cont "Brushfire!"
 	done
 
+
 _SafariZoneCenterRockerText::
-	text "Careful! don't"
-	line "spook the wild"
-	cont "#MON!"
-	para "I want to feed"
-	line "them by hand!"
+	text "Forsigtig! Skræm"
+	line "ikke de vilde"
+	cont "POKéMON!"
+	para "Jeg vil fodre"
+	line "dem med hånden!"
 	done
 
 _SafariZoneCenterRockerEndBattleText::
-	text "Relax!"
+	text "Slap af!"
 	prompt
 
 _SafariZoneCenterRockerAfterBattleText::
-	text "What? Didn't"
-	line "expect a ROCKER"
-	cont "to be so gentle?"
+	text "Hvad? Forventede"
+	line "du ikke, at en"
+	cont "ROCKER så blid?"
 	done	
 
 _SafariZoneCenterJugglerText::
-	text "Why can't I hold"
-	line "all these TAUROS?"
+	text "Hvorfor kan jeg"
+	line "ikke holde alle"
+	cont "disse TAUROS?"
 	done
 
 _SafariZoneCenterJugglerEndBattleText::
-	text "Just"
-	line "call me"
-	cont "“The Matador”!"
+	text "Bare"
+	line "kald mig"
+	cont "“Matadoren”!"
 	prompt
 
 _SafariZoneCenterJugglerAfterBattleText::
-	text "It's SAFARI ZONE"
-	line "tradition to"
-	cont "catch plenty of"
+	text "Det er en SAFARI"
+	line "ZONE-tradition at"
+	cont "fange masser af"
 	cont "TAUROS."
 	done
 
 _TaurosLearnsetText::
-	text "“The Matador” will"
-	line "now tell you a"
-	cont "famous folk tale"
-	cont "about @"
+	text "“Matadoren” vil"
+	line "nu fortælle dig"
+	cont "et berømt folke-"
+	cont "sagn om @"
 	text_ram_namebuffer
 	text "<...>"
 	prompt
 
 _SafariZoneCenterManiacText::
-	text "Let me introduce"
-	line "you to Team"
+	text "Lad mig præsen-"
+	line "tere Team"
 	cont "Brushfire!"
 	done
 
 _SafariZoneCenterManiacEndBattleText::
-	text "Still"
-	line "building my team!"
+	text "Er stadig"
+	line "ved at opbygge"
+	cont "mit hold!"
 	prompt
 
 _SafariZoneCenterManiacAfterBattleText::
-	text "I'm putting"
-	line "together a party"
-	cont "of exotic fire"
-	cont "and grass-type"
-	cont "#MON."
+	text "Jeg er ved at"
+	line "sætte et hold"
+	cont "sammen af eksotiske"
+	cont "ild- og græs-type"
+	cont "POKéMON."
 
-	para "I call them"
+	para "Jeg kalder dem"
 	line "Team Brushfire!"
 	done

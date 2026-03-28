@@ -1,30 +1,31 @@
 _MrFujisHouseSuperNerdMrFujiIsntHereText::
-	text "That's odd, MR.FUJI"
-	line "isn't here."
-	cont "Where'd he go?"
+	text "Mærkeligt, MR.FUJI"
+	line "er ikke her."
+	cont "Hvor er han henne?"
 	done
 
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
-	text "MR.FUJI had been"
-	line "praying alone for"
-	cont "CUBONE's mother."
+	text "MR.FUJI havde"
+	line "bedt alene for"
+	cont "CUBONEs mor."
 	done
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
-	text "This is really"
-	line "MR.FUJI's house."
+	text "Dette er virkelig"
+	line "MR.FUJIs hus."
 
-	para "He's really kind!"
+	para "Han er meget"
+	line "venlig!"
 
-	para "He looks after"
-	line "abandoned and"
-	cont "orphaned #MON!"
+	para "Han passer"
+	line "forladte og"
+	cont "forældreløse #MON!"
 	done
 
 _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
-	text "It's so warm!"
-	line "#MON are so"
-	cont "nice to hug!"
+	text "Det er så varmt!"
+	line "#MON er så"
+	cont "dejlige at kramme!"
 	done
 
 _MrFujisHousePsyduckText::
@@ -32,16 +33,18 @@ _MrFujisHousePsyduckText::
 	text_end
 
 _MrFujisHousePsyduck2Text::
-	text "GIRL: Our PSYDUCK"
-	line "is named DUCKET."
-	para "It's a bit dopey."
-	para "It fell into a"
-	line "well."
-	para "We got it out"
-	line "with a bucket!"
-	para "I'm keeping an eye"
-	line "on it so it stays"
-	cont "out of trouble!"
+	text "PIGE: Vores PSYDUCK"
+	line "hedder DUCKET."
+	para "Den er lidt"
+	line "klodset"
+	para "Den faldt ned i"
+	line "en brønd."
+	para "Vi fik den op"
+	line "med en spand!"
+	para "Jeg holder øje"
+	line "med den så den"
+	cont "holder sig fra"
+	cont "problemer!"
 	done
 
 _MrFujisHouseNidorinoText::
@@ -49,28 +52,28 @@ _MrFujisHouseNidorinoText::
 	done
 
 _MrFujisHouseNidorino2Text::
-	text "That's our"
+	text "Det er vores"
 	line "NIDORINO."
-	para "His name is SPIKE."
-	para "We rescued him!"
-	para "He had a leg"
-	line "injury from a big"
-	cont "rock slide on"
-	cont "ROUTE 10."
-	para "Now he's strong"
-	line "and healthy!"
+	para "Hans navn er SPIKE"
+	para "Vi reddede ham!"
+	para "Han havde en"
+	line "benskade fra et"
+	cont "stort jordskred på"
+	cont "RUTE 10."
+	para "Nu er han stærk"
+	line "og sund!"
 	done
 
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
 	text "MR.FUJI: <PLAYER>."
 
-	para "Your #DEX quest"
-	line "may fail without"
-	cont "love for your"
+	para "Din #DEX-quest"
+	line "kan fejle uden"
+	cont "kærlighed til dine"
 	cont "#MON."
 
-	para "I think this may"
-	line "help your quest."
+	para "Jeg tror dette kan"
+	line "hjælpe din quest."
 	prompt
 
 _PokemonFanClubReceivedBikeVoucherText::
@@ -78,8 +81,8 @@ _LastTwoGurusReceivedItemText::
 _MrFujisHouseMrFujiReceivedPokeFluteText::
 _Route24CooltrainerM1ReceivedNuggetText::
 _GenericReceivedItemA::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> modtog"
+	line "en @"
 	text_ram_stringbuffer
 	text "!@"
 	text_end
@@ -87,33 +90,33 @@ _GenericReceivedItemA::
 _MrFujisHouseMrFujiPokeFluteExplanationText::
 	text_start
 
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
-	cont "spring awake."
+	para "Når # FLØJTEN"
+	line "høres, vil"
+	cont "sovende #MON"
+	cont "vågne op."
 
-	para "It works on all"
-	line "sleeping #MON."
+	para "Den virker på alle"
+	line "sovende #MON."
 	done
 
 _MrFujisHouseMrFujiPokeFluteNoRoomText::
-	text "You must make"
-	line "room for this!"
+	text "Du må gøre"
+	line "plads til dette!"
 	done
 
 _MrFujisHouseMrFujiHasMyFluteHelpedYouText::
-	text "MR.FUJI: Has my"
-	line "FLUTE helped you?"
+	text "MR.FUJI: Har min"
+	line "FLØJTE hjulpet?"
 	done
 
 _MrFujisHouseMrFujiPokedexText::
-	text "#MON Monthly"
-	line "Grand Prize"
-	cont "Drawing!"
+	text "#MON Månedlig"
+	line "Hovedpræmie"
+	cont "Trækning!"
 
-	para "The application"
-	line "form is<...>"
+	para "Tilmeldnings"
+	line "blanketten er<...>"
 
-	para "Gone! It's been"
-	line "clipped out!"
+	para "Væk! Den er"
+	line "blevet klippet ud!"
 	done

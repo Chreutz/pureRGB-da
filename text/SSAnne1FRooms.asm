@@ -4,109 +4,116 @@ _SSAnne1FRoomsWigglytuffText::
 	text_end
 
 _SSAnne1FRoomsGentleman1BattleText::
-	text "I travel alone"
-	line "on my journeys!"
+	text "Jeg rejser alene"
+	line "på mine rejser!"
 
-	para "My #MON are my"
-	line "only friends!"
+	para "Mine Pokémon er"
+	line "mine eneste"
+	cont "venner!"
 	done
 
 _SSAnne1FRoomsGentleman1EndBattleText::
-	text "My, my"
-	line "friends<...>"
+	text "Åh, åh"
+	line "mine venner<...>"
 	prompt
 
 _SSAnne1FRoomsGentleman1AfterBattleText::
-	text "You should be"
-	line "nice to friends!"
+	text "Du bør være venlig"
+	line "mod dine venner!"
 	done
 
 _SSAnne1FRoomsGentleman2BattleText::
-	text "You pup! How dare"
-	line "you barge in!"
+	text "Din knægt! Hvordan"
+	line "vover du at trænge"
+	cont "ind!"
 	done
 
 _SSAnne1FRoomsGentleman2EndBattleText::
 	text "Humph!"
-	line "You rude child!"
+	line "Din uhøflige"
+	cont "unge!"
 	prompt
 
 _SSAnne1FRoomsGentleman2AfterBattleText::
-	text "I wish to be left"
-	line "alone! Get out!"
+	text "Jeg vil være i"
+	line "fred! Forsvind!"
 	done
 
 _SSAnne1FRoomsYoungsterBattleText::
-	text "I love #MON!"
-	line "Do you?"
+	text "Elsker Pokémon!"
+	line "Gør du?"
 	done
 
 _SSAnne1FRoomsYoungsterEndBattleText::
 	text "Wow!"
-	line "You're great!"
+	line "Du er sej!"
 	prompt
 
 _SSAnne1FRoomsYoungsterAfterBattleText::
-	text "Let me be your"
-	line "friend, OK?"
+	text "Lad mig være din"
+	line "ven, OK?"
 
-	para "Then we can trade"
-	line "#MON!"
+	para "Så kan vi bytte"
+	line "Pokémon!"
 	done
 
 _SSAnne1FRoomsCooltrainerFBattleText::
-	text "I collected these"
-	line "#MON from all"
-	cont "around the world!"
+	text "Jeg samlede disse"
+	line "Pokémon fra hele"
+	cont "verden!"
 	done
 
 _SSAnne1FRoomsCooltrainerFEndBattleText::
-	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
+	text "Åh nej!"
+	line "Jeg rejste hele"
+	cont "verden rundt for"
+	cont "disse!"
 	prompt
 
 _SSAnne1FRoomsCooltrainerFAfterBattleText::
-	text "You hurt my poor"
-	line "worldly #MON!"
+	text "Du sårede mine"
+	line "stakkels Pokémon!"
 
-	para "I demand that you"
-	line "heal them at a"
-	cont "#MON CENTER!"
+	para "Jeg kræver at du"
+	line "helbreder dem på"
+	cont "et Pokémon CENTER!"
 	done
 
 _SSAnne1FRoomsGirl1Text::
-	text "Waiter, I would"
-	line "like a cherry pie"
-	cont "please!"
+	text "Tjener, jeg vil"
+	line "gerne have en"
+	cont "kirsebærtærte,"
+	cont "tak!"
 	done
 
 _SSAnne1FRoomsMiddleAgedManText::
-	text "A cruise is so"
-	line "elegant yet cozy!"
+	text "En krydstogt er så"
+	line "elegant, men"
+	cont "hyggeligt!"
 	done
 
 _SSAnne1FRoomsLittleGirlText::
-	text "I always travel"
-	line "with WIGGLYTUFF!"
+	text "Jeg rejser altid"
+	line "med WIGGLYTUFF!"
 	done
 
 _SSAnne1FRoomsGirl2Text::
-	text "We are cruising"
-	line "around the world."
+	text "Vi sejler rundt"
+	line "om i verden."
 	done
 
 _SSAnne1FRoomsGentleman3Text::
-	text "Ssh! I'm a GLOBAL"
-	line "POLICE agent!"
+	text "Ssh! Jeg er en"
+	line "GLOBAL POLICE"
+	cont "agent!"
 
-	para "I'm on the trail"
-	line "of <TEAM><ROCKET>!"
+	para "Jeg er på sporet"
+	line "af <TEAM><ROCKET>!"
 	done
 
 _GrowlitheLearnset::
-	text "Now I've got to"
-	line "go heal my@"
+	text "Nu må jeg gå og"
+	line "helbrede min@"
 	text_ram_cont wNameBuffer
 	text "!"
 	para "@"

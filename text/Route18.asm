@@ -1,7 +1,7 @@
 _Route18CooltrainerM1BattleText::
-	text "I always check"
-	line "every grassy area"
-	cont "for new #MON."
+	text "Jeg tjekker altid"
+	line "græsset for nye"
+	cont "#MON."
 	done
 
 _Route18CooltrainerM1EndBattleText::
@@ -9,111 +9,114 @@ _Route18CooltrainerM1EndBattleText::
 	prompt
 
 _Route18CooltrainerM1AfterBattleText::
-	text "I wish I had a"
-	line "BIKE!"
+	text "Jeg ville ønske"
+	line "jeg havde en"
+	cont "CYKEL!"
 	done
 
 _Route18CooltrainerM2BattleText::
 	text "Kurukkoo!"
-	line "How do you like"
-	cont "my bird call?"
+	line "Hvad synes du om"
+	cont "mit fuglekald?"
 	done
 
 _Route18CooltrainerM2EndBattleText::
-	text "I"
-	line "had to bug you!"
+	text "Jeg"
+	line "måtte drille dig!"
 	prompt
 
 _Route18CooltrainerM2AfterBattleText::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
+	text "Jeg samler også"
+	line "hav-#MON i"
+	cont "weekenderne!"
 	done
 
 _Route18AerodactylLearnsetText::
-	text "Bet you didn't"
-	line "expect me to have"
-	cont "an @"
+	text "Ved du sikkert"
+	line "ikke at jeg har en"
+	cont "@"
 	text_ram_namebuffer
 	text "!"
-	para "I revived it from"
-	line "OLD AMBER!"
+	para "Jeg genoplivede"
+	line "den fra OLD AMBER!"
 	prompt
 
 _Route18CooltrainerM3BattleText::
-	text "This is my turf!"
-	line "Get out of here!"
+	text "Dette er mit"
+	line "område! Forsvind!"
 	done
 
 _Route18CooltrainerM3EndBattleText::
-	text "Darn!"
+	text "Søren!"
 	prompt
 
 _Route18CooltrainerM3AfterBattleText::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "Dette er mit"
+	line "yndlingssted at"
+	cont "jage #MON!"
 	done
 
 _Route18BattleText4::
-	text "Out of the way!!"
-	para "How do I stop"
-	line "this thing!?"
+	text "Væk med dig!!"
+	para "Hvordan stopper"
+	line "jeg den her ting!?"
 	done
 
 _Route18EndBattleText4::
-	text "Phew."
+	text "Pust."
 	prompt
 
 _Route18AfterBattleText4::
-	text "I guess taming"
-	line "a BICYCLE isn't"
-	cont "like taming"
-	cont "#MON."
-	para "I'm still"
-	line "learning how to"
-	cont "ride this."
+	text "Jeg gætter på at"
+	line "at tæmme en"
+	cont "CYKEL"
+	cont "ikke er som at"
+	cont "tæmme #MON."
+	para "Jeg lærer stadig"
+	line "hvordan man"
+	cont "kører den."
 	done
 
 _Route18BattleText5::
-	text "Ride like the"
-	line "wind!"
-	para "Speed is king!"
-	line "Rock is life!"
+	text "Kør som"
+	line "vinden!"
+	para "Hastighed er"
+	line "konge! Rock er"
+	cont "livet!"
 	done
 
 _Route18EndBattleText5::
-	text "Silenced!"
+	text "Stillet!"
 	prompt
 
 _Route18AfterBattleText5::
-	text "Live fast and"
-	line "lose hard."
-	para "That's what I"
-	line "always say!"
+	text "Lev hurtigt og"
+	line "tab hårdt."
+	para "Det siger jeg"
+	line "altid!"
 	done
 
 _Route18SignText::
-	text "ROUTE 18"
+	text "RUTE 18"
 	line "CELADON CITY -"
 	cont "FUCHSIA CITY"
 	done
 
 _Route18CyclingRoadSignText::
-	text "CYCLING ROAD"
-	line "No pedestrians"
-	cont "permitted!"
+	text "CYKELVEJ"
+	line "Ingen fodgængere"
+	cont "tilladt!"
 	done
 
 _Route18TipsSign::
 	text "<TIPS>"
-	para "Press SELECT"
-	line "when viewing a"
-	cont "#MON's STATS"
-	cont "to view STAT EXP!"
-	para "STAT EXP is raised"
-	line "by battling and"
-	cont "using vitamins!"
-	para "More EXP means"
-	line "a higher STAT!"
+	para "Tryk på SELECT"
+	line "når du ser en"
+	cont "#MONs STATS"
+	cont "for at se STAT EXP!"
+	para "STAT EXP øges"
+	line "ved at kæmpe og"
+	cont "bruge vitaminer!"
+	para "Mere EXP betyder"
+	line "en højere STAT!"
 	done

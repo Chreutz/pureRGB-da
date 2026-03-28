@@ -1,76 +1,77 @@
 _VermilionCityBeautyText::
-	text "We're careful"
-	line "about pollution!"
+	text "Vi er forsigtige"
+	line "med forurening!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	para "Vi har hørt GRIMER"
+	line "formerer sig i"
+	cont "giftigt slam!"
 	done
 
 _VermilionCityGambler1DidYouSeeText::
-	text "Did you see S.S."
-	line "ANNE moored in"
-	cont "the harbor?"
+	text "Har du set S.S."
+	line "ANNE fortøjet i"
+	cont "havnen?"
 	done
 
 _VermilionCityGambler1SSAnneDepartedText::
-	text "So, S.S.ANNE has"
-	line "departed!"
-
-	para "She'll be back in"
-	line "about a year."
+	text "Så S.S.ANNE er"
+	line "sejlet!"
+	para "Den er tilbage"
+	line "om cirka et år."
 	done
 
 _VermilionCitySailor1WelcomeToSSAnneText::
-	text "Welcome to S.S."
+	text "Velkommen til S.S."
 	line "ANNE!"
 	done
 
 _VermilionCitySailor1DoYouHaveATicketText::
-	text "Welcome to S.S."
+	text "Velkommen til S.S."
 	line "ANNE!"
 
-	para "Excuse me, do you"
-	line "have a ticket?"
+	para "Undskyld, har du"
+	line "en billet?"
 	prompt
 
 _VermilionCitySailor1FlashedTicketText::
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET!"
+	text "<PLAYER> viste"
+	line "S.S.BILLETten!"
 
-	para "Great! Welcome to"
-	line "S.S.ANNE!"
+	para "Fantastisk! Velkom-"
+	line "men til S.S.ANNE!"
 	done
 
 _VermilionCity1OhItsYouText::
-	text "Oh! <PLAYER>!"
-	para "You're a friend"
-	line "of the CAPTAIN!"
-	para "Come on through!"
+	text "Åh! <PLAYER>!"
+	para "Du er en ven af"
+	line "KAPTEJNEN!"
+	para "Kom bare ind!"
 	done
 
 _VermilionCitySailor1YouNeedATicketText::
-	text "<PLAYER> doesn't"
-	line "have the needed"
-	cont "S.S.TICKET."
+	text "<PLAYER> har ikke"
+	line "den nødvendige"
+	cont "S.S.BILLET."
 
-	para "Sorry!"
+	para "Undskyld!"
 
-	para "You need a ticket"
-	line "to get aboard."
+	para "Du skal bruge en"
+	line "billet for at komme"
+	cont "ombord."
 	done
 
 _VermilionCitySailor1ShipSetSailText::
-	text "The ship set sail."
+	text "Skibet er sejlet."
 	done
 
 _VermilionCityGambler2Text::
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
+	text "Jeg bygger en"
+	line "bygning på dette"
+	cont "stykke jord."
 
-	para "My #MON is"
-	line "tamping the land."
+	para "Mit #MON er"
+	line "ved at jævne"
+	cont "jorden."
 	done
 
 _VermilionCityMachopText::
@@ -80,105 +81,106 @@ _VermilionCityMachopText::
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
-	para "A MACHOP is"
-	line "stomping the land"
-	cont "flat."
+	para "En MACHOP er"
+	line "ved at trampe"
+	cont "jorden flad."
 	done
 
 _VermilionCitySailor2Text::
-	text "S.S.ANNE is a"
-	line "famous luxury"
-	cont "cruise ship."
+	text "S.S.ANNE er et"
+	line "berømt luksus-"
+	cont "krydstogtskib."
 
-	para "We visit VERMILION"
-	line "once a year."
+	para "Vi besøger"
+	line "VERMILION én gang"
+	cont "om året."
 	done
 
 _VermilionCitySignText::
-	text "VERMILION CITY"
-	para "The Port of"
-	line "Exquisite Sunsets"
+	text "VERMILION BY"
+	para "Byen med de"
+	line "smukke solnedgange"
 	done
 
 _VermilionCityNoticeSignText::
-	text "NOTICE!"
+	text "NOTIS!"
 
-	para "ROUTE 12 may be"
-	line "blocked off by a"
-	cont "sleeping #MON."
+	para "RUTE 12 kan være"
+	line "blokeret af en"
+	cont "sovende #MON."
 
-	para "Detour through"
-	line "ROCK TUNNEL to"
-	cont "LAVENDER TOWN."
+	para "Kør udenom gennem"
+	line "KLIPPE TUNNELEN"
+	cont "til LAVENDER BY."
 
-	para "VERMILION POLICE"
+	para "VERMILION POLITI"
 	done
 
 _VermilionCityPokemonFanClubSignText::
-	text "#MON FAN CLUB"
-	line "All #MON fans"
-	cont "welcome!"
+	text "#MON FAN KLUB"
+	line "Alle #MON fans"
+	cont "er velkomne!"
 	done
 
 _VermilionCityGymSignText::
-	text "VERMILION CITY"
+	text "VERMILION BY"
 	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	cont "LEDER: LT.SURGE"
 
-	para "The Lightning"
-	line "American!"
+	para "Den lynende"
+	line "Amerikaner!"
 	done
 
 _VermilionCityHarborSignText::
-	text "VERMILION HARBOR"
+	text "VERMILION HAVN"
 	done
 
 _VermilionCityText15::
-	text "The S.S.ANNE"
-	line "is back!"
+	text "S.S.ANNE"
+	line "er tilbage!"
 	
-	para "After a long"
-	line "journey it's"
-	cont "back in port."
+	para "Efter en lang"
+	line "rejse er den"
+	cont "tilbage i havnen."
 	done
 
 _VermilionCityDockBeautyGreeting::
-	text "Ack!! You found"
-	line "my top secret"
-	cont "suntanning dock!"
-	para "Don't tell anyone"
-	line "I'm here!"
-	para "Take this!"
+	text "Ack!! Du fandt"
+	line "min hemmelige"
+	cont "solbade-dok!"
+	para "Fortæl ingen at"
+	line "jeg er her!"
+	para "Tag dette!"
 	prompt
 
 _VermilionCityDockBeautyEndText::
-	text "This is where I"
-	line "come to relax and"
-	cont "get a beautiful"
-	cont "tan!"
-	para "I love the peace"
-	line "and the calm"
-	cont "sound of the"
-	cont "gentle waves."
+	text "Her plejer jeg at"
+	line "slappe af og få"
+	cont "en smuk solbrun"
+	cont "farve!"
+	para "Jeg elsker freden"
+	line "og den rolige"
+	cont "lyd af de blide"
+	cont "bølger."
 	done
 
 _VermilionCityTradeHouseGameboyKidText::
-	text "Trade you my"
+	text "Bytte min"
 	line "FARFETCH'D?"
-	para "Why would I ever"
-	line "do that?!"
-	para "DUX is my best"
+	para "Hvorfor ville"
+	line "jeg gøre det?!"
+	para "DUX er min bedste"
 	line "#MON!"
-	para "Go catch your"
-	line "own."
+	para "Gå og fang din"
+	line "egen."
 	done
 
 _VermilionCityTradeHouseGameboyKidLearnsetText::
-	text "Hey! Can't you"
-	line "see I'm busy?"
-	para "Here!"
-	para "Take my notes from"
-	line "training DUX!"
+	text "Hey! Kan du ikke"
+	line "se jeg har travlt?"
+	para "Her!"
+	para "Tag mine noter"
+	line "fra træning med DUX!"
 	prompt
 
 _VermilionCityTradeHouseDUXText::
@@ -186,17 +188,18 @@ _VermilionCityTradeHouseDUXText::
 	done
 
 _VermilionCityTradeHouseDUX2Text::
-	text "It hands you a"
-	line "sprig of onion."
-	para "Looks like it has"
-	line "extras!"
+	text "Den giver dig en"
+	line "stilk af løg."
+	para "Den ser ud til at"
+	line "have ekstra!"
 	done
 
 
 _VermilionCityTradeHouseClipboardText::
-	text "Secret tips for"
-	line "the video game"
-	cont "he's playing."
-	para "He must've phoned"
-	line "NINTENDO HOTLINE!"
+	text "Hemmelige tips til"
+	line "videospillet han"
+	cont "spiller."
+	para "Han må have"
+	line "ringet til NINTENDO"
+	cont "HOTLINE!"
 	done

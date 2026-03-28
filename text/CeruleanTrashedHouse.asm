@@ -1,36 +1,38 @@
 _CeruleanTrashedHouseFishingGuruTheyStoleATMText::
-	text "Those miserable"
+	text "De elendige"
 	line "<ROCKET>s!"
 
-	para "Look what they"
-	line "did here!"
+	para "Se hvad de"
+	line "gjorde her!"
 
-	para "They stole a <TM>"
-	line "for teaching"
-	cont "#MON how to"
-	cont "DIG holes!"
+	para "De stjal en <TM>"
+	line "til at lære"
+	cont "#MON at grave"
+	cont "huller!"
 
-	para "That cost me a"
-	line "bundle, it did!"
+	para "Det kostede mig"
+	line "en formue,"
+	cont "det gjorde!"
 	done
 
 _CeruleanTrashedHouseFishingGuruWhatsLostIsLostText::
-	text "I figure what's"
-	line "lost is lost!"
+	text "Jeg tænker at"
+	line "hvad der er væk,"
+	cont "er væk!"
 
-	para "I decided to teach"
-	line "DIGLETT how to"
-	cont "DIG without a <TM>!"
+	para "Jeg besluttede at"
+	line "lære DIGLETT at"
+	cont "grave uden en <TM>!"
 	done
 
 _CeruleanTrashedHouseGirlText::
-	text "<TEAM><ROCKET> must"
-	line "be trying to DIG"
-	cont "their way into no"
-	cont "good!"
+	text "<TEAM><ROCKET> må"
+	line "prøve at grave"
+	cont "sig vej til"
+	cont "ondskab!"
 	done
 
 _CeruleanTrashedHouseWallHoleText::
-	text "<TEAM><ROCKET> left"
-	line "a way out!"
+	text "<TEAM><ROCKET> lod"
+	line "en udgang!"
 	done

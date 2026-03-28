@@ -1,26 +1,27 @@
 _Route22GateGuardNoBoulderbadgeText::
-	text "Only truly skilled"
-	line "trainers are"
-	cont "allowed through."
+	text "Kun virkelig"
+	line "dygtige trænere"
+	cont "får lov til at"
+	cont "passere."
 
-	para "You don't have the"
+	para "Du har ikke"
 	line "@"
 	text_ram_namebuffer
-	text " yet!@"
+	text " endnu!@"
 	text_end
 
 _Route22GateGuardICantLetYouPassText::
 	text_start
 
-	para "The rules are"
-	line "rules. I can't"
-	cont "let you pass."
+	para "Regler er regler."
+	line "Jeg kan ikke"
+	cont "lade dig passere."
 	done
 
 _Route22GateGuardGoRightAheadText::
-	text "Oh! That is the"
+	text "Åh! Det er"
 	line "@"
 	text_ram_namebuffer
 	text "!"
-	cont "Go right ahead!@"
+	cont "Gå bare igennem!@"
 	text_end

@@ -1,48 +1,46 @@
 _Route12GuruIntro::
-	text "I'm the FISHING"
-	line "GURU's younger"
-	cont "brother!"
+	text "Jeg er FISKE-"
+	line "GURUens lillebror!"
 	prompt
 
 _Route12GuruEnd::
-	text "Hello there,"
+	text "Hej med dig,"
 	line "<PLAYER>!"
 
-	para "Use the SUPER ROD"
-	line "in any water!"
-	cont "You can catch"
-	cont "different kinds"
-	cont "of #MON.@"
+	para "Brug SUPER ROD"
+	line "i ethvert vand!"
+	cont "Du kan fange"
+	cont "forskellige slags"
+	cont "#MON.@"
 	text_end
 
 _Route12GuruColor::
-	text "Depending on"
-	line "where you fish,"
-	cont "you may even find"
-	cont "differently"
-	cont "colored #MON!"
+	text "Afhængigt af"
+	line "hvor du fisker,"
+	cont "kan du endda finde"
+	cont "forskelligt"
+	cont "farvede #MON!"
 
-	para "Try fishing"
-	line "wherever you can!"
+	para "Prøv at fiske"
+	line "hvor du end kan!"
 	done
 
 _LastTwoGurusFishingGuideReceived::
-	text "<PLAYER> received"
-	line "a FISHING GUIDE!@"
+	text "<PLAYER> modtog"
+	line "en FISKE-GUIDE!@"
 	text_end
 
 _LastTwoGurusFishingGuideInfo::
-	text "Since you have"
-	line "a FISHING GUIDE"
-	cont "of your own, your"
-	cont "#DEX will show"
-	cont "fishing locations"
-	cont "of #MON in it!"
+	text "Da du har din"
+	line "egen FISKE-GUIDE,"
+	cont "vil din #DEX"
+	cont "vise fiskesteder"
+	cont "for #MON i den!"
 	done
 
 _FishingGuideBookText::
-	text "It's a big book."
-	para "It says FISHING"
-	line "GUIDE in big"
-	cont "letters."
+	text "Det er en stor bog."
+	para "Der står FISKE-"
+	line "GUIDE med store"
+	cont "bogstaver."
 	done

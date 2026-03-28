@@ -1,35 +1,38 @@
 _RocketHideoutB3FRocket1BattleText::
-	text "Stop meddling in"
-	line "<TEAM><ROCKET>'s"
-	cont "affairs!"
+	text "Stop med at blande"
+	line "dig i TEAM"
+	cont "ROCKETs"
+	cont "anliggender!"
 	done
 
 _RocketHideoutB3FRocket1EndBattleText::
 	text "Oof!"
-	line "Taken down!"
+	line "Besejret!"
 	prompt
 
 _RocketHideoutB3FRocket1AfterBattleText::
 	text "SILPH SCOPE?"
-	line "The machine the"
-	cont "BOSS stole. It's"
-	cont "here somewhere."
+	line "Maskinen som"
+	cont "BOSSEN stjal."
+	cont "Den er her"
+	cont "et sted."
 	done
 
 _RocketHideout3BattleText::
-	text "We got word from"
-	line "upstairs that you"
-	cont "were coming!"
+	text "Vi fik besked"
+	line "ovenpå om, at du"
+	cont "var på vej!"
 	done
 
 _RocketHideout3EndBattleText3::
-	text "What?"
-	line "I lost? No!"
+	text "Hvad?"
+	line "Jeg tabte? Nej!"
 	prompt
 
 _RocketHide3AfterBattleText3::
-	text "Go ahead and go!"
-	line "But, you need the"
-	cont "LIFT KEY to run"
-	cont "the elevator!"
+	text "Bare gå videre!"
+	line "Men du har brug for"
+	cont "LIFT-NØGLEN for"
+	cont "at køre med"
+	cont "elevatoren!"
 	done

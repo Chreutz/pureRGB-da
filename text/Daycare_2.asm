@@ -1,20 +1,20 @@
 _DaycareGentlemanAllRightThenText::
-	text "All right then,"
+	text "Det er i orden,"
 	line "@"
 	text_end
 
 _DaycareGentlemanComeAgainText::
-	text "come again."
+	text "kom igen."
 	done
 
 _DaycareGentlemanNoRoomForMonText::
-	text "You have no room"
-	line "for this #MON!"
+	text "Du har ikke plads"
+	line "til denne #MON!"
 	done
 
 _DaycareGentlemanOnlyHaveOneMonText::
-	text "You only have one"
-	line "#MON with you."
+	text "Du har kun én"
+	line "#MON med dig."
 	done
 
 ;_DaycareGentlemanCantAcceptMonWithHMText::
@@ -24,11 +24,11 @@ _DaycareGentlemanOnlyHaveOneMonText::
 ;	done
 
 _DaycareGentlemanHeresYourMonText::
-	text "Thank you! Here's"
-	line "your #MON!"
+	text "Tak! Her er"
+	line "din #MON!"
 	prompt
 
 _DaycareGentlemanNotEnoughMoneyText::
-	text "Hey, you don't"
-	line "have enough ¥!"
+	text "Hey, du har ikke"
+	line "nok ¥!"
 	done

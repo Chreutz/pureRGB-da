@@ -1,175 +1,181 @@
 _Route6CooltrainerM1BattleText::
-	text "Who's there?"
-	line "Quit listening in"
-	cont "on us!"
+	text "Hvem er der?"
+	line "Hold op med at"
+	cont "lytte med!"
 	done
 
 _Route6CooltrainerM1EndBattleText::
-	text "I"
-	line "just can't win!"
+	text "Jeg"
+	line "kan bare ikke"
+	cont "vinde!"
 	prompt
 
 _Route6CooltrainerAfterBattleText::
-	text "Whisper<...>"
-	line "whisper<...>"
+	text "Hvisk<...>"
+	line "hvisk<...>"
 	done
 
 _Route6CooltrainerF1BattleText::
-	text "Excuse me! This"
-	line "is a private"
-	cont "conversation!"
+	text "Undskyld! Dette"
+	line "er en privat"
+	cont "samtale!"
 	done
 
 _Route6CooltrainerF1EndBattleText::
 	text "Ugh!"
-	line "I hate losing!"
+	line "Jeg hader at tabe!"
 	prompt
 
 _Route6Youngster1BattleText::
-	text "There aren't many"
-	line "bugs out here."
+	text "Der er ikke mange"
+	line "insekter her."
 	done
 
 _Route6Youngster1EndBattleText::
-	text "No!"
-	line "You're kidding!"
+	text "Nej!"
+	line "Du tager fejl!"
 	prompt
 
 _Route6Youngster1AfterBattleText::
-	text "I like bugs, so"
-	line "I'm going back to"
+	text "Jeg kan lide"
+	line "insekter, så jeg"
+	cont "tager tilbage til"
 	cont "VIRIDIAN FOREST."
 	done
 
 _Route6VenonatLearnsetText::
 	text "@"
 	text_ram_namebuffer
-	text " started"
-	line "showing up there"
-	cont "recently!"
-	para "I've been reading"
-	line "books about them!"
+	text " er"
+	line "begyndt at dukke"
+	cont "op der for nylig!"
+	para "Jeg har læst bøger"
+	line "om dem!"
 	prompt
 
 _Route6CooltrainerM2BattleText::
-	text "Huh? You want"
-	line "to talk to me?"
+	text "Huh? Vil du"
+	line "tale med mig?"
 	done
 
 _Route6CooltrainerM2EndBattleText::
-	text "I"
-	line "didn't start it!"
+	text "Jeg"
+	line "startede det ikke!"
 	prompt
 
 _Route6CooltrainerM2AfterBattleText::
-	text "I should carry"
-	line "more #MON with"
-	cont "me for safety."
+	text "Jeg burde have"
+	line "flere #MON med"
+	cont "mig for sikkerhed."
 	done
 
 _Route6CooltrainerF2BattleText::
-	text "Me? Well, OK."
-	line "I'll play!"
+	text "Mig? Nå, okay."
+	line "Jeg spiller med!"
 	done
 
 _Route6CooltrainerF2EndBattleText::
-	text "Just"
-	line "didn't work!"
+	text "Det"
+	line "virkede bare ikke!"
 	prompt
 
 _Route6CooltrainerF2AfterBattleText::
-	text "I want to get"
-	line "stronger! What's"
-	cont "your secret?"
+	text "Jeg vil blive"
+	line "stærkere! Hvad er"
+	cont "din hemmelighed?"
 	done
 
 _Route6Youngster2BattleText::
-	text "I've never seen"
-	line "you around!"
-	cont "Are you good?"
+	text "Jeg har aldrig"
+	line "set dig før!"
+	cont "Er du god?"
 	done
 
 _Route6Youngster2EndBattleText::
-	text "You"
-	line "are too good!"
+	text "Du"
+	line "er alt for god!"
 	prompt
 
 _Route6Youngster2AfterBattleText::
-	text "Are my #MON"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "Er mine #MON"
+	line "svage? Eller er"
+	cont "jeg bare dårlig?"
 	done
 
 _Route6ButterfreeLearnsetText::
-	text "I try so hard to"
-	line "train @"
+	text "Jeg prøver så"
+	line "hårdt at træne"
+	cont "@"
 	text_ram_namebuffer
 	text "!<PARA>@"
 	text_end
 
 _Route6BattleText7::
-	text "Huh! The guard"
-	line "won't let me"
-	cont "through!"
-	para "I'll battle you"
-	line "instead I guess!"
+	text "Huh! Vagten"
+	line "lader mig ikke"
+	cont "komme igennem!"
+	para "Jeg kæmper mod"
+	line "dig i stedet!"
 	done
 
 _Route6EndBattleText7::
-	text "What"
-	line "should I do?"
+	text "Hvad"
+	line "skal jeg gøre?"
 	prompt
 
 _Route6AfterBattleText7::
-	text "Something's up"
-	line "in SAFFRON CITY"
-	cont "if they closed"
-	cont "the gates."
-	para "I wonder what?"
+	text "Noget er galt i"
+	line "SAFFRON CITY"
+	cont "hvis de har lukket"
+	cont "portene."
+	para "Jeg undrer mig"
+	line "over hvad?"
 	done
 
 _Route6BattleText8::
 	text "Heheheheh<...>"
-	line "that escape was"
-	cont "perfect!"
-	para "I'm already at"
-	line "SAFFRON CITY's"
-	cont "outskirts!"
+	line "den flugt var"
+	cont "perfekt!"
+	para "Jeg er allerede"
+	line "ved udkanten af"
+	cont "SAFFRON CITY!"
 	done
 
 _Route6EndBattleText8::
-	text "Yikes!"
-	line "I'm out of here!"
+	text "Uh!"
+	line "Jeg smutter!"
 	prompt
 
 _Route6AfterBattleText8::
-	text "No way I'll get"
-	line "turned in!"
-	para "Not after my big"
-	line "heist in SAFFRON"
-	cont "CITY!"
-	para "Everyone was too"
-	line "distracted to"
-	cont "notice me."
-	para "The place was in"
-	line "chaos!"
+	text "Ingen måde jeg"
+	line "bliver meldt!"
+	para "Ikke efter mit"
+	line "store kup i"
+	cont "SAFFRON CITY!"
+	para "Alle var for"
+	line "distræerede til"
+	cont "at lægge mærke"
+	cont "til mig."
+	para "Stedet var i"
+	line "kaos!"
 	done
 
 _Route6UndergroundPathSignText::
-	text "UNDERGROUND PATH"
+	text "UNDERGRUNDSSTI"
 	line "CERULEAN CITY -"
 	cont "VERMILION CITY"
 	done
 
 _Route6TrainerTipsText::
 	text "<TIPS>"
-	para "In the PC, scroll"
-	line "to WITHDRAW, then"
-	cont "press SELECT."
-	para "You can view info"
-	line "of #MON in the"
-	cont "current box."
-	para "This can be done"
-	line "even with a full"
-	cont "party!"
+	para "I PC'en, rul til"
+	line "HENT, tryk så"
+	cont "SELECT."
+	para "Du kan se info"
+	line "om #MON i"
+	cont "den nuværende"
+	cont "boks."
+	para "Dette kan gøres"
+	line "selv med et fuldt"
+	cont "hold!"
 	done

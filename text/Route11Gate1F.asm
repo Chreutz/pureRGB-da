@@ -1,14 +1,15 @@
 _Route11Gate1FGuardText::
-	text "When you catch"
-	line "lots of #MON,"
-	cont "isn't it hard to"
-	cont "think up names?"
+	text "Når du fanger"
+	line "mange #MON,"
+	cont "er det ikke svært"
+	cont "at finde på navne?"
 
-	para "In LAVENDER TOWN,"
-	line "there's a man who"
-	cont "rates #MON"
-	cont "nicknames."
+	para "I LAVENDER TOWN"
+	line "er der en mand der"
+	cont "bedømmer #MON"
+	cont "kaldenavne."
 
-	para "He'll help you"
-	line "rename them too!"
+	para "Han hjælper dig"
+	line "også med at omdøbe"
+	cont "dem!"
 	done

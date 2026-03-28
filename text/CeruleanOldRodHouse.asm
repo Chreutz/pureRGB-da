@@ -1,35 +1,37 @@
 _CeruleanOldRodHouseImTheFishingGuruText::
-	text "I'm the FISHING"
-	line "GURU!@"
+	text "Jeg er FISKER-"
+	line "GURUEN!@"
 	text_end
 
 _CeruleanOldRodHouseFishingIsAWayOfLifeText::
 	text_start
 
-	para "Fishing is a way"
-	line "of life!"
+	para "Fiskeri er en"
+	line "livsstil!"
 
-	para "From the seas to"
-	line "rivers, go out"
-	cont "and land the big"
-	cont "one, young one!"
+	para "Fra havene til"
+	line "floderne, kom ud"
+	cont "og fang den store,"
+	cont "unge mand!"
 	done
 
 _CeruleanOldRodHouseOldRodInfo::
-	text "<PARA>My trusty OLD ROD"
-	line "is perfect for"
-	cont "hooking MAGIKARP"
-	cont "and GOLDEEN!"
+	text "<PARA>Min trofaste"
+	line "OLD ROD er"
+	cont "perfekt til at"
+	cont "kroge MAGIKARP"
+	cont "og GOLDEEN!"
 	done
 
 _CeruleanOldRodHouseFoodText::
-	text "Wow! Quite a"
-	line "fancy fishy dish!"
+	text "Wow! Hvilken"
+	line "lækker fiskeret!"
 	prompt
 
 _CeruleanOldRodHouseFoodText2::
-	text "What can I say!"
-	para "I love cooking"
-	line "fish as much as I"
-	cont "do catching them!"
+	text "Hvad kan jeg sige!"
+	para "Jeg elsker at"
+	line "lave mad med fisk"
+	cont "ligeså meget som"
+	cont "at fange dem!"
 	done

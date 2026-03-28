@@ -1,49 +1,49 @@
 _Route12Gate2FBrunetteGirlYouCanHaveThisText::
-	text "My #MON's"
-	line "ashes are stored"
-	cont "in #MON TOWER."
+	text "Min #MONs"
+	line "aske er opbevaret"
+	cont "i #MON TOWER."
 
-	para "You can have this"
-	line "<TM>. I don't need"
-	cont "it any more<...>"
+	para "Du kan få denne"
+	line "<TM>. Jeg skal ikke"
+	cont "bruge den mere<...>"
 	prompt
 
 _Route12Gate2FBrunetteGirlTM39ExplanationText::
-	text "<TM>39 is"
+	text "<TM>39 er"
 	line "FILTHY SLAM."
 
-	para "It's a strong"
-	line "POISON type move."
-	para "Use it in battles"
-	line "you can't afford"
-	cont "to lose."
+	para "Det er et stærkt"
+	line "GIFT-type træk."
+	para "Brug det i kampe"
+	line "du ikke har råd"
+	cont "til at tabe."
 	done
 
 _ArbokLearnset::
-	text "What #MON"
-	line "did I have?"
-	para "Ah<...>my lovely"
+	text "Hvilket #MON"
+	line "havde jeg?"
+	para "Åh<...>min dejlige"
 	line "@"
 	text_ram_namebuffer
 	text "<...>"
-	para "I'll miss you"
+	para "Jeg savner dig"
 	line "QUEENIE<...>"
 	prompt
 
 _Route12Gate2FBrunetteGirlTM39NoRoomText::
-	text "You don't have"
-	line "room for this."
+	text "Du har ikke"
+	line "plads til denne."
 	done
 
 _GenericLookedIntoTheBinocularsText::
-	text "Looked into the" 
-	line "binoculars<...><PARA>@"
+	text "Kiggede i"
+	line "kikkerten<...><PARA>@"
 	text_end
 
 _Route12Gate2FLeftBinocularsText::
-	text "A man fishing!"
+	text "En mand der fisker!"
 	done
 
 _Route12Gate2FRightBinocularsText::
-	text "It's #MON TOWER!"
+	text "Det er #MON TOWER!"
 	done

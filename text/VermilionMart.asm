@@ -1,44 +1,47 @@
 _VermilionMartCooltrainerMText::
-	text "There are evil"
-	line "people who will"
-	cont "use #MON for"
-	cont "criminal acts."
+	text "Der er onde"
+	line "mennesker der"
+	cont "bruger Pokémon til"
+	cont "kriminelle"
+	cont "handlinger."
 
 	para "<TEAM><ROCKET>"
-	line "traffics in rare"
-	cont "#MON."
+	line "handler med"
+	cont "sjældne Pokémon."
 
-	para "They also abandon"
-	line "#MON that they"
-	cont "consider not to"
-	cont "be popular or"
-	cont "useful."
+	para "De forlader også"
+	line "Pokémon som de"
+	cont "ikke anser for"
+	cont "populære eller"
+	cont "nyttige."
 	done
 
 _VermilionMartCooltrainerFText::
-	text "I think #MON"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "Jeg tror Pokémon"
+	line "kan være gode"
+	cont "eller onde. Det"
+	cont "afhænger af"
+	cont "træneren."
 	done
 
 _VermilionMartTMKidFlavor::
-	text "<PARA>The clerk here"
-	line "thinks copying"
-	cont "and selling <TM>s"
-	cont "is wrong!"
+	text "<PARA>Ekspedienten her"
+	line "tror det er forkert"
+	cont "at kopiere og"
+	cont "sælge <TM>er!"
 
-	para "Little do they"
-	line "know that my dad"
-	cont "helped create"
-	cont "the software for"
-	cont "<TM>s!"
+	para "Lille ved de at"
+	line "min far hjalp med"
+	cont "at lave softwaren"
+	cont "til <TM>er!"
 
-	para "He gave my little"
-	line "“business” his"
-	cont "approval!@"
+	para "Han gav sin"
+	line "godkendelse til"
+	cont "min lille"
+	cont """forretning""!@"
 	text_end
 
 _TMKidWantSomeTMsText::
-	text "<PARA>Want some <TM>s?"
+	text "<PARA>Vil du have"
+	line "nogle <TM>er?"
 	done

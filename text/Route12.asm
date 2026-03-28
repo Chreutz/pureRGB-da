@@ -1,45 +1,47 @@
 _Route12SnorlaxText::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "En sovende #MON"
+	line "blokerer vejen!"
 	done
 
 _Route12SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "SNORLAX vågnede!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Den angreb i et"
+	line "gnavent raseri!"
 	done
 
 _Route12SnorlaxCalmedDownText::
-	text "SNORLAX calmed"
-	line "down! With a big"
-	cont "yawn, it returned"
-	cont "to the mountains!"
+	text "SNORLAX faldt"
+	line "til ro! Med et"
+	cont "stort gab vendte"
+	cont "den tilbage til"
+	cont "bjergene!"
 	done
 
 _Route12Fisher1BattleText::
-	text "Yeah! I got a"
-	line "bite, here!"
+	text "Ja! Jeg har et"
+	line "bid, her!"
 	done
 
 _Route12Fisher1EndBattleText::
-	text "Tch!"
-	line "Just a small fry!"
+	text "Tsk!"
+	line "Bare en lille fisk!"
 	prompt
 
 _Route12Fisher1AfterBattleText::
-	text "Hang on! My line's"
-	line "snagged!"
+	text "Vent! Min line"
+	line "sidder fast!"
 	done
 
 _LearnsetGoldeen::
-	text "I usually have"
+	text "Jeg plejer at få"
 	line "@"
 	text_ram_namebuffer
-	text " use"
-	cont "SUPERSONIC to"
-	cont "unsnag it."
-	para "Gotta love"
+	text " til"
+	cont "at bruge SUPER-"
+	cont "SONIC for at løsne"
+	cont "den."
+	para "Elsker min"
 	line "@"
 	text_ram_namebuffer
 	text "!"
@@ -47,233 +49,237 @@ _LearnsetGoldeen::
 	text_end
 
 _Route12Fisher2BattleText::
-	text "Be patient!"
-	line "Fishing is a"
-	cont "waiting game!"
+	text "Vær tålmodig!"
+	line "Fiskeri er et"
+	cont "ventespil!"
 	done
 
 _Route12Fisher2EndBattleText::
-	text "That"
-	line "one got away!"
+	text "Den"
+	line "slap væk!"
 	prompt
 
 _Route12Fisher2AfterBattleText::
-	text "With a better ROD,"
-	line "I could catch"
-	cont "better #MON!"
+	text "Med en bedre STANG"
+	line "kunne jeg fange"
+	cont "bedre #MON!"
 	done
 
 _LearnsetTentacool::
-	text "Not just a bunch"
-	line "of @"
+	text "Ikke bare en"
+	line "bunch af @"
 	text_ram_namebuffer
 	text "!"
 	para "<...>"
-	para "Well actually,"
-	line "I think TENTACOOL"
-	cont "is kind of rad."
-	para "Do you agree?"
+	para "Nå ja faktisk,"
+	line "er TENTACOOL"
+	cont "ret fed."
+	para "Er du enig?"
 	para "@"
 	text_end
 
 _Route12CooltrainerMBattleText::
-	text "Have you found a"
+	text "Har du fundet en"
 	line "MOON STONE?"
 	done
 
 _Route12CooltrainerMEndBattleText::
-	text "Oww!"
+	text "Av!"
 	prompt
 
 _Route12CooltrainerMAfterBattleText::
-	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	text "Jeg kunne have"
+	line "fået mit #MON"
+	cont "til at udvikle sig"
+	cont "med MOON STONE!"
 	done
 
 _Route12SuperNerdBattleText::
-	text "Electricity is my"
-	line "specialty!"
+	text "Elektricitet er"
+	line "min specialitet!"
 	done
 
 _Route12SuperNerdEndBattleText::
-	text "Unplugged!"
+	text "Afbrudt!"
 	prompt
 
 _Route12SuperNerdAfterBattleText::
-	text "Water conducts"
-	line "electricity, so"
-	cont "you should zap"
-	cont "sea #MON!"
+	text "Vand leder"
+	line "elektricitet, så"
+	cont "du bør give"
+	cont "havs #MON stød!"
 	done
 
 _Route12Fisher3BattleText::
-	text "The FISHING FOOL"
-	line "vs. #MON KID!"
+	text "FISKERI-NARREN"
+	line "mod #MON-DRENG!"
 	done
 
 _Route12Fisher3EndBattleText::
-	text "Too"
-	line "much!"
+	text "For"
+	line "meget!"
 	prompt
 
 _Route12Fisher3AfterBattleText::
-	text "You beat me at"
-	line "#MON, but I'm"
-	cont "good at fishing!"
+	text "Du slog mig i"
+	line "#MON, men jeg"
+	cont "er god til at"
+	cont "fiske!"
 	done
 
 _SeadraLearnset::
-	text "It's not every day"
-	line "you meet someone"
-	cont "who can catch a"
+	text "Det er ikke hver"
+	line "dag man møder en"
+	cont "der kan fange en"
 	cont "@"
 	text_ram_namebuffer
 	text "!"
-	para "They live pretty"
-	line "deep underwater!"
-	para "So elusive!"
-	para "So!" 
-	line "#MON KID,"
+	para "De lever ret"
+	line "dybt under vandet!"
+	para "Så svær at finde!"
+	para "Så! #MON-DRENG,"
 	para "@"
 	text_end
 
 _Route12Fisher4BattleText::
-	text "I'd rather be"
-	line "working!"
+	text "Jeg ville hellere"
+	line "arbejde!"
 	done
 
 _Route12Fisher4EndBattleText::
-	text "It's"
-	line "not easy<...>"
+	text "Det er"
+	line "ikke nemt<...>"
 	prompt
 
 _Route12Fisher4AfterBattleText::
-	text "It's all right."
-	line "Losing doesn't"
-	cont "bug me any more."
+	text "Det er okay."
+	line "At tabe generer"
+	cont "mig ikke længere."
 	done
 
 _Route12Fisher5BattleText::
-	text "You never know"
-	line "what you could"
-	cont "catch!"
+	text "Man ved aldrig"
+	line "hvad man kan"
+	cont "fange!"
 	done
 
 _Route12Fisher5EndBattleText::
-	text "Lost"
-	line "it!"
+	text "Mistede"
+	line "den!"
 	prompt
 
 _Route12Fisher5AfterBattleText::
-	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "Jeg fanger"
+	line "MAGIKARP hele tiden,"
+	cont "men de er svage!"
 	done
 
 _Route12BattleText8::
-	text "The FISHERs here"
-	line "told me legends"
-	cont "of sea monsters!"
+	text "FISHERNE her"
+	line "fortalte mig om"
+	cont "legender om"
+	cont "søuhyrer!"
 	done
 
 _Route12EndBattleText8::
-	text "Keep"
-	line "your eyes on the"
-	cont "water!"
+	text "Hold"
+	line "øjnene på vandet!"
 	prompt
 
 _Route12AfterBattleText8::
-	text "Taming a sea"
-	line "monster would be"
-	cont "amazing to see!"
-	para "Can FISHERs do"
-	line "such a thing?"
+	text "At temme et"
+	line "søuhyre ville være"
+	cont "fantastisk at se!"
+	para "Kan FISKERs gøre"
+	line "sådan noget?"
 	done
 
 _ShellderLearnset::
-	text "I heard SHELLDER"
-	line "evolves into a"
-	cont "#MON with"
-	cont "monstrously good"
+	text "Jeg hørte SHELLDER"
+	line "udvikler sig til"
+	cont "et #MON med"
+	cont "monsterligt gode"
 	cont "stats!"
-	para "That's why I"
-	line "got one!"
+	para "Derfor fik jeg en!"
 	para "@"
 	text_end
 
 
 _Route12BattleText9::
-	text "Some #MON"
-	line "can breathe"
-	cont "underwater!"
+	text "Nogle #MON"
+	line "kan trække"
+	cont "vejr under vand!"
 	done
 
 _Route12EndBattleText9::
-	text "Don't"
-	line "fall in!"
+	text "Fald"
+	line "ikke i!"
 	prompt
 
 _Route12AfterBattleText9::
-	text "Breathing"
-	line "underwater<...>"
-	para "I'd love to be"
-	line "able to do that!"
-	para "I'll stick to"
-	line "scuba diving for"
-	cont "now though!"
+	text "At trække vejrt"
+	line "under vand<...>"
+	para "Jeg ville elsk at"
+	line "kunne gøre det!"
+	para "Jeg holder mig til"
+	line "dykning indtil"
+	cont "videre!"
 	done
 
 _Route12SignText::
-	text "ROUTE 12"
-	line "North to LAVENDER"
+	text "RUTE 12"
+	line "Mod nord til"
+	cont "LAVENDER"
 	done
 
 _Route12SportFishingSignText::
-	text "SPORT FISHING AREA"
+	text "SPORTSFISKERI"
 	done
 
 _SnorlaxWentBackToSleepText::
-	text "Looking bored,"
-	line "SNORLAX went back"
-	cont "to sleep."
+	text "Med et kedt"
+	line "blik gik SNORLAX"
+	cont "tilbage og sov."
 	done
 
 _Route12MetronomeGamblerText::
-	text "I'll show you the"
-	line "power of my luck!"
+	text "Jeg viser dig"
+	line "mit helds styrke!"
 	done
 
 _Route12MetronomeGamblerEndBattleText::
-	text "My luck"
-	line "lost to skill!"
-	para "Hey pal!"
-	para "How about I teach"
-	line "METRONOME to your"
-	cont "#MON?"
-	para "It's fun!"
+	text "Mit held tabte"
+	line "til dygtighed!"
+	para "Hej makker!"
+	para "Hvad med at jeg"
+	line "lærer METRONOME"
+	cont "til dit #MON?"
+	para "Det er sjovt!"
 	prompt
 
 _Route12MetronomeGamblerMetronomeTeachText::
-	text "A roll of the dice"
-	line "is all it takes"
-	cont "to change a life!"
-	para "So how about it?"
-	para "Shall I teach a"
+	text "Et kast med"
+	line "terningen er alt"
+	cont "der skal til for"
+	cont "at ændre et liv!"
+	para "Så hvad siger du?"
+	para "Skal jeg lære et"
 	line "#MON METRONOME?"
 	done
 
 _Route12MetronomeGamblerMetronomeTeach2Text::
-	text "Go and spread the"
-	line "METRONOME chaos!"
-	para "And come back if"
-	line "you want me to"
-	cont "teach it again!"
+	text "Gå og spred"
+	line "METRONOME-kaos!"
+	para "Og kom tilbage"
+	line "hvis du vil have"
+	cont "mig til at lære"
+	cont "det igen!"
 	done
 
 _Route12MetronomeGamblerNoDitto::
 	text "DITTO?!"
-	para "No need!"
-	para "It's already a"
-	line "randomness master!"
+	para "Ingen grund!"
+	para "Den er allerede"
+	line "en mester i"
+	cont "tilfældighed!"
 	done

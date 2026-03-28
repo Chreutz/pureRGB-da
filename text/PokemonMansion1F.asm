@@ -1,89 +1,89 @@
 _PokemonMansion1FScientistBattleText::
-	text "Who are you? There"
-	line "shouldn't be"
-	cont "anyone here."
+	text "Hvem er du?"
+	line "Der burde ikke"
+	cont "være nogen her."
 	done
 
 _PokemonMansion1FScientistEndBattleText::
-	text "Ouch!"
+	text "Av!"
 	prompt
 
 _PokemonMansion1FScientistAfterBattleText::
-	text "A key? I don't"
-	line "know what you're"
-	cont "talking about."
+	text "En nøgle? Jeg ved"
+	line "ikke hvad du"
+	cont "taler om."
 	done
 
 _Mansion1BattleText2::
 	text "Shh!"
-	para "I'm hiding from"
-	line "the FIREFIGHTERs!"
+	para "Jeg gemmer mig"
+	line "for BRAND-MÆNDene!"
 	done
 
 _Mansion1EndBattleText2::
-	text "Keep"
-	line "quiet!"
+	text "Hold"
+	line "kæft!"
 	prompt
 
 _Mansion1AfterBattleText2::
-	text "Those do-gooders"
-	line "will undoubtedly"
-	cont "kick me out!"
-	para "Just think of how"
-	line "much loot must be"
-	cont "in this place!"
+	text "De der god-gører"
+	line "vil uden tvivl"
+	cont "smide mig ud!"
+	para "Tænk bare på hvor"
+	line "meget tyvegods der"
+	cont "må være her!"
 	done
 
 _Mansion1BattleText3::
-	text "This building is"
-	line "off limits!"
-	para "Don't make me"
-	line "throw you out!"
+	text "Denne bygning er"
+	line "forbudt område!"
+	para "Lad mig ikke"
+	line "smide dig ud!"
 	done
 
 _Mansion1EndBattleText3::
-	text "Carry"
-	line "on then."
+	text "Fortsæt"
+	line "da bare."
 	prompt
 
 _Mansion1AfterBattleText3::
-	text "This place is"
-	line "abandoned and"
-	cont "full of fire"
-	cont "hazards."
-	para "Keep your eyes"
-	line "open!" 
-	para "Watch your step!"
-	para "And above all,"
-	line "stay safe!"
+	text "Dette sted er"
+	line "forladt og fuldt"
+	cont "af brandfare."
+	para "Hold øjnene"
+	line "åbne!" 
+	para "Pas på hvor du"
+	line "går!"
+	para "Og frem for alt,"
+	line "hold dig sikker!"
 	done
 
 _Mansion1BattleText4::
 	text "Hey!"
-	para "Did you close"
-	line "that door on me?"
+	para "Lukkede du"
+	line "den dør for mig?"
 	done
 
 _Mansion1EndBattleText4::
-	text "I'm"
-	line "out of here!"
+	text "Jeg"
+	line "skrider herfra!"
 	prompt
 
 _Mansion1AfterBattleText4::
-	text "Be careful not"
-	line "to get trapped!"
+	text "Pas på ikke at"
+	line "blive fanget!"
 	done
 
 _PokemonMansion1FSwitchText::
-	text "A secret switch!"
-
-	para "Press it?"
+	text "En hemmelig"
+	line "kontakt!"
+	para "Trykke på den?"
 	done
 
 _PokemonMansion1FSwitchPressedText::
-	text "Who wouldn't?"
+	text "Hvem ville ikke?"
 	prompt
 
 _PokemonMansion1FSwitchNotPressedText::
-	text "Not quite yet!"
+	text "Ikke helt endnu!"
 	done

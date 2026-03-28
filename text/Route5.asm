@@ -1,117 +1,116 @@
 _Route5UndergroundPathSignText::
-	text "UNDERGROUND PATH"
+	text "UNDERGRUNDSSTI"
 	line "CERULEAN CITY -"
 	cont "VERMILION CITY"
 	done
 
 _Route5BattleText1::
-	text "I'm practicing"
-	line "some positive"
-	cont "thinking."
-	para "You know what?"
-	para "I'm positively"
-	line "going to beat you!"
+	text "Jeg øver positiv"
+	line "tænkning."
+	para "Ved du hvad?"
+	para "Jeg skal nok"
+	line "slå dig!"
 	done
 
 _Route5EndBattleText1::
-	text "I'll get"
-	line "better!"
-	para "Just a matter"
-	line "of time!"
+	text "Jeg bliver"
+	line "bedre!"
+	para "Bare et spørgsmål"
+	line "om tid!"
 	prompt
 
 _Route5AfterBattleText1::
-	text "Sometimes you'll"
-	line "fail."
-	para "But if you're"
-	line "positive about"
-	cont "your goal,"
-	cont "you'll eventually"
-	cont "achieve it!"
+	text "Nogle gange fejl"
+	line "man."
+	para "Men hvis man er"
+	line "positiv omkring"
+	cont "sit mål, vil man"
+	cont "til sidst nå det!"
 	done
 
 _Route5BattleText2::
-	text "I'm practicing"
-	line "some negative"
-	cont "thinking."
-	para "You look tough."
-	para "There's a big"
-	line "chance I might"
-	cont "lose to you!"
+	text "Jeg øver negativ"
+	line "tænkning."
+	para "Du ser stærk ud."
+	para "Der er en stor"
+	line "risiko for at jeg"
+	cont "taber til dig!"
 	done
 
 _Route5EndBattleText2::
-	text "See!"
-	line "I told you so."
+	text "Se!"
+	line "Jeg sagde det jo."
 	prompt
 
 _Route5AfterBattleText2::
-	text "When you expect"
-	line "to lose, losing"
-	cont "isn't so bad."
-	para "Both positive"
-	line "and negative"
-	cont "thinking can"
-	cont "be good things."
+	text "Når man forventer"
+	line "at tabe, er det"
+	cont "ikke så slemt."
+	para "Både positiv og"
+	line "negativ tænkning"
+	cont "kan være gode"
+	cont "ting."
 	done
 
 _Route5CharmeleonLearnset::
-	text "Here are some"
-	line "positive aspects"
-	cont "of training a"
+	text "Her er nogle"
+	line "positive sider"
+	cont "ved at træne en"
 	cont "@"
 	text_ram_namebuffer
 	text ":"
 	prompt
 
 _Route5BattleText3::
-	text "Have you been"
-	line "to the DAYCARE?"
-	para "I'm heading"
-	line "there."
+	text "Har du været på"
+	line "DAGPLEJEN?"
+	para "Jeg er på vej"
+	line "derhen."
 	done
 
 _Route5EndBattleText3::
-	text "Raising"
-	line "#MON is hard."
+	text "Det er hårdt"
+	line "at opdrage"
+	cont "#MON."
 	prompt
 
 _Route5AfterBattleText3::
-	text "The DAYCARE can"
-	line "help raise an"
-	cont "extra #MON for"
-	cont "you."
-	para "Come back later"
-	line "and it will be"
-	cont "stronger!"
+	text "DAGPLEJEN kan"
+	line "hjælpe med at"
+	cont "opdrage et ekstra"
+	cont "#MON for dig."
+	para "Kom tilbage"
+	line "senere og det"
+	cont "vil være stærkere!"
 	done
 
 _Route5SquirtleLearnset::
-	text "I put my @"
+	text "Jeg satte min @"
 	text_ram_namebuffer
 	text_start
-	line "in the DAYCARE"
-	cont "while I studied"
-	cont "how to raise it!"
-	para "That's why it"
-	line "hasn't evolved!"
+	line "i DAGPLEJEN"
+	cont "mens jeg studerede"
+	cont "hvordan jeg skulle"
+	cont "opdrage den!"
+	para "Derfor er den"
+	line "ikke udviklet!"
 	prompt
 
 _Route5BattleText4::
-	text "On the road"
-	line "again!"
+	text "På vejen igen!"
 	done
 
 _Route5EndBattleText4::
-	text "I'll"
-	line "keep walking."
+	text "Jeg"
+	line "bliver ved med"
+	cont "at gå."
 	prompt
 
 _Route5AfterBattleText4::
-	text "I'll travel"
-	line "far and wide in"
-	cont "search of new"
-	cont "#MON to tame!"
-	para "This is my own"
-	line "quest!"
+	text "Jeg vil rejse"
+	line "vidt og bredt for"
+	cont "at finde nye"
+	cont "#MON at tæmme!"
+	para "Dette er min egen"
+	line "søgen!"
 	done

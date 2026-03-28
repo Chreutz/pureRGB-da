@@ -7,108 +7,115 @@ _PowerPlantZapdosBattleText::
 	text_end
 
 _PowerPlantOpenGateText::
-	text "Tripped a breaker!"
-	para "Electricity was"
-	line "cut off somewhere."
+	text "Afbrød en"
+	line "sikring!"
+	para "Strømmen blev"
+	line "afbrudt et sted."
 	done
 
 _PowerPlantElectricityText::
-	text "Electrical arcs"
-	line "are blocking the"
-	cont "way forward."
-	para "Is there any way"
-	line "to shut off the"
-	cont "power?"
+	text "Elektriske buer"
+	line "spærrer vejen."
+	para "Er der en måde"
+	line "at afbryde"
+	cont "strømmen?"
 	done
 
 _ZapdosFlewAway::
-	text "The huge #MON"
-	line "caused a power"
-	cont "outage!"
-	para "It flew through"
-	line "a hole up to the"
-	cont "roof!"
-	para "Gotta follow it!"
+	text "Den enorme"
+	line "Pokémon"
+	cont "forårsagede et"
+	cont "strømsvigt!"
+	para "Den fløj gennem"
+	line "et hul op til"
+	cont "taget!"
+	para "Må hellere følge"
+	line "efter!"
 	done
 
 _PowerPlantRoofDarkCloudsText::
-	text "Huh? Dark clouds"
-	line "are rolling in."
-	para "A thunderstorm"
-	line "is coming!"
+	text "Hvad? Mørke"
+	line "skyer ruller ind."
+	para "Et uvejr er på"
+	line "vej!"
 	done
 
 _PowersOutCantUse::
-	text "It's not working"
-	line "because of the"
-	cont "power outage."
+	text "Det virker ikke"
+	line "på grund af"
+	cont "strømsvigtet."
 	done
 
 _PowerCameBackText::
-	text "Looks like the"
-	line "power's back!"
+	text "Det ser ud til,"
+	line "at strømmen er"
+	cont "tilbage!"
 	done
 
 _MagnetText::
-	text "This magnet seems"
-	line "to have powerful"
-	cont "electromagnetic"
-	cont "waves running"
-	cont "through it."
+	text "Denne magnet"
+	line "ser ud til at"
+	cont "have stærke"
+	cont "elektromagnetiske"
+	cont "bølger."
 	prompt
 
 _MagnetMagnemiteText::
-	text "It won't be able"
-	line "to deal with such"
-	cont "high magnetism"
-	cont "yet."
+	text "Den vil ikke"
+	line "kunne klare så"
+	cont "høj magnetisme"
+	cont "endnu."
 	done
 
 _MagnetFloatingMagnetonText::
-	text "It's already been"
-	line "supercharged."
+	text "Den er allerede"
+	line "blevet"
+	cont "superopladet."
 	done
 
 _PowerPlantComputer1::
-	text "MAGNETIC RAIL"
-	line "FULLY CHARGED"
+	text "MAGNETSKINNE"
+	line "FULDT OPLADT"
 	done
 
 _PowerPlantComputer2::
-	text "SUPERCONDUCTOR"
-	line "COOLANT DEPLETED"
+	text "SUPERLEDER"
+	line "KØLEVÆSKE TOM"
 	done
 
 _PowerPlantComputer3::
-	text "POLARITY REVERSAL"
-	line "CONTROL UNIT"
+	text "POLARITET"
+	line "KONTROLENHED"
 	done
 
 _PowerPlantComputer4::
-	text "RESONANCE MATCHER"
+	text "RESONANS"
+	line "MATCHENHED"
 	done
 
 _MagnetMagnetonText1::
 	text_ram_namebuffer
-	text " went"
-	line "close to the"
-	cont "magnet."
+	text " kom"
+	line "tæt på"
+	cont "magneten."
 	done
 
 _MagnetMagnetonText2::
 	text_ram_namebuffer
 	text "'s"
-	line "antigravity power"
-	cont "was supercharged!"
+	line "antigravitations"
+	cont "evne blev"
+	cont "superopladet!"
 	done
 
 _MagnetMagnetonText3::
 	text_start
-	para "It can float"
-	line "higher now."
+	para "Den kan flyde"
+	line "højere nu."
 	para "@"
 	text_ram_namebuffer
-	text " became"
-	line "immune to GROUND"
-	cont "type attacks!"
+	text " blev"
+	line "immun overfor"
+	cont "GROUND type"
+	cont "angreb!"
 	done

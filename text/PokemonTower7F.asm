@@ -1,98 +1,103 @@
 _PokemonTower7FMrFujiRescueText::
-	text "MR.FUJI: Heh? You"
-	line "came to save me?"
+	text "MR.FUJI: Hæ? Du"
+	line "kom for at"
+	cont "redde mig?"
 
-	para "Thank you. But, I"
-	line "came here of my"
-	cont "own free will."
+	para "Tak. Men jeg"
+	line "kom hertil af"
+	cont "min egen"
+	cont "fri vilje."
 
-	para "I came to calm"
-	line "the soul of"
-	cont "CUBONE's mother.@"
+	para "Jeg kom for at"
+	line "berolige sjælen af"
+	cont "CUBONEs mor.@"
 	text_end
 
 _PokemonTower7FMrFujiCaughtText::
-	text "<PARA>Its spirit is"
-	line "still restless."
+	text "<PARA>Dens ånd er"
+	line "stadig hvileløs."
 
-	para "Its soul will"
-	line "roam this world"
-	cont "forever until you"
-	cont "help it to exact"
-	cont "vengeance."
+	para "Dens sjæl vil"
+	line "vandre i denne"
+	cont "verden for evigt"
+	cont "indtil du hjælper"
+	cont "den med at få"
+	cont "hævn."
 
-	para "A grim task, to"
-	line "be sure."
+	para "En dyster"
+	line "opgave,"
+	cont "at være sikker."
 
-	para "Come.@"
+	para "Kom.@"
 	text_end
 
 _PokemonTower7FMrFujiAfterlifeText::
-	text "<PARA>I think MAROWAK's"
-	line "spirit has gone"
-	cont "to the afterlife." 
+	text "<PARA>Jeg tror MAROWAKs"
+	line "ånd er taget"
+	cont "til efterlivet."
 
-	para "I must thank you"
-	line "for your kind"
-	cont "concern!@"
+	para "Jeg må takke dig"
+	line "for din venlige"
+	cont "bekymring!@"
 	text_end
 
 _PokemonTower7FMrFujiFollowMeText::
-	text "<PARA>Follow me to my"
-	line "home, #MON"
-	cont "HOUSE at the foot"
-	cont "of this tower."
+	text "<PARA>Følg mig til mit"
+	line "hjem, #MON"
+	cont "HUSET ved foden"
+	cont "af dette tårn."
 	done
 
 _PokemonTower7FRocket1BattleText::
-	text "What do you want?"
-	line "Why are you here?"
+	text "Hvad vil du?"
+	line "Hvorfor er du her?"
 	done
 
 _PokemonTower7FRocket1EndBattleText::
-	text "I give up!"
+	text "Jeg giver op!"
 	prompt
 
 _PokemonTower7FRocket1AfterBattleText::
-	text "I'm not going to"
-	line "forget this!"
+	text "Jeg kommer ikke"
+	line "til at"
+	cont "glemme dette!"
 	done
 
 _PokemonTower7FRocket2BattleText::
-	text "This old guy came"
-	line "and complained"
-	cont "about us harming"
-	cont "useless #MON!"
+	text "Denne gamle mand"
+	line "kom og klagede"
+	cont "over at vi skadede"
+	cont "ubrugelige #MON!"
 
-	para "We're talking it"
-	line "over as adults!"
+	para "Vi diskuterer det"
+	line "som voksne!"
 	done
 
 _PokemonTower7FRocket2EndBattleText::
-	text "Please!"
-	line "No more!"
+	text "Venligst!"
+	line "Ikke mere!"
 	prompt
 
 _PokemonTower7FRocket2AfterBattleText::
-	text "#MON are only"
-	line "good for making"
-	cont "money!"
+	text "#MON er kun"
+	line "gode til at lave"
+	cont "penge!"
 
-	para "Stay out of our"
-	line "business!"
+	para "Hold dig ude"
+	line "af vores forretning!"
 	done
 
 _PokemonTower7FRocket3BattleText::
-	text "You're not saving"
-	line "anyone, kid!"
+	text "Du redder"
+	line "ingen, barn!"
 	done
 
 _PokemonTower7FRocket3EndBattleText::
-	text "Don't"
-	line "fight us <ROCKET>s!"
+	text "Kæmp ikke"
+	line "mod os <ROCKET>s!"
 	prompt
 
 _PokemonTower7FRocket3AfterBattleText::
-	text "You're not getting"
-	line "away with this!"
+	text "Du slipper ikke"
+	line "afsted med dette!"
 	done

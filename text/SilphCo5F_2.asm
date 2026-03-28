@@ -1,62 +1,62 @@
 _SilphCo5FRockerEndBattleText::
-	text "Oh"
-	line "goodness!"
+	text "Åh"
+	line "gud!"
 	prompt
 
 _SilphCo5FRockerAfterBattleText::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "Du er kun på 5F."
+	line "Det er langt"
+	cont "til min BOSS!"
 	done
 
 _SilphCo5FRocket2BattleText::
-	text "Show <TEAM><ROCKET>"
-	line "a little respect!"
+	text "Vis <TEAM><ROCKET>"
+	line "lidt respekt!"
 	done
 
 _SilphCo5FRocket2EndBattleText::
-	text "Cough<...>"
-	line "Cough<...>"
+	text "Host<...>"
+	line "Host<...>"
 	prompt
 
 _SilphCo5FRocket2AfterBattleText::
-	text "Which reminds me."
+	text "Det minder mig om."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "KOFFING udvikler"
+	line "sig til WEEZING!"
 	done
 
 _SilphCo5FPokemonReport1Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Det er en #MON"
+	line "RAPPORT!"
 
 	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	line "skabte PORYGON,"
+	cont "det første virt."
+	cont "#MON."
 	done
 
 _SilphCo5FPokemonReport2Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Det er en #MON"
+	line "RAPPORT!"
 
 	para "Over 160 #MON"
-	line "techniques have"
-	cont "been confirmed."
+	line "teknikker er"
+	cont "blevet bekræftet."
 	done
 
 _SilphCo5FPokemonReport3Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "Det er en #MON"
+	line "RAPPORT!"
 
-	para "4 #MON evolve"
-	line "by trading."
+	para "4 #MON udvikler"
+	line "sig ved handel."
 
-	para "They are:"
+	para "De er:"
 	line "GRAVELER, HAUNTER"
 	cont "MACHOKE, KADABRA."
 
-	para "They can all also"
-	line "evolve normally"
-	cont "at level 37!"
+	para "De kan alle også"
+	line "udvikle sig normalt"
+	cont "på level 37!"
 	done

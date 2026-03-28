@@ -1,49 +1,49 @@
 _LavenderMartBaldingGuyText::
-	text "I'm searching for"
-	line "items that raise"
-	cont "the abilities of"
-	cont "#MON during a"
-	cont "single battle."
+	text "Jeg leder efter"
+	line "ting der øger"
+	cont "#MONs evner"
+	cont "under en enkelt"
+	cont "kamp."
 
 	para "X ATTACK, X"
 	line "DEFEND, X SPEED"
-	cont "and X SPECIAL are"
-	cont "what I'm after."
+	cont "og X SPECIAL er"
+	cont "hvad jeg søger."
 
-	para "Do you know where"
-	line "I can get them?"
+	para "Ved du hvor jeg"
+	line "kan få dem?"
 	done
 
 _LavenderMartCooltrainerMReviveText::
-	text "You know REVIVE?"
-	line "It revives any"
-	cont "fainted #MON!"
+	text "Kender du REVIVE?"
+	line "Det vækker enhver"
+	cont "besvimet #MON!"
 	done
 
 _LavenderMartCooltrainerMNuggetText::
-	text "I found a NUGGET"
-	line "in the mountains."
+	text "Jeg fandt en"
+	line "NUGGET i bjergene."
 
-	para "I thought it was"
-	line "useless, but it"
-	cont "sold for ¥5000!"
+	para "Jeg troede den"
+	line "var ubrugelig,"
+	cont "men den solgte"
+	cont "for ¥5000!"
 	done
 
 _LavenderMartTMKidFlavor::
-	text "<PARA>Me and my dad"
-	line "were on our way"
-	cont "to CELADON CITY"
-	cont "when he got food"
-	cont "poisoning!"
+	text "Mig og min far"
+	line "var på vej til"
+	cont "CELADON CITY,"
+	cont "da han fik mad-"
+	cont "forgiftning!"
 	
-	para "Can you believe"
-	line "it?"
+	para "Kan du tro det?"
 	
-	para "Must have been"
-	line "the barbecue eel"
-	cont "he had on the"
+	para "Det må have været"
+	line "den grillede ål"
+	cont "han fik på"
 	cont "S.S. ANNE."
 
-	para "He's recovering"
-	line "in the hotel.@"
+	para "Han kommer sig"
+	line "på hotellet.@"
 	text_end

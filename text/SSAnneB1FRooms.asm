@@ -4,111 +4,114 @@ _SSAnneB1FRoomsMachokeText::
 	text_end
 
 _SSAnneB1FRoomsSailor1BattleText::
-	text "You know what they"
-	line "say about sailors"
-	cont "and fighting!"
+	text "Du ved hvad de"
+	line "siger om søfolk"
+	cont "og kamp!"
 	done
 
 _SSAnneB1FRoomsSailor1EndBattleText::
-	text "Right!"
-	line "Good fight, mate!"
+	text "Rigtigt!"
+	line "God kamp, makker!"
 	prompt
 
 _SSAnneB1FRoomsSailor1AfterBattleText::
-	text "Haha! Want to be"
-	line "a sailor, mate?"
+	text "Haha! Vil du være"
+	line "sømand, makker?"
 	done
 
 _SSAnneB1FRoomsSailor2BattleText::
-	text "My sailor's pride"
-	line "is at stake!"
+	text "Min sømandsstolthed"
+	line "står på spil!"
 	done
 
 _SSAnneB1FRoomsSailor2EndBattleText::
-	text "Your"
-	line "spirit sank me!"
+	text "Din"
+	line "ånd sænkede mig!"
 	prompt
 
 _SSAnneB1FRoomsSailor2AfterBattleText::
-	text "Did you see the"
-	line "FISHING GURU in"
-	cont "VERMILION CITY?"
+	text "Har du set"
+	line "FISKER-GURUEN i"
+	cont "VERMILION BY?"
 	done
 
 _SSAnneB1FRoomsSailor3BattleText::
-	text "Us sailors have"
-	line "#MON too!"
+	text "Vi sømænd har"
+	line "også Pokémon!"
 	done
 
 _SSAnneB1FRoomsSailor3EndBattleText::
 	text "OK,"
-	line "you're not bad."
+	line "du er ikke dårlig."
 	prompt
 
 _SSAnneB1FRoomsSailor3AfterBattleText::
-	text "We caught all our"
-	line "#MON while"
-	cont "out at sea!"
+	text "Vi fangede alle"
+	line "vores Pokémon mens"
+	cont "vi var til søs!"
 	done
 
 _SSAnneB1FRoomsSailor4BattleText::
-	text "I like feisty"
-	line "kids like you!@"
+	text "Jeg kan lide"
+	line "livlige børn som"
+	cont "dig!@"
 	text_end
 
 _SSAnneB1FRoomsSailor4EndBattleText::
 	text "Argh!"
-	line "Lost it!"
+	line "Tabte den!"
 	prompt
 
 _SSAnneB1FRoomsSailor4AfterBattleText::
-	text "Sea #MON live"
-	line "in deep water."
-	cont "You'll need a ROD!"
+	text "Hav-Pokémon lever"
+	line "i dybt vand."
+	cont "Du skal bruge en"
+	cont "STANG!"
 	done
 
 _SSAnneB1FRoomsSailor5BattleText::
-	text "Matey, you're"
-	line "walking the plank"
-	cont "if you lose!"
+	text "Makker, du går på"
+	line "planken hvis du"
+	cont "taber!"
 	done
 
 _SSAnneB1FRoomsSailor5EndBattleText::
 	text "Argh!"
-	line "Beaten by a kid!"
+	line "Slået af et barn!"
 	prompt
 
 _SSAnneB1FRoomsSailor5AfterBattleText::
-	text "Jellyfish some-"
-	line "times drift into"
-	cont "the ship."
+	text "Gopler driver"
+	line "nogle gange ind"
+	cont "på skibet."
 	done
 
 _SSAnneB1FRoomsFisherBattleText::
-	text "Hello stranger!"
-	line "Stop and chat!"
+	text "Hej fremmede!"
+	line "Stop og snak!"
 
-	para "I love #MON"
-	line "from the sea!"
+	para "Jeg elsker Pokémon"
+	line "fra havet!"
 	done
 
 _SSAnneB1FRoomsFisherEndBattleText::
-	text "Darn!"
-	line "I let that one"
-	cont "get away!"
+	text "Dog!"
+	line "Jeg lod den"
+	cont "slippe væk!"
 	prompt
 
 _SSAnneB1FRoomsFisherAfterBattleText::
-	text "I was going to"
-	line "make you my"
-	cont "assistant too!"
+	text "Jeg ville gøre dig"
+	line "til min assistent"
+	cont "også!"
 	done
 
 _SSAnneB1FRoomsSuperNerdText::
-	text "My buddy, MACHOKE,"
-	line "is super strong!"
+	text "Min kammerat,"
+	line "MACHOKE, er super"
+	cont "stærk!"
 
-	para "He has enough"
-	line "STRENGTH to move"
-	cont "big rocks!"
+	para "Han har STYRKE"
+	line "nok til at flytte"
+	cont "store sten!"
 	done

@@ -1,79 +1,80 @@
 _ViridianMartClerkSayHiToOakText::
-	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	text "Okay! Sig hej til"
+	line "PROF.OAK fra mig!"
 	done
 
 _ViridianMartClerkYouCameFromPalletTownText::
-	text "Hey! You came from"
+	text "Hey! Kommer du fra"
 	line "PALLET TOWN?"
 	done
 
 _ViridianMartClerkParcelQuestText::
-	text "You know PROF."
-	line "OAK, right?"
+	text "Du kender PROF."
+	line "OAK, ikke?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "Hans bestilling"
+	line "er kommet. Vil du"
+	cont "bringe den til ham?"
 
-	para "<PLAYER> got"
-	line "OAK's PARCEL!@"
+	para "<PLAYER> fik"
+	line "OAK's PAKKE!@"
 	text_end
 
 _ViridianMartYoungsterText::
-	text "This shop sells"
-	line "many ANTIDOTEs."
+	text "Denne butik sælger"
+	line "mange ANTIDOTEs."
 	done
 
 _ViridianMartCooltrainerMText::
-	text "No! POTIONs are"
-	line "all sold out."
+	text "Nej! POTIONs er"
+	line "udsolgt."
 	done
 
 _ViridianMartTMKid::
-	text "Yo! Can you"
-	line "believe they don't"
-	cont "sell <TM>s?" 
+	text "Yo! Kan du"
+	line "tro de ikke sælger"
+	cont "<TM>s?"
 
-	para "How are trainers"
-	line "supposed to get"
-	cont "by without any"
-	cont "quality moves on"
-	cont "their #MON?"
+	para "Hvordan skal"
+	line "trænere klare"
+	cont "sig uden nogle"
+	cont "ordentlige angreb"
+	cont "på deres Pokémon?"
 	done
 
 _TMKidStockingUp::
-	text "I'm all out of"
-	line "stock right now."
+	text "Jeg er løbet tør"
+	line "for vare lige nu."
 
-	para "Just checking"
-	line "if competition"
-	cont "has caught up"
-	cont "with the times!"
+	para "Tjekker bare om"
+	line "konkurrencen er"
+	cont "kommet op på"
+	cont "tiderne!"
 
-	para "Not yet!"
-	
-	para "Look for me in"
-	line "another MART,"
-	cont "I should have"
-	cont "plenty of <TM>s!" 
+	para "Ikke endnu!"
+
+	para "Leder efter mig i"
+	line "et andet MART,"
+	cont "jeg burde have"
+	cont "masser af <TM>s!"
 	done
 
 _TMKidBigStockIndigo::
-	text "Back here again"
-	line "are you?"
+	text "Tilbage her igen"
+	line "hvad?"
 
-	para "I'm all out of"
-	line "copied <TM>s!"
+	para "Jeg er løbet tør"
+	line "for kopierede"
+	cont "<TM>s!"
 
-	para "Listen. Look"
-	line "for me at"
+	para "Hør her. Leder"
+	line "efter mig ved"
 	cont "INDIGO PLATEAU."
 
-	para "I'm putting"
-	line "together the best"
-	cont "stock of <TM>s yet!"
+	para "Jeg sammensætter"
+	line "det bedste lager"
+	cont "af <TM>s nogensinde!"
 
-	para "I'll be waiting!"
-	line "Catch you later!"
+	para "Jeg venter!"
+	line "Vi ses!"
 	done

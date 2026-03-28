@@ -1,42 +1,43 @@
 _PokemonTower6FGhostWasCubonesMotherText::
-	text "The GHOST was the"
-	line "restless soul of"
-	cont "CUBONE's mother!"
+	text "SPOGELSET var"
+	line "CUBONEs mors"
+	cont "hvileløse sjæl!"
 	done
 
 _PokemonTower6FSoulWasCalmedText::
-	text "The mother's soul"
-	line "was calmed."
+	text "Morens sjæl"
+	line "blev beroliget."
 	prompt
 
 _PokemonTower2Text_toAfterlife::
-	text "It departed to"
-	line "the afterlife!"
+	text "Den tog"
+	line "afsted til"
+	cont "efterlivet!"
 	done
 
 _PokemonTower2Text_Caught::
-	text "It wants to"
-	line "fight alongside"
-	cont "you against"
-	cont "<TEAM><ROCKET>!"
-	para "This is its"
-	line "final wish before"
-	cont "departing to the"
-	cont "afterlife!"
+	text "Den vil kæmpe"
+	line "sammen med dig"
+	cont "mod <TEAM><ROCKET>!"
+	para "Dette er dens"
+	line "sidste ønske før"
+	cont "den tager til"
+	cont "efterlivet!"
 	done
 
 _PokemonTower6FChanneler1BattleText::
-	text "Give<...>me<...>"
-	line "blood<...>"
+	text "Giv<...>mig<...>"
+	line "blod<...>"
 	done
 
 _PokemonTower6FChanneler1EndBattleText::
-	text "Groan!"
+	text "Stønn!"
 	prompt
 
 _PokemonTower6FChanneler1AfterBattleText::
-	text "I feel anemic and"
-	line "weak<...>"
+	text "Jeg føler mig"
+	line "anæmisk og"
+	cont "svag<...>"
 	done
 
 _PokemonTower6FChanneler2BattleText::
@@ -44,14 +45,14 @@ _PokemonTower6FChanneler2BattleText::
 	done
 
 _PokemonTower6FChanneler2EndBattleText::
-	text "Some-"
-	line "thing fell out!"
+	text "Noget"
+	line "faldt ud!"
 	prompt
 
 _PokemonTower6FChanneler2AfterBattleText::
-	text "Hair didn't fall"
-	line "out! It was an"
-	cont "evil spirit!"
+	text "Hår faldt"
+	line "ikke ud! Det var"
+	cont "en ond ånd!"
 	done
 
 _PokemonTower6FChanneler3BattleText::
@@ -64,11 +65,11 @@ _PokemonTower6FChanneler3EndBattleText::
 	prompt
 
 _PokemonTower6FChanneler3AfterBattleText::
-	text "What's going on"
-	line "here?"
+	text "Hvad foregår"
+	line "her?"
 	done
 
 _PokemonTower6FBeGoneText::
-	text "Be gone<...>"
-	line "Intruders<...>"
+	text "Forsvind<...>"
+	line "Indtrængende<...>"
 	done

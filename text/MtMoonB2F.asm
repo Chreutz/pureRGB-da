@@ -1,200 +1,208 @@
 _MtMoonB2FDomeFossilYouWantText::
-	text "You want the"
+	text "Du vil have"
 	line "DOME FOSSIL?"
 	done
 
 _MtMoonB2FHelixFossilYouWantText::
-	text "You want the"
+	text "Du vil have"
 	line "HELIX FOSSIL?"
 	done
 
 _MtMoonB2FReceivedFossilText::
-	text "<PLAYER> got the"
+	text "<PLAYER> fik"
 	line "@"
 	text_ram_stringbuffer
 	text "!@"
 	text_end
 
 _MtMoonB2FYouHaveNoRoomText::
-	text "Look, you've got"
-	line "no room for this.@"
+	text "Hør, du har"
+	line "ingen plads til"
+	cont "dette.@"
 	text_end
 
 _MtMoonB2FSuperNerdTheyreBothMineText::
 	text "Hey, stop!"
 
-	para "I found these"
-	line "fossils! They're"
-	cont "both mine!"
+	para "Jeg fandt disse"
+	line "fossiler! De er"
+	cont "begge mine!"
 	done
 
 _MtMoonB2FSuperNerdOkIllShareText::
 	text "OK!"
-	line "I'll share!"
+	line "Jeg deler!"
 	prompt
 
 _MtMoonB2fSuperNerdEachTakeOneText::
-	text "We'll each take"
-	line "one!"
-	cont "No being greedy!"
+	text "Vi tager en"
+	line "hver!"
+	cont "Vær ikke grådig!"
 	done
 
 _MtMoonB2FSuperNerdTheresAPokemonLabText::
-	text "Far away, on"
+	text "Langt væk, på"
 	line "CINNABAR ISLAND,"
-	cont "there's a #MON"
-	cont "LAB."
+	cont "er der et"
+	cont "#MON LAB."
 
-	para "They do research"
-	line "on regenerating"
-	cont "fossils."
+	para "De forsker i at"
+	line "genoplive"
+	cont "fossiler."
 	prompt
 
 _MtMoon3TextSuperNerdGiveFossil::
-	text "I plan on taking"
-	line "my fossil there!"
+	text "Jeg planlægger at"
+	line "tage mit fossil"
+	cont "derhen!"
 
-	para "Tell you what:"
+	para "Ved du hvad:"
 
-	para "If you give me"
-	line "your fossil too,"
-	cont "I can bring it"
-	cont "to the lab and"
-	cont "see if it can be"
-	cont "regenerated!"
+	para "Hvis du giver mig"
+	line "dit fossil også,"
+	cont "kan jeg bringe"
+	cont "det til lab'et"
+	cont "og se om det kan"
+	cont "genoplives!"
 
-	para "How about it?@"
+	para "Hvad siger du?@"
 	text_end
 
 _MtMoon3TextSuperNerdNoFossil::
-	text "Looks like you"
-	line "don't have your"
-	cont "fossil in your"
-	cont "bag. Go get it!"
+	text "Det ser ud til"
+	line "du ikke har dit"
+	cont "fossil i din"
+	cont "taske. Hent det!"
 	done	
 
 _MtMoon3TextSuperNerdGaveHelix::
-	text "<PLAYER> gave the"
-	line "HELIX FOSSIL to"
-	cont "the SUPER NERD!"
+	text "<PLAYER> gav"
+	line "HELIX FOSSIL til"
+	cont "SUPER NØRDEN!"
 	done
 
 _MtMoon3TextSuperNerdGaveDome::
-	text "<PLAYER> gave the"
-	line "DOME FOSSIL to"
-	cont "the SUPER NERD!"
+	text "<PLAYER> gav"
+	line "DOME FOSSIL til"
+	cont "SUPER NØRDEN!"
 	done
 
 _MtMoon3TextSuperNerdGaveFossil::
-	text "Great! I'll try"
-	line "reviving both"
-	cont "fossils."
+	text "Fedt! Jeg prøver"
+	line "at genoplive"
+	cont "begge fossiler."
 	prompt
 
 _MtMoon3TextSuperNerdKeptFossil::
-	text "No worries!"
-	para "It's your fossil"
-	line "after all."
+	text "Ingen bekymringer!"
+	para "Det er trods alt"
+	line "dit fossil."
 	done
 
 _MtMoon3TextSuperNerdGaveFossilEnd::
-	text "Meet me in"
+	text "Mød mig i"
 	line "SAFFRON CITY."
 	
-	para "I'll tell you"
-	line "the results!"
+	para "Jeg fortæller"
+	line "dig resultaterne!"
 	done
 
 _MtMoon3TextSuperNerdLookingForMoreFossils::
-	text "Hey! I'm looking"
-	line "for more fossils."
+	text "Hey! Jeg leder"
+	line "efter flere"
+	cont "fossiler."
 
-	para "Haven't found any"
-	line "yet! Oh well."
+	para "Har ikke fundet"
+	line "nogen endnu! Nå"
+	cont "ja."
 
-	para "I live for the"
-	line "hunt!"
+	para "Jeg lever for"
+	line "jagten!"
 	done
 
 _MtMoonB2FSuperNerdThenThisIsMineText::
-	text "All right. Then"
-	line "this is mine!@"
+	text "All right. Så"
+	line "er denne min!@"
 	text_end
 
 _MtMoonB2FRocket1BattleText::
-	text "<TEAM><ROCKET> will"
-	line "find the fossils,"
-	cont "revive and sell"
-	cont "them for cash!"
+	text "<TEAM><ROCKET> vil"
+	line "finde fossilerne,"
+	cont "genoplive og"
+	cont "sælge dem for"
+	cont "penge!"
 	done
 
 _MtMoonB2FRocket1EndBattleText::
 	text "Urgh!"
-	line "Now I'm mad!"
+	line "Nu er jeg vred!"
 	prompt
 
 _MtMoonB2FRocket1AfterBattleText::
-	text "You made me mad!"
-	line "<TEAM><ROCKET> will"
-	cont "blacklist you!"
+	text "Du gjorde mig vred!"
+	line "<TEAM><ROCKET> vil"
+	cont "sortliste dig!"
 	done
 
 _MtMoonB2FRocket2BattleText::
-	text "We, <TEAM><ROCKET>,"
-	line "are #MON"
-	cont "gangsters!"
+	text "Vi, <TEAM><ROCKET>,"
+	line "er #MON"
+	cont "gangstere!"
 	done
 
 _MtMoonB2FRocket2EndBattleText::
-	text "I blew"
-	line "it!"
+	text "Jeg kludrede"
+	line "i det!"
 	prompt
 
 _MtMoonB2FRocket2AfterBattleText::
-	text "Darn it all! My"
-	line "associates won't"
-	cont "stand for this!"
+	text "Pokkers også! Mine"
+	line "partnere vil"
+	cont "ikke finde sig"
+	cont "i det her!"
 	done
 
 _MtMoonB2FRocket3BattleText::
-	text "We're pulling a"
-	line "big job here!"
-	cont "Get lost, kid!"
+	text "Vi har gang i"
+	line "en stor handel"
+	cont "her! Forsvind,"
+	cont "knægt!"
 	done
 
 _MtMoonB2FRocket3EndBattleText::
-	text "So, you"
-	line "are good."
+	text "Så, du"
+	line "er god."
 	prompt
 
 _MtMoonB2FRocket3AfterBattleText::
-	text "If you find a"
-	line "fossil, give it"
-	cont "to me and scram!"
+	text "Hvis du finder et"
+	line "fossil, giv det"
+	cont "til mig og skrid!"
 	done
 
 _MtMoonB2FRocket4BattleText::
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	text "Små børn bør"
+	line "lade voksne"
+	cont "være i fred!"
 	done
 
 _MtMoonB2FRocket4EndBattleText::
-	text "I'm"
-	line "steamed!"
+	text "Jeg"
+	line "koger!"
 	prompt
 
 _MtMoonB2FRocket4AfterBattleText::
-	text "#MON lived"
-	line "here long before"
-	cont "people came."
+	text "#MON boede"
+	line "her længe før"
+	cont "mennesker kom."
 	done
 
 _MtMoonB2fRocket4AfterBattleLearnsetText::
-	text "So kid, how'd you"
-	line "like my @"
+	text "Så knægt, hvordan"
+	line "kunne du lide min"
+	cont "@"
 	text_ram_namebuffer
 	text "?"
-	para "Pretty scary, huh?"
+	para "Ret uhyggelig, huh?"
 	para "@"
 	text_end

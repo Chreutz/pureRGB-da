@@ -1,31 +1,31 @@
 _Route11Gate2FOaksAideItemfinderDescriptionText::
-	text "There are items on"
-	line "the ground that"
-	cont "can't be seen."
+	text "Der er ting på"
+	line "jorden som ikke"
+	cont "kan ses."
 
-	para "ITEMFINDER will"
-	line "detect an item"
-	cont "close to you."
+	para "ITEMFINDER vil"
+	line "registrere en"
+	cont "ting tæt på dig."
 
-	para "It can point you"
-	line "in the direction"
-	cont "of the item!"
+	para "Den kan pege dig"
+	line "i retning af"
+	cont "tingen!"
 	done
 
 _Route11Gate2FLeftBinocularsSnorlaxText::
-	text "A big #MON is"
-	line "asleep on a road!"
+	text "Et stort #MON"
+	line "sover på en vej!"
 	done
 
 _Route11Gate2FLeftBinocularsNoSnorlaxText::
-	text "It's a beautiful"
-	line "view!"
+	text "Det er en smuk"
+	line "udsigt!"
 	done
 
 _Route11Gate2FRightBinocularsText::
-	text "The only way to"
-	line "get from CERULEAN"
-	cont "CITY to LAVENDER"
-	cont "is by way of the"
+	text "Den eneste måde"
+	line "at komme fra"
+	cont "CERULEAN CITY til"
+	cont "LAVENDER er via"
 	cont "ROCK TUNNEL."
 	done

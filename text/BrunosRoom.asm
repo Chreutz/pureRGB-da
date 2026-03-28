@@ -1,32 +1,34 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "Jeg er BRUNO fra"
+	line "ELITE FOUR!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "Gennem hård"
+	line "træning kan både"
+	cont "mennesker og"
+	cont "Pokémon blive"
+	cont "stærkere!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "Jeg har trænet"
+	line "med mine"
+	cont "Pokémon!"
 
 	para "<PLAYER>!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "Vi vil knuse dig"
+	line "med vores rå"
+	cont "kraft!"
 
 	para "Hoo hah!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "Hvorfor?"
+	line "Hvordan kunne jeg"
+	cont "tabe?"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "Mit job er gjort!"
+	line "Gå mod din næste"
+	cont "udfordring!"
 	done

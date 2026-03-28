@@ -2,109 +2,113 @@ _Route22RivalBeforeBattleText1::
 	text "<RIVAL>: Hey!"
 	line "<PLAYER>!"
 
-	para "You're going to"
-	line "#MON LEAGUE?"
+	para "Du skal til"
+	line "Pokémon LEAGUE?"
 
-	para "Forget it! You"
-	line "probably don't"
-	cont "have any BADGEs!"
+	para "Glem det! Du"
+	line "har nok ikke nogen"
+	cont "BADGEs!"
 
-	para "The guard won't"
-	line "let you through!"
+	para "Vagten lader dig"
+	line "ikke passere."
 
-	para "By the way, did"
-	line "your #MON"
-	cont "get any stronger?"
+	para "For resten, blev"
+	line "dine Pokémon"
+	cont "stærkere?"
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #MON"
-	line "LEAGUE has many"
-	cont "tough trainers!"
+	text "Jeg hørte Pokémon"
+	line "LEAGUE har mange"
+	cont "hårde trænere!"
 
-	para "I have to figure"
-	line "out how to get"
-	cont "past them!"
+	para "Jeg er nødt til"
+	line "at finde ud af"
+	cont "hvordan jeg kommer"
+	cont "forbi dem."
 
-	para "You should quit"
-	line "dawdling and get"
-	cont "a move on!"
+	para "Du bør holde op"
+	line "med at snige dig"
+	cont "rundt og komme"
+	cont "videre!"
 	done
 
 _Route22Rival1DefeatedText::
-	text "Awww!"
-	line "You just lucked"
-	cont "out!"
+	text "Åååh!"
+	line "Du havde held!"
 	prompt
 
 _Route22Rival1VictoryText::
-	text "What?"
-	line "Why do I have 2"
-	cont "#MON?"
+	text "Hvad?"
+	line "Hvorfor har jeg 2"
+	cont "Pokémon?"
 
-	para "You should catch"
-	line "some more too!"
+	para "Du bør fange"
+	line "flere også!"
 	prompt
 
 _Route22RivalBeforeBattleText2::
-	text "<RIVAL>: What?"
-	line "<PLAYER>! What a"
-	cont "surprise to see"
-	cont "you here!"
+	text "<RIVAL>: Hvad?"
+	line "<PLAYER>! Hvilken"
+	cont "overraskelse at se"
+	cont "dig her!"
 
-	para "So you're going to"
-	line "#MON LEAGUE?"
+	para "Så du skal til"
+	line "Pokémon LEAGUE?"
 
-	para "You collected all"
-	line "the BADGEs too?"
-	cont "That's cool!"
+	para "Du har også samlet"
+	line "alle BADGEs?"
+	cont "Det er sejt!"
 
-	para "Then I'll whip you"
-	line "<PLAYER> as a"
-	cont "warm up for"
-	cont "#MON LEAGUE!"
+	para "Så knuser jeg dig"
+	line "<PLAYER> som en"
+	cont "opvarmning til"
+	cont "Pokémon LEAGUE!"
 
-	para "Come on!"
+	para "Kom an!"
 	done
 
 _Route22RivalAfterBattleText2::
-	text "That loosened me"
-	line "up! I'm ready for"
-	cont "#MON LEAGUE!"
+	text "Det fik mig varmet"
+	line "op! Jeg er klar"
+	cont "til Pokémon"
+	cont "LEAGUE!"
 
-	para "<PLAYER>, you need"
-	line "more practice!"
+	para "<PLAYER>, du har"
+	line "brug for mere"
+	cont "træning!"
 
-	para "But hey, you know"
-	line "that! I'm out of"
-	cont "here. Smell ya!"
+	para "Men hey, det ved"
+	line "du! Jeg smutter."
+	cont "Vi ses!"
 	done
 
 _Route22Rival2DefeatedText::
-	text "What!?"
+	text "Hvad!?"
 
-	para "I was just"
-	line "careless!"
+	para "Jeg var bare"
+	line "uforsigtig!"
 	prompt
 
 _Route22Rival2VictoryText::
 	text "Hahaha!"
-	line "<PLAYER>! That's"
-	cont "your best? You're"
-	cont "nowhere near as"
-	cont "good as me, pal!"
+	line "<PLAYER>! Er det"
+	cont "dit bedste? Du er"
+	cont "slet ikke så god"
+	cont "som mig, makker!"
 
-	para "Go train some"
-	line "more! You loser!"
+	para "Gå træn lidt"
+	line "mere! Du taber!"
 	prompt
 
 _Route22PokemonLeagueSignText::
-	text "#MON LEAGUE"
-	line "Front Gate"
+	text "Pokémon LEAGUE"
+	line "Hovedport"
 	done
 
 _Route22TrainerTipsText::
 	text "<TIPS>"
-	para "Hold B while"
-	line "moving to run."
+	para "Hold B mens du"
+	line "bevæger dig for"
+	cont "at løbe."
 	done

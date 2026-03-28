@@ -1,122 +1,122 @@
 _Route17Biker1BattleText::
-	text "There's no money"
-	line "in fighting kids!"
+	text "Der er ingen penge"
+	line "at kæmpe mod børn"
 	done
 
 _Route17Biker1EndBattleText::
-	text "Burned"
-	line "out!"
+	text "Brændt"
+	line "ud!"
 	prompt
 
 _Route17Biker1AfterBattleText::
-	text "Good stuff is"
-	line "lying around on"
+	text "Gode ting ligger"
+	line "rundt omkring på"
 	cont "CYCLING ROAD!"
 	done
 
 _Route17Biker2BattleText::
-	text "What do you want,"
-	line "kiddo?"
+	text "Hvad vil du,"
+	line "knægt?"
 	done
 
 _Route17Biker2EndBattleText::
-	text "Whoo!"
+	text "Huu!"
 	prompt
 
 _Route17Biker2AfterBattleText::
-	text "I could belly-"
-	line "bump you outta"
-	cont "here!"
+	text "Jeg kunne mave-"
+	line "skubbe dig væk"
+	cont "herfra!"
 	done
 
 _Route17Biker3BattleText::
-	text "You heading to"
+	text "Er du på vej til"
 	line "FUCHSIA?"
 	done
 
 _Route17Biker3EndBattleText::
-	text "Crash and"
-	line "burn!"
+	text "Klods"
+	line "og fald!"
 	prompt
 
 _Route17Biker3AfterBattleText::
-	text "I love racing"
-	line "downhill!"
+	text "Jeg elsker at køre"
+	line "nedad!"
 	done
 
 _Route17Biker4BattleText::
-	text "We're BIKERs!"
-	line "Highway stars!"
+	text "Vi er BIKERe!"
+	line "Motorvejsstjerner!"
 	done
 
 _Route17Biker4EndBattleText::
-	text "Smoked!"
+	text "Røget af!"
 	prompt
 
 _Route17Biker4AfterBattleText::
-	text "Are you looking"
-	line "for adventure?"
+	text "Leder du efter"
+	line "eventyr?"
 	done
 
 _Route17Biker5BattleText::
-	text "Let ELECTRODE"
-	line "electrify you!"
+	text "Lad ELECTRODE"
+	line "elektrificere dig!"
 	done
 
 _Route17Biker5EndBattleText::
-	text "Grounded"
-	line "out!"
+	text "Jordet!"
 	prompt
 
 _Route17Biker5AfterBattleText::
-	text "Got my ELECTRODE"
-	line "at the abandoned"
+	text "Fik min ELECTRODE"
+	line "på den forladte"
 	cont "POWER PLANT."
 	done
 
 _LearnsetElectrode::
-	text "It wasn't easy"
-	line "to catch one"
-	cont "before it used"
+	text "Det var ikke nemt"
+	line "at fange en før"
+	cont "den brugte"
 	cont "EXPLOSION."
-	para "I had to use a"
-	line "HYPER BALL!"
+	para "Jeg måtte bruge"
+	line "en HYPER BALL!"
 	para "@"
 	text_end
 
 _Route17Biker6BattleText::
-	text "My #MON won't"
-	line "evolve! Why?"
+	text "Mine #MON vil"
+	line "ikke udvikle sig!"
 	done
 
 _Route17Biker6EndBattleText::
-	text "Why,"
-	line "you!"
+	text "Hvorfor,"
+	line "du!"
 	prompt
 
 _Route17Biker6AfterBattleText::
-	text "Maybe some #MON"
-	line "need element"
-	cont "STONEs to evolve."
+	text "Måske har nogle"
+	line "#MON brug for"
+	cont "element STONEs"
+	cont "for at udvikle sig."
 	done
 
 _Route17Biker7BattleText::
-	text "I need a little"
-	line "exercise!"
+	text "Jeg har brug for"
+	line "lidt motion!"
 	done
 
 _Route17Biker7EndBattleText::
-	text "Whew!"
-	line "Good workout!"
+	text "Pust!"
+	line "God træning!"
 	prompt
 
 _Route17Biker7AfterBattleText::
-	text "I'm sure I lost"
-	line "weight there!"
+	text "Jeg er sikker på"
+	line "jeg tabte vægt der"
 	done
 
 _Route17Biker8BattleText::
-	text "Be a rebel!"
+	text "Vær en rebel!"
 	done
 
 _Route17Biker8EndBattleText::
@@ -124,82 +124,83 @@ _Route17Biker8EndBattleText::
 	prompt
 
 _Route17Biker8AfterBattleText::
-	text "Be ready to fight"
-	line "for your beliefs!"
+	text "Vær klar til at"
+	line "kæmpe for dine"
+	cont "overbevisninger!"
 	done
 
 _Route17Biker9BattleText::
-	text "Nice BIKE!"
-	line "How's it handle?"
+	text "Fed BIKE!"
+	line "Hvordan kører den?"
 	done
 
 _Route17Biker9EndBattleText::
-	text "Shoot!"
+	text "For søren!"
 	prompt
 
 _Route17Biker9AfterBattleText::
-	text "The slope makes"
-	line "it hard to steer!"
+	text "Skråningen gør"
+	line "det svært at styre"
 	done
 
 _Route17Biker10BattleText::
-	text "Get lost kid!"
-	line "I'm bushed!"
+	text "Forsvind knægt!"
+	line "Jeg er færdig!"
 	done
 
 _Route17Biker10EndBattleText::
-	text "Are you"
-	line "satisfied?"
+	text "Er du"
+	line "tilfreds?"
 	prompt
 
 _Route17Biker10AfterBattleText::
-	text "I need to catch"
-	line "a few Zs!"
+	text "Jeg har brug for"
+	line "at sove lidt!"
 	done
 
 _Route17NoticeSign1Text::
-	text "It's a notice!"
+	text "Det er en notice!"
 
-	para "Watch out for"
-	line "discarded items!"
+	para "Pas på"
+	line "kasserede ting!"
 	done
 
 _Route17TrainerTips1Text::
 	text "<TIPS>"
 
-	para "All #MON are"
-	line "unique."
+	para "Alle #MON er"
+	line "unikke."
 
-	para "Even #MON of"
-	line "the same type and"
-	cont "level grow at"
-	cont "different rates."
+	para "Selv #MON af"
+	line "samme type og"
+	cont "niveau vokser i"
+	cont "forskellige tempi."
 	done
 
 _Route17TrainerTips2Text::
 	text "<TIPS>"
 
-	para "Press the A or B"
-	line "Button to stay in"
-	cont "place while on a"
-	cont "slope."
+	para "Tryk på A eller B"
+	line "knappen for at"
+	cont "stå stille på en"
+	cont "skråning."
 	done
 
 _Route17SignText::
-	text "ROUTE 17"
+	text "RUTE 17"
 	line "CELADON CITY -"
 	cont "FUCHSIA CITY"
 	done
 
 _Route17NoticeSign2Text::
-	text "It's a notice!"
+	text "Det er en notice!"
 
-	para "Don't throw the"
-	line "game, throw #"
-	cont "BALLs instead!"
+	para "Smid ikke spillet,"
+	line "smid # BALLs"
+	cont "i stedet!"
 	done
 
 _Route17CyclingRoadEndsSignText::
 	text "CYCLING ROAD"
-	line "Slope ends here!"
+	line "Skråning slutter!"
 	done

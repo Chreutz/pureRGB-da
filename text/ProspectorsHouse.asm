@@ -1,107 +1,116 @@
 _ProspectorsHousePaperText1::
-	text "It's a note."
-	para "Gone digging on"
-	line "ROUTE 8!"
+	text "Det er en note."
+	para "Taget på udgravning"
+	line "på RUTE 8!"
 	done
 
 _ProspectorsHouseBoomboxText1::
-	text "Shouldn't touch it"
-	line "without asking!"
+	text "Man bør ikke røre"
+	line "den uden at"
+	cont "spørge!"
 	done
 
 _ProspectorsHouseBoomboxText2::
-	text "<PLAYER> switched"
-	line "the boombox @"
+	text "<PLAYER> betjente"
+	line "boomboxen @"
 	text_end
 
 _ProspectorsHouseBoomboxOn::
-	text "ON."
+	text "TÆNDT."
 	done
 
 _ProspectorsHouseBoomboxOff::
-	text "OFF."
+	text "SLUKKET."
 	done
 
 _ProspectorsHousePaperText2::
-	text "A topographical"
-	line "TOWN MAP with"
-	cont "many lines marked"
-	cont "between cities."
-	para "TUNNEL MAP is"
-	line "written on it."
+	text "Et topografisk"
+	line "BYKORT med"
+	cont "mange linjer"
+	cont "mellem byer."
+	para "TUNNELKORT er"
+	line "skrevet på det."
 	done
 
 _ProspectorsHouseProspectorText1::
-	text "Look who it is!"
-	line "Thanks again kid!"
-	para "You really helped"
-	line "me dig deep for"
-	cont "those diamonds!"
+	text "Se hvem der er!"
+	line "Tak igen knægt!"
+	para "Du hjalp mig"
+	line "virkelig"
+	para "med at grave dybt"
+	line "efter diamanter!"
 	done
 
 _ProspectorsHouseProspectorText2::
-	text "I see you can"
-	line "FLY between towns"
-	cont "now!"
-	para "Believe it or"
-	line "not, you can DIG"
-	cont "between them too!"
-	para "We've got a great"
-	line "tunnel system"
-	cont "below the region!"
-	para "CELADON's tunnel"
-	line "starts in my"
-	cont "house! Hahaha!"
-	para "Let me teach you"
-	line "how to dig down"
-	cont "to the tunnels."
+	text "Jeg ser, du kan"
+	line "FLY mellem byer"
+	cont "nu!"
+	para "Tro det eller ej,"
+	line "man kan også GRAVE"
+	cont "mellem dem!"
+	para "Vi har et"
+	line "fantastisk"
+	cont "tunnelsystem"
+	cont "under regionen!"
+	para "CELADONs tunnel"
+	line "starter i mit"
+	cont "hus! Hahaha!"
+	para "Lad mig lære dig"
+	line "hvordan man graver"
+	cont "ned til"
+	cont "tunnelerne."
 	prompt
 
 _ProspectorsHouseProspectorText3::
-	text "Have a look at"
-	line "this map!"
+	text "Tag et kig på"
+	line "dette kort!"
 	prompt
 
 _ProspectorsHouseProspectorText4::
-	text "<PLAYER> learned"
-	line "how to DIG"
-	cont "between towns!"
+	text "<PLAYER> lærte"
+	line "hvordan man GRAVER"
+	cont "mellem byer!"
 	done
 
 _ProspectorsHouseBookcase1Text::
-	text "UNDERGROUND"
-	line "#MON HABITATS@"
+	text "UNDERGRUNDS"
+	line "Pokémon-HABITATER@"
 	text_end
 
 _ProspectorsHouseBookcase1Text2::
-	text "<PARA>Often DIGLETT"
-	line "live in tunnels"
-	cont "left by burrowing"
+	text "<PARA>Ofte bor DIGLETT"
+	line "i tunneler"
+	cont "efterladt"
+	cont "af gravende"
 	cont "ONIX."
-	para "DIGLETT tends to"
-	line "burrow in search"
-	cont "of tree roots to"
-	cont "nibble on."
+	para "DIGLETT har"
+	line "tendens til at"
+	cont "grave i jagten"
+	cont "på trærødder,"
+	cont "som den kan"
+	cont "gnave i."
 	done
 
 _ProspectorsHouseBookcase2Text::
-	text "A large chunk"
-	line "of gold NUGGET!"
+	text "En stor klump"
+	line "af guld NUGGET!"
 	done
 
 _ProspectorsHouseBookcase3Text::
-	text "IGNEOUS ROCKS OF"
-	line "CINNABAR VOLCANO@"
+	text "MAGMATISKE"
+	line "BJERGARTER FRA"
+	cont "CINNABAR-VULKANEN@"
 	text_end
 
 _ProspectorsHouseBookcase3Text2::
 	text "<PARA>Obsidian:"
-	line "A black glass"
-	cont "formed by rapidly"
-	cont "cooled lava."
-	para "Rarely, deposits"
-	line "can also be found"
-	cont "near where male"
-	cont "MAGMAR fought for"
-	cont "dominance."
+	line "Et sort glas"
+	cont "dannet af hurtigt"
+	cont "afkølet lava."
+	para "Sjældent kan"
+	line "forekomster"
+	cont "også findes nær"
+	cont "hvor hanner af"
+	cont "MAGMAR kæmpede om"
+	cont "dominans."
 	done

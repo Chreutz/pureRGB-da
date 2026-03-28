@@ -1,51 +1,51 @@
 _Route16Biker1BattleText::
-	text "What do you want?"
+	text "Hvad vil du have?"
 	done
 
 _Route16Biker1EndBattleText::
-	text "Don't you"
-	line "dare laugh!"
+	text "Vov at"
+	line "grine!"
 	prompt
 
 _Route16Biker1AfterBattleText::
-	text "We like just"
-	line "hanging here,"
-	cont "what's it to you?"
+	text "Vi kan bare lide"
+	line "at hænge her,"
+	cont "hvad vedkigger dig"
 	done
 
 _Route16Biker2BattleText::
-	text "Nice BIKE!"
-	line "Hand it over!"
+	text "Fed BIKE!"
+	line "Giv den her!"
 	done
 
 _Route16Biker2EndBattleText::
-	text "Knock"
-	line "out!"
+	text "Slået"
+	line "ud!"
 	prompt
 
 _Route16Biker2AfterBattleText::
-	text "Forget it, who"
-	line "needs your BIKE!"
+	text "Glem det, hvem"
+	line "behøver din BIKE!"
 	done
 
 _Route16Biker3BattleText::
-	text "Come out and play,"
-	line "little mouse!"
+	text "Kom ud og leg,"
+	line "lille mus!"
 	done
 
 _Route16Biker3EndBattleText::
-	text "You"
-	line "little rat!"
+	text "Din"
+	line "lille rotte!"
 	prompt
 
 _Route16Biker3AfterBattleText::
-	text "I hate losing!"
-	line "Get away from me!"
+	text "Jeg hader at tabe!"
+	line "Gå væk fra mig!"
 	done
 
 _Route16biker4BattleText::
-	text "Hey, you just"
-	line "bumped me!"
+	text "Hey, du"
+	line "skubbede til mig!"
 	done
 
 _Route16Biker4EndBattleText::
@@ -53,51 +53,52 @@ _Route16Biker4EndBattleText::
 	prompt
 
 _Route16Biker4AfterBattleText::
-	text "You can also get"
-	line "to FUCHSIA from"
-	cont "VERMILION using"
-	cont "the coastal road"
-	cont "east of ROUTE 11."
+	text "Du kan også komme"
+	line "til FUCHSIA fra"
+	cont "VERMILION ved at"
+	cont "bruge kystvejen"
+	cont "øst for RUTE 11."
 	done
 
 _Route16Biker5BattleText::
-	text "I'm feeling"
-	line "hungry and mean!"
+	text "Jeg føler mig"
+	line "sulten og vred!"
 	done
 
 _Route16Biker5EndBattleText::
-	text "Bad,"
-	line "bad, bad!"
+	text "Dårligt,"
+	line "dårligt, dårligt!"
 	prompt
 
 _Route16Biker5AfterBattleText::
-	text "I like my #MON"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	text "Jeg kan lide mine"
+	line "#MON vild! De"
+	cont "flænger fjender!"
 	done
 
 _Route16Biker6BattleText::
-	text "Sure, I'll go!"
+	text "Selvfølgelig, jeg"
+	line "er med!"
 	done
 
 _Route16Biker6EndBattleText::
-	text "Don't make"
-	line "me mad!"
+	text "Gør mig"
+	line "ikke vred!"
 	prompt
 
 _Route16Biker6AfterBattleText::
-	text "I like harassing"
-	line "people with my"
-	cont "vicious #MON!"
+	text "Jeg kan lide at"
+	line "chikanere folk med"
+	cont "mine voldsomme #MON!"
 	done
 
 _Route16CyclingRoadSignText::
-	text "Enjoy the slope!"
+	text "Nyd skråningen!"
 	line "CYCLING ROAD"
 	done
 
 _Route16SignText::
-	text "ROUTE 16"
+	text "RUTE 16"
 	line "CELADON CITY -"
 	cont "FUCHSIA CITY"
 	done

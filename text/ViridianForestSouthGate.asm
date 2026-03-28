@@ -1,20 +1,21 @@
 _ViridianForestSouthGateGirlText::
-	text "Are you going to"
+	text "Skal du til"
 	line "VIRIDIAN FOREST?"
-	cont "Be careful, it's"
-	cont "a natural maze!"
+	cont "Vær forsigtig, det"
+	cont "er en naturlig"
+	cont "labyrint!"
 	done
 
 _ViridianForestSouthGateLittleGirlText::
-	text "RATTATA may be"
-	line "small, but its"
-	cont "bite is wicked!"
-	cont "Did you get one?"
+	text "RATTATA er måske"
+	line "lille, men dens"
+	cont "bid er meget ond!"
+	cont "Fik du en?"
 	done
 
 _ViridianForestSouthGateLittleGirl2Text::
-	text "You did?!"
-	para "Right on!"
-	para "You're on the path"
-	line "to cool school!"
+	text "Gjorde du?!"
+	para "Fedt nok!"
+	para "Du er på vej"
+	line "til at blive sej!"
 	done

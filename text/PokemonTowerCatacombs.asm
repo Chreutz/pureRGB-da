@@ -1,32 +1,32 @@
 _PokemonTowerCatacombsTorchedGraveText::
-	text "HERE LIES KOKO"
-	line "THE EXEGGUTOR"
-	para "KOKO tragically"
-	line "perished in a"
-	cont "house fire."
+	text "HER HVILER KOKO"
+	line "EXEGGUTOREN"
+	para "KOKO omkom"
+	line "tragisk i en"
+	cont "husbrand."
 	; fall through
 _PokemonTowerCatacombsWavedStaff::
-	para "<PLAYER> waved the"
-	line "CHANNELER's STAFF."
+	para "<PLAYER> viftede med"
+	line "MEDIUMENS STAV."
 	prompt 
 
 _PokemonTowerCatacombsTorchedGraveText2::
-	text "NEED@"
+	text "BEHØVER@"
 	text_dots 3
 	text ""
-	para "WATER@"
+	para "VAND@"
 	text_dots 3
 	text ""
-	para "NOW!@"
+	para "NU!@"
 	text_dots 3
 	text ""
 	done
 
 _PokemonTowerCatacombsMonSpeaksText::
-	text "Listen, child!"
-	para "The #MON's"
-	line "spirit speaks"
-	cont "through me:"
+	text "Lyt, barn!"
+	para "#MONnets"
+	line "ånd taler"
+	cont "gennem mig:"
 	para "@"
 	text_dots 3
 	text ""
@@ -34,365 +34,370 @@ _PokemonTowerCatacombsMonSpeaksText::
 
 _PokemonTowerCatacombsTorchedAfterText::
 	text ""
-	para "My trainer didn't"
-	line "own a fire"
-	cont "extinguisher!"
-	para "Why were they so"
-	line "short sighted??"
+	para "Min træner"
+	line "ejede ikke en"
+	cont "brandslukker!"
+	para "Hvorfor var de"
+	line "så kortsigtede??"
 	; fall through
 _PokemonTowerCatacombsSpiritDissipatedText::
 	para "@"
 	text_dots 3
 	text ""
-	para "The spirit"
-	line "seems satisfied."
-	para "It departed to"
-	line "the afterlife!"
+	para "Ånden lader"
+	line "tilfreds."
+	para "Den tog"
+	line "afsted til"
+	cont "efterlivet!"
 	done
 
 _PokemonTowerCatacombsChunkyGraveText::
-	text "HERE LIES ZAPPY"
-	line "THE RAICHU"
-	para "ZAPPY had a sudden"
-	line "heart attack"
-	cont "while sleeping.@"
+	text "HER HVILER ZAPPY"
+	line "RAICHUEN"
+	para "ZAPPY fik et"
+	line "pludseligt"
+	cont "hjerteanfald"
+	cont "mens den sov.@"
 	text_jump _PokemonTowerCatacombsWavedStaff
 
 _PokemonTowerCatacombsChunkyGraveText2::
-	text "I HUNGER@"
+	text "JEG SULTNER@"
 	text_dots 3
 	text ""
 	done
 
 _PokemonTowerCatacombsChunkyAfterText::
 	text ""
-	para "I loved my trainer"
-	line "very much!"
-	para "She gave me lots"
-	line "of yummy food!"
-	para "But I ate too"
-	line "much I think!"
-	para "Whoops!"
-	para "Do you have"
-	line "anything to eat?"
-	para "No?"
-	para "Oh well!"
-	para "I'll wait for my"
-	line "trainer in the"
-	cont "great beyond!@"
+	para "Jeg elskede min"
+	line "træner meget højt!"
+	para "Hun gav mig"
+	line "masser af"
+	cont "lækker mad!"
+	para "Men jeg spiste"
+	line "for meget tror jeg!"
+	para "Ups!"
+	para "Har du noget"
+	line "at spise?"
+	para "Nej?"
+	para "Nå, så okay!"
+	para "Jeg venter på"
+	line "min træner i det"
+	cont "store hinsides!@"
 	text_jump _PokemonTowerCatacombsSpiritDissipatedText
 
 _PokemonTowerCatacombsPainlessGraveText::
-	text "HERE LIES TUFF"
-	line "THE WIGGLYTUFF"
-	para "TUFF passed away"
-	line "due to blunt"
-	cont "force trauma.@" 
+	text "HER HVILER TUFF"
+	line "WIGGLYTUFFEN"
+	para "TUFF døde på"
+	line "grund af"
+	cont "stødtraume.@" 
 	text_jump _PokemonTowerCatacombsWavedStaff
 
 _PokemonTowerCatacombsPainlessGraveText2::
-	text "MUST@"
+	text "MÅ@"
 	text_dots 3
 	text ""
-	para "FIGHT@"
+	para "KÆMPE@"
 	text_dots 3
 	text ""
-	para "HARDER@"
+	para "HÅRDERE@"
 	text_dots 3
 	text ""
 	done
 
 _PokemonTowerCatacombsPainlessAfterText::
 	text ""
-	para "My trainer made me"
-	line "fight so hard,"
-	cont "I got permanent"
-	cont "brain damage!"
-	para "I just wanted to"
-	line "make him happy!"
-	para "We should have"
-	line "known our limits!@"
+	para "Min træner fik"
+	line "mig til at kæmpe"
+	cont "så hårdt, jeg fik"
+	cont "varig hjerneskade!"
+	para "Jeg ville bare"
+	line "gøre ham glad!"
+	para "Vi burde have"
+	line "kendt"
+	cont "vores grænser!@"
 	text_jump _PokemonTowerCatacombsSpiritDissipatedText
 
 _PokemonTowerCatacombsIrradiatedGraveText::
-	text "HERE LIES BOB"
-	line "THE HITMONCHAN"
-	para "BOB perished with"
-	line "their trainer"
-	cont "due to radiation"
-	cont "sickness.@"
+	text "HER HVILER BOB"
+	line "HITMONCHANEN"
+	para "BOB omkom med"
+	line "sin træner"
+	cont "på grund af"
+	cont "strålingssyge.@"
 	text_jump _PokemonTowerCatacombsWavedStaff
 
 _PokemonTowerCatacombsIrradiatedGraveText2::
-	text "WHAT IS"
-	line "HAPPENING@"
+	text "HVAD SKER"
+	line "DER FOR MIG??@"
 	text_dots 3
 	text ""
-	cont "TO ME??@"
-	text_dots 3
-	text ""
+	cont ""
+	cont ""
 	done
 
 _PokemonTowerCatacombsIrradiatedAfterText::
 	text ""
-	para "My trainer and I"
-	line "trespassed in a"
-	cont "restricted cave!"
-	para "We had no idea"
-	line "it was nuclear"
-	cont "waste storage!"
-	para "We shouldn't"
-	line "have gone there!@"
+	para "Min træner og jeg"
+	line "trængte ind i en"
+	cont "forbudt hule!"
+	para "Vi anede intet"
+	line "om det var"
+	cont "atomaffaldslagring!"
+	para "Vi skulle ikke"
+	line "have gået derind!@"
 	text_jump _PokemonTowerCatacombsSpiritDissipatedText
 
 _PokemonTowerCatacombsDarkChannelerText::
-	text "Kekeke, are you"
-	line "getting a bit too"
-	cont "spooked out?"
-	para "Want to go back"
-	line "upstairs?"
+	text "Kekeke, bliver du"
+	line "lidt for"
+	cont "skræmt ud?"
+	para "Vil du gå"
+	line "op igen?"
 	done
 
 _PokemonTowerCatacombsDarkChannelerTextYes::
-	text "Follow me, child!"
+	text "Følg mig, barn!"
 	done
 
 _GhostMarowakAfterGiovanniText::
 	text "<PLAYER>!"
-	para "This is GHOST"
-	line "MAROWAK speaking"
-	cont "through the"
-	cont "KARATE KING."
-	para "Thank you for"
-	line "defeating <TEAM>"
+	para "Dette er SPOGELSE"
+	line "MAROWAK der taler"
+	cont "gennem"
+	cont "KARATE KONGEN."
+	para "Tak for at"
+	line "besejre <TEAM>"
 	cont "<ROCKET>."
-	para "It was my last"
-	line "wish to help get"
-	cont "rid of them."
-	para "If you could,"
-	line "please take me"
-	cont "to the basement"
-	cont "of #MON TOWER."
-	para "There I can"
-	line "finally be laid"
-	cont "to rest."
+	para "Det var mit sidste"
+	line "ønske at hjælpe"
+	cont "med at slippe"
+	cont "af med dem."
+	para "Hvis du kunne,"
+	line "vil du gerne tage"
+	cont "mig til kælderen"
+	cont "under #MON TÅRNET."
+	para "Der kan jeg"
+	line "endelig få fred."
 	done
 
 _ViridianGymHiker3WhatText::
-	text "Huh??"
-	para "What happened?"
-	para "How'd I get over"
-	line "here?"
+	text "Hvad??"
+	para "Hvad skete der?"
+	para "Hvordan kom jeg"
+	line "her over?"
 	done
 
 _DarkChannelerGoDownText::
-	text "Hmm? I sense a"
-	line "spirit among your"
+	text "Hmm? Jeg mærker"
+	line "en ånd blandt dine"
 	cont "#MON."
-	para "Hoho! The mother"
+	para "Hoho! Moder"
 	line "MAROWAK?"
-	para "She wishes to be"
-	line "laid to rest at"
-	cont "her grave now,"
-	cont "is that it?"
-	para "It's downstairs"
-	line "in the catacombs."
-	para "I'll let you go"
-	line "down for this one"
-	cont "special case."
-	para "Want to go?"
+	para "Hun ønsker at"
+	line "blive lagt til ro"
+	cont "ved sin grav nu,"
+	cont "er det det?"
+	para "Den er nede"
+	line "i katakomberne."
+	para "Jeg lader dig"
+	line "gå ned for dette"
+	cont "specialtilfælde."
+	para "Vil du det?"
 	done
 
 _DarkChannelerCatacombsIntroText::
-	text "Just follow the"
-	line "path to reach"
-	cont "MAROWAK's grave!"
-	para "But you'll probably"
-	line "encounter some"
-	cont "restless spirits"
-	cont "along the way."
-	para "Here! Use my"
-	line "CHANNELER's STAFF."
-	para "It'll reveal and"
-	line "purify spirits"
-	cont "better than a"
+	text "Følg bare"
+	line "stien for at"
+	cont "nå MAROWAKs grav!"
+	para "Men du vil"
+	line "sikkert møde nogle"
+	cont "hvileløse ånder"
+	cont "undervejs."
+	para "Her! Brug min"
+	line "MEDIUMENS STAV."
+	para "Den afslører og"
+	line "renser ånder"
+	cont "bedre end en"
 	cont "SILPH SCOPE!"
-	para "All because of the"
-	line "special hexes I"
-	cont "put on it!"
-	para "<PLAYER> borrowed"
-	line "CHANNELER's STAFF!"
+	para "Alt sammen på"
+	line "grund af de"
+	cont "de forhekselser"
+	cont "jeg lagde på den!"
+	para "<PLAYER> lånte"
+	line "MEDIUMENS STAV!"
 	done
 
 _TorchedOnFire::
 	text "@"
 	text_ram wEnemyMonNick
 	text_start
-	line "is consumed by"
-	cont "scorching flames!"
+	line "fortæres af"
+	cont "svidende flammer!"
 	prompt
 
 _PainlessBattleInitText::
-	text "PAINLESS won't feel"
-	line "any pain from"
-	cont "your attacks!"
+	text "PAINLESS føler"
+	line "ingen smerte fra"
+	cont "dine angreb!"
 	prompt
 
 _IrradiatedBattleInitText::
-	text "Radiation spreads"
-	line "everywhere!"
+	text "Stråling spreder"
+	line "sig overalt!"
 	prompt
 
 _IrradiatedGrowsLarger::
-	text "IRRADIATED twists"
-	line "and contorts,"
-	para "its body morphing"
-	line "strangely!"
+	text "IRRADIATED vrides"
+	line "og forvrænges,"
+	para "dens krop"
+	line "forvandler sig"
+	cont "mærkeligt!"
 	prompt
 
 _CatacombsCuboneText::
-	text "Looks like CUBONE"
-	line "is visiting its"
-	cont "mother's grave."
+	text "Lader til CUBONE"
+	line "besøger sin"
+	cont "mors grav."
 	done
 
 _CatacombsMarowakTouchedText::
 	text "@"
 	text_ram_namebuffer
-	text " seems"
-	line "really happy!"
+	text " lader"
+	line "virkelig glad!"
 	done
 
 _DarkChannelerReunionText::
-	text "What a touching"
-	line "reunion!"
-	para "But @"
+	text "Sikke en rørende"
+	line "genforening!"
+	para "Men @"
 	text_ram_namebuffer
 	text ""
-	line "can't be laid to"
-	cont "rest yet!"
-	para "There's still a"
-	line "dark presence"
-	cont "around here!"
-	para "Once it's gone"
-	line "everything should"
-	cont "be ready!"
+	line "kan ikke få"
+	cont "fred endnu!"
+	para "Der er stadig et"
+	line "mørkt nærvær"
+	cont "her omkring!"
+	para "Når det er væk"
+	line "skal alt være"
+	cont "klart!"
 	done
 
 _PokemonTowerCatacombsTheMawGraveText::
-	text "HERE LIES A"
-	line "NOTORIOUS GOLBAT"
-	para "This GOLBAT killed"
-	line "its own trainer"
-	cont "and continued on"
-	cont "a violent spree."
-	para "It is unknown"
-	line "whether it had a"
-	cont "nickname.@"
+	text "HER HVILER EN"
+	line "BERØMT GOLBAT"
+	para "Denne GOLBAT"
+	line "dræbte sin egen"
+	cont "træner og"
+	cont "fortsatte på en"
+	cont "voldelig tur."
+	para "Det er ukendt"
+	line "om den havde et"
+	cont "kaldenavn.@"
 	text_jump _PokemonTowerCatacombsWavedStaff
 
 _PokemonTowerCatacombsTheMawGraveText2::
-	text "YOU DIE NOW"
+	text "DU DØR NU"
 	done
 
 _PokemonTowerB1FTheMawUsedHyperBeamText::
-	text "The dark spirit"
-	line "used HYPER BEAM!"
+	text "Den mørke ånd"
+	line "brugte HYPER BEAM!"
 	done
 
 _PokemonTowerB1FMarowakBlockedHyperBeamText::
 	text "@"
 	text_ram_namebuffer
-	text " blocked"
-	line "the HYPER BEAM"
-	cont "from hitting"
+	text " blokerede"
+	line "HYPER BEAMEN"
+	cont "fra at ramme"
 	cont "CUBONE!"
-	para "But the beam was"
-	line "too powerful!"
+	para "Men strålen var"
+	line "for kraftig!"
 	para "@"
 	text_ram_namebuffer
-	text " can't"
-	line "maintain its"
-	cont "physical form"
-	cont "anymore!"
+	text " kan ikke"
+	line "opretholde sin"
+	cont "fysiske form"
+	cont "længere!"
 	done
 
 _PokemonTowerB1FMarowakBuffedCubone::
 	text "@"
 	text_ram_namebuffer
-	text "'s spirit"
-	line "cradled CUBONE,"
-	cont "and transferred"
-	cont "all of its power!"
-	para "CUBONE joined"
-	line "your party."
+	text "s ånd"
+	line "vuggede CUBONE,"
+	cont "og overførte"
+	cont "al sin kraft!"
+	para "CUBONE sluttede"
+	line "sig til dit hold."
 	prompt
 
 _PokemonTowerB1FTheMawAttacked::
-	text "It's time to"
-	line "fight!"
-	para "The dark spirit"
-	line "attacked!"
+	text "Det er tid"
+	line "til kamp!"
+	para "Den mørke ånd"
+	line "angreb!"
 	done
 
 _CubonePoweredUp::
 	text "@"
 	text_ram wTrainerName
-	text "'s spirit"
-	line "bestowed divine"
-	cont "energy on CUBONE!"
+	text "s ånd"
+	line "gav guddommelig"
+	cont "energi til CUBONE!"
 	prompt
 
 _CuboneGainedUltimateProtection::
-	text "CUBONE gained"
+	text "CUBONE fik"
 	line "ultimate"
-	cont "protection!"
+	cont "beskyttelse!"
 	prompt
 
 _TheMawMeltedIntoShadows::
-	text "The dark spirit"
-	line "faded into the"
-	cont "shadows, never to"
-	cont "return."
+	text "Den mørke ånd"
+	line "falmede ind i"
+	cont "skyggerne, aldrig"
+	cont "og vender retur."
 	done
 
 _GhostMarowakOneLastTime::
 	text "@"
 	text_ram wTrainerName
-	text " used"
-	line "the remnants of"
-	cont "its energy to"
-	cont "show itself one"
-	cont "last time."
+	text " brugte"
+	line "resterne af sin"
+	cont "energi til at"
+	cont "vise sig en"
+	cont "sidste gang."
 	prompt
 
 _PokemonTowerGhostMarowakAfterText::
 	text ""
-	para "Thank you"
-	line "<PLAYER>!"
-	para "I can finally"
-	line "rest in peace!"
-	para "I love you CUBONE!"
-	para "But it's time for"
-	line "mother to go."
-	para "Don't be sad."
-	para "Enjoy life while"
-	line "you can-"
-	para "Goodbye<...>"
+	para "Tak <PLAYER>!"
+	para "Jeg kan endelig"
+	line "hvile i fred!"
+	para "Jeg elsker dig!"
+	para "Men det er tid for"
+	line "mor at gå."
+	para "Vær ikke trist."
+	para "Nyd livet mens"
+	line "du kan-"
+	para "Farvel<...>"
 	prompt
 
 _PokemonTowerCatacombsDoneText::
-	text "Well, thanks for"
-	line "doing my job for"
-	cont "me!"
-	para "The DARK CHANNELER"
-	line "took back her"
-	cont "CHANNELER's STAFF."
-	para "Time to go back"
-	line "upstairs!"
+	text "Nå, tak for"
+	line "at gøre arbejdet"
+	cont "for mig!"
+	para "MØRKE MEDIUM"
+	line "tog sin"
+	cont "STAVEN tilbage."
+	para "Tid til at"
+	line "gå op igen!"
 	done
 
 _PokemonTowerCatacombsGoBackDown::
-	text "Want to go"
-	line "back downstairs?"
+	text "Vil du gå"
+	line "ned igen?"
 	done

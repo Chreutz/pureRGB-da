@@ -1,34 +1,35 @@
 _FuchsiaCityYoungster1Text::
-	text "Did you try the"
-	line "SAFARI GAME? Some"
-	cont "#MON can only"
-	cont "be caught there."
+	text "Har du prøvet"
+	line "SAFARI GAME? Nogle"
+	cont "#MON kan kun"
+	cont "fanges der."
 	done
 
 _FuchsiaCityYoungster1TextColor::
-	text "Many have unique"
-	line "colors too!"
+	text "Mange har også"
+	line "unike farver!"
 	done
 
 _FuchsiaCityGamblerText::
-	text "SAFARI ZONE has a"
-	line "zoo in front of"
-	cont "the entrance."
+	text "SAFARI ZONE har et"
+	line "hegn med dyr"
+	cont "foran indgangen."
 
-	para "Out back is the"
-	line "SAFARI GAME for"
-	cont "catching #MON."
+	para "Bagerst er der"
+	line "SAFARI GAME til"
+	cont "at fange #MON."
 	done
 
 _FuchsiaCityErikText::
-	text "ERIK: Where's"
-	line "SARA? I said I'd"
-	cont "meet her here."
+	text "ERIK: Hvor er"
+	line "SARA? Jeg sagde,"
+	cont "jeg ville møde"
+	cont "hende her."
 	done
 
 _FuchsiaCityYoungster2Text::
-	text "That item ball in"
-	line "there is really a"
+	text "Den bold derinde"
+	line "er faktisk en"
 	cont "#MON."
 	done
 
@@ -37,8 +38,8 @@ _FuchsiaCityPokemonText::
 	done
 
 _FuchsiaCitySignText::
-	text "FUCHSIA CITY"
-	para "Behold! It's"
+	text "FUCHSIA BY"
+	para "Se! Det er"
 	line "Passion Pink!"
 	done
 
@@ -49,7 +50,7 @@ _FuchsiaCitySafariGameSignText::
 
 _FuchsiaCityWardensHomeSignText::
 	text "SAFARI ZONE"
-	line "WARDEN's HOME"
+	line "Vogterens hjem"
 	done
 
 _FuchsiaCitySafariZoneSignText::
@@ -60,63 +61,64 @@ _FuchsiaCitySafariZoneSignText::
 _FuchsiaCityGymSignText::
 	text "FUCHSIA CITY"
 	line "#MON GYM"
-	cont "LEADER: KOGA"
+	cont "LEDER: KOGA"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "Den giftige"
+	line "Ninja Mester"
 	done
 
 _FuchsiaCityChanseySignText::
-	text "Name: CHANSEY"
+	text "Navn: CHANSEY"
 
-	para "Catching one is"
-	line "all up to chance."
+	para "At fange en er"
+	line "helt tilfældigt."
 	prompt
 
 _FuchsiaCityVoltorbSignText::
-	text "Name: VOLTORB"
+	text "Navn: VOLTORB"
 
-	para "The very image of"
-	line "a # BALL."
+	para "Ligesom et # BALL"
+	line "i udseende."
 	prompt
 
 _FuchsiaCityKangaskhanSignText::
-	text "Name: KANGASKHAN"
+	text "Navn: KANGASKHAN"
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "Et moderligt"
+	line "#MON der"
+	cont "opdrager sine"
+	cont "unger i en pose"
+	cont "på maven."
 	prompt
 
 _FuchsiaCitySlowpokeSignText::
-	text "Name: SLOWPOKE"
+	text "Navn: SLOWPOKE"
 
-	para "Friendly and very"
-	line "slow moving."
+	para "Venligt og meget"
+	line "langsomt."
 	prompt
 
 _FuchsiaCityLaprasSignText::
-	text "Name: LAPRAS"
+	text "Navn: LAPRAS"
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "Også kendt som"
+	line "kongen af havene."
 	prompt
 
 _FuchsiaCityFossilSignOmanyteText::
-	text "Name: OMANYTE"
+	text "Navn: OMANYTE"
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "Et #MON der"
+	line "blev genoplivet"
+	cont "fra en fossil."
 	prompt
 
 _FuchsiaCityFossilSignKabutoText::
-	text "Name: KABUTO"
+	text "Navn: KABUTO"
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "Et #MON der"
+	line "blev genoplivet"
+	cont "fra en fossil."
 	prompt
 
 _FuchsiaCityFossilSignUndeterminedText::
@@ -124,31 +126,30 @@ _FuchsiaCityFossilSignUndeterminedText::
 	done
 
 _FuchsiaCityFossilFanText::
-	text "This fossil"
-	line "#MON is really"
-	cont "shy."
+	text "Dette fossil"
+	line "#MON er virkelig"
+	cont "genert."
 
-	para "It stays in its"
-	line "shell all day."
+	para "Det bliver i sin"
+	line "skal hele dagen."
 	done
 
 _FuchsiaCityFossilFanText2::
-	text "But if you wait"
-	line "quietly, it"
-	cont "occasionally"
-	cont "peeks out!"
+	text "Men hvis du venter"
+	line "roligt, kigger det"
+	cont "nogle gange frem!"
 	done
 
 _FuchsiaCityFossilFanText3::
-	text "There it is!"
+	text "Der er det!"
 	done
 
 _FuchsiaCitySoMuchInfo::
-	text "So much info"
-	line "about @"
+	text "Sikke en masse"
+	line "info om @"
 	text_ram_namebuffer
 	text "!"
-	para "Its ecology,"
-	line "physiology,"
-	cont "anatomy<...>"
+	para "Dens økologi,"
+	line "fysiologi,"
+	cont "anatomi<...>"
 	done

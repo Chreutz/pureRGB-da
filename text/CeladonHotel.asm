@@ -1,62 +1,61 @@
 _CeladonHotelGrannyText::
-	text "#MON? No, this"
-	line "is a hotel for"
-	cont "people."
+	text "#MON? Nej, dette"
+	line "er et hotel for"
+	cont "mennesker."
 
-	para "We're full up."
+	para "Vi er fyldt op."
 	done
 
 _CeladonHotelBeautyText::
-	text "I'm on vacation"
-	line "with my brother"
-	cont "and boyfriend."
+	text "Jeg er på ferie"
+	line "med min bror"
+	cont "og kæreste."
 
-	para "CELADON is such a"
-	line "pretty city!"
+	para "CELADON er en så"
+	line "flot by!"
 	done
 
 _CeladonHotelSuperNerdText::
-	text "Why did she bring"
-	line "her brother?"
+	text "Hvorfor tog hun"
+	line "sin bror med?"
 	done
 
 _CeladonChannelerIntro::
-	text "My job is to"
-	line "drive out evil"
-	cont "spirits."
-	para "I'm here on"
-	line "reports of a"
-	cont "ghostly computer."
-	para "Have you seen"
-	line "one?"
+	text "Mit job er at"
+	line "uddrive onde"
+	cont "ånder."
+	para "Jeg er her pga."
+	line "rapporter om en"
+	cont "spøgelsescomputer."
+	para "Har du set en?"
 	done
 
 _CeladonChannelerNo1::
-	text "Keep your eyes"
-	line "open!"
-	para "It could be"
-	line "anywhere in here!"
+	text "Hold øjnene"
+	line "åbne!"
+	para "Den kan være"
+	line "hvor som helst her!"
 	done
 
 _CeladonChannelerQ2::
-	text "Really?!"
-	line "Did you use it?!"
+	text "Virkelig?!"
+	line "Brugte du den?!"
 	done
 
 _CeladonHotelBattleText1::
-	text "You need to be"
-	line "exorcized!!"
+	text "Du skal ud-"
+	line "drives!!"
 	done
 
 _CeladonHotelEndBattleText1::
-	text "Begone"
-	line "evil spirits!"
+	text "Bort"
+	line "onde ånder!"
 	prompt
 
 _CeladonHotelAfterBattleText1::
-	text "This ghostly"
-	line "computer is a"
-	cont "tough one."
-	para "But I'll drive"
-	line "it away someday!"
+	text "Denne spøgelses-"
+	line "computer er en"
+	cont "hård nød."
+	para "Men jeg driver"
+	line "den væk en dag!"
 	done

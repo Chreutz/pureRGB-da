@@ -1,126 +1,130 @@
 _PokemonTower2FRivalWhatBringsYouHereText::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
+	text "<RIVAL>: Hej,"
+	line "<PLAYER>! Hvad"
+	cont "bringer dig hertil?"
+	cont "Dine #MON"
+	cont "ser ikke døde ud!"
 
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	para "Jeg kan i det"
+	line "mindste få dem til"
+	cont "at besvime!"
+	cont "Kom så, makker!"
 	done
 
 _PokemonTower2FRivalDefeatedText::
-	text "What?"
-	line "You stinker!"
+	text "Hvad?"
+	line "Din slyngel!"
 
-	para "I took it easy on"
-	line "you too!"
+	para "Jeg tog det"
+	line "let på dig!"
 	prompt
 
 _PokemonTower2FRivalVictoryText::
-	text "Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
+	text "Nå,"
+	line "se alle dine"
+	cont "klaphatte #MON!"
 
-	para "Toughen them up a"
-	line "bit more!"
+	para "Styrk dem lidt"
+	line "mere!"
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	text "Hvordan går det"
+	line "med din #DEX,"
+	cont "makker?"
+	cont "Jeg fangede lige"
+	cont "en CUBONE!"
 
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
+	para "Jeg kan ikke finde"
+	line "den voksne MAROWAK"
+	cont "endnu!"
 
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
+	para "Jeg tvivler på der"
+	line "er nogen tilbage!"
+	cont "Nå, jeg må"
+	cont "videre! Jeg har"
+	cont "meget at udrette,"
+	cont "makker!"
 
-	para "Smell ya later!"
+	para "Snuser du senere!"
 	done
 
 _PokemonTower2FChannelerText::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
+	text "Selv vi kunne ikke"
+	line "identificere de"
+	cont "forvildede"
+	cont "SPOGELSER!"
 
-	para "A @"
+	para "En @"
 	text_ram_namebuffer
 	text_start
-	line "might be able to"
-	cont "unmask them."
+	line "kan måske"
+	cont "afsløre dem."
 	done
 
 _PokemonTower2FChannelerText2::
-	text "Thanks for"
-	line "getting rid of"
+	text "Tak for at"
+	line "blive af med"
 	cont "<TEAM><ROCKET>"
-	cont "in our tower!"
+	cont "i vort tårn!"
 	done
 
 _PokemonTower2FChannelerText3::
-	text "Thanks for all"
-	line "your help!"
+	text "Tak for al"
+	line "din hjælp!"
 	done
 
 _PokemonTower2FChannelerTextBorrowSilphScope::
-	text "Before you go,"
-	line "maybe you could"
-	cont "lend me that"
+	text "Før du går,"
+	line "måske du kunne"
+	cont "låne mig den"
 	cont "@"
 	text_ram_namebuffer
 	text "?"
-	para "It'd help us"
-	line "with the wayward"
-	cont "spirits!"
-	para "I'll give it"
-	line "back whenever"
-	cont "you visit here!"
-	para "How about it?"
+	para "Det ville hjælpe"
+	line "os med de"
+	cont "forvildede ånder!"
+	para "Jeg giver den"
+	line "tilbage når som"
+	cont "helst du besøger!"
+	para "Hvad siger du?"
 	done
 
 _PokemonTower2FChannelerTextBorrowSilphScopeYes::
-	text "Perfect!"
-	para "<PLAYER> handed"
-	line "the channeler the"
+	text "Perfekt!"
+	para "<PLAYER> gav"
+	line "mediet den"
 	cont "@"
 	text_ram_namebuffer
 	text "."
 	done
 
 _PokemonTower2FChannelerTextBack::
-	text "Do you want your"
+	text "Vil du have din"
 	line "@"
 	text_ram_namebuffer
-	text " back?"
+	text " tilbage?"
 	done
 
 _PlayerGotBackItem::
-	text "<PARA><PLAYER> got back"
-	line "the @"
+	text "<PARA><PLAYER> fik"
+	line "sin @"
 	text_ram_namebuffer
-	text "!"
+	text " tilbage!"
 	done
 
 _PokemonTower2FChannelerTextBorrowAgain::
-	text "By the way<...>"
-	para "May I borrow your"
+	text "Forresten<...>"
+	para "Må jeg låne din"
 	line "@"
 	text_ram_namebuffer
-	text " again?"
+	text " igen?"
 	done
 
 _GenericWaitText::
-	text "Wait!"
+	text "Vent!"
 	done
 
 _OhHelloAgainText::
-	text "Oh, hello again!"
+	text "Åh, hej igen!"
 	done

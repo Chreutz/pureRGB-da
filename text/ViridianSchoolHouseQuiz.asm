@@ -1,248 +1,247 @@
 _SchoolB1FLeftTeacherInit::
-	text "We have a visitor"
-	line "in class-wot wot!"
+	text "Vi har en gæst"
+	line "i klassen-wot wot!"
 	prompt
 
 _SchoolB1FLeftTeacherNoParcel::
-	text "Is that so?"
-	para "You're from"
+	text "Er det sådan?"
+	para "Du kommer fra"
 	line "PALLET TOWN?"
-	para "I heard they were"
-	line "looking for a lad"
-	cont "from PALLET TOWN"
-	cont "at the #MART!"
-	para "Have a look"
-	line "over there!"
+	para "Jeg hørte de ledte"
+	line "efter en dreng fra"
+	cont "PALLET TOWN ved"
+	cont "#MARTen!"
+	para "Kig forbi der!"
 	prompt
 
 _SchoolB1FLeftTeacherNoPokedex::
-	text "Blimey! A PARCEL!"
-	para "Is it for me?"
-	para "No? Deliver it,"
-	line "my boy!"
+	text "Gu ved! En PAKKE!"
+	para "Er den til mig?"
+	para "Nej? Lever den,"
+	line "min dreng!"
 	prompt
 
 _SchoolB1FLeftTeacherLater::
-	text "Come talk to me"
-	line "later on-wot wot!"
+	text "Kom og tal med mig"
+	line "senere-wot wot!"
 	done
 
 _SchoolB1FLeftTeacherFirst::
-	text "Welcome to my"
-	line "class for #MON"
-	cont "moves-wot wot!"
-	para "I'm quite chuffed"
-	line "at the moment!"
-	para "I created a"
-	line "way to record"
-	cont "info about loads"
-	cont "of #MON moves"
-	cont "digitally!"
-	para "Brilliant stuff!"
-	para "I call it the"
+	text "Velkommen til min"
+	line "klasse for Pokémon"
+	cont "angreb-wot wot!"
+	para "Jeg er ret glad"
+	line "lige nu!"
+	para "Jeg har lavet en"
+	line "måde at gemme"
+	cont "info om masser af"
+	cont "Pokémon angreb"
+	cont "digitalt!"
+	para "Fantastisk ting!"
+	para "Jeg kalder det"
 	line "MOVEDEX!"
-	para "Proper useful!"
-	para "Want one?"
+	para "Ordentlig brugbar!"
+	para "Vil du have en?"
 	done
 
 _SchoolB1FLeftTeacherNo::
-	text "Don't be cheeky-"
+	text "Vær ikke fræk-"
 	line "wot wot!"
-	para "Let's not faff"
-	line "about!"
-	para "Come talk to me"
-	line "again if you've"
-	cont "an interest!"
+	para "Lad os ikke spilde"
+	line "tiden!"
+	para "Kom og tal med mig"
+	line "igen hvis du har"
+	cont "interesse!"
 	done
 
 _SchoolB1FLeftTeacherYes::
-	text "Capital!"
-	para "Tell you what"
-	line "good chap:"
-	para "Have a gander"
-	line "about the school-"
-	cont "learn some new"
-	cont "bits and bobs."
-	para "I'll give you"
-	line "a bit of a quiz"
-	cont "to see what you"
-	cont "learned after!"
-	para "A perfect score"
-	line "nets you the"
+	text "Perfekt!"
+	para "Hør her"
+	line "god knægt:"
+	para "Kig dig omkring"
+	line "på skolen-"
+	cont "lær noget nyt."
+	para "Jeg giver dig"
+	line "en lille quiz"
+	cont "for at se hvad du"
+	cont "har lært bagefter!"
+	para "En perfekt score"
+	line "giver dig"
 	cont "MOVEDEX!"
-	para "Off you go!"
+	para "Af sted med dig!"
 	line "Wot wot!"
 	done
 
 _SchoolB1FLeftTeacherReadyStart::
-	text "Here we are!"
-	para "How goes it?"
-	para "Ready for the"
-	line "quiz?"
+	text "Her er vi!"
+	para "Hvordan går det?"
+	para "Klar til quizz?"
 	done
 
 _SchoolB1FLeftTeacherReadyNo::
-	text "Take your time."
+	text "Tag din tid."
 	done
 
 _SchoolB1FLeftTeacherReadyYes::
 	text "Righto!"
-	para "Let the quiz"
-	line "commence!"
+	para "Lad quizzen"
+	line "begynde!"
 	prompt
 
 _SchoolB1FLeftTeacherQuizQuestion1::
-	text "Question 1:"
-	para "Which move TYPE"
-	line "is great against"
-	cont "WATER #MON?"
+	text "Spørgsmål 1:"
+	para "Hvilken angrebs"
+	line "TYPE er god mod"
+	cont "WATER Pokémon?"
 	prompt
 
 _SchoolB1FLeftTeacherQuizQuestion2::
-	text "Question 2:"
-	para "Which move always"
-	line "goes first?"
+	text "Spørgsmål 2:"
+	para "Hvilket angreb går"
+	line "altid først?"
 	prompt
 
 _SchoolB1FLeftTeacherQuizQuickAttack::
 	text "Ah, QUICK ATTACK."
-	para "Quite the"
-	line "bog-standard move"
-	cont "shall we say?"
-	para "Terribly useful"
-	line "though. Wot-wot!"
+	para "Et ganske"
+	line "almindeligt angreb"
+	cont "skal vi sige?"
+	para "Meget brugbar"
+	line "dog. Wot-wot!"
 	prompt
 
 _SchoolB1FLeftTeacherQuizQuestion3::
-	text "Question 3:"
-	para "Which status cuts"
-	line "the ATTACK stat?"
+	text "Spørgsmål 3:"
+	para "Hvilken status"
+	line "sænker ATTACK"
+	cont "stat?"
 	prompt
 
 _SchoolB1FLeftTeacherQuizQuestion4::
-	text "Question 4:"
-	para "Which move has"
-	line "properties of"
-	cont "multiple TYPEs?"
+	text "Spørgsmål 4:"
+	para "Hvilket angreb har"
+	line "egenskaber af"
+	cont "flere TYPEr?"
 	prompt
 
 _SchoolB1FLeftTeacherQuizQuestion5::
-	text "Question 5:"
-	para "Which move gets"
-	line "bonus damage when"
-	cont "used by SQUIRTLE?"
+	text "Spørgsmål 5:"
+	para "Hvilket angreb får"
+	line "bonus skade når"
+	cont "brugt af SQUIRTLE?"
 	prompt
 
 _SchoolB1FLeftTeacherQuizCorrect::
-	text "That's correct!"
-	line "Brilliant work!"
+	text "Det er korrekt!"
+	line "Fantastisk arbejde!"
 	prompt
 
 _SchoolB1FLeftTeacherQuizWrong::
-	text "I'm afraid you've"
-	line "got this one"
-	cont "wrong-wot wot!"
-	para "Fiddlesticks!"
-	para "Try again after"
-	line "learning more!"
+	text "Jeg er bange for"
+	line "du har fået denne"
+	cont "forkert-wot wot!"
+	para "Fandme!"
+	para "Prøv igen efter"
+	line "at have lært mere!"
 	done
 
 _SchoolB1FLeftTeacherQuizFinish::
-	text "That's the lot!"
-	para "You've done it!"
-	para "You answered all"
-	line "5 questions!"
-	para "The MOVEDEX is"
-	line "yours!"
+	text "Det var det!"
+	para "Du har gjort det!"
+	para "Du svarede alle"
+	line "5 spørgsmål!"
+	para "MOVEDEX er din!"
 	prompt
 
 _ReceivedMovedexText::
-	text "<PLAYER> received"
-	line "the MOVEDEX!"
+	text "<PLAYER> modtog"
+	line "MOVEDEX!"
 	done
 
 
 _SchoolB1FLeftTeacherQuizFinalInfo::
-	text "Every time you"
-	line "see a #MON use"
-	cont "a new move, it'll"
-	cont "show up in the"
+	text "Hver gang du"
+	line "ser et Pokémon"
+	cont "bruge et nyt"
+	cont "angreb, vil det"
+	cont "dukke op i"
 	cont "MOVEDEX-wot wot!"
-	para "Just open up your"
-	line "#DEX and press"
+	para "Bare åbn din"
+	line "#DEX og tryk"
 	cont "START!"
 	done
 
 _SchoolB1FLeftTeacherEnd::
-	text "That's it then!"
-	para "On a #MON"
-	line "adventure was it?"
-	para "Off to VIRIDIAN"
-	line "FOREST I presume?"
-	para "Head north out"
-	line "of the city!"
-	para "Good luck!"
+	text "Så er det det!"
+	para "På et Pokémon"
+	line "eventyr var det?"
+	para "Afsted til"
+	line "VIRIDIAN FOREST?"
+	para "Gå nord ud af"
+	line "byen!"
+	para "Held og lykke!"
 	line "Wot wot!"
 	done
 
 
 
 _SchoolB1FLeftBookcaseA::
-	text "HAUNTED SITES"
-	line "OF THE WORLD@"
+	text "HUSETTEDE STEDER"
+	line "I VERDEN@"
 	text_end
 _FlippedToARandomPage::
-	text "<PARA>Flipped to a"
-	line "random page<...>@"
+	text "<PARA>Bladrede til en"
+	line "tilfældig side<...>@"
 	text_end
 _SchoolB1FLeftBookcaseA2::
-	text "<PARA>UNEXPLAINED"
-	line "PHENOMENA"
-	para "Many trainers"
-	line "have reported"
-	cont "strange eerie"
-	cont "hallucinations"
-	cont "along the eastern"
-	cont "coast of CINNABAR"
+	text "<PARA>UFORKLAREDE"
+	line "FÆNOMENER"
+	para "Mange trænere"
+	line "har rapporteret"
+	cont "mærkelige vilde"
+	cont "hallucinationer"
+	cont "langs østkysten"
+	cont "af CINNABAR"
 	cont "ISLAND."
 	done
 
 _SchoolB1FLeftBookcaseB::
-	text "TWO YEARS WITH"
-	line "THE CLEFAIRY@"
+	text "TO ÅR MED"
+	line "CLEFAIRY@"
 	text_end
 _SchoolB1FLeftBookcaseB2::
-	text "<PARA>On day 234,"
-	line "I witnessed many"
-	cont "CLEFAIRY dancing"
-	cont "around a giant"
-	cont "glimmering stone."
+	text "<PARA>På dag 234"
+	line "var jeg vidne til"
+	cont "mange CLEFAIRY"
+	cont "der dansede omkring"
+	cont "en kæmpe glitrende"
+	cont "sten."
 	done
 
 _SchoolB1FRightBookcaseA::
-	text "THE BIG BOOK"
-	line "OF RATTATA@"
+	text "DEN STORE BOG"
+	line "OM RATTATA@"
 	text_end
 _SchoolB1FRightBookcaseA2::
-	text "<PARA>RATTATA often"
-	line "sneak into"
-	cont "homes to pilfer"
-	cont "food, warm"
-	cont "fabric, or even"
-	cont "chewable wood!"
+	text "<PARA>RATTATA sniger"
+	line "sig ofte ind i"
+	cont "hjem for at stjæle"
+	cont "mad, varm"
+	cont "stof, eller endda"
+	cont "tyggeligt træ!"
 	done
 
 _SchoolB1FRightBookcaseB::
-	text "ALL-NATURAL"
-	line "LAWN TRIMMING@"
+	text "NATURLIG"
+	line "PLÆNEPLEJE@"
 	text_end
 _SchoolB1FRightBookcaseB2::
-	text "<PARA>There's no need"
-	line "for tools!"
-	para "Simply teach a"
-	line "#MON the move"
-	cont "CUT and let it"
-	cont "hack away!"
-	para "Watch that tall"
-	line "grass disappear!"
+	text "<PARA>Der er ikke brug"
+	line "for værktøj!"
+	para "Lær blot et"
+	line "Pokémon angrebet"
+	cont "CUT og lad det"
+	cont "hugge løs!"
+	para "Se det høje"
+	line "græs forsvinde!"
 	done

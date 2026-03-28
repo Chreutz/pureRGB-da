@@ -1,31 +1,33 @@
 _RockTunnelPokecenterGentlemanText::
-	text "The element types"
-	line "of #MON make"
-	cont "them stronger"
-	cont "than some types"
-	cont "and weaker than"
-	cont "others!"
+	text "ELEMENTTYPERNE"
+	line "hos Pokémon gør"
+	cont "dem stærkere"
+	cont "end nogle typer"
+	cont "og svagere end"
+	cont "andre!"
 	done
 
 _RockTunnelPokecenterFisherText::
-	text "I sold a useless"
-	line "NUGGET for ¥5000!"
+	text "Jeg solgte en"
+	line "ubrugelig NUGGET"
+	cont "for ¥5000!"
 	done
 
 _RockTunnelCharityNurseText1::
-	text "Welcome to our"
-	line "#MON CENTER!"
-	para "Would you like to"
-	line "donate ¥3000 to"
-	cont "helping sick"
-	cont "#MON?"
+	text "Velkommen til vores"
+	line "Pokémon CENTER!"
+	para "Vil du donere"
+	line "¥3000 til at"
+	cont "hjælpe syge"
+	cont "Pokémon?"
 	done
 
 _RockTunnelCharityNurseText2::
-	text "How generous!"
-	para "Here's a #MON"
-	line "CENTER secret:"
-	para "Hold B before"
-	line "talking to the"
-	cont "nurse!"
+	text "Hvor generøst!"
+	para "Her er en Pokémon"
+	line "CENTER-"
+	cont "hemmelighed:"
+	para "Hold B nede før"
+	line "du taler med"
+	cont "sygeplejersken!"
 	done

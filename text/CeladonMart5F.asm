@@ -1,25 +1,24 @@
 _CeladonMart5FGentlemanText::
-	text "#MON ability"
-	line "enhancers can be"
-	cont "bought only here."
+	text "#MON evne-"
+	line "forstærkere kan"
+	cont "kun købes her."
 
-	para "Use CALCIUM to"
-	line "increase SPECIAL"
-	cont "abilities."
+	para "Brug CALCIUM til"
+	line "at øge SPECIELLE"
+	cont "evner."
 
-	para "Use CARBOS to"
-	line "increase SPEED."
+	para "Brug CARBO til"
+	line "at øge HASTIGHED."
 	done
 
 _CeladonMart5FSailorText::
-	text "I'm here for"
-	line "#MON ability"
-	cont "enhancers."
+	text "Jeg er her for"
+	line "#MON evne-"
+	cont "forstærkere."
 
-	para "PROTEIN increases"
-	line "ATTACK power."
+	para "PROTEIN øger"
+	line "ANGREBSstyrke."
 
-	para "IRON increases"
-	line "DEFENSE!"
+	para "JERN øger"
+	line "FORSVAR!"
 	done
-

@@ -1,75 +1,76 @@
 _SilphCo1FLinkReceptionistText::
-	text "Welcome!"
+	text "Velkommen!"
 
-	para "The PRESIDENT is"
-	line "in the boardroom"
-	cont "on 11F!"
+	para "Præsidenten er"
+	line "i bestyrelses-"
+	cont "lokalet på 11."
+	cont "etage!"
 	done
 
 _SilphCo1FBattleText1::
-	text "Trying to escape?"
-	para "<TEAM><ROCKET> is"
-	line "going down!"
+	text "Prøver du at"
+	line "flygte?"
+	para "<TEAM><ROCKET> er"
+	line "færdige!"
 	done
 
 _SilphCo1FEndBattleText1::
-	text "Oh,"
-	line "you're not a"
+	text "Åh,"
+	line "du er ikke en"
 	cont "<ROCKET>?"
 	prompt
 
 _SilphCo1FAfterBattleText1::
-	text "The police force"
-	line "is cleaning up"
-	cont "the streets."
-	para "We're here to"
-	line "clean out the"
-	cont "<ROCKET>s in their"
-	cont "stead."
-	para "But I guess our"
-	line "job is already"
-	cont "done!"
+	text "Politiet rydder"
+	line "op i gaderne."
+	para "Vi er her for at"
+	line "jage <ROCKET>s"
+	cont "ud i deres sted."
+	para "Men vort arbejde"
+	line "er åbenbart"
+	cont "allerede udført!"
 	done
 
 _SilphCo1FBattleText2::
-	text "Looks like you"
-	line "did our job for"
-	cont "us!"
-	para "Now I need"
-	line "something to do!"
+	text "Det ser ud til,"
+	line "at du gjorde"
+	cont "vores arbejde"
+	cont "for os!"
+	para "Nu skal jeg bruge"
+	line "noget at lave!"
 	done
 
 _SilphCo1FEndBattleText2::
-	text "So"
-	line "crazy!"
+	text "Så"
+	line "skørt!"
 	prompt
 
 _SilphCo1FAfterBattleText2::
-	text "Did you take"
-	line "down <TEAM><ROCKET>"
-	cont "here all on your"
-	cont "own?!"
+	text "Nedkæmpede du"
+	line "<TEAM><ROCKET>"
+	cont "helt på egen"
+	cont "hånd?!"
 	done
 
 _SilphCo1FBattleText3::
-	text "Hold it right"
-	line "there!"
+	text "Stands lige der!"
 	done
 
 _SilphCo1FEndBattleText3::
-	text "Wait,"
-	line "you're not one of"
-	cont "them?"
+	text "Vent,"
+	line "du er ikke en af"
+	cont "dem?"
 	prompt
 
 _SilphCo1FAfterBattleText3::
-	text "I was ready to"
-	line "kick some <ROCKET>"
-	cont "behind in battle!"
+	text "Jeg var klar til"
+	line "at sparke noget"
+	cont "<ROCKET>-bagdel i"
+	cont "kamp!"
 	done
 
 _SilphCo1FBattleText4::
-	text "Who are you?"
+	text "Hvem er du?"
 	done
 
 _SilphCo1FEndBattleText4::
@@ -78,15 +79,15 @@ _SilphCo1FEndBattleText4::
 	prompt
 
 _SilphCo1FAfterBattleText4::
-	text "You'd better"
-	line "get out of here."
-	para "Some crazy <ROCKET>"
-	line "on FIREFIGHTER"
-	cont "#MON battles"
-	cont "are about to"
-	cont "happen."
-	para "Wait a minute<...>"
-	para "All the <ROCKET>s"
-	line "left?!"
-	para "It can't be<...>"
+	text "Du bør nok"
+	line "komme væk herfra."
+	para "Der er vilde"
+	line "#MON-kampe mod"
+	cont "<TEAM><ROCKET> i"
+	cont "gang."
+	para "Vent lidt<...>"
+	para "Er alle <TEAM><ROCKET>"
+	line "væk?!"
+	para "Det kan ikke"
+	line "passe<...>"
 	done

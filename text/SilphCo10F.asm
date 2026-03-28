@@ -1,42 +1,43 @@
 _SilphCo10FSilphWorkerFImScaredText::
 	text "Waaaaa!"
-	para "I'm scared!"
+	para "Jeg er bange!"
 	done
 
 _SilphCo10FSilphWorkerFQuietAboutMyCryingText::
-	text "Please keep quiet"
-	line "about my crying!"
+	text "Hold venligst mund"
+	line "om min græden!"
 	done
 
 _SilphCo10FRocketBattleText::
-	text "Welcome to the"
-	line "10F! So good of"
-	cont "you to join me!"
+	text "Velkommen til"
+	line "10F! Så pænt af"
+	cont "dig at slutte dig"
+	cont "til mig!"
 	done
 
 _SilphCo10FRocketEndBattleText::
-	text "I'm"
-	line "stunned!"
+	text "Jeg er"
+	line "lamslået!"
 	prompt
 
 _SilphCo10FRocketAfterBattleText::
-	text "Nice try, but the"
-	line "boardroom is up"
-	cont "one more floor!"
+	text "Pænt forsøg, men"
+	line "bestyrelseslokalet"
+	cont "er en etage oppe!"
 	done
 
 _SilphCo10FScientistBattleText::
-	text "Enough of your"
-	line "silly games!"
+	text "Nok af dine"
+	line "fjollede lege!"
 	done
 
 _SilphCo10FScientistEndBattleText::
-	text "No"
-	line "continues left!"
+	text "Ingen"
+	line "continues tilbage!"
 	prompt
 
 _SilphCo10FScientistAfterBattleText::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "Er du tilfreds"
+	line "med at slå mig?"
+	cont "Så gå hjem!"
 	done

@@ -1,121 +1,128 @@
 _GameCornerPrizeRoomBaldingGuyText::
-	text "I sure do fancy"
-	line "that PORYGON!"
+	text "Jeg er virkelig"
+	line "vild med den"
+	cont "PORYGON!"
 
-	para "But, it's hard to"
-	line "win at slots!"
+	para "Men, det er svært"
+	line "at vinde ved"
+	cont "spillemaskinerne!"
 	done
 
 _GameCornerPrizeRoomGamblerText::
-	text "I had a major"
-	line "haul today!"
+	text "Jeg fik et kæmpe"
+	line "udbytte i dag!"
 	done
 
 _GameCornerPrizeRoomPrizeMasterText::
-	text "They call me"
-	line "the @"
+	text "De kalder mig"
+	line "@"
 	text_ram wTrainerName
 	text "!"
-	para "I've purchased one"
-	line "of every prize!"
-	para "That's why they"
-	line "gave me this"
-	cont "commemorative"
-	cont "paper crown!"
-	para "Jealous?"
+	para "Jeg har købt en"
+	line "af hver pris!"
+	para "Derfor gav de mig"
+	line "denne minde-"
+	cont "papirkrone!"
+	para "Misundelig?"
 	prompt
 
 _GameCornerPrizeRoomPrizeMasterAgainText::
-	text "I'm the @"
+	text "Jeg er @"
 	text_ram wTrainerName
 	text "!"
 	prompt
 
 _GameCornerPrizeRoomInfoText::
-	text "Show me one of the"
-	line "prize #MON!"
-	para "I'll fill you in"
-	line "about it!"
-	para "So, got any prize"
-	line "#MON to show?"
+	text "Vis mig en af"
+	line "præmie-#MON'ene!"
+	para "Jeg fortæller dig"
+	line "om den!"
+	para "Så, har du nogen"
+	line "præmie-#MON at"
+	cont "vise?"
 	done
 
 _GameCornerPrizeRoomLetsSeeText::
-	text "Woohoo!"
-	line "Which one?"
+	text "Wohoo!"
+	line "Hvilken en?"
 	prompt
 
 _JynxPrizeKingText::
 	text "@"
 	text_ram_namebuffer
-	text " is a"
-	line "powerful and fast"
-	cont "#MON that"
-	cont "is great with"
-	cont "SPECIAL attacks!"
+	text " er et"
+	line "stærkt og hurtigt"
+	cont "#MON der er"
+	cont "godt til SPECIELLE"
+	cont "angreb!"
 	done
 
 _ElectabuzzPrizeKingText::
 	text "@"
 	text_ram_namebuffer
-	text " can"
-	line "dish out both"
-	cont "strong PHYSICAL"
-	cont "or SPECIAL moves!"
-	para "It can heal up"
-	line "with DRAIN PUNCH!"
+	text " kan"
+	line "uddele både stærke"
+	cont "FYSISKE eller"
+	cont "SPECIELLE angreb!"
+	para "Den kan heale op"
+	line "med DRAIN PUNCH!"
 	done
 
 _TangelaPrizeKingText::
 	text "@"
 	text_ram_namebuffer
-	text " has"
-	line "crazy DEFENSE!"
-	para "It learns SPORE"
-	line "and DREAM EATER!"
-	para "On top of that,"
+	text " har"
+	line "skørt FORSVAR!"
+	para "Den lærer SPORE"
+	line "og DREAM EATER!"
+	para "Oveni det,"
 	line "DEFENSE CURL!"
-	para "What else could"
-	line "you want?!"
+	para "Hvad mere kunne"
+	line "du ønske dig?!"
 	done
 
 _DratiniPrizeKingText::
 	text "@"
 	text_ram_namebuffer
-	text " is a rare"
-	line "DRAGON #MON."
-	para "It may seem weak,"
-	para "But if you evolve"
-	line "it, it'll become"
-	cont "unstoppable!"
+	text " er et sjældent"
+	line "DRAGE #MON."
+	para "Det kan virke"
+	line "svagt,"
+	para "Men hvis du"
+	line "udvikler det,"
+	cont "bliver det"
+	cont "uovervindeligt!"
 	done
 
 _DittoPrizeKingText::
 	text "@"
 	text_ram_namebuffer
-	text " can do only"
-	line "one thing:"
-	para "Transform into a"
-	line "copy of your foe!"
+	text " kan kun"
+	line "én ting:"
+	para "Forvandle sig"
+	line "til en kopi af"
+	cont "din fjende!"
 	done
 
 _PorygonPrizeKingText::
 	text "@"
 	text_ram_namebuffer
-	text " huh."
-	para "So you managed to"
-	line "get one as well."
-	para "That makes only"
-	line "two people ever!"
+	text " hva'."
+	para "Så du formåede at"
+	line "få en også."
+	para "Det gør kun to"
+	line "personer"
+	cont "nogensinde!"
 	para "@"
 	text_ram_namebuffer
-	text " gets some"
-	line "crazy good moves!"
+	text " får nogle"
+	line "vanvittigt gode"
+	cont "angreb!"
 	para "TRI ATTACK"
-	line "and CONVERSION"
-	cont "are insane!"
+	line "og CONVERSION"
+	cont "er sindssyge!"
 	done
 
 _PrizeKingGotAnotherText::
-	text "Got another?"
+	text "Har du en mere?"
 	done

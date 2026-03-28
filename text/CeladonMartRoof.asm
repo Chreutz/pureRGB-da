@@ -1,19 +1,19 @@
 _CeladonMartRoofLittleGirlGiveHerWhichDrinkText::
-	text "Give her which"
-	line "drink?"
+	text "Giv hende hvilken"
+	line "drik?"
 	done
 
 _CeladonMartRoofLittleGirlYayText::
-	text "Yay!"
+	text "Hurra!"
 
 	para "@"
 	text_ram_namebuffer
 	text "!"
 
-	para "Thank you!"
+	para "Tak skal du have!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Du kan få dette"
+	line "fra mig!@"
 	text_end
 
 _CeladonMartRoofLittleGirlTM13ExplanationText::
@@ -21,11 +21,12 @@ _CeladonMartRoofLittleGirlTM13ExplanationText::
 
 	para "@"
 	text_ram_stringbuffer
-	text " contains"
-	line "ICE BEAM!"
+	text " indeholder"
+	line "ISSTRÅLE!"
 
-	para "It can freeze the"
-	line "target sometimes!@"
+	para "Den kan nogle"
+	line "gange fryse"
+	cont "målet!@"
 	text_end
 
 _CeladonMartRoofLittleGirlTM48ExplanationText::
@@ -33,11 +34,12 @@ _CeladonMartRoofLittleGirlTM48ExplanationText::
 
 	para "@"
 	text_ram_stringbuffer
-	text " contains"
-	line "ROCK SLIDE!"
+	text " indeholder"
+	line "STENSKRED!"
 
-	para "It can spook the"
-	line "target sometimes!@"
+	para "Den kan nogle"
+	line "gange skræmme"
+	cont "målet!@"
 	text_end
 
 _CeladonMartRoofLittleGirlTM49ExplanationText::
@@ -45,71 +47,72 @@ _CeladonMartRoofLittleGirlTM49ExplanationText::
 
 	para "@"
 	text_ram_stringbuffer
-	text " contains"
-	line "GLARE!"
-	para "It paralyzes the"
-	line "target with a"
-	cont "piercing gaze!@"
+	text " indeholder"
+	line "BLIK!"
+	para "Den lammer målet"
+	line "med et gennembor-"
+	cont "ende blik!@"
 	text_end
 
 _CeladonMartRoofLittleGirlNoRoomText::
-	text "You don't have"
-	line "space for this!@"
+	text "Du har ikke plads"
+	line "til dette!@"
 	text_end
 
 _CeladonMartRoofLittleGirlImNotThirstyText::
-	text "No thank you!"
-	line "I'm not thirsty"
-	cont "after all!@"
+	text "Nej tak!"
+	line "Jeg er ikke"
+	cont "tørstig alligevel!@"
 	text_end
 
 _CeladonMartRoofSuperNerdText::
-	text "My sister is a"
-	line "trainer, believe"
-	cont "it or not."
+	text "Min søster er en"
+	line "træner, tro det"
+	cont "eller ej."
 
-	para "But, she's so"
-	line "immature, she"
-	cont "drives me nuts!"
+	para "Men, hun er så"
+	line "umoden, hun"
+	cont "driver mig til"
+	cont "vanvid!"
 	done
 
 _CeladonMartRoofLittleGirlImThirstyText::
-	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	text "Jeg er tørstig!"
+	line "Jeg vil have noget"
+	cont "at drikke!"
 	done
 
 _CeladonMartRoofLittleGirlGiveHerADrinkText::
-	text "Give her a drink?"
+	text "Giv hende en drik?"
 	done
 
 _VendingMachineText1::
-	text "A vending machine!"
-	line "Here's the menu!"
+	text "En automat!"
+	line "Her er menuen!"
 	prompt
 
 _VendingMachineText4::
-	text "Oops, not enough"
-	line "money!"
+	text "Ups, ikke nok"
+	line "penge!"
 	done
 
 _VendingMachineText5::
 	text_ram_stringbuffer
 	text_start
-	line "popped out!"
+	line "faldt ud!"
 	prompt
 	done
 
 _VendingMachineText6::
-	text "There's no more"
-	line "room for stuff!"
+	text "Der er ikke mere"
+	line "plads til ting!"
 	done
 
 _VendingMachineText7::
-	text "Not thirsty!"
+	text "Ikke tørstig!"
 	done
 
 _VendingMachineText8::
-	text "That's enough"
-	line "of that!"
+	text "Det er nok"
+	line "af det!"
 	done

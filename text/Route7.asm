@@ -1,47 +1,48 @@
 _Route7UndergroundPathSignText::
-	text "UNDERGROUND PATH"
+	text "UNDERGRUNDSSTI"
 	line "CELADON CITY -"
 	cont "LAVENDER TOWN"
 	done
 
 _Route7BattleText1::
-	text "I'm the oldest"
-	line "gambler alive!"
+	text "Jeg er den ældste"
+	line "spiller i live!"
 	done
 
 _Route7EndBattleText1::
-	text "You"
-	line "don't believe me?"
+	text "Du"
+	line "tror ikke på mig?"
 	prompt
 
 _Route7AfterBattleText1::
-	text "Don't listen to"
-	line "what the other"
-	cont "guy says to you."
-	para "I was a GAMBLER"
-	line "when he was in"
-	cont "diapers!"
+	text "Lyt ikke til"
+	line "hvad den anden"
+	cont "fyr siger til dig."
+	para "Jeg var en SPILLER"
+	line "da han var i"
+	cont "bleer!"
 	done
 
 _Route7BattleText2::
-	text "I invented"
-	line "gambling when I"
-	cont "was young!"
+	text "Jeg opfandt"
+	line "spil da jeg var"
+	cont "ung!"
 	done
 
 _Route7EndBattleText2::
-	text "Listen"
-	line "to me!"
+	text "Lyt"
+	line "til mig!"
 	prompt
 
 _Route7AfterBattleText2::
-	text "Don't believe"
-	line "what the other"
-	cont "guy says to you."
+	text "Tro ikke på"
+	line "hvad den anden"
+	cont "fyr siger til dig."
 	para "CELADON CITY"
-	line "wouldn't be the"
-	cont "same without my"
-	cont "gambling!"
-	para "I lost more money"
-	line "than anyone else!"
-	done	
+	line "ville ikke være"
+	cont "det samme uden mit"
+	cont "spil!"
+	para "Jeg tabte flere"
+	line "penge end nogen"
+	cont "anden!"
+	done
