@@ -72,14 +72,6 @@ _FossilGuyComeBackLater::
 	line "senere."
 	done
 
-_FossilGuysCat3::
-	text "Hun er god"
-	line "til at finde"
-	cont "gamle mønter!"
-	para "Hun er som en"
-	line "metaldetektor!"
-	done
-
 _FossilGuyHaveOldAmber::
 	text "Er det AMBER?!"
 	line "Wow, se på den!"
@@ -118,17 +110,6 @@ _FossilGuyGiveAerodactyl::
 	para "Ta-dah!"
 	prompt
 
-_FossilGuyComeBackLater::
-	text "Kom tilbage"
-	line "senere."
-	done
-
-_FossilGuysCat3::
-	text "Hun er god til"
-	line "at finde mønter!"
-	para "Hun er som en"
-	line "metaldetektor!"
-	done
 
 _FossilGuyEndingText::
 	text "Forskning handler"

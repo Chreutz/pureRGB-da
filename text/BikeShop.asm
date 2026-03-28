@@ -1,4 +1,3 @@
-```
 _BikeShopClerkWelcomeText::
 	text "Hej! Velkommen til"
 	line "vores CYKELBUTIK."
@@ -138,4 +137,3 @@ _BikeShopArcade3Text::
 	line "avis gennem et"
 	cont "vindue!"
 	done
-```

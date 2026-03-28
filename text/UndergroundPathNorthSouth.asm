@@ -27,24 +27,12 @@ _UndergroundPathNorthSouthBattleText2::
 	para "Udfordring starter!"
 	done
 
-_UndergroundPathNorthSouthEndBattleText2::
-	text "Knock-"
-	line "out!"
-	prompt
- 
 _UndergroundPathNorthSouthAfterBattleText2::
 	text "At kæmpe i"
 	line "svagt lys er en"
 	cont "af de sejeste"
 	cont "ting!"
 	para "Er du ikke enig?"
-	done
-
-_UndergroundPathNorthSouthBattleText3::
-	text "Undergrunds-"
-	line "kampklub!"
-	para "Invitation!"
-	para "Lad os køre!"
 	done
 
 _UndergroundPathNorthSouthEndBattleText3::

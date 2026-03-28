@@ -56,31 +56,6 @@ _SafariZoneCenterEngineerAfterBattleText::
 	line "rske på POKéMON"
 	cont "CENTERET."
 	done
-...
-_SafariZoneCenterRockerAfterBattleText::
-	text "Hvad? Forventede"
-	line "du ikke, at en"
-	cont "ROCKER så blid?"
-	done	
-...
-_SafariZoneCenterManiacText::
-	text "Lad mig præsen-"
-	line "tere Team"
-	cont "Brushfire!"
-	done
-
-
-_SafariZoneCenterRockerText::
-	text "Forsigtig! Skræm"
-	line "ikke de vilde"
-	cont "POKéMON!"
-	para "Jeg vil fodre"
-	line "dem med hånden!"
-	done
-
-_SafariZoneCenterRockerEndBattleText::
-	text "Slap af!"
-	prompt
 
 _SafariZoneCenterRockerAfterBattleText::
 	text "Hvad? Forventede"

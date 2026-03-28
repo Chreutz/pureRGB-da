@@ -1,1 +1,0 @@
-It seems you've provided an empty ASM text file. If you have any specific text that needs translation, please provide it, and I'll be happy to assist!

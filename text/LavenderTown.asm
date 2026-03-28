@@ -64,8 +64,3 @@ _LavenderTownPokemonHouseSignText::
 	line "#MON HJEM"
 	done
 
-_LavenderTownPokemonTowerSignText::
-	text "Må #MONners"
-	line "Sjæle Hvile i Fred"
-	cont "#MON TÅRNET"
-	done

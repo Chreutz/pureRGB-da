@@ -38,7 +38,7 @@ _VermilionMartTMKidFlavor::
 	para "Han gav sin"
 	line "godkendelse til"
 	cont "min lille"
-	cont """forretning""!@"
+	cont "forretning!@"
 	text_end
 
 _TMKidWantSomeTMsText::
