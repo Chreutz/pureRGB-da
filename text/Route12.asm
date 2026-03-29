@@ -89,7 +89,7 @@ _Route12CooltrainerMEndBattleText::
 
 _Route12CooltrainerMAfterBattleText::
 	text "Jeg kunne have"
-	line "fået mit #MON"
+	line "fået min #MON"
 	cont "til at udvikle sig"
 	cont "med MOON STONE!"
 	done
@@ -197,7 +197,7 @@ _Route12AfterBattleText8::
 _ShellderLearnset::
 	text "Jeg hørte SHELLDER"
 	line "udvikler sig til"
-	cont "et #MON med"
+	cont "en #MON med"
 	cont "monsterligt gode"
 	cont "stats!"
 	para "Derfor fik jeg en!"
@@ -253,7 +253,7 @@ _Route12MetronomeGamblerEndBattleText::
 	para "Hej makker!"
 	para "Hvad med at jeg"
 	line "lærer METRONOME"
-	cont "til dit #MON?"
+	cont "til din #MON?"
 	para "Det er sjovt!"
 	prompt
 
@@ -263,7 +263,7 @@ _Route12MetronomeGamblerMetronomeTeachText::
 	cont "der skal til for"
 	cont "at ændre et liv!"
 	para "Så hvad siger du?"
-	para "Skal jeg lære et"
+	para "Skal jeg lære en"
 	line "#MON METRONOME?"
 	done
 

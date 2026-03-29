@@ -192,8 +192,8 @@ _Route8Gambler2AfterBattleText::
 	done
 
 _Route8CooltrainerF4BattleText::
-	text "Hvad er et sødt,"
-	line "rundt og blødt"
+	text "Hvad er en sød,"
+	line "rund og blød"
 	cont "#MON?"
 	done
 

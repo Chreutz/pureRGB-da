@@ -110,14 +110,14 @@ _PokemonMansion2FDiary1Text::
 	text "Dagbog: 5. juli"
 	line "Guyana,"
 	cont "Sydamerika"
-	para "Et nyt #MON blev"
+	para "En ny #MON blev"
 	line "opdaget dybt"
 	cont "inde i junglen."
 	done
 
 _PokemonMansion2FDiary2Text::
 	text "Dagbog: 10. juli"
-	line "Vi døbte det"
+	line "Vi døbte den"
 	cont "nyopdagede"
 	cont "#MON, MEW."
 	done

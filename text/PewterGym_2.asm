@@ -31,14 +31,14 @@ _TM34ExplanationText::
 	cont "Så når du bruger"
 	cont "en til at lære en"
 	cont "ny teknik, så vælg"
-	cont "#MON'et omhyggeligt!"
+	cont "din #MON omhyggeligt!"
 
 	para "@"
 	text_ram_stringbuffer
 	text " indeholder"
 	line "BIDE!"
 
-	para "Dit #MON vil"
+	para "Din #MON vil"
 	line "stå fast og"
 	cont "hæve ANGREB og"
 	cont "FORSVAR!"
@@ -123,7 +123,7 @@ _PewterGymGuideBeginAdviceText::
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "Det første #MON"
+	text "Den første #MON"
 	line "i en kamp er"
 	cont "øverst på"
 	cont "#MON-LISTEN!"
@@ -166,13 +166,13 @@ _ApexChipExplanationText::
 	cont "udviklet."
 	
 	para "Du installerer den"
-	line "på et #MONs"
-	cont "Poké Ball."
+	line "på Poké Ballen"
+	cont "til din #MON."
 
 	para "Den simulerer det"
 	line "naturlige vilde"
-	cont "miljø for #MON'et"
-	cont "inde i dets Poké"
+	cont "miljø for din"
+	cont "#MON i dens Poké"
 	cont "Ball!"
 
 	para "Den gør #MON"

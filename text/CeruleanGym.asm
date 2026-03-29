@@ -22,7 +22,7 @@ _CeruleanGymMistyTM11ExplanationText::
 	text "<TM>11 lærer"
 	line "BUBBLEBEAM!"
 
-	para "Brug den på et"
+	para "Brug den på en"
 	line "vand-#MON!"
 	done
 

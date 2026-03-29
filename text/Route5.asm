@@ -77,7 +77,7 @@ _Route5EndBattleText3::
 _Route5AfterBattleText3::
 	text "DAGPLEJEN kan"
 	line "hjælpe med at"
-	cont "opdrage et ekstra"
+	cont "opdrage en ekstra"
 	cont "#MON for dig."
 	para "Kom tilbage"
 	line "senere og det"

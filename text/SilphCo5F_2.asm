@@ -32,7 +32,7 @@ _SilphCo5FPokemonReport1Text::
 
 	para "#MON LAB"
 	line "skabte PORYGON,"
-	cont "det første virt."
+	cont "den første virt."
 	cont "#MON."
 	done
 

@@ -14,7 +14,7 @@ _OaksLabRivalGoAheadAndChooseText::
 	done
 
 _OaksLabRivalMyPokemonLooksStrongerText::
-	text "<RIVAL>: Mit"
+	text "<RIVAL>: Min"
 	line "#MON ser stærkere"
 	cont "ud."
 	done
@@ -44,7 +44,7 @@ _OaksLabYouWantBulbasaurText::
 	done
 
 _OaksLabMonEnergeticText::
-	text "Dette #MON er"
+	text "Denne #MON er"
 	line "virkelig energisk!"
 	prompt
 
@@ -62,20 +62,20 @@ _OaksLabLastMonText::
 
 _OaksLabOak1WhichPokemonDoYouWantText::
 	text "OAK: Nu, <PLAYER>,"
-	line "hvilket #MON vil"
+	line "hvilken #MON vil"
 	cont "du have?"
 	done
 
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: Hvis et vildt"
+	text "OAK: Hvis en vild"
 	line "#MON dukker op,"
-	cont "kan dit #MON"
+	cont "kan din #MON"
 	cont "kæmpe mod det!"
 	done
 
 _OaksLabOak1RaiseYourYoungPokemonText::
 	text "OAK: <PLAYER>,"
-	line "opdrag dit unge"
+	line "opdrag din unge"
 	cont "#MON ved at lade"
 	cont "det kæmpe!"
 	done
@@ -83,7 +83,7 @@ _OaksLabOak1RaiseYourYoungPokemonText::
 _OaksLabOak1DeliverParcelText::
 	text "OAK: Åh, <PLAYER>!"
 
-	para "Hvordan har mit"
+	para "Hvordan har min"
 	line "gamle #MON?"
 
 	para "Nå, det ser ud til"
@@ -134,7 +134,7 @@ _OaksLabOak1ReceivedPokeballsText::
 
 _OaksLabGivePokeballsExplanationText::
 	text_start
-	para "Når et vildt"
+	para "Når en vild"
 	line "#MON dukker op,"
 	cont "er det frit vildt."
 
@@ -145,7 +145,7 @@ _OaksLabGivePokeballsExplanationText::
 	para "Dette vil dog"
 	line "ikke altid virke."
 
-	para "Et sundt #MON"
+	para "En sund #MON"
 	line "kan flygte. Du"
 	cont "må være heldig!"
 	done
@@ -265,7 +265,7 @@ _OaksLabRivalIllTakeYouOnText::
 _OaksLabRivalIPickedTheWrongPokemonText::
 	text "HVAD?"
 	line "Utroligt!"
-	cont "Jeg valgte det"
+	cont "Jeg valgte den"
 	cont "forkerte #MON!"
 	prompt
 
@@ -276,7 +276,7 @@ _OaksLabRivalAmIGreatOrWhatText::
 
 _OaksLabRivalSmellYouLaterText::
 	text "<RIVAL>: Okay!"
-	line "Jeg vil lade mit"
+	line "Jeg vil lade min"
 	cont "#MON kæmpe for"
 	cont "at gøre det"
 	cont "stærkt!"

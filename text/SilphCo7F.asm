@@ -5,7 +5,7 @@ _SilphCo7FSilphWorkerM1HaveThisPokemonText::
 	cont "os? Tusind tak!"
 
 	para "Jeg vil gerne have"
-	line "at du får dette"
+	line "at du får denne"
 	cont "#MON for at"
 	cont "redde os."
 	prompt
@@ -45,7 +45,7 @@ _SilphCo7FSilphWorkerM2AfterTheMasterBallText::
 	text "<TEAM><ROCKET> var"
 	line "ude efter MASTER"
 	cont "BALL som kan fange"
-	cont "ethvert #MON!"
+	cont "enhver #MON!"
 	done
 
 _SilphCo7FSilphWorkerM2CancelledMasterBallText::

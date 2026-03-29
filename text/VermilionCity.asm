@@ -69,7 +69,7 @@ _VermilionCityGambler2Text::
 	line "bygning på dette"
 	cont "stykke jord."
 
-	para "Mit #MON er"
+	para "Min #MON er"
 	line "ved at jævne"
 	cont "jorden."
 	done

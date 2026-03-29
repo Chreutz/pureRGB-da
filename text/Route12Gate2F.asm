@@ -20,7 +20,7 @@ _Route12Gate2FBrunetteGirlTM39ExplanationText::
 	done
 
 _ArbokLearnset::
-	text "Hvilket #MON"
+	text "Hvilken #MON"
 	line "havde jeg?"
 	para "Åh<...>min dejlige"
 	line "@"

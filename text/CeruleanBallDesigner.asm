@@ -1,6 +1,6 @@
 _CeruleanBallDesignerSwitchBallMenuStart::
-	text "Skift et #MONs"
-	line "#BALL?"
+	text "Skift #BALL på"
+	line "en #MON?"
 	done
 
 _CeruleanBallDesignerCustomizeBallMenuStart::
@@ -249,7 +249,7 @@ _CeruleanBallDesignerDesigned::
 	done
 
 _CeruleanBallDesignerDesigned2::
-	text "<PARA>Du kan sætte dit"
+	text "<PARA>Du kan sætte din"
 	line "#MON i den ved"
 	cont "mit arbejdsbord,"
 	para "eller tilpas den"
@@ -369,35 +369,35 @@ _BallDesignerPokemonBreederHint::
 	prompt
 
 _BallDesignerPsyduckHint::
-	text "Et #MON der"
+	text "En #MON der"
 	line "lever i en dam"
 	cont "tæt på en"
 	cont "havnby."
 	prompt
 
 _BallDesignerFlareonHint::
-	text "Et ild #MON"
+	text "En ild-#MON"
 	line "der lever i en"
 	cont "klipperig østlig"
 	cont "ROUTE."
 	prompt
 
 _BallDesignerJigglypuffHint::
-	text "Et sødt rundt"
+	text "En sød rund"
 	line "syngende #MON"
 	cont "der lever syd for"
 	cont "den grå by."
 	prompt
 
 _BallDesignerJolteonHint::
-	text "Et elektrisk"
+	text "En elektrisk"
 	line "#MON der lever"
 	cont "i udkanten af"
 	cont "en stor by."
 	prompt
 
 _BallDesignerPorygonHint::
-	text "Et virtuelt"
+	text "En virtuel"
 	line "#MON der"
 	cont "cruiser gennem"
 	cont "cyberspace."
@@ -410,27 +410,27 @@ _BallDesignerFossilHint::
 	prompt
 
 _BallDesignerArticunoHint::
-	text "Et super-sjældent"
+	text "En super-sjælden"
 	line "#MON i et"
 	cont "isområde!"
 	prompt
 
 _BallDesignerAbraHint::
-	text "Et søvnigt lille"
+	text "En søvnig lille"
 	line "#MON der lever"
 	cont "i en nordlig"
 	cont "ROUTE."
 	prompt
 
 _BallDesignerPidgeotHint::
-	text "Et fantastisk"
-	line "fugle #MON i en"
+	text "En fantastisk"
+	line "fugle-#MON i en"
 	cont "ROUTE med mange"
 	cont "hegn."
 	prompt
 
 _BallDesignerGrimerHint::
-	text "Et #MON der"
+	text "En #MON der"
 	line "lever hemmeligt"
 	cont "under en"
 	cont "underjordisk"
@@ -445,7 +445,7 @@ _BallDesignerGastlyHint::
 	prompt
 
 _BallDesignerScytherHint::
-	text "Et hurtigt"
+	text "En hurtig"
 	line "#MON der"
 	cont "suser gennem en"
 	cont "ROUTE med meget"
@@ -526,12 +526,12 @@ _WorkbenchInfoChangingBalls::
 	para "For item-BALLs,"
 	line "skal du bruge en"
 	cont "i din taske for at"
-	cont "skifte et #MON"
+	cont "skifte en #MON"
 	cont "ind i den."
 	para "Men bruger-"
 	line "definerede BALLs"
 	cont "er ubegrænsede!"
-	para "Ved at skifte et"
+	para "Ved at skifte en"
 	line "#MON til en"
 	cont "brugerdefineret"
 	cont "BALL,"

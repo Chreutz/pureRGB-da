@@ -50,8 +50,8 @@ _GameCornerPrizeRoomLetsSeeText::
 _JynxPrizeKingText::
 	text "@"
 	text_ram_namebuffer
-	text " er et"
-	line "stærkt og hurtigt"
+	text " er en"
+	line "stærk og hurtig"
 	cont "#MON der er"
 	cont "godt til SPECIELLE"
 	cont "angreb!"
@@ -84,7 +84,7 @@ _TangelaPrizeKingText::
 _DratiniPrizeKingText::
 	text "@"
 	text_ram_namebuffer
-	text " er et sjældent"
+	text " er en sjælden"
 	line "DRAGE #MON."
 	para "Det kan virke"
 	line "svagt,"

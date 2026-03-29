@@ -130,7 +130,7 @@ _CeruleanBadgeHouseLeftPaperText::
 _CeruleanBadgeHouseCenterLeftPaperText::
 	text "Når du registrerer"
 	line "en angrebsliste"
-	cont "for et specifikt"
+	cont "for en specifik"
 	cont "#MON,"
 	para "vil du automatisk"
 	line "registrere"
@@ -147,15 +147,15 @@ _CeruleanBadgeHouseCenterRightPaperText::
 	para "Hvis du ikke har"
 	line "set angrebet,"
 	para "kan du i det"
-	line "mindste se hvilket"
-	cont "niveau #MONet"
-	cont "lærer et nyt"
+	line "mindste se ved"
+	cont "hvilket niveau"
+	cont "den lærer et nyt"
 	cont "angreb!"
 	done
 
 _CeruleanBadgeHouseRightPaperText::
 	text "Hvis du træner"
-	line "dit #MON til"
+	line "din #MON til"
 	cont "et højt nok"
 	cont "niveau,"
 	para "vil du mestre"

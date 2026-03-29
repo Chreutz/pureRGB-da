@@ -1,7 +1,7 @@
 _FuchsiaPokecenterRockerText::
 	text "Du kan ikke vinde"
-	line "med kun ét"
-	cont "stærkt #MON."
+	line "med kun én"
+	cont "stærk #MON."
 
 	para "Det er svært, men"
 	line "du skal opdrage"

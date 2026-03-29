@@ -13,7 +13,7 @@ _Route11Gate2FOaksAideItemfinderDescriptionText::
 	done
 
 _Route11Gate2FLeftBinocularsSnorlaxText::
-	text "Et stort #MON"
+	text "En stor #MON"
 	line "sover på en vej!"
 	done
 

@@ -46,13 +46,13 @@ _CinnabarLabFossilRoomScientist1SeesFossilText::
 	para "Det er et fossil"
 	line "af @"
 	text_ram_stringbuffer
-	text ", et"
+	text ", en"
 	cont "#MON, der allerede"
 	cont "er uddødt!"
 
 	para "Min genoplivnings-"
 	line "maskine vil få"
-	cont "dette #MON til"
+	cont "denne #MON til"
 	cont "at leve igen!"
 	done
 

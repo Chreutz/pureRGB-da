@@ -53,7 +53,7 @@ _SilphCo11FSilphPresidentMasterBallDescriptionText::
 	line "hemmelige MASTER"
 	cont "BALL prototype!"
 
-	para "Den fanger ethvert"
+	para "Den fanger enhver"
 	line "#MON uden"
 	cont "at fejle!"
 
@@ -148,6 +148,6 @@ _SilphCo11FRocket2AfterBattleText::
 	done
 
 _SilphCo11FPorygonText::
-	text "Skærmen har et"
+	text "Skærmen har en"
 	line "#MON på sig!"
 	prompt

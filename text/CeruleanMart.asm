@@ -4,7 +4,7 @@ _CeruleanMartCooltrainerMText:: ; TODO: Review translation
 	cont "svage #MON"
 	cont "væk."
 
-	para "Sæt dit"
+	para "Sæt din"
 	line "stærkeste #MON"
 	cont "øverst på listen"
 	cont "for bedste"

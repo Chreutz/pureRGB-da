@@ -10,7 +10,7 @@ _PalletTownOakItsUnsafeText::
 	cont "i det høje græs!"
 
 	para "Du har brug for"
-	line "dit eget #MON"
+	line "din egen #MON"
 	cont "til beskyttelse."
 	cont "Jeg ved det!"
 

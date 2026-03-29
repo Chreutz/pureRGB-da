@@ -11,7 +11,7 @@ _PewterNidoranHouseMiddleAgedManText::
 	line "en fremmed, så den"
 	cont "er svær at styre."
 
-	para "En fremmed er et"
+	para "En fremmed er en"
 	line "#MON, som man"
 	cont "får i bytte."
 
@@ -43,6 +43,6 @@ _PewterHouse1Text4::
 	text "NIDORAN er en så"
 	line "flot nuance af"
 	cont "lilla pink!"
-	para "Så et betagende"
+	para "Så en betagende"
 	line "#MON!"
 	done

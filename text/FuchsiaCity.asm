@@ -84,7 +84,7 @@ _FuchsiaCityVoltorbSignText::
 _FuchsiaCityKangaskhanSignText::
 	text "Navn: KANGASKHAN"
 
-	para "Et moderligt"
+	para "En moderlig"
 	line "#MON der"
 	cont "opdrager sine"
 	cont "unger i en pose"
@@ -108,7 +108,7 @@ _FuchsiaCityLaprasSignText::
 _FuchsiaCityFossilSignOmanyteText::
 	text "Navn: OMANYTE"
 
-	para "Et #MON der"
+	para "En #MON der"
 	line "blev genoplivet"
 	cont "fra en fossil."
 	prompt
@@ -116,7 +116,7 @@ _FuchsiaCityFossilSignOmanyteText::
 _FuchsiaCityFossilSignKabutoText::
 	text "Navn: KABUTO"
 
-	para "Et #MON der"
+	para "En #MON der"
 	line "blev genoplivet"
 	cont "fra en fossil."
 	prompt
@@ -126,7 +126,7 @@ _FuchsiaCityFossilSignUndeterminedText::
 	done
 
 _FuchsiaCityFossilFanText::
-	text "Dette fossil"
+	text "Denne fossil"
 	line "#MON er virkelig"
 	cont "genert."
 

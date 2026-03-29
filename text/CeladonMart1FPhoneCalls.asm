@@ -1,5 +1,5 @@
 _CeladonMartCallDadBulbasaurText::
-	text "Et #MON der er"
+	text "En #MON der er"
 	line "lige så"
 	cont "vedholdende og"
 	cont "loyal som dig!"
@@ -29,7 +29,7 @@ _CeladonMartCallDadSquirtleText::
 
 
 _CeladonMartCallDadCharmanderText::
-	text "Et brændende #MON,"
+	text "En brændende #MON,"
 	line "ligesom din"
 	cont "personlighed!"
 	para "Var det et problem"
@@ -73,7 +73,7 @@ _CeladonMartCallOakTextILoveIt::
 	text "Alle deres første"
 	line "#MON er meget"
 	cont "speciel."
-	para "Mit første #MON"
+	para "Min første #MON"
 	line "var en tarvelig"
 	cont "MAGIKARP fra min"
 	cont "fars dam."

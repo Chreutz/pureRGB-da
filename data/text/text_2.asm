@@ -1746,12 +1746,14 @@ _OakSpeechText2A::
 _OakSpeechText2B::
 	text "For nogle mennesker"
 	line "er #MON"
-	cont "kæledyr. Andre bruger"
+	cont "kæledyr."
+	cont "Andre bruger"
 	cont "dem til kampe."
 
 	para "Mig selv<...>"
 
-	para "Jeg studerer #MON"
+	para "Jeg studerer"
+	line "#MON"
 	line "som erhverv."
 	prompt
 
@@ -1780,7 +1782,8 @@ _OakSpeechText3::
 	para "En verden af drømme"
 	line "og eventyr"
 	cont "med #MON"
-	cont "venter! Så lad os komme afsted!"
+	cont "venter! Så lad os"
+	cont "komme afsted!"
 	done
 
 _DoYouWantToNicknameText::

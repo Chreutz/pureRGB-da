@@ -8,14 +8,14 @@ _FuchsiaMartMiddleAgedManText::
 
 _FuchsiaMartCooltrainerFText::
 	text "Har du prøvet X"
-	line "SPEED? Det gør et"
+	line "SPEED? Det gør en"
 	cont "#MON hurtigere"
 	cont "i kamp!"
 	done
 
 _FuchsiaMartTMKidFlavor::
 	text "<PARA>Jeg hørte nogen"
-	line "donerede et"
+	line "donerede en"
 	cont "forhistorisk"
 	cont "#MON til zooen"
 	cont "her! Fedt!@"

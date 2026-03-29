@@ -58,7 +58,7 @@ _CeladonMart3FGameBoyKid3Text::
 
 	para "GRAVELER"
 	line "forvandlede sig"
-	cont "til et andet #MON!"
+	cont "til en anden #MON!"
 	done
 
 _CeladonMart3FLittleBoyText::

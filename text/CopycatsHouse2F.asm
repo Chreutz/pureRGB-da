@@ -28,7 +28,7 @@ _CopyCatsHouse2FCopycatILikeYouText::
 	text "Jeg kan lide dig!"
 	line "Ved du hvad?"
 
-	para "Jeg lærer dit"
+	para "Jeg lærer din"
 	line "#MON min"
 	cont "yndlingsangreb:"
 	para "MIMIC!"
@@ -38,7 +38,7 @@ _CopyCatsHouse2FCopycatILikeYouText::
 
 _CopycatsHouse2FCopycatCancelledFirstTimeText::
 	text "<PLAYER>: Ingen måde"
-	line "jeg lærer mit"
+	line "jeg lærer min"
 	cont "#MON det"
 	cont "elendige angreb!"
 	para "<PLAYER>: Hey!"
@@ -69,7 +69,7 @@ _CopyCatsHouse2FCopycatDittoText::
 
 _CopycatsHouse2FCopycatSuccessText::
 	text "<PLAYER>: Tak for"
-	line "at lære mit"
+	line "at lære min"
 	cont "#MON MIMIC!"
 
 	para "<PLAYER>: Hva'?"
@@ -134,7 +134,7 @@ _DoduoLearnsetText::
 	prompt
 
 _CopycatsHouse2FRareDollText::
-	text "Dette er et sjæld-"
+	text "Dette er en sjæld-"
 	line "nere #MON! Huh?"
 	cont "Det er bare en"
 	cont "dukke!"

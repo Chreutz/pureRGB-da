@@ -78,7 +78,7 @@ _Route25Youngster3EndBattleText::
 	prompt
 
 _Route25Youngster3AfterBattleText::
-	text "Hvis dit #MON"
+	text "Hvis din #MON"
 	line "bliver forvirret"
 	cont "eller falder"
 	cont "i søvn,"
@@ -86,8 +86,8 @@ _Route25Youngster3AfterBattleText::
 	done
 
 _Route25CooltrainerF2BattleText::
-	text "Min ven har et"
-	line "sødt #MON."
+	text "Min ven har en"
+	line "sød #MON."
 	cont "Jeg er så"
 	cont "misundelig!"
 	done

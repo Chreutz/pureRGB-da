@@ -143,7 +143,7 @@ _CinnabarGymBurglar2EndBattleText::
 
 _CinnabarGymBurglar2AfterBattleText::
 	text "Jeg ønsker, der"
-	line "var et tyve-#MON!"
+	line "var en tyve-#MON!"
 	cont "Det ville jeg"
 	cont "bruge!"
 	done
@@ -224,7 +224,7 @@ _CinnabarGymGymGuideBeatBlaineText::
 _CinnabarGymGuideApexChipFireText::
 	text "En APEX CHIP"
 	line "vil transportere"
-	cont "et ild-#MON"
+	cont "en ild-#MON"
 	cont "til en svovlholdig"
 	cont "vulkan-krater,"
 	cont "med flydende lava"

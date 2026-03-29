@@ -2,7 +2,7 @@ _CinnabarPokecenterCooltrainerFText::
 	text "Du kan annullere"
 	line "udvikling."
 
-	para "Når et #MON"
+	para "Når en #MON"
 	line "udvikler sig, kan"
 	cont "du stoppe det og"
 	cont "lade det være,"

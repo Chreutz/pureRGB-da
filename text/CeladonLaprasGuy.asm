@@ -5,11 +5,11 @@ _CeladonLaprasGuyIntro::
 	line "forretningsrejse."
 	para "Jeg præsenterer"
 	line "vores forsknings-"
-	cont "resultater om et"
-	cont "sjældent #MON!"
+	cont "resultater om en"
+	cont "sjælden #MON!"
 	para "Men jeg er"
 	line "bekymret for at"
-	cont "vise #MON'et"
+	cont "vise min #MON"
 	cont "mens <TEAM><ROCKET>"
 	cont "sniger sig rundt."
 	done
@@ -33,7 +33,7 @@ _CeladonLaprasGuyReady::
 	cont "rejse fantastisk!" 
 
 	para "Jeg vil have dig"
-	line "til at have dette"
+	line "til at have denne"
 	cont "#MON for at"
 	cont "hjælpe mig!"
 	prompt
