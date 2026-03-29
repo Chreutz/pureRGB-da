@@ -388,6 +388,16 @@ _BrockIntroText2::
 	line "<PLAYER>!"
 	prompt
 
+_BrockLostText::
+	text "Jeg blev slået"
+	line "til grus!"
+	prompt
+
+_BrockWonText::
+	text "Jeg gav dig"
+	line "sten-tæsk!"
+	prompt
+
 _AgathaIntroText::
 	text "Den strenge"
 	line "spøgelses-"

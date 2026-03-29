@@ -58,6 +58,14 @@ _SafariZoneEastPsychicEndBattleText::
 	cont "tanke."
 	prompt
 
+_SafariZoneEastPsychicAfterBattleText::
+	text "Jeg noterer"
+	line "mit totale"
+	cont "nederlag."
+	para "Træneren stirrer"
+	line "kun afskyeligt."
+	done
+
 _SafariZoneEastRockerText::
 	text "Mit band har"
 	line "brug for en ny"

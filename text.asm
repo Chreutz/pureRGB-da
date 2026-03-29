@@ -23,7 +23,6 @@ INCLUDE "text/RocketHideoutElevator.asm"
 INCLUDE "text/SilphCo2F.asm"
 INCLUDE "text/SilphCo3F.asm"
 INCLUDE "text/SilphCo4F.asm"
-INCLUDE "text/CinnabarVolcano.asm"
 
 
 SECTION "Text 2", ROMX
@@ -55,7 +54,6 @@ INCLUDE "text/LoreleisRoom.asm"
 INCLUDE "text/BrunosRoom.asm"
 INCLUDE "text/AgathasRoom.asm"
 INCLUDE "text/RockTunnelB1F.asm"
-INCLUDE "text/PewterNidoranHouse.asm"
 
 
 SECTION "Text 3", ROMX
@@ -76,7 +74,6 @@ INCLUDE "text/Daycare.asm"
 ; moved from Text 2
 INCLUDE "text/SafariZoneWest.asm"
 INCLUDE "text/ProspectorsHouse.asm"
-INCLUDE "text/MoveMystic.asm"
 INCLUDE "text/PokemonCenterChamp.asm"
 INCLUDE "text/MrPsychicsHouse.asm"
 INCLUDE "text/SoftboiledGuysHouse.asm"
@@ -118,7 +115,6 @@ INCLUDE "text/Route6.asm"
 INCLUDE "text/Route7.asm"
 INCLUDE "text/Route8.asm"
 INCLUDE "text/Route9.asm"
-INCLUDE "text/Route10.asm"
 
 
 SECTION "Text 5", ROMX
@@ -138,7 +134,6 @@ INCLUDE "text/Route21.asm"
 INCLUDE "text/Route22.asm"
 INCLUDE "text/Route23.asm"
 INCLUDE "text/Route24.asm"
-INCLUDE "text/ViridianSchoolHouseQuiz.asm"
 INCLUDE "text/CinnabarLabTradeRoom.asm"
 INCLUDE "text/FuchsiaMeetingRoom.asm"
 INCLUDE "text/SSAnneKitchen.asm"
@@ -156,7 +151,6 @@ INCLUDE "text/OaksLab.asm"
 INCLUDE "text/pokedex_ratings.asm"
 INCLUDE "text/ViridianPokecenter.asm"
 INCLUDE "text/ViridianMart.asm"
-INCLUDE "text/ViridianSchoolHouse.asm"
 INCLUDE "text/ViridianNicknameHouse.asm"
 INCLUDE "text/ViridianGym.asm"
 INCLUDE "text/Museum1F.asm"
@@ -192,7 +186,6 @@ INCLUDE "text/LavenderMart.asm"
 INCLUDE "text/LavenderCuboneHouse.asm"
 INCLUDE "text/NameRatersHouse.asm"
 INCLUDE "text/VermilionPokecenter.asm"
-INCLUDE "text/PokemonFanClub.asm"
 INCLUDE "text/VermilionMart.asm"
 INCLUDE "text/VermilionGym.asm"
 
@@ -227,7 +220,6 @@ INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 INCLUDE "text/FuchsiaTreeDeleterHouse.asm"
 INCLUDE "text/FuchsiaPokecenter.asm"
 INCLUDE "text/WardensHouse.asm"
-INCLUDE "text/SafariZoneGate.asm"
 INCLUDE "text/FuchsiaGym.asm"
 
 SECTION "Text 9", ROMX
@@ -250,7 +242,6 @@ INCLUDE "text/SaffronPidgeyHouse.asm"
 INCLUDE "text/SaffronMart.asm"
 INCLUDE "text/SilphCo1F.asm"
 INCLUDE "text/SaffronPokecenter.asm"
-INCLUDE "text/FossilGuysHouse.asm"
 INCLUDE "text/CeladonChiefHouse.asm"
 
 INCLUDE "data/text/text_4.asm"
@@ -266,7 +257,6 @@ INCLUDE "text/PewterCity.asm"
 INCLUDE "text/CeruleanCity.asm"
 INCLUDE "text/LavenderTown.asm"
 INCLUDE "text/VermilionCity.asm"
-INCLUDE "text/CeladonCity.asm"
 INCLUDE "text/FuchsiaCity.asm"
 INCLUDE "text/CinnabarIsland.asm"
 INCLUDE "text/SaffronCity.asm"
@@ -306,6 +296,32 @@ INCLUDE "text/CeruleanBallDesigner.asm"
 INCLUDE "text/CameraEvents.asm"
 INCLUDE "text/OptionsInfoText.asm"
 INCLUDE "text/FightingBrosHouse.asm"
+
+SECTION "Text 15", ROMX
+
+; moved from earlier text sections to rebalance bank sizes
+INCLUDE "text/PewterNidoranHouse.asm"
+INCLUDE "text/Route10.asm"
+INCLUDE "text/PokemonFanClub.asm"
+
+SECTION "Text 16", ROMX
+
+; moved from earlier text sections to rebalance bank sizes
+INCLUDE "text/FossilGuysHouse.asm"
+INCLUDE "text/CinnabarVolcano.asm"
+
+SECTION "Text 17", ROMX
+
+; moved from earlier text sections to rebalance bank sizes
+INCLUDE "text/ViridianSchoolHouseQuiz.asm"
+INCLUDE "text/SafariZoneGate.asm"
+INCLUDE "text/MoveMystic.asm"
+
+SECTION "Text 18", ROMX
+
+; moved from earlier text sections to rebalance bank sizes
+INCLUDE "text/ViridianSchoolHouse.asm"
+INCLUDE "text/CeladonCity.asm"
 
 SECTION "Pokédex Text", ROMX
 

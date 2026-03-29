@@ -67,6 +67,13 @@ _FossilGuyCameBackFossil::
 	para "Værsgo!"
 	prompt
 
+_FossilGuyGreetingEnd::
+	text "Jeg forsker i"
+	line "at genoplive"
+	cont "#MON fra"
+	cont "stykker rav."
+	done
+
 _FossilGuyComeBackLater::
 	text "Kom tilbage"
 	line "senere."

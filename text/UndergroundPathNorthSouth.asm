@@ -9,6 +9,15 @@ _UndergroundPathNorthSouthEndBattleText1::
 	line "så ringe!"
 	prompt
 
+_UndergroundPathNorthSouthAfterBattleText1::
+	text "Jeg har gået"
+	line "mellem CERULEAN"
+	cont "BY og VERMILION"
+	cont "CITY i årevis."
+	para "Det er"
+	line "god motion!"
+	done
+
 _UndergroundPathNorthSouthEndBattleText2::
 	text "Knockout!"
 	prompt

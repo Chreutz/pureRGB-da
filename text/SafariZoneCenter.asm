@@ -57,6 +57,18 @@ _SafariZoneCenterEngineerAfterBattleText::
 	cont "CENTERET."
 	done
 
+_SafariZoneCenterRockerText::
+	text "Pas på! Skræm"
+	line "ikke de vilde"
+	cont "#MON!"
+	para "Jeg vil fodre dem"
+	line "fra hånden!"
+	done
+
+_SafariZoneCenterRockerEndBattleText::
+	text "Rolig!"
+	prompt
+
 _SafariZoneCenterRockerAfterBattleText::
 	text "Hvad? Forventede"
 	line "du ikke, at en"
