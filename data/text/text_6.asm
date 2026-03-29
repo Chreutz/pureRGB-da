@@ -1,98 +1,98 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Den undveg din"
+	line "Poké Ball!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Denne Pokémon"
+	line "kan ikke fanges!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "Du ramte ikke"
+	line "Pokémonen!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Øv! Pokémonen"
+	line "slap fri!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught!"
+	text "Aww! Det så"
+	line "ud til at være"
+	cont "fanget!"
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Pokkers! Det var"
+	line "ellers tæt på!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Ja!"
 	line "@"
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text " blev"
+	cont "fanget!@"
 	text_end
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's <PC>!"
+	text " blev"
+	line "overført til"
+	cont "BILLs <PC>!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's <PC>!"
+	text " blev"
+	line "overført til"
+	cont "nogen andens <PC>!"
 	prompt
 
 _NoBoxSlotsLeftText::
-	text "BOX @"
+	text "BOKS @"
 	text_ram wBoxNumString
-	text" is now"
-	line "full."
-	para "Time to change"
-	line "boxes!@"
+	text" er nu"
+	line "fyldt op."
+	para "Tid til at skifte"
+	line "boks!@"
 	text_end
 
 _BoxSlotsLeftText::
 	text_ram w2CharStringBuffer
-	text " slots left in"
-	line "BOX @"
+	text " pladser tilbage"
+	line "i BOKS @"
 	text_ram wBoxNumString
 	text ".@"
 	text_end
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
-	cont "@"
+	text "Nye Pokédex-data"
+	line "vil blive tilføjet"
+	cont "for @"
 	text_ram wEnemyMonNick
 	text "!@"
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
-	line "@"
+	text "<PLAYER> steg op"
+	line "på @"
 	text_ram_namebuffer
 	text "!"
 	prompt
 
 _AlreadySurfingText::
-	text "You're already"
-	line "surfing."
+	text "Du surfer allerede"
 	prompt
 
 _LavaSurfingText::
-	text "Surfing on lava?!"
-	line "Not happening."
+	text "Surfe på lava?!"
+	line "Det sker ikke."
 	prompt
 
 _ApexChipPutOnPokeballText::
-	text "You installed the"
-	line "APEX CHIP on"
+	text "Du installerede"
+	line "APEX CHIP på"
 	para "@"
 	text_ram_namebuffer
 	text "'s"
@@ -113,15 +113,15 @@ _ApexChipPutOnPokeballText::
 _ApexChipDVsMaxedText::
 	text_ram_namebuffer
 	text "'s"
-	line "potential is"
-	cont "maximized!"
-	para "DVs are at max!"
+	line "potentiale er"
+	cont "maksimeret!"
+	para "DV'er er i top!"
 	prompt
 
 _ApexChipAlreadyUsedText::
-	text "There's already"
-	line "an APEX CHIP"
-	para "installed on"
+	text "Der er allerede"
+	line "en APEX CHIP"
+	para "installeret på"
 	line "@"
 	text_ram_namebuffer
 	text "'s"
@@ -129,13 +129,13 @@ _ApexChipAlreadyUsedText::
 	prompt
 
 _BoosterChipInstalledText::
-	text "You plugged the"
-	line "BOOSTER CHIP into"
-	cont "your POKéBALL"
-	cont "belt."
+	text "Du satte"
+	line "BOOSTER CHIP i"
+	cont "dit Poké Ball-"
+	cont "bælte."
 
-	para "All #MON will"
-	line "gain boosted EXP!@"
+	para "Alle Pokémon vil"
+	line "få boostet EXP!@"
 	text_end
 
 _VitaminStatRoseText::
@@ -143,123 +143,123 @@ _VitaminStatRoseText::
 	text "'s"
 	line "@"
 	text_ram_stringbuffer
-	text " rose."
+	text " steg."
 	prompt
 
 _VitaminNoEffectText::
-	text "Vitamins can't"
-	line "raise this stat"
-	cont "further."
+	text "Vitaminer kan ikke"
+	line "hæve denne status"
+	cont "yderligere."
 	prompt
 
 _ItemUseNoEffectText::
 _RareCandyNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Det har ingen"
+	line "effekt."
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> kastede"
+	line "lidt MADDING."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> kastede"
+	line "en STEN."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Spillede på"
+	line "Pokémon-FLØJTEN."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Det er da en"
+	line "god melodi!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Alle sovende"
+	line "Pokémon vågnede."
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> spillede"
+	line "på FLØJTEN.@"
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "Mønter"
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Ja! ITEMFINDER"
+	line "viser en genstand"
+	cont "i nærheden."
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Nej! ITEMFINDER"
+	line "reagerer ikke."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Hvilken teknik"
+	line "skal ha' PP?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Hvilken teknik"
+	line "skal have PP?"
 	done
 
 _PPMaxedOutText::
 	text_ram_stringbuffer
 	text "'s PP"
-	line "has already been"
-	cont "maxed out."
+	line "er allerede"
+	cont "maksimeret."
 	prompt
 
 _PPIncreasedText::
 	text_ram_stringbuffer
-	text "'s max"
-	line "PP increased."
+	text "'s maksimale"
+	line "PP blev øget."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "PP blev"
+	line "genoprettet."
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a <TM>!"
+	text "Startede en <TM>!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "Startede en HM!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "Den indeholdt"
 	line "@"
 	text_ram_stringbuffer
 	text "!"
 
-	para "Teach @"
+	para "Vil du lære @"
 	text_ram_stringbuffer
 	text_start
-	line "to a #MON?"
+	line "til en Pokémon?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram_namebuffer
-	text " is not"
-	line "compatible with"
-	cont "@"
+	text " kan ikke"
+	line "lære @"
 	text_ram_stringbuffer
 	text "."
 
-	para "It can't learn"
+	para "Den kan ikke lære"
 	line "@"
 	text_ram_stringbuffer
 	text "."
@@ -267,74 +267,74 @@ _MonCannotLearnMachineMoveText::
 
 _ItemUseNotTimeText::
 	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	line "Ikke tid til"
+	cont "at bruge det!"
 	prompt
 
 _ItemUseValuableText::
-	text "Looks valuable!"
-	para "Selling it would"
-	line "be a good idea."
+	text "Den er værdifuld!"
+	para "Sælg den,"
+	line "det er en god idé."
 	prompt
 
 _TopSecretKeyText::
-	text "This key looks"
-	line "similar to the"
-	cont "SECRET KEY."
-	para "It's a lot more"
-	line "worn though."
-	para "Is it from the"
-	line "same facility?"
+	text "Denne nøgle ligner"
+	line "SECRET KEY."
+	para "Den er dog meget"
+	line "mere slidt."
+	para "Er den fra det"
+	line "samme anlæg?"
 	prompt
 
 _ItemUseFossilText::
-	text "This fossil is"
-	line "fun to admire!"
-	para "Maybe putting it"
-	line "in the <PC> until"
-	cont "finding a use"
-	cont "for it is best."
+	text "Dette fossil er"
+	line "sjov at se på!"
+	para "Bedst i <PC>en,"
+	line "indtil du finder"
+	cont "en brug for den."
 	prompt
 
 _ItemUseInBattleText::
-	text "This can only"
-	line "be used during"
-	cont "a #MON battle."
+	text "Dette kan kun"
+	line "bruges under"
+	cont "en Pokémon-kamp."
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "Denne er ikke"
+	line "din at bruge!"
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "Træneren"
+	line "blokerede bolden!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Lad være med at"
+	line "være en tyv!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "Cykling er ikke"
+	next "tilladt her."
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
-	line "@"
+	text "Man kan ikke SURFe"
+	line "på @"
 	text_ram_namebuffer
-	text " here!"
+	text " her!"
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "Pokémon-BOKSEN"
+	line "er fuld! Kan ikke"
+	cont "bruge den!"
 	prompt
 
 _ItemUseCameraInBattleText::
-	text "No time to frame a"
-	line "photo in battle!"
+	text "Ingen tid til at"
+	line "fotografere i"
+	cont "kamp!"
 	prompt

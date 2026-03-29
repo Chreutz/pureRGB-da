@@ -4,25 +4,26 @@ _CardKeySuccessText1::
 
 _CardKeySuccessText2::
 	text_start
-	line "The CARD KEY"
-	cont "opened the door!"
+	line "NØGLEKORTET"
+	cont "åbnede døren!"
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
-	line "CARD KEY!"
+	text "Øv! Det kræver"
+	line "et NØGLEKORT!"
 	done
 
 _CardKeyDoneText::
-	text "All the CARD KEY"
-	line "doors have been"
-	cont "opened!"
+	text "Alle døre til"
+	line "NØGLEKORT er"
+	cont "nu åbnet!"
 	
-	para "Don't need this"
-	line "CARD KEY anymore."
-
-	para "<PLAYER> left it"
-	line "in the card slot!"
+	para "Dette NØGLEKORT"
+	line "er ikke længere"
+	cont "nødvendigt."
+	
+	para "<PLAYER> efterlod"
+	line "det i kortlæseren!"
 	done
 
 _TrainerNameText::
@@ -31,17 +32,18 @@ _TrainerNameText::
 	text_end
 
 _NoNibbleText::
-	text "Not even a nibble!"
+	text "Ikke engang et"
+	line "bid!"
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Det ser ikke ud"
+	line "til at være noget."
 	prompt
 
 _ItsABiteText::
-	text "Oh!"
-	line "It's a bite!"
+	text "Åh!"
+	line "Der bed noget på!"
 	prompt
 
 _ExclamationText::

@@ -1,101 +1,101 @@
 _PokemartGreetingText::
-	text "Hi there!"
-	next "May I help you?"
+	text "Goddag!"
+	next "Kan jeg hjælpe?"
 	done
 
 _PokemonFaintedText::
 	text_ram_namebuffer
 	text_start
-	line "fainted!"
+	line "besvimede!"
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> har ingen"
+	line "brugbare #MON!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> sortnede"
+	line "for øjnene!"
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "REPEL-effekten"
+	line "forsvandt."
 	prompt
 
 _RepelUseAnotherText::
-	text "Use another?"
+	text "Vil du bruge en?"
 	done
 
 _PokemartBuyingGreetingText::
-	text "Take your time."
+	text "Tag dig god tid."
 	done
 
 _PokemartTellBuyPriceText::
 	text_ram_stringbuffer
 	text "?"
-	line "That will be"
+	line "Det bliver"
 	cont "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text ". OK?"
 	done
 
 _PokemartBoughtItemText::
-	text "Here you are!"
-	line "Thank you!"
+	text "Værsgo!"
+	line "Tak skal du have!"
 	prompt
 
 _GenericYouDontHaveEnoughMoneyText::
 _PokemartNotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Du har ikke"
+	line "penge nok."
 	prompt
 
 _PokemonSellingGreetingText::
-	text "What would you"
-	line "like to sell?"
+	text "Hvad vil du"
+	line "sælge?"
 	done
 
 _PokemartTellSellPriceText::
-	text "I can pay you"
+	text "Jeg kan give dig"
 	line "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text " for that."
+	text " for den."
 	done
 
 _PokemartItemBagEmptyText::
-	text "You don't have"
-	line "anything to sell."
+	text "Du har ikke"
+	line "noget at sælge."
 	prompt
 
 _PokemartUnsellableItemText::
-	text "I can't put a"
-	line "price on that."
+	text "Jeg kan ikke sætte"
+	line "en pris på den."
 	prompt
 
 _PokemartThankYouText::
-	text "Thank you!"
+	text "Mange tak!"
 	done
 
 _PokemartAnythingElseText::
-	text "Is there anything"
-	line "else I can do?"
+	text "Er der andet,"
+	line "jeg kan hjælpe?"
 	done
 
 _LearnedMove1Text::
 	text_ram wLearnMoveMonName
-	text " learned"
+	text " lærte"
 	line "@"
 	text_ram_stringbuffer
 	text "!@"
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Hvilket angreb"
+	next "skal glemmes?"
 	prompt
 
 _AbandonLearningText::
-	text "Abandon learning"
+	text "Opgiv at lære"
 	line "@"
 	text_ram_stringbuffer
 	text "?"
@@ -104,7 +104,7 @@ _AbandonLearningText::
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start
-	line "did not learn"
+	line "lærte ikke"
 	cont "@"
 	text_ram_stringbuffer
 	text "!"
@@ -112,38 +112,38 @@ _DidNotLearnText::
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " is"
-	line "trying to learn"
+	text " prøver at"
+	line "lære"
 	cont "@"
 	text_ram_stringbuffer
 	text "!"
 	prompt
 
 _ButCantLearnMoreThanFourMoves::
-	text "But, @"
+	text "Men @"
 	text_end
 
 _CantLearnMoreThanFourMoves::
 	text "@"
 	text_ram wLearnMoveMonName
 	text_start
-	line "can't learn more"
-	cont "than 4 moves!"
+	line "kan ikke lære 4"
+	cont "angreb!"
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Glem et ældre"
+	line "angreb for at gøre"
+	cont "plads til @"
 	text_ram_stringbuffer
 	text "?"
 	done
 
 _PressStartToLearnText::
-	text "Press START to"
-	line "select a move.@"
+	text "Tryk START for at"
+	line "vælge et angreb.@"
 	text_end
 
 _OneTwoAndText::
-	text "1, 2 and<...>@"
+	text "1, 2 og<...>@"
 	text_end
 
 _PoofText::
@@ -154,94 +154,96 @@ _ForgotAndText::
 	text_start
 	para "@"
 	text_ram wLearnMoveMonName
-	text " forgot"
+	text " glemte"
 	line "@"
 	text_ram_namebuffer
 	text "!"
 
-	para "And<...>"
+	para "Og<...>"
 	prompt
 
 ;_HMCantDeleteText::
-;	text "HM techniques"
-;	line "can't be deleted!"
+;	text "HM teknikker"
+;	line "kan ikke slettes!"
 ;	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
+	text "Velkommen til vores"
 	line "#MON CENTER!"
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "Vi helbreder dine"
+	line "#MON til"
+	cont "perfekt form!"
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "Skal vi helbrede"
+	line "dine #MON?"
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "OK. Vi får brug"
+	line "for dine #MON."
 	done
 
 _PokemonCenterFastWelcomeText::
-	text "We'll heal your"
-	line "#MON quick."
+	text "Vi helbreder dine"
+	line "#MON hurtigt."
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Tak!"
+	line "Dine #MON er"
+	cont "kampklare!"
 	prompt
 
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "Vi håber at se"
+	line "dig igen!"
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "Dette område er"
+	line "reserveret til 2"
+	cont "venner, der er"
+	cont "forbundet via"
+	cont "kabel."
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
+	text "Velkommen til"
 	line "Cable Club!"
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Tilmeld dig her."
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	para "Før vi åbner"
+	line "forbindelsen, er vi"
+	cont "nødt til at gemme."
 	done
 
 _CableClubNPCPleaseWaitText::
-	text "Please wait.@"
+	text "Vent venligst.@"
 	text_end
 
 _CableClubNPCLinkClosedBecauseOfInactivityText::
 	vc_patch Change_link_closed_inactivity_message
-IF DEF(_RED_VC) || DEF(_BLUE_VC)
-	text "Please come again!"
+	IF DEF(_RED_VC) || DEF(_BLUE_VC)
+	text "Kom igen snart!"
 	done
 	text_start
-	db   "osed because of"
-	cont "inactivity."
-ELSE
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
-ENDC
+	db   "Forbindelsen blev"
+	cont "lukket pga."
+	cont "inaktivitet."
+	ELSE
+	text "Forbindelsen blev"
+	line "lukket pga."
+	cont "inaktivitet."
+	ENDC
 	vc_patch_end
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "Kontakt din ven"
+	line "og kom igen!"
 	done
+

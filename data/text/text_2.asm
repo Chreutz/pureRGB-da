@@ -1,7 +1,7 @@
 _AIBattleWithdrawText::
 	text_ram wTrainerName
-	text " with-"
-	line "drew @"
+	text " trak @"
+	line "tilbage @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
@@ -9,24 +9,24 @@ _AIBattleWithdrawText::
 _AIBattleUseItemText::
 	text_ram wTrainerName
 	text_start
-	line "used @"
+	line "brugte @"
 	text_ram_namebuffer
 	text_start
-	cont "on @"
+	cont "på @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
 
 _TradeWentToText::
 	text_ram_stringbuffer
-	text " went"
-	line "to @"
+	text " blev"
+	line "sendt til @"
 	text_ram wLinkEnemyTrainerName
 	text "."
 	done
 
 _TradeForText::
-	text "For <PLAYER>'s"
+	text "For <PLAYER>s"
 	line "@"
 	text_ram_stringbuffer
 	text ","
@@ -34,7 +34,7 @@ _TradeForText::
 
 _TradeSendsText::
 	text_ram wLinkEnemyTrainerName
-	text " sends"
+	text " sender"
 	line "@"
 	text_ram_namebuffer
 	text "."
@@ -42,18 +42,18 @@ _TradeSendsText::
 
 _TradeWavesFarewellText::
 	text_ram wLinkEnemyTrainerName
-	text " waves"
-	line "farewell as"
+	text " vinker"
+	line "farvel, mens"
 	done
 
 _TradeTransferredText::
 	text_ram_namebuffer
-	text " is"
-	line "transferred."
+	text " er"
+	line "overført."
 	done
 
 _TradeTakeCareText::
-	text "Take good care of"
+	text "Pas godt på"
 	line "@"
 	text_ram_namebuffer
 	text "."
@@ -61,32 +61,32 @@ _TradeTakeCareText::
 
 _TradeWillTradeText::
 	text_ram wLinkEnemyTrainerName
-	text " will"
-	line "trade @"
+	text " vil"
+	line "bytte @"
 	text_ram_namebuffer
 	text_start
 	done
 
 _TradeforText::
-	text "for <PLAYER>'s"
+	text "for <PLAYER>s"
 	line "@"
 	text_ram_stringbuffer
 	text "."
 	done
 
 _PlaySlotMachineText::
-	text "A slot machine!"
-	line "Want to play?"
+	text "En spillemaskine!"
+	line "Vil du spille?"
 	done
 
 _OutOfCoinsSlotMachineText::
-	text "Darn!"
-	line "Ran out of coins!"
+	text "Øv!"
+	line "Mønter slut!"
 	done
 
 _BetHowManySlotMachineText::
-	text "Bet how many"
-	line "coins?"
+	text "Hvor mange mønter"
+	line "vil du satse?"
 	done
 
 _StartSlotMachineText::
@@ -94,51 +94,50 @@ _StartSlotMachineText::
 	done
 
 _NotEnoughCoinsSlotMachineText::
-	text "Not enough"
-	line "coins!"
+	text "Ikke nok"
+	line "mønter!"
 	prompt
 
 _OneMoreGoSlotMachineText::
-	text "One more"
-	line "go?"
+	text "En gang til?"
 	done
 
 _LinedUpText::
-	text " lined up!"
-	line "Scored @"
+	text " på række!"
+	line "Vandt @"
 	text_ram_stringbuffer
-	text " coins!"
+	text " mønter!"
 	done
 
 _NotThisTimeText::
-	text "Not this time!"
+	text "Ikke denne gang!"
 	prompt
 
 _YeahText::
-	text "Yeah!@"
+	text "Ja!@"
 	text_end
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "Pokédex   Set:@"
 	text_decimal wDexRatingNumMonsSeen, 1, 3
 	text_start
-	line "         Owned:@"
+	line "         Ejet:@"
 	text_decimal wDexRatingNumMonsOwned, 1, 3
 	text_end
 
 _DexRatingText::
-	text "#DEX Rating<COLON>"
+	text "Pokédex Bedømmelse:"
 	done
 
 _GymStatueText::
 	text_ram_stringbuffer
 	text_start
 	line "#MON GYM"
-	cont "LEADER: @"
+	cont "LEDER: @"
 	text_ram_namebuffer
 	text_start
 
-	para "WINNING <TRAINER>S:@"
+	para "VINDENDE <TRAINER>E:@"
 	text_end
 
 _GymStatueRival::
@@ -151,623 +150,624 @@ _GymStatueRivalPlayer::
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "#MON CENTER heler"
+	line "dine trætte,"
+	cont "sårede eller"
+	cont "besvimede #MON!"
 	done
 
 _PewterCityPokecenterGuyText::
-	text "Yawn!"
+	text "Gaaaab!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
-	cont "get drowsy<...>"
+	para "Når JIGGLYPUFF"
+	line "synger, bliver"
+	cont "#MON søvnige<...>"
 
-	para "<...>Me too<...>"
-	line "Snore<...>"
+	para "<...>Jeg også<...>"
+	line "Snork<...>"
 	done
 
 _CeruleanPokecenterGuyText::
-	text "BILL has lots of"
-	line "#MON!"
+	text "BILL har masser"
+	line "af #MON!"
 
-	para "He collects rare"
-	line "ones too!"
+	para "Han samler også på"
+	line "sjældne arter!"
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
+	text "CUBONE bærer et"
+	line "kranie, ikke?"
 
-	para "People will pay a"
-	line "lot for one!"
+	para "Folk vil betale"
+	line "meget for en!"
 	done
 
 _MtMoonPokecenterBenchGuyText::
-	text "If you have too"
-	line "many #MON, you"
-	cont "should store them"
-	cont "via <PC>!"
+	text "Hvis du har for"
+	line "mange #MON, bør"
+	cont "du gemme dem"
+	cont "via PC!"
 	done
 
 _RockTunnelPokecenterGuyText::
-	text "I heard that"
-	line "GHOSTs haunt"
+	text "Jeg hørte, at"
+	line "GHOST spøger i"
 	cont "LAVENDER TOWN!"
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
+	text "Jeg ville ønske,"
+	line "jeg kunne fange #MON."
 	done
 
 _UnusedBenchGuyText2::
-	text "I'm tired from"
-	line "all the fun<...>"
+	text "Jeg er træt efter"
+	line "al morskaben<...>"
 	done
 
 ;_UnusedBenchGuyText3::
-;	text "SILPH's manager"
-;	line "is hiding in the"
+;	text "SILPHs leder"
+;	line "gemmer sig i"
 ;	cont "SAFARI ZONE."
 ;	done
 
 _VermilionPokecenterGuyText::
-	text "It is true that a"
-	line "higher level"
-	cont "#MON will be"
-	cont "more powerful<...>"
+	text "Det er sandt, at"
+	line "en højere level"
+	cont "#MON er mere"
+	cont "kraftfuld<...>"
 
-	para "But, all #MON"
-	line "will have weak"
-	cont "points against"
-	cont "specific types."
+	para "Men alle #MON"
+	line "vil have svage"
+	cont "punkter mod"
+	cont "specifikke typer."
 
-	para "So, there is no"
-	line "universally"
-	cont "strong #MON."
+	para "Så der findes ingen"
+	line "#MON, der er"
+	cont "stærk mod alt."
 	done
 
 _CeladonCityPokecenterGuyText::
-	text "If I had a BIKE,"
-	line "I would go to"
-	cont "CYCLING ROAD!"
+	text "Hvis jeg havde en"
+	line "CYKEL, ville jeg"
+	cont "tage til"
+	cont "CYKELVEJEN!"
 	done
 
 _FuchsiaCityPokecenterGuyText::
-	text "If you're studying"
-	line "#MON, visit"
-	cont "the SAFARI ZONE."
+	text "Hvis du studerer"
+	line "#MON, besøg"
+	cont "SAFARI ZONE."
 
-	para "It has all sorts"
-	line "of rare #MON."
+	para "Den har alle slags"
+	line "sjældne #MON."
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
-	line "learn techniques"
-	cont "after canceling"
-	cont "evolution."
+	text "#MON kan stadig"
+	line "lære teknikker"
+	cont "efter at have"
+	cont "annulleret ev."
 
-	para "Evolution can wait"
-	line "until new moves"
-	cont "have been learned."
+	para "Evo. kan vente,"
+	line "til nye træk"
+	cont "er blevet lært."
 	done
 
 _SaffronCityPokecenterGuyText1::
-	text "It would be great"
-	line "if the ELITE FOUR"
-	cont "came and stomped"
-	cont "<TEAM><ROCKET>!"
+	text "Det ville være"
+	line "fantastisk, hvis"
+	cont "ELITE FOUR kom"
+	cont "og knuste <TEAM><ROCKET>!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "<TEAM><ROCKET> took"
-	line "off! We can go"
-	cont "out safely again!"
-	cont "That's great!"
+	text "<TEAM><ROCKET> er"
+	line "taget afsted! Vi"
+	cont "kan trygt gå ud"
+	cont "igen! Det er"
+	cont "fantastisk!"
 	done
 
 _CeladonCityHotelText::
-	text "My sis brought me"
-	line "on this vacation!"
+	text "Min søster tog mig"
+	line "på ferie!"
 	done
 
 _NewBicycleText::
-	text "A shiny new"
-	line "BICYCLE!"
+	text "En skinnende ny"
+	line "CYKEL!"
 	done
 
 _PushStartText::
-	text "Push START to"
-	line "open the MENU!"
+	text "Tryk START for"
+	line "at åbne MENU!"
 	done
 
 _SaveOptionText::
-	text "The SAVE option is"
-	line "on the MENU"
-	cont "screen."
+	text "GEM indstillingen"
+	line "er på MENU"
+	cont "skærmen."
 	done
 
 _StrengthsAndWeaknessesText::
-	text "All #MON types"
-	line "have strong and"
-	cont "weak points"
-	cont "against others."
+	text "Alle #MON typer"
+	line "har stærke og"
+	cont "svage punkter"
+	cont "mod andre."
 	done
 
 _TimesUpText::
 	text "PA: Ding-dong!"
 
-	para "Time's up!"
+	para "Tiden er gået!"
 	prompt
 
 _GameOverText::
-	text "PA: Your SAFARI"
-	line "GAME is over!"
+	text "PA: Dit SAFARI"
+	line "SPIL er slut!"
 	done
 
 _RangerHuntSuccessText::
 	text "PA: <PLAYER>"
-	line "has defeated all"
+	line "har besejret alle"
 	cont "5 RANGERs!!"
 
-	para "Congratulations!"
+	para "Tillykke!"
 	done
 
 _CinnabarGymQuizStartText::
 	text "#MON Quiz!"
-	line "Here we go!"
+	line "Så går vi i gang!"
 	prompt
 
 _CinnabarGymQuizIntroText::
 	text "#MON Quiz!"
 
-	para "Get it right and"
-	line "the door opens to"
-	cont "the next room!"
+	para "Svar rigtigt, og"
+	line "døren åbner sig"
+	cont "til det næste rum!"
 
-	para "Get it wrong and"
-	line "face a trainer!"
+	para "Svar forkert, og"
+	line "mød en træner!"
 
-	para "If you want to"
-	line "conserve your"
-	cont "#MON for the"
-	cont "GYM LEADER<...>"
+	para "Hvis du vil"
+	line "spare på dine"
+	cont "#MON til"
+	cont "GYM LEDERen<...>"
 
-	para "Then get it right!"
-	line "Here we go!"
+	para "Så svar rigtigt!"
+	line "Så går vi i gang!"
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "METAPOD evolves"
-	line "into BUTTERFREE?"
+	text "Udvikler METAPOD"
+	line "til BUTTERFREE?"
 	prompt
 
 _CinnabarQuizQuestionsText2::
-	text "Are there 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	text "Findes der 9"
+	line "certificerede #MON"
+	cont "LIGA BADGEs?"
 	prompt
 
 _CinnabarQuizQuestionsText3::
-	text "Does POLIWAG"
-	line "evolve 3 times?"
+	text "Udvikler POLIWAG"
+	line "sig 3 gange?"
 	prompt
 
 _CinnabarQuizQuestionsText4::
-	text "Are electric"
-	line "moves effective"
-	cont "against ground-"
+	text "Er elektriske"
+	line "træk effektive"
+	cont "mod jord-"
 	cont "type #MON?"
 	prompt
 
 _CinnabarQuizQuestionsText5::
-	text "Are #MON of the"
-	line "same species and"
-	cont "level identical?"
+	text "Er #MON af den"
+	line "samme art og"
+	cont "level identiske?"
 	prompt
 
 _CinnabarQuizQuestionsText6::
-	text "<TM>28 contains"
+	text "Indeholder TM28"
 	line "TOMBSTONER?"
 	prompt
 
 _CinnabarGymQuizCorrectText::
-	text "You're absolutely"
-	line "correct!"
+	text "Du har fuldstændig"
+	line "ret!"
 
-	para "Go on through!@"
+	para "Gå videre!@"
 	text_end
 
 _CinnabarGymQuizIncorrectText::
-	text "Sorry! Bad call!"
+	text "Beklager! Fejl!"
 	prompt
 
 _MagazinesText::
-	text "#MON magazines!"
+	text "#MON magasiner!"
 
-	para "#MON notebooks!"
+	para "#MON notesbøger!"
 
-	para "#MON graphs!"
+	para "#MON grafer!"
 	done
 
 _BillsHouseMonitorText::
-	text "TELEPORTER is"
-	line "displayed on the"
-	cont "<PC> monitor."
+	text "TELEPORTER vises"
+	line "på PC skærmen."
 	done
 
 _BillsHouseInitiatedText::
-	text "<PLAYER> initiated"
-	line "TELEPORTER's Cell"
+	text "<PLAYER> igangsatte"
+	line "TELEPORTER Celle"
 	cont "Separator!@"
 	text_end
 
 _BillsHousePokemonListText1::
-	text "BILL's favorite"
-	line "#MON list!"
+	text "BILLs yndlings"
+	line "#MON liste!"
 	prompt
 
 _BillsHousePokemonListText2::
-	text "Which #MON do"
-	line "you want info on?"
+	text "Hvilken #MON vil"
+	line "du have info om?"
 	done
 
 _EmailHereText::
-	text "There's an e-mail"
-	line "message here!"
+	text "Der er en e-mail"
+	line "besked her!"
 	para "<...>@"
 	text_end
 
 _OakLabEmailText::
-	text "<PARA>Calling all"
-	line "#MON trainers!"
+	text "<PARA>Kalder alle"
+	line "#MON trænere!"
 
-	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
+	para "De elite trænere"
+	line "fra #MON LIGAen"
+	cont "er klar til at"
+	cont "tage imod alle!"
 
-	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
+	para "Tag dine bedste"
+	line "#MON med, og"
+	cont "hvordan du klarer"
+	cont "dig som træner!"
 
-	para "#MON LEAGUE HQ"
+	para "#MON LIGA HQ"
 	line "INDIGO PLATEAU"
 
 	para "PS: PROF.OAK,"
-	line "please visit us!"
+	line "besøg os venligst!"
 	cont "<...>"
 	done
 
 _GameCornerCoinCaseText::
-	text "A COIN CASE is"
-	line "required!"
+	text "En MØNTEETUI er"
+	line "påkrævet!"
 	done
 
 _GameCornerNoCoinsText::
-	text "You don't have"
-	line "any coins!"
+	text "Du har ikke"
+	line "nogen mønter!"
 	done
 
 _GameCornerOutOfOrderText::
-	text "OUT OF ORDER"
-	line "This is broken."
+	text "UDE AF DRIFT"
+	line "Den er i stykker."
 	done
 
 _GameCornerOutToLunchText::
-	text "OUT TO LUNCH"
-	line "This is reserved."
+	text "TIL FROKOST"
+	line "Den er reserveret."
 	done
 
 _GameCornerSomeonesKeysText::
-	text "Someone's keys!"
-	line "They'll be back."
+	text "Nogens nøgler!"
+	line "De kommer tilbage."
 	done
 
 _JustAMomentText::
-	text "Just a moment."
+	text "Et øjeblik."
 	done
 
 TMNotebookText::
-	text "It's a pamphlet"
-	line "on <TM>s."
+	text "Det er en brochure"
+	line "om TMs."
 
 	para "<...>"
 
-	para "There are 50 <TM>s"
-	line "in all."
+	para "Der er 50 TMs"
+	line "i alt."
 
-	para "There are also 5"
-	line "HMs that can be"
-	cont "used repeatedly."
+	para "Der er også 5"
+	line "HMs, der"
+	cont "kan bruges ofte."
 
 	para "SILPH CO.@"
 	text_end
 
 _TurnPageText::
-	text "Turn the page?"
+	text "Vend siden?"
 	done
 
 _ViridianSchoolNotebookText5::
-	text "GIRL: Hey! Don't"
-	line "look at my notes!@"
+	text "PIGE: Hej!"
+	line "kig ikke her!@"
 	text_end
 
 _ViridianSchoolNotebookTextGus::
-	text "GUS: Hey! Don't"
-	line "look at my notes!@"
+	text "GUS: Hej!"
+	line "kig ikke her!@"
 	text_end
 
 _ViridianSchoolNotebookText1::
-	text "Looked at the"
-	line "notebook!"
+	text "Kiggede i"
+	line "notesbogen!"
 
-	para "First page<...>"
+	para "Første side<...>"
 
-	para "# BALLs are"
-	line "used to catch"
+	para "Poké Balls bruges"
+	line "til at fange"
 	cont "#MON."
 
-	para "Up to 6 #MON"
-	line "can be carried."
+	para "Op til 6 #MON"
+	line "kan bæres."
 
-	para "People who raise"
-	line "and make #MON"
-	cont "fight are called"
-	cont "#MON trainers."
+	para "Folk, der opdrager"
+	line "og får #MON til"
+	cont "at kæmpe, kaldes"
+	cont "#MON trænere."
 	prompt
 
 _ViridianSchoolNotebookText2::
-	text "Second page<...>"
+	text "Anden side<...>"
 
-	para "A healthy #MON"
-	line "may be hard to"
-	cont "catch, so weaken"
-	cont "it first!"
+	para "En sund #MON"
+	line "kan være svær"
+	cont "at fange, så svæk"
+	cont "den først!"
 
-	para "Poison, burns and"
-	line "other damage are"
-	cont "effective!"
+	para "Gift, brand og"
+	line "anden skade er"
+	cont "effektive!"
 	prompt
 
 _ViridianSchoolNotebookText3::
-	text "Third page<...>"
+	text "Tredje side<...>"
 
-	para "#MON trainers"
-	line "seek others to"
-	cont "engage in #MON"
-	cont "fights."
+	para "#MON trænere"
+	line "søger andre at"
+	cont "kæmpe mod i #MON"
+	cont "kampe."
 
-	para "Battles are"
-	line "constantly fought"
-	cont "at #MON GYMs."
+	para "Kampe udkæmpes"
+	line "konstant på"
+	cont "#MON GYMs."
 	prompt
 
 _ViridianSchoolNotebookText4::
-	text "Fourth page<...>"
+	text "Fjerde side<...>"
 
-	para "The goal for"
-	line "#MON trainers"
-	cont "is to beat the"
-	cont "top 8 #MON"
-	cont "GYM LEADERs."
+	para "Målet for"
+	line "#MON trænere"
+	cont "er at slå de"
+	cont "øverste 8 #MON"
+	cont "GYM LEDERe."
 
-	para "Do so to earn the"
-	line "right to face<...>"
+	para "Gør det for at gøre"
+	line "ret til at møde<...>"
 
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "ELITE FOUR fra"
+	line "#MON LIGAen!"
 	prompt
 
 _EnemiesOnEverySideText::
-	text "Enemies on every"
-	line "side!"
+	text "Fjender på alle"
+	line "sider!"
 	done
 
 _WhatGoesAroundComesAroundText::
-	text "What goes around"
-	line "comes around!"
+	text "Hvad der"
+	line "kommer tilbage!"
 	done
 
 _FightingDojoText::
-	text "FIGHTING DOJO"
+	text "KAMP DOJO"
 	done
 
 _IndigoPlateauHQText::
 	text "INDIGO PLATEAU"
-	line "#MON LEAGUE HQ"
+	line "#MON LIGA HQ"
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the SNES!"
+	text "<PLAYER> spiller"
+	line "SNES!"
 	cont "<...>Okay!"
-	cont "It's time to go!"
+	cont "Tid til at gå!"
 	done
 
 _Route15UpstairsBinocularsText::
-	text "A large, shining"
-	line "bird is flying"
-	cont "toward the sea."
+	text "En stor, skinnende"
+	line "fugl flyver"
+	cont "mod havet."
 	done
 
 _AerodactylFossilText::
 	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	line "En primitiv og"
+	cont "sjælden #MON."
 	done
 
 _KabutopsFossilText::
 	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	line "En primitiv og"
+	cont "sjælden #MON."
 	done
 
 _LinkCableHelpText1::
 	text "<TIPS>"
 
-	para "Using a Game Link"
-	line "Cable"
+	para "Brug af Game Link"
+	line "Kabel"
 	prompt
 
 _LinkCableHelpText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Hvilken overskrift"
+	line "vil du læse?"
 	done
 
 _LinkCableInfoText1::
-	text "When you have"
-	line "linked your GAME"
-	cont "BOY with another"
-	cont "GAME BOY, talk to"
-	cont "the attendant on"
-	cont "the right in any"
+	text "Når du har"
+	line "forbundet din GAME"
+	cont "BOY med en anden"
+	cont "GAME BOY, tal med"
+	cont "assistenten til"
+	cont "højre i ethvert"
 	cont "#MON CENTER."
 	prompt
 
 _LinkCableInfoText2::
-	text "COLOSSEUM lets"
-	line "you play against"
-	cont "a friend."
+	text "COLOSSEUM lader"
+	line "dig spille mod"
+	cont "en ven."
 	prompt
 
 _LinkCableInfoText3::
-	text "TRADE CENTER is"
-	line "used for trading"
+	text "TRADE CENTER"
+	line "til at bytte"
 	cont "#MON."
 	prompt
 
 _ViridianSchoolBlackboardText1::
-	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	text "Tavlen"
+	line "beskriver #MON"
+	cont "STATUS ændringer"
+	cont "under kampe."
 	prompt
 
 _ViridianSchoolBlackboardText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Hvilken overskrift"
+	line "vil du læse?"
 	done
 
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
-	line "attack if it's"
-	cont "asleep!"
+	text "En #MON kan ikke"
+	line "angribe, hvis den"
+	cont "sover!"
 
-	para "It can wake up"
-	line "during battle."
+	para "Den kan vågne op"
+	line "under kamp."
 
-	para "#MON will stay"
-	line "asleep even after"
-	cont "battles."
+	para "#MON bliver ved med"
+	line "at sove selv efter"
+	cont "kampe."
 
-	para "Use AWAKENING to"
-	line "wake them up!"
+	para "Brug VÅGNEOP til"
+	line "at vække dem!"
 	prompt
 
 _ViridianBlackboardPoisonText::
-	text "When poisoned, a"
-	line "#MON's health"
-	cont "steadily drops."
+	text "Når den er forgiftet,"
+	line "falder en #MONs"
+	cont "helbred støt."
 
-	para "Poison lingers"
-	line "after battles."
+	para "Giften bliver"
+	line "efter kampe."
 
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "Brug en MODGIFT"
+	line "for at helbrede gift!"
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis could"
-	line "make #MON"
-	cont "moves misfire!"
+	text "Lammelse kan få"
+	line "#MON"
+	cont "træk til at fejle!"
 
-	para "It cuts SPEED"
-	line "stat as well."
+	para "Det skærer også"
+	line "HASTIGHEDs staten."
 
-	para "Paralysis remains"
-	line "after battles."
+	para "Lammelse forbliver"
+	line "efter kampe."
 
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
+	para "Brug LAMMELSEHEL for"
+	line "behandling!"
 	prompt
 
 _ViridianBlackboardBurnText::
-	text "A burn reduces"
-	line "the ATTACK stat."
-	cont "It also causes"
-	cont "ongoing damage."
+	text "En forbrænding reducerer"
+	line "ANGREBs staten."
+	cont "Det forårsager også"
+	cont "løbende skade."
 
-	para "Burns remain"
-	line "after battles."
+	para "Forbrændinger forbliver"
+	line "efter kampe."
 
-	para "Use BURN HEAL to"
-	line "cure a burn!"
+	para "Brug FORBRÆNDINGSHEL for"
+	line "at helbrede en forbrænding!"
 	prompt
 
 _ViridianBlackboardFrozenText::
-	text "If frozen, a"
-	line "#MON becomes"
-	cont "totally immobile!"
+	text "Hvis den er frosset, bliver"
+	line "en #MON"
+	cont "totalt ubevægelig!"
 
-	para "It stays frozen"
-	line "even after the"
-	cont "battle ends."
+	para "Den forbliver frosset"
+	line "selv efter at"
+	cont "kampen er slut."
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "Brug ISHEL for"
+	line "at tø #MON op!"
 	prompt
 
 _VermilionGymTrashText::
-	text "Nope, there's"
-	line "only trash here."
+	text "Nej, der er"
+	line "kun skrald her."
 	done
 
 _VermilionGymTrashSuccessText1::
-	text "Hey! There's a"
-	line "switch under the"
-	cont "trash!"
-	cont "Turn it on!"
+	text "Hej! Der er en"
+	line "kontakt under"
+	cont "skraldet!"
+	cont "Tænd den!"
 
-	para "The 1st electric"
-	line "lock opened!@"
+	para "Den 1. elektriske"
+	line "lås åbnede!@"
 	text_end
 
 _VermilionGymTrashSuccessText2::
-	text "Hey! There's"
-	line "another switch"
-	cont "under the trash!"
-	cont "Turn it on!"
+	text "Hej! Der er"
+	line "en anden kontakt"
+	cont "under skraldet!"
+	cont "Tænd den!"
 	prompt
 
 _VermilionGymTrashSuccessText3::
-	text "The 2nd electric"
-	line "lock opened!"
+	text "Den 2. elektriske"
+	line "lås åbnede!"
 
-	para "The motorized door"
-	line "opened!@"
+	para "Den motoriserede dør"
+	line "åbnede!@"
 	text_end
 
 ;_VermilionGymTrashFailText::
-;	text "Nope! There's"
-;	line "only trash here."
-;	cont "Hey! The electric"
-;	cont "locks were reset!@"
+;	text "Nej! Der er"
+;	line "kun skrald her."
+;	cont "Hej! De elektriske"
+;	cont "låse blev nulstillet!@"
 ;	text_end
 
 _FoundHiddenItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> fandt"
 	line "@"
 	text_ram_namebuffer
 	text "!@"
 	text_end
 
 _FoundHiddenItemMultiText::
-	text "<PLAYER> found"
+	text "<PLAYER> fandt"
 	line "@"
 	text_ram_namebuffer
 	text " ×@"
@@ -776,29 +776,29 @@ _FoundHiddenItemMultiText::
 	text_end
 
 _HiddenItemBagFullText::
-	text "But, <PLAYER> has"
-	line "no more room for"
-	cont "other items!"
+	text "Men <PLAYER> har"
+	line "ikke mere plads til"
+	cont "andre genstande!"
 	done
 
 _FoundHiddenCoinsText::
-	text "<PLAYER> found"
+	text "<PLAYER> fandt"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " mønter!@"
 	text_end
 
 _FoundHiddenCoins2Text::
-	text "<PLAYER> found"
+	text "<PLAYER> fandt"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " mønter!@"
 	text_end
 
 _DroppedHiddenCoinsText::
 	text_start
-	para "Oops! Dropped"
-	line "some coins!"
+	para "Ups! Tabte"
+	line "nogle mønter!"
 	done
 
 _IndigoPlateauStatuesText1::
@@ -806,94 +806,94 @@ _IndigoPlateauStatuesText1::
 	prompt
 
 _IndigoPlateauStatuesText2::
-	text "The ultimate goal"
-	line "of trainers!"
-	cont "#MON LEAGUE HQ"
+	text "Det ultimative mål"
+	line "for trænere!"
+	cont "#MON LIGA HQ"
 	done
 
 _IndigoPlateauStatuesText3::
-	text "The highest"
-	line "#MON authority"
-	cont "#MON LEAGUE HQ"
+	text "Den højeste"
+	line "#MON autoritet"
+	cont "#MON LIGA HQ"
 	done
 
 _BookcaseText::
 _PokemonBooksText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Proppet fuld af"
+	line "#MON bøger!"
 	done
 
 _DiglettSculptureText::
-	text "It's a sculpture"
-	line "of DIGLETT."
+	text "Det er en skulptur"
+	line "af DIGLETT."
 	done
 
 _ElevatorText::
-	text "This is an"
+	text "Dette er en"
 	line "elevator."
 	done
 
 _TownMapText::
-	text "A TOWN MAP.@"
+	text "Et BYKORT.@"
 	text_end
 
 _PokemonStuffText::
-	text "Wow! Tons of"
-	line "#MON stuff!"
+	text "Wow! Masser af"
+	line "#MON ting!"
 	done
 
 _OutOfSafariBallsText::
 	text "PA: Ding-dong!"
 
-	para "You are out of"
+	para "Du er løbet tør for"
 	line "SAFARI BALLs!"
 	prompt
 
 _WildRanText::
-	text "Wild @"
+	text "Vild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "løb væk!"
 	prompt
 
 _EnemyRanText::
-	text "Enemy @"
+	text "Fjendtlig @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "løb væk!"
 	prompt
 
 _HurtByPoisonText::
-	text "<USER>'s"
-	line "hurt by poison!"
+	text "<USER> er"
+	line "skadet af gift!"
 	prompt
 
 _HurtByBurnText::
-	text "<USER>'s"
-	line "hurt by the burn!"
+	text "<USER> er"
+	line "skadet af forbrændingen!"
 	prompt
 
 _HurtByLeechSeedText::
-	text "LEECH SEED saps"
+	text "LEECH SEED dræner"
 	line "<USER>!"
 	prompt
 
 _EnemyMonFaintedText::
-	text "Enemy @"
+	text "Fjendtlig @"
 	text_ram wEnemyMonNick
 	text_start
-	line "fainted!"
+	line "besvimede!"
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> fik ¥@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for winning!"
+	line "for at vinde!"
 	prompt
 
 _TrainerDefeatedText::
-	text "<PLAYER> defeated"
+	text "<PLAYER> besejrede"
 	line "@"
 	text_ram wTrainerName
 	text "!"
@@ -902,28 +902,28 @@ _TrainerDefeatedText::
 _PlayerMonFaintedText::
 	text_ram wBattleMonNick
 	text_start
-	line "fainted!"
+	line "besvimede!"
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Brug næste #MON?"
 	done
 
 _Rival1WinText::
-	text "Yeah! Am"
-	line "I great or what?"
+	text "Ja! Er"
+	line "jeg god eller hvad?"
 	prompt
 
 _PlayerBlackedOutText2::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> er løbet tør for"
+	line "brugbare #MON!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> sortnede"
+	line "for øjnene!"
 	prompt
 
 _LinkBattleLostText::
-	text "<PLAYER> lost to"
+	text "<PLAYER> tabte til"
 	line "@"
 	text_ram wTrainerName
 	text "!"
@@ -931,169 +931,169 @@ _LinkBattleLostText::
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " is"
-	line "about to use"
+	text " er"
+	line "ved at bruge"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!"
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "Vil <PLAYER>"
+	line "skifte #MON?"
 	done
 
 _TrainerSentOutText::
 	text_ram wTrainerName
-	text " sent"
-	line "out @"
+	text " sendte"
+	line "ud @"
 	text_ram wEnemyMonNick
 	text "!"
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "Der er ingen vilje"
+	line "til at kæmpe!"
 	prompt
 
 _CantEscapeText::
-	text "Can't escape!"
+	text "Kan ikke undslippe!"
 	prompt
 
 _NoRunningText::
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Nej! Der er ingen"
+	line "flugt fra en"
+	cont "træner kamp!"
 	prompt
 
 _GotAwayText::
-	text "Got away safely!"
+	text "Undslap sikkert!"
 	prompt
 
 _ItemsCantBeUsedHereText::
-	text "Items can't be"
-	line "used here."
+	text "Genstande kan ikke"
+	line "bruges her."
 	prompt
 
 _AlreadyOutText::
 	text_ram wBattleMonNick
-	text " is"
-	line "already out!"
+	text " er"
+	line "allerede ude!"
 	prompt
 
 _MoveNoPPText::
-	text "No PP left for"
-	line "this move!"
+	text "Ingen PP tilbage til"
+	line "dette træk!"
 	prompt
 
 _MoveDisabledText::
-	text "The move is"
-	line "disabled!"
+	text "Trækket er"
+	line "deaktiveret!"
 	prompt
 
 _NoMovesLeftText::
 	text_ram wBattleMonNick
-	text " has no"
-	line "moves left!"
+	text " har ingen"
+	line "træk tilbage!"
 	done
 
 _MultiHitText::
-	text "Hit the enemy"
+	text "Ramte fjenden"
 	line "@"
 	text_decimal wPlayerNumHits, 1, 1
-	text " times!"
+	text " gange!"
 	prompt
 
 _ScaredText::
 	text_ram wBattleMonNick
-	text " is too"
-	line "scared to move!"
+	text " er for"
+	line "bange til at bevæge sig!"
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out<...>"
-	line "Get out<...>"
+	text "GHOST: Forsvind<...>"
+	line "Forsvind<...>"
 	prompt
 
 _FastAsleepText::
 	text "<USER>"
-	line "is fast asleep!"
+	line "sover tungt!"
 	prompt
 
 _WokeUpText::
 	text "<USER>"
-	line "woke up!"
+	line "vågnede!"
 	prompt
 
 _IsFrozenText::
 	text "<USER>"
-	line "is frozen solid!"
+	line "er frosset fast!"
 	prompt
 
 _FullyParalyzedText::
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER> er"
+	line "lammet helt!"
 	prompt
 
 _FlinchedText::
 	text "<USER>"
-	line "flinched!"
+	line "gyste!"
 	prompt
 
 _MustRechargeText::
 	text "<USER>"
-	line "must recharge!"
+	line "skal genoplade!"
 	prompt
 
 _DisabledNoMoreText::
-	text "<USER>'s"
-	line "disabled no more!"
+	text "<USER> er"
+	line "ikke længere deaktiveret!"
 	prompt
 
 _IsConfusedText::
 	text "<USER>"
-	line "is confused!"
+	line "er forvirret!"
 	prompt
 
 _HurtItselfText::
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Den skadede sig selv i"
+	line "sin forvirring!"
 	prompt
 
 _ConfusedNoMoreText::
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER> er"
+	line "ikke længere forvirret!"
 	prompt
 
 ;_SavingEnergyText::
 ;	text "<USER>"
-;	line "is saving energy!"
+;	line "sparer energi!"
 ;	prompt
 
 ;_UnleashedEnergyText::
 ;	text "<USER>"
-;	line "unleashed energy!"
+;	line "udløste energi!"
 ;	prompt
 
 _ThrashingAboutText::
-	text "<USER>'s"
-	line "thrashing about!"
+	text "<USER> er"
+	line "ved at tæske løs!"
 	done
 
 _AttackContinuesText::
-	text "<USER>'s"
-	line "attack continues!"
+	text "<USER>s"
+	line "angreb fortsætter!"
 	done
 
 _CantMoveText::
 	text "<USER>"
-	line "can't move!"
+	line "kan ikke bevæge sig!"
 	prompt
 
 _MoveIsDisabledText::
-	text "<USER>'s"
+	text "<USER>s"
 	line "@"
 	text_ram_namebuffer
-	text " is"
-	cont "disabled!"
+	text " er"
+	cont "deaktiveret!"
 	prompt
 
 _MonName1Text::
@@ -1102,11 +1102,11 @@ _MonName1Text::
 
 _UsedText::
 	text_start
-	line "used @"
+	line "brugte @"
 	text_end
 
 _InsteadText::
-	text "instead,"
+	text "i stedet,"
 	cont "@"
 	text_end
 
@@ -1119,28 +1119,28 @@ _ExclamationPointText::
 	done
 
 _AttackMissedText::
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>s"
+	line "angreb ramte ved siden af!"
 	prompt
 
 _KeptGoingAndCrashedText::
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "fortsatte og"
+	cont "kørte galt!"
 	prompt
 
 _UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET> er"
+	line "upåvirket!"
 	prompt
 
 _DoesntAffectMonText::
-	text "It doesn't affect"
+	text "Det påvirker ikke"
 	line "<TARGET>!"
 	prompt
 
 _CriticalHitText::
-	text "Critical hit!"
+	text "Kritisk hit!"
 	prompt
 
 _OHKOText::
@@ -1149,144 +1149,144 @@ _OHKOText::
 
 _LoafingAroundText::
 	text_ram wBattleMonNick
-	text " is"
-	line "loafing around."
+	text " er"
+	line "ved at drive den af."
 	prompt
 
 _BeganToNapText::
 	text_ram wBattleMonNick
-	text " began"
-	line "to nap!"
+	text " begyndte"
+	line "at tage en lur!"
 	prompt
 
 _WontObeyText::
 	text_ram wBattleMonNick
-	text " won't"
-	line "obey!"
+	text " vil ikke"
+	line "lyde!"
 	prompt
 
 _TurnedAwayText::
 	text_ram wBattleMonNick
-	text " turned"
-	line "away!"
+	text " vendte"
+	line "sig væk!"
 	prompt
 
 _IgnoredOrdersText::
 	text_ram wBattleMonNick
 	text_start
-	line "ignored orders!"
+	line "ignorerede ordrer!"
 	prompt
 
 _SubstituteTookDamageText::
-	text "The SUBSTITUTE"
-	line "took damage for"
+	text "Den SUBSTITUTE"
+	line "tog skade for"
 	cont "<TARGET>!"
 	prompt
 
 _SubstituteBrokeText::
-	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	text "<TARGET>s"
+	line "SUBSTITUTE gik i stykker!"
 	prompt
 
 _BuildingRageText::
-	text "<USER>'s"
-	line "RAGE is building!"
+	text "<USER>s"
+	line "RAGE opbygges!"
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "Den MIRROR MOVE"
+	next "fejlede!"
 	prompt
 
 _HitXTimesText::
-	text "Hit @"
+	text "Ramte @"
 	text_decimal wEnemyNumHits, 1, 1
-	text " times!"
+	text " gange!"
 	prompt
 
 _GainedText::
 	text_ram_namebuffer
-	text " gained"
+	text " vandt"
 	line "@"
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "med EXP.ALL,"
 	cont "@"
 	text_end
 
 _BoostedText::
-	text "a boosted"
+	text "et boostet"
 	cont "@"
 	text_end
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " EXP. Point!"
 	prompt
 
 _GrewLevelText::
 	text_ram_namebuffer
-	text " grew"
-	line "to level @"
+	text " voksede"
+	line "til level @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
 
 _WildMonAppearedText::
-	text "Wild @"
+	text "Vild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "dukket op!"
 	prompt
 
 _HookedMonAttackedText::
-	text "The hooked"
+	text "Den fiskede"
 _WildMonAppearedTextEnd::
 	line "@"
 	text_ram wEnemyMonNick
 	text_start
-	cont "attacked!"
+	cont "angreb!"
 	prompt
 
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "dukket op!"
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text " vil"
+	line "kæmpe!"
 	prompt
 
 _UnveiledGhostText::
 	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	line "afslørede"
+	cont "GHOSTs identitet!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "Øv! GHOST"
+	line "kan ikke identificeres!"
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "Afsted! @"
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "Gør det! @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "Tag den! @"
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "Fjenden er svag!"
+	line "Tag den! @"
 	text_end
 
 _PlayerMon1Text::
@@ -1300,7 +1300,7 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "nok!@"
 	text_end
 
 _OKExclamationText::
@@ -1308,83 +1308,83 @@ _OKExclamationText::
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "godt!@"
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "Kom tilbage!"
 	done
 
 _SuperEffectiveText::
-	text "It's super"
-	line "effective!"
+	text "Det er super"
+	line "effektivt!"
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective<...>"
+	text "Det er ikke særlig"
+	line "effektivt<...>"
 	prompt
 
 _SafariZoneEatingText::
-	text "Wild @"
+	text "Vild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is eating!"
+	line "spiser!"
 	prompt
 
 _SafariZoneAngryText::
-	text "Wild @"
+	text "Vild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is angry!"
+	line "er vred!"
 	prompt
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
+	text "<PLAYER> samlede"
 	line "¥@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "!"
+	text " op!"
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
+	text "Ryd alle gemte"
 	line "data?"
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want?"
+	text "Hvilken etage"
+	line "vil du hen til?"
 	done
 
 _AlreadyOnThatFloor::
-	text "Already on that"
-	line "floor."
+	text "Allerede på den"
+	line "etage."
 	prompt
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Vælg en #MON."
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
+	text "Brug genstand på hvilken"
 	line "#MON?"
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
-	line "#MON?"
+	text "Bring hvilken"
+	line "#MON frem?"
 	done
 
 _PartyMenuUseTMText::
-	text "Use <TM> on which"
+	text "Brug TM på hvilken"
 	line "#MON?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "Flyt #MON"
+	line "hvorhen?"
 	done
 
 _PartyMenuEmptyText::
@@ -1394,426 +1394,426 @@ _PartyMenuEmptyText::
 _PotionText::
 	text_ram_namebuffer
 	text_start
-	line "recovered by @"
+	line "kom sig med @"
 	text_decimal wHPBarHPDifference, 2, 3
 	text "!"
 	done
 
 _AntidoteText::
 	text_ram_namebuffer
-	text " was"
-	line "cured of poison!"
+	text " blev"
+	line "helbredt for gift!"
 	done
 
 _ParlyzHealText::
 	text_ram_namebuffer
-	text "'s"
-	line "rid of paralysis!"
+	text " er"
+	line "fri for lammelse!"
 	done
 
 _BurnHealText::
 	text_ram_namebuffer
-	text "'s"
-	line "burn was healed!"
+	text "s"
+	line "forbrænding blev helbredt!"
 	done
 
 _IceHealText::
 	text_ram_namebuffer
-	text " was"
-	line "defrosted!"
+	text " blev"
+	line "tøet op!"
 	done
 
 _AwakeningText::
 	text_ram_namebuffer
 	text_start
-	line "woke up!"
+	line "vågnede!"
 	done
 
 _FullHealText::
 	text_ram_namebuffer
-	text "'s"
-	line "health returned!"
+	text "s"
+	line "helbred vendte tilbage!"
 	done
 
 _ReviveText::
 	text_ram_namebuffer
 	text_start
-	line "is revitalized!"
+	line "er genoplivet!"
 	done
 
 _RareCandyText::
 	text_ram_namebuffer
-	text " grew"
-	line "to level @"
+	text " voksede"
+	line "til level @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the <PC>."
+	text "<PLAYER> tændte for"
+	line "PCen."
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "<PC>."
+	text "Fik adgang til BILLs"
+	line "PC."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Fik adgang til #MON"
+	line "Opbevarings System."
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "<PC>."
+	text "Fik adgang til nogens"
+	line "PC."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Fik adgang til #MON"
+	line "Opbevarings System."
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my <PC>."
+	text "Fik adgang til min PC."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Fik adgang til Genstands"
+	line "Opbevarings System."
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the <PC>."
+	text "<PLAYER> tændte for"
+	line "PCen."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Hvad vil du"
+	line "gøre?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Hvad vil du"
+	line "indsætte?"
 	done
 
 _WantToDepositText::
-	text "Deposit to <PC>?"
+	text "Indsæt i PC?"
 	done
 
 _DepositHowManyToPCText::
-	text "Deposit how many"
-	line "to <PC>?"
+	text "Indsæt hvor mange"
+	line "i PC?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Hvor mange?"
 	done
 
 _ItemWasStoredText::
 	text_ram_namebuffer
-	text " was"
-	line "stored via <PC>."
+	text " blev"
+	line "opbevaret via PC."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "Du har intet"
+	line "at indsætte."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "Ingen plads tilbage til"
+	line "at opbevare genstande."
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Hvad vil du"
+	line "hæve?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Hvor mange?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew @"
+	text "Hævede @"
 	text_ram_line wNameBuffer
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "Der er intet"
+	line "opbevaret."
 	prompt
 
 _PokemartItemBagFullText::
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "Du kan ikke bære"
+	line "flere genstande."
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Hvad vil du"
+	line "smide ud?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Hvor mange?"
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "Fik adgang til #MON"
+	line "LIGAs site."
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Fik adgang til HALL"
+	line "OF FAME listen."
 	prompt
 
 _SwitchOnText::
-	text "Switch on!"
+	text "Tænd for kontakten!"
 	prompt
 
 _WhatText::
-	text "What?"
+	text "Hvad?"
 	done
 
 _ViewModeText::
-	text "BOX viewer"
-	line "mode active."
+	text "BOX visnings"
+	line "mode aktiveret."
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
+	text "Indsæt hvilken"
 	line "#MON?"
 	done
 
 _MonWasStoredText::
 	text_ram_stringbuffer
-	text " was"
-	line "stored in Box @"
+	text " blev"
+	line "opbevaret i boks @"
 	text_ram wBoxNumString
 	text "."
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "Du kan ikke indsætte"
+	line "den sidste #MON!"
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Ups! Denne boks er"
+	line "fuld af #MON."
 	prompt
 
 _MonIsTakenOutText::
 	text_ram_stringbuffer
-	text " is"
-	line "taken out."
-	cont "Got @"
+	text " er"
+	line "blevet taget ud."
+	cont "Fik @"
 	text_ram_stringbuffer
 	text "."
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "Hvad? Der er"
+	line "ingen #MON her!"
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "Du kan ikke tage"
+	line "flere #MON."
 
-	para "Deposit #MON"
-	line "first."
+	para "Indsæt #MON"
+	line "først."
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
+	text "Frigiv hvilken"
 	line "#MON?"
 	done
 
 _OnceReleasedText::
-	text "Once released,"
+	text "Når den er frigivet,"
 	line "@"
 	text_ram_stringbuffer
-	text " is"
-	cont "gone forever. OK?"
+	text " er"
+	cont "væk for evigt. OK?"
 	prompt
 
 _MonWasReleasedText::
 	text_ram_stringbuffer
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text " blev"
+	line "frigivet udenfor."
+	cont "Farvel @"
 	text_ram_stringbuffer
 	text "!"
 	prompt
 
 _PressStartToReleaseText::
-	text "Press START to"
-	line "confirm release.@"
+	text "Tryk START for"
+	line "at bekræfte frigivelse.@"
 	text_end
 
 _RequireCoinCaseText::
-	text "A COIN CASE is"
-	line "required!@"
+	text "En MØNTEETUI er"
+	line "påkrævet!@"
 	text_end
 
 _ExchangeCoinsForPrizesText::
-	text "We exchange your"
-	line "coins for prizes."
+	text "Vi ombytter dine"
+	line "mønter til præmier."
 	prompt
 
 _WhichPrizeText::
-	text "Which prize do"
-	line "you want?"
+	text "Hvilken præmie"
+	line "vil du have?"
 	done
 
 _HereYouGoText::
-	text "Here you go!"
+	text "Værsgo!"
 	done
 
 _GoodChoice::
-	text "Good choice!"
+	text "Godt valg!"
 	done
 
 _SoYouWantPrizeText::
-	text "So, you want"
+	text "Så du vil have"
 	line "@"
 	text_ram_namebuffer
 	text "?"
 	done
 
 _SorryNeedMoreCoinsText::
-	text "Sorry, you need"
-	line "more coins.@"
+	text "Beklager, du behøver"
+	line "flere mønter.@"
 	text_end
 
 _OopsYouDontHaveEnoughRoomText::
-	text "Oops! You don't"
-	line "have enough room.@"
+	text "Ups! Du har ikke"
+	line "nok plads.@"
 	text_end
 
 _OhFineThenText::
-	text "Oh, fine then.@"
+	text "Nå, fint så.@"
 	text_end
 
 _GetDexRatedText::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Vil du have din"
+	line "Pokédex bedømt?"
 	done
 
 _ClosedOaksPCText::
-	text "Closed link to"
-	line "PROF.OAK's <PC>.@"
+	text "Lukkede forbindelsen til"
+	line "PROF.OAKs PC.@"
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's <PC>."
+	text "Fik adgang til PROF."
+	line "OAKs PC."
 
-	para "Accessed #DEX"
-	line "Rating System."
+	para "Fik adgang til Pokédex"
+	line "Bedømmelses System."
 	prompt
 
 _WhereWouldYouLikeText::
-	text "Where would you"
-	line "like to go?"
+	text "Hvor vil du"
+	line "hen?"
 	done
 
 _PleaseWaitText::
-	text "OK, please wait"
-	line "just a moment."
+	text "OK, vent venligst"
+	line "et øjeblik."
 	done
 
 _LinkCanceledText::
-	text "The link was"
-	line "canceled."
+	text "Forbindelsen blev"
+	line "afbrudt."
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Hej med dig!"
+	line "Velkommen til"
+	cont "#MONs verden!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Mit navn er OAK!"
+	line "Folk kalder mig"
+	cont "#MON PROF!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
+	text "Denne verden er"
+	line "beboet af"
+	cont "skabninger kaldet"
 	cont "#MON!@"
 	text_end
 
 _OakSpeechText2B::
-	text "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	text "For nogle mennesker"
+	line "er #MON"
+	cont "kæledyr. Andre bruger"
+	cont "dem til kampe."
 
-	para "Myself<...>"
+	para "Mig selv<...>"
 
-	para "I study #MON"
-	line "as a profession."
+	para "Jeg studerer #MON"
+	line "som erhverv."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Først, hvad er"
+	line "dit navn?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Dette er mit barne-"
+	line "barn. Han har været"
+	cont "din rival siden"
+	cont "du var baby."
 
-	para "<...>Erm, what is"
-	line "his name again?"
+	para "<...>Øh, hvad er"
+	line "hans navn igen?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Din helt egen"
+	line "#MON legende er"
+	cont "ved at udfolde sig!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "En verden af drømme"
+	line "og eventyr"
+	cont "med #MON"
+	cont "venter! Så lad os komme afsted!"
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "Vil du give et"
+	line "kælenavn"
+	cont "til @"
 	text_ram_namebuffer
 	text "?"
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Rigtigt! Så dit"
+	line "navn er <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Det er rigtigt! Jeg"
+	line "husker nu! Hans"
+	cont "navn er <RIVAL>!"
 	prompt
 
 _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
-	text " and"
+	text " og"
 	line "@"
 	text_ram_namebuffer
-	text " will"
-	cont "be traded."
+	text " vil"
+	cont "blive byttet."
 	done
 
 ;_TextIDErrorText::
 ;	text_decimal hTextID, 1, 2
-;	text " ERROR."
+;	text " FEJL."
 ;	done
 
 _ContCharText::
@@ -1821,76 +1821,76 @@ _ContCharText::
 	text_end
 
 _CantDepositSSTicketText::
-	text "You need that"
-	line "ticket while"
-	cont "on the S.S.ANNE!"
+	text "Du behøver den"
+	line "billet, mens"
+	cont "du er på S.S.ANNE!"
 	prompt
 
 _SpiritAppearedNextLine::
 	text_end
-	text " spirit@"
+	text " ånd@"
 	text_jump _WildMonAppearedTextEnd
 
 _SpiritAppeared::
 	text_end
-	text " spirit"
+	text " ånd"
 	line "@"
 	text_ram wEnemyMonNick
-	text " attacked!"
+	text " angreb!"
 	prompt
 
 _TorchedAppeared::
-	text "Blazing@"
+	text "Brændende@"
 	text_jump _SpiritAppeared
 
 _ChunkyAppeared::
-	text "Hungry@"
+	text "Sulten@"
 	text_jump _SpiritAppeared
 
 _PainlessAppeared::
-	text "Injured@"
+	text "Såret@"
 	text_jump _SpiritAppearedNextLine
 
 _IrradiatedAppeared::
-	text "Nuclear@"
+	text "Radioaktiv@"
 	text_jump _SpiritAppearedNextLine
 
 _TheMawAppeared::
-	text "Dark@"
+	text "Mørk@"
 	text_jump _SpiritAppeared
 
 _SaveFileUpdateText::
-	text "This save file"
-	line "seems to be from"
-	cont "an older build"
-	cont "of the game."
+	text "Denne gemmefil"
+	line "ser ud til at være fra"
+	cont "en ældre version"
+	cont "af spillet."
 	prompt
 
 _SaveFileUpdateText2::
-	text "Which older build"
-	line "did it come from?"
+	text "Hvilken ældre version"
+	line "kom den fra?"
 	done
 
 _SaveFileUpdateTextConfirm::
-	text "Press START to"
-	line "confirm."
+	text "Tryk START for"
+	line "at bekræfte."
 	done
 
 _SaveFileUpdating::
-	text "Updating<...>"
-	line "Please wait<...>"
+	text "Opdaterer<...>"
+	line "Vent venligst<...>"
 	done
 
 _SaveFileUpdateCompleteText::
-	text "Your save file has"
-	line "been updated."
+	text "Din gemmefil er"
+	line "blevet opdateret."
 	done
 
 _SaveFileUpdateWarpText::
-	text "If you warp to"
-	line "PALLET TOWN, it"
-	cont "will reduce bugs"
-	cont "from changing"
-	cont "to a new version."
-	para "Warp to PALLET?"
+	text "Hvis du warper til"
+	line "PALLET TOWN, vil det"
+	cont "reducere fejl"
+	cont "fra at skifte"
+	cont "til en ny version."
+	para "Warp til PALLET?"
 	done

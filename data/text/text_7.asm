@@ -1,5 +1,5 @@
 _ItemUseText001::
-	text "<PLAYER> used@"
+	text "<PLAYER> brugte@"
 	text_end
 
 _ItemUseText002::
@@ -8,7 +8,7 @@ _ItemUseText002::
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> steg op på@"
 	text_end
 
 _GotOnBicycleText2::
@@ -17,49 +17,49 @@ _GotOnBicycleText2::
 	prompt
 
 _GotOffBicycleText1::
-	text "<PLAYER> got off@"
+	text "<PLAYER> steg af@"
 	text_end
 
 _GotOffBicycleText2::
-	text "the @"
+	text "den @"
 	text_ram_stringbuffer
 	text "."
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
+	text "Smid"
 	line "@"
 	text_ram_namebuffer
-	text "."
+	text " væk!"
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
-	line "@"
+	text "Er det okay"
+	line "at smide @"
 	text_ram_stringbuffer
-	text "?"
+	text " væk?"
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "Det er for"
+	line "vigtigt!"
 	prompt
 
 _AlreadyKnowsText::
 	text_ram_namebuffer
-	text " knows"
+	text " kender"
 	line "@"
 	text_ram_stringbuffer
 	text "!"
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "Okay, forbind"
+	line "kablet nu!"
 	prompt
 
 _TradedForText::
-	text "<PLAYER> traded"
+	text "<PLAYER> byttede"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text " for"
@@ -69,48 +69,49 @@ _TradedForText::
 	text_end
 
 _WannaTrade1Text::
-	text "I'm looking for"
+	text "Jeg leder efter"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
+	text "! Vil du"
 
-	para "trade one for"
+	para "bytte en for"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade1Text::
-	text "Awww!"
-	line "Oh well<...>"
+	text "Åh nej!"
+	line "Nå ja<...>"
 	done
 
 _WrongMon1Text::
-	text "What? That's not"
+	text "Hvad? Det er ikke"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "Hvis du får en,"
+	line "så kom tilbage!"
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Hey, tak!"
 	done
 
 _AfterTrade1Text::
-	text "Isn't my old"
+	text "Er min gamle"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
-	text " great?"
+	text " ikke"
+	cont "god?"
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
+	text "Hej! Vil du"
+	line "bytte din"
 
-	para "your @"
+	para "@"
 	text_ram wInGameTradeGiveMonName
 	text_start
 	line "for @"
@@ -119,99 +120,99 @@ _WannaTrade2Text::
 	done
 
 _TradeColorPaletteText::
-	text "It's a special"
-	line "rare color!"
+	text "Det er en"
+	line "sjælden farve!"
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to<...>"
+	text "Nå, hvis du"
+	line "ikke vil..."
 	done
 
 _WrongMon2Text::
-	text "Hmmm? This isn't"
+	text "Hmm? Det er ikke"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "Think of me when"
-	line "you get one."
+	para "Tænk på mig når"
+	line "du får en."
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Tak!"
 	done
 
 _AfterTrade2Text::
-	text "The @"
+	text "Den @"
 	text_ram wInGameTradeGiveMonName
-	text " you"
-	line "traded to me"
+	text " du"
+	line "byttede med mig"
 
-	para "went and evolved!"
+	para "udviklede sig!"
 	done
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
+	text "Hej! Har du"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
+	para "Vil du bytte den"
 	line "for @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "Det var ærgerligt."
 	done
 
 _WrongMon3Text::
-	text "<...>This is no"
+	text "<...>Det er ikke"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Hvis du får en,"
+	line "så byt med mig!"
 	done
 
 _Thanks3Text::
-	text "Thanks pal!"
+	text "Tak, makker!"
 	done
 
 _AfterTrade3Text::
-	text "How is my old"
-	line "@"
+	text "Hvordan har min"
+	line "gamle @"
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text " det?"
 
-	para "My @"
+	para "Min @"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	text " har"
+	line "det godt!"
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "Der er ikke"
+	line "noget at CUTTE!"
 	prompt
 
 _UsedCutText::
 	text_ram_namebuffer
-	text " hacked"
-	line "away with CUT!"
+	text " huggede"
+	line "løs med CUT!"
 	prompt
 
 _ItemUseWildMonText::
-	text "This can only"
-	line "be used on wild"
+	text "Dette kan kun"
+	line "bruges på vilde"
 	cont "#MON."
 	prompt
 
 _NoPokeDollsOnSpiritsText::
-	text "A # DOLL won't"
-	line "distract this"
-	cont "violent spirit!"
+	text "En # DOLL vil"
+	line "ikke aflede"
+	cont "denne ånd!"
 	prompt

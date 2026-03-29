@@ -1,49 +1,50 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Kom endelig igen!"
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Vi forbereder os."
+	line "Vent venligst."
 	done
 
 _UsedStrengthText::
 	text_ram_namebuffer
-	text " used"
-	line "STRENGTH.@"
+	text " brugte"
+	line "STYRKE.@"
 	text_end
 
 _CanMoveBouldersText::
 	text_ram_namebuffer
-	text " can"
-	line "move boulders."
+	text " kan"
+	line "flytte sten."
 	done
 
 _CurrentTooFastText::
 	text_start
 _CurrentTooFastTextEntry::
-	db "The current is"
-	line "much too fast!"
+	db "Strømmen er"
+	line "alt for stærk!"
 	done
 
 _CurrentTooFastText2::
-	text "Can't SURF here!"
+	text "Kan ikke SURFE!"
 	para "@"
 	text_jump _CurrentTooFastTextEntry
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
+	text "Det er sjovt"
+	line "at cykle!"
+	cont "Glem alt om"
+	cont "at SURFE!"
 	prompt
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
+	text "Et blændende FLASH"
+	line "oplyser området!"
 	prompt
 
 _EscapeText::
-	text "Escape@"
+	text "Undslip@"
 	text_end
 
 _WarpText::
@@ -51,138 +52,143 @@ _WarpText::
 	text_end
 
 _ToLastPkmnCenterText::
-	text " to the last"
-	line "#MON CENTER?"
+	text " til det sidste"
+	line "Pokémon CENTER?"
 	prompt
 
 _PocketAbraFlavorText1::
 	text_ram wPocketAbraNick
 	text " "
-	line "grabbed your"
-	cont "hand quickly in"
-	cont "anticipation."
+	line "greb fat i din"
+	cont "hånd med"
+	cont "forventning."
 	prompt
 
 _PocketAbraFlavorText2::
 	text_ram wPocketAbraNick
-	text " looks"
-	line "very excited!"
+	text " ser"
+	line "meget spændt ud!"
 	prompt
 
 _PocketAbraFlavorText3::
 	text_ram wPocketAbraNick
-	text " was"
-	line "dozing off in"
-	cont "your bag."
+	text " halvsov"
+	line "i din taske."
 	prompt
 
 _PocketAbraFlavorText4::
 	text_ram wPocketAbraNick
-	text " sat"
-	line "on your shoulder"
-	cont "comfily."
+	text " sad"
+	line "behageligt på"
+	cont "din skulder."
 	prompt
 
 _PocketAbraFlavorText5::
 	text_ram wPocketAbraNick
 	text_start
-	line "focused with"
-	cont "all its might!"
+	line "koncentrerede"
+	cont "sig med alle"
+	cont "sine kræfter!"
 	prompt
 
 _PocketAbraNo::
 	text_ram wPocketAbraNick
-	text " looks"
-	line "disappointed<...>"
+	text " ser"
+	line "skuffet ud<...>"
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "Warp til det"
+	line "sidste Pokémon"
+	cont "CENTER."
 	prompt
 
 _CannotUseTeleportNowText::
 	text_ram_namebuffer
-	text " can't"
-	line "use TELEPORT now."
+	text " kan ikke"
+	line "bruge TELEPORT"
+	cont "nu."
 	prompt
 
 _CannotFlyHereText::
 	text_ram_namebuffer
-	text " can't"
-	line "FLY here."
+	text " kan ikke"
+	line "bruge FLY her."
 	prompt
 
 _CannotDigHereText::
 	text_ram_namebuffer
-	text " can't"
-	line "DIG here."
+	text " kan ikke"
+	line "bruge DIG her."
 	prompt
 
 _CannotDigWhileSurfingText::
-	text "Can't DIG while"
-	line "SURFing on water!"
+	text "Kan ikke bruge DIG"
+	line "mens du SURFER"
+	cont "på vand!"
 	prompt
 
 _NoWhereToDigDown::
-	text "You'll hit water"
-	line "if you dig here."
-	para "Find some"
-	line "stabler ground."
+	text "Du vil ramme"
+	line "vand hvis du"
+	cont "bruger DIG her."
+	para "Find mere"
+	line "fast grund."
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
+	text "Ikke sund"
+	line "nok."
 	prompt
 
 _AlreadyBrightText::
-	text "It's already"
-	line "bright enough."
+	text "Det er allerede"
+	line "lyst nok."
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
+	text "Nej! Et nyt"
+	line "Badge kræves."
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "Du kan ikke bruge"
+	line "genstande her."
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "Du kan ikke stå"
+	line "af her."
 	prompt
 
 _GotMonText::
-	text "<PLAYER> got"
+	text "<PLAYER> fik"
 	line "@"
 	text_ram_namebuffer
 	text "!@"
 	text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Der er ikke mere"
+	line "plads til Pokémon!"
 	cont "@"
 	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	text " blev"
+	cont "sendt til"
+	cont "Pokémon BOKS"
+	cont "@"
 	text_ram_stringbuffer
-	text " on <PC>!"
+	text " på <PC>!"
 	prompt
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Der er ikke mere"
+	line "plads til Pokémon!"
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "Pokémon BOKSEN"
+	line "er fuld og kan"
+	cont "ikke modtage mere!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Skift BOKS ved"
+	line "et Pokémon CENTER!"
 	done
