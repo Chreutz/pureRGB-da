@@ -30,6 +30,7 @@
 	charmap "<...>",     $56 ; PureRGBnote: CHANGED: changed from "……" to "..." since it's used way more and looks better
 	charmap "<DONE>",    $57
 	charmap "<PROMPT>",  $58
+DEF PROMPT EQU $58
 	charmap "<TARGET>",  $59
 	charmap "<USER>",    $5a
 	charmap "<PC>",      $5b ; "PC"
