@@ -49,7 +49,7 @@ _Mansion4AfterBattleText3::
 	done
 
 _Mansion4BattleText4::
-	text "Jeg ved ikke engang"
+	text "Jeg aner ikke"
 	line "hvordan jeg kom"
 	cont "herned!"
 	done
@@ -81,7 +81,7 @@ _PokemonMansionB1FDiaryText::
 
 _MansionB1FKeyHoleText::
 	text "Et nøglehul?!"
-	para "TOPHEMMELIGT-NØGLEN"
+	para "HEMMELIG NØGLE"
 	line "passer i det!"
 	para "<PLAYER> åbnede"
 	line "låsen!"

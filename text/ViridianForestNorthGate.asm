@@ -1,7 +1,6 @@
 _ViridianForestNorthGateSuperNerdText::
-	text "Mange Pokémon lever"
-	line "kun i skove og"
-	cont "huler."
+	text "Pokémon bor ofte i"
+	line "skove og huler."
 
 	para "Du skal lede"
 	line "overalt for at"

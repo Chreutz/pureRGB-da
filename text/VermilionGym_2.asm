@@ -109,20 +109,14 @@ _VermilionGymSailorAfterBattleText::
 	done
 
 _VermilionGymGymGuideChampInMakingText::
-	text "LT.SURGE har et"
-	line "kaldenavn. Folk"
-	cont "kalder ham den"
-	cont "Lynende"
+	text "LT.SURGE kaldes"
+	line "den Lynende"
 	cont "Amerikaner!"
 
 	para "Han er ekspert i"
-	line "elektriske Pokémon!"
+	line "elektriske Pokémon."
 
-	para "Fugle og vand-"
-	line "Pokémon er i fare!"
-	cont "Pas på lammelse"
-	cont "også!"
-
+	para "Pas på lammelse!"
 	para "LT.SURGE er meget"
 	line "forsigtig!"
 

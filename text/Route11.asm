@@ -42,24 +42,23 @@ _LearnsetBellsprout::
 	prompt
 
 _Route11Youngster1BattleText::
-	text "Lad os gå, men"
-	line "ingen snyd!"
+	text "Lad os kæmpe,"
+	line "uden snyd!"
 	done
 
 _Route11Youngster1EndBattleText::
-	text "Hæ?"
+	text "Hvad?"
 	line "Det passer ikke!"
 	prompt
 
 _Route11Youngster1AfterBattleText::
 	text "Jeg gjorde mit"
-	line "bedste! Jeg har"
-	cont "ingen fortrydelser!"
+	line "bedste!"
 	done
 
 _Route11SuperNerd1BattleText::
 	text "Pas på!"
-	line "Jeg lægger nogle"
+	line "Jeg lægger"
 	cont "kabler!"
 	done
 

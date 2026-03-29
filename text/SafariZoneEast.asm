@@ -64,8 +64,7 @@ _SafariZoneEastRockerText::
 	cont "maskot!"
 	para "Hvad er den største,"
 	line "sejeste POKéMON"
-	cont "dette sted har"
-	cont "at byde på?"
+	cont "herinde?"
 	done
 
 _SafariZoneEastRockerEndBattleText::
@@ -90,8 +89,8 @@ _SafariZoneEastRockerAfterBattleText::
 	line "er sådan vi"
 	cont "spiller!"
 
-	para "Giv aldrig op på"
-	line "dine drømme, knægt!"
+	para "Giv aldrig op"
+	line "på dine drømme!"
 	done
 
 _SafariZoneEastCooltrainerMText::
@@ -103,7 +102,7 @@ _SafariZoneEastCooltrainerMText::
 
 _SafariZoneEastCooltrainerMEndBattleText::
 	text "Jeg er"
-	line "blindet af kærlighed!"
+	line "kærlighedsblind!"
 	prompt
 
 _SafariZoneEastCooltrainerMAfterBattleText::
@@ -116,7 +115,7 @@ _SafariZoneEastCooltrainerMAfterBattleText::
 	para "Jeg er alt for"
 	line "nervøs til at"
 	cont "flirte med hende,"
-	cont "efter vi har kæmpet."
+	cont "efter kampen."
 
 	para "Har du nogle tips"
 	line "til romantik?"
@@ -150,7 +149,7 @@ _SafariZoneEastEngineerAfterBattleText::
 	para "Den rene mangel"
 	line "på fremsyn!"
 
-	para "Nå, så må det være."
+	para "Javel så."
 	line "Det er tid til"
 	cont "reparation!"
 

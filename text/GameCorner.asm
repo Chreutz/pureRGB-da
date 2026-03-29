@@ -113,15 +113,10 @@ _CeladonGameCornerText_gymguide::
 	prompt
 
 _CeladonGameCornerGymGuideApexChipGrassText::
-	text "For græs #MON,"
+	text "For græs-#MON"
 	line "vil en APEX CHIP"
-	cont "fremkalde en"
-	cont "frodig grøn skov"
-	cont "eller jungle med"
-	cont "en tyk kronhimmel"
-	cont "og uendelige"
-	cont "mængder af"
-	cont "planteliv."
+	cont "skabe en frodig"
+	cont "skov eller jungle."
 	prompt
 
 _GameCornerGymGuideTheyOfferRarePokemonText::

@@ -11,12 +11,11 @@ _CeladonGymErikaPreBattleText::
 	line "Jeg er LEDEREN af"
 	cont "CELADON GYM."
 
-	para "Jeg underviser i"
-	line "kunsten at"
-	cont "arrangere"
+	para "Jeg lærer folk at"
+	line "arrangere"
 	cont "blomster."
-	cont "Mine #MON er af"
-	cont "græstypen."
+	cont "Mine #MON er"
+	cont "græstyper."
 
 	para "Åh, jeg er ked af"
 	line "det, jeg anede"

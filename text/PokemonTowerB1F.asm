@@ -24,10 +24,8 @@ _DarkChannelerBackToMyself::
 _DarkChannelerGreeting3::
 	text "Jeg elsker"
 	line "forbandelser,"
-	cont "uventede uheld,"
-	cont "trylleformularer,"
-	cont "og især"
-	cont "forhekselser!"
+	cont "uheld, magi,"
+	cont "og forhekselser!"
 	para "Faktisk har jeg en"
 	line "perfekt forbandelse"
 	cont "til en GENGAR!"

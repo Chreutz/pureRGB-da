@@ -1,7 +1,7 @@
 _SaffronGymSabrinaText::
-	text "Jeg havde en"
-	line "vision om din"
-	cont "ankomst!"
+	text "Jeg så din"
+	line "ankomst i en"
+	cont "vision!"
 
 	para "Jeg har haft"
 	line "psykiske kræfter"
@@ -47,16 +47,11 @@ _SaffronGymSabrinaMarshBadgeInfoText::
 	cont "dig!"
 
 	para "Stærkere #MON"
-	line "bliver vilde og"
-	cont "ignorerer dine"
+	line "kan ignorere dine"
 	cont "ordrer i kamp!"
 
-	para "Bare ikke træn"
-	line "dine #MON for"
-	cont "meget!"
-
-	para "Vent, tag venligst"
-	line "denne <TM> med dig!"
+	para "Tag venligst"
+	line "denne <TM>!"
 	done
 
 _TM46ExplanationText::

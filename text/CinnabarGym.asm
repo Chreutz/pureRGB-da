@@ -5,12 +5,11 @@ _CinnabarGymBlainePreBattleText::
 	line "er LEADER af"
 	cont "CINNABAR GYM!"
 
-	para "Mine flammende"
-	line "#MON vil"
-	cont "forbrænde alle"
+	para "Mine ild-#MON"
+	line "brænder alle"
 	cont "udfordrere!"
 
-	para "Hah! Du bør have"
+	para "Hah! Medbring"
 	line "BURN HEAL!"
 	done
 

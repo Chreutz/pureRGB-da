@@ -1,16 +1,15 @@
 _Route1Youngster1MartSampleText::
-	text "Hej! Jeg arbejder"
-	line "på et Pokémon"
+	text "Jeg arbejder"
+	line "i et Pokémon"
 	cont "MART."
 
-	para "Det er en bekvem"
-	line "butik, så besøg"
-	cont "os i VIRIDIAN"
-	cont "CITY."
+	para "Besøg vores"
+	line "butik i"
+	cont "VIRIDIAN CITY."
 
-	para "Jeg ved hvad, jeg"
-	line "giver dig en"
-	cont "prøve! Værsgo!"
+	para "Jeg giver dig"
+	line "en prøve!"
+	cont "Værsgo!"
 	prompt
 
 _SilphCo2FSilphWorkerFReceivedTM50Text::

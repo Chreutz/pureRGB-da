@@ -1,7 +1,6 @@
 _CinnabarVolcanoBombRocksText::
-	text "Disse sten"
-	line "blokkerer for"
-	cont "lavaen."
+	text "Stenene spærrer"
+	line "for lavaen."
 	para "Knus dem med"
 	line "en #MON?"
 	done

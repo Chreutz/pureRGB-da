@@ -1,21 +1,21 @@
 _ViridianForestYoungster1Text::
-	text "Jeg kom hertil med"
-	line "nogle venner!"
+	text "Jeg er her"
+	line "med venner!"
 
-	para "De er ude efter"
+	para "De leder efter"
 	line "Pokémon kampe!"
 	done
 
 _ViridianForestYoungster2BattleText::
-	text "Hey! Du har"
-	line "Pokémon! Kom så!"
-	cont "Lad os battle!"
+	text "Hey! Har du"
+	line "Pokémon? Så lad"
+	cont "os kæmpe!"
 	done
 
 _ViridianForestYoungster2EndBattleText::
 	text "Nej!"
-	line "CATERPIE kan"
-	cont "ikke klare det!"
+	line "CATERPIE er for"
+	cont "svag!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::
@@ -25,8 +25,8 @@ _ViridianForestYoungster2AfterBattleText::
 
 _ViridianForestYoungster3BattleText::
 	text "Yo! Du kan ikke"
-	line "hænge ud hvis du"
-	cont "er Pokémon træner!"
+	line "hænge ud som"
+	cont "Pokémon træner!"
 	done
 
 _ViridianForestYoungster3EndBattleText::
@@ -49,7 +49,7 @@ _ViridianForestYoungster4BattleText::
 _ViridianForestYoungster4EndBattleText::
 	text "Jeg"
 	line "giver op! Du er"
-	cont "god til det!"
+	cont "dygtig!"
 	prompt
 
 _ViridianForestYoungster4AfterBattleText::
@@ -58,7 +58,7 @@ _ViridianForestYoungster4AfterBattleText::
 	cont "jorden!"
 
 	para "Jeg leder efter"
-	line "tingene jeg tabte!"
+	line "ting jeg tabte!"
 	done
 
 _ViridianForestBattleTextPikaGirl::
@@ -72,8 +72,8 @@ _ViridianForestEndBattleTextPikaGirl::
 	prompt
 
 _ViridianForestAfterBattleTextPikaGirl::
-	text "Jeg har hørt der"
-	line "er vilde PIKACHU"
+	text "Der skulle være"
+	line "vilde PIKACHU"
 	cont "her!"
 	para "Har du set nogen?"
 	done
@@ -96,12 +96,11 @@ _ViridianForestAfterBattleTextSamurai::
 	done
 
 _ViridianForestYoungster5Text::
-	text "Jeg løb tør for #"
-	line "BALLs til at fange"
-	cont "Pokémon med!"
+	text "Jeg løb tør for"
+	line "POKé BALLs!"
 
-	para "Du bør bære"
-	line "ekstra med dig!"
+	para "Du bør altid"
+	line "bære ekstra!"
 	done
 
 _ViridianForestTrainerTips1Text::
@@ -114,9 +113,9 @@ _ViridianForestTrainerTips1Text::
 	done
 
 _ViridianForestUseAntidoteSignText::
-	text "Mod gift, brug"
-	line "ANTIDOTE! Få det"
-	cont "på Pokémon MARTs!"
+	text "Mod gift: brug"
+	line "ANTIDOTE! Køb"
+	cont "i POKé MARTs!"
 	done
 
 _ViridianForestTrainerTips2Text::
@@ -131,8 +130,8 @@ _ViridianForestTrainerTips2Text::
 _ViridianForestTrainerTips3Text::
 	text "<TIPS>"
 
-	para "Stjæl ikke Pokémon"
-	line "fra andre trænere!"
+	para "Stjæl ikke"
+	line "Pokémon fra andre!"
 	cont "Fang kun vilde"
 	cont "Pokémon!"
 	done
@@ -141,8 +140,8 @@ _ViridianForestTrainerTips4Text::
 	text "<TIPS>"
 
 	para "Svæk Pokémon"
-	line "før du prøver at"
-	cont "fange det!"
+	line "før du fanger"
+	cont "dem!"
 
 	para "Når de er raske,"
 	line "kan de flygte!"

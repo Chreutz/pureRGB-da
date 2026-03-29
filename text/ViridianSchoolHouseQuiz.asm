@@ -40,9 +40,11 @@ _SchoolB1FLeftTeacherFirst::
 	para "Fantastisk ting!"
 	para "Jeg kalder det"
 	line "MOVEDEX!"
-	para "Ordentlig brugbar!"
-	para "Vil du have en?"
+	para "Den gemmer info om"
+	line "Pokémon angreb!"
+	para "Vil du have den?"
 	done
+
 
 _SchoolB1FLeftTeacherNo::
 	text "Vær ikke fræk-"

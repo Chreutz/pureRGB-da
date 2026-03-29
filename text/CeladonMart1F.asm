@@ -3,8 +3,8 @@ _CeladonMart1FReceptionistText::
 	line "CELADON VAREHUS."
 
 	para "Tavlen til højre"
-	line "beskriver vare-"
-	cont "husets layout."
+	line "viser varehusets"
+	line "layout."
 	done
 
 _CeladonMart1FCurrentFloorSignText::

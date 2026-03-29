@@ -25,10 +25,10 @@ _SchoolText4::
 
 _SchoolB1FGuyNearStairs::
 	text "Hvorfor har vi"
-	line "vores klasser"
-	cont "i kælderen?"
+	line "klasser i"
+	cont "kælderen?"
 
-	para "Nå ja, vi elsker"
+	para "Vi elsker"
 	line "GROUND-type"
 	cont "Pokémon her i"
 	cont "VIRIDIAN CITY!"

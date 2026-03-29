@@ -15,12 +15,11 @@ _CardKeyFailText::
 
 _CardKeyDoneText::
 	text "Alle døre til"
-	line "NØGLEKORT er"
-	cont "nu åbnet!"
+	line "NØGLEKORTET"
+	cont "er åbnet!"
 	
-	para "Dette NØGLEKORT"
-	line "er ikke længere"
-	cont "nødvendigt."
+	para "Det behøves"
+	line "ikke mere."
 	
 	para "<PLAYER> efterlod"
 	line "det i kortlæseren!"
@@ -32,8 +31,7 @@ _TrainerNameText::
 	text_end
 
 _NoNibbleText::
-	text "Ikke engang et"
-	line "bid!"
+	text "Intet bid!"
 	prompt
 
 _NothingHereText::
@@ -42,8 +40,7 @@ _NothingHereText::
 	prompt
 
 _ItsABiteText::
-	text "Åh!"
-	line "Der bed noget på!"
+	text "Åh! Bid!"
 	prompt
 
 _ExclamationText::

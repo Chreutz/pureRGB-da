@@ -15,8 +15,8 @@ _OaksLabRivalGoAheadAndChooseText::
 
 _OaksLabRivalMyPokemonLooksStrongerText::
 	text "<RIVAL>: Mit"
-	line "#MON ser meget"
-	cont "stærkere ud."
+	line "#MON ser stærkere"
+	cont "ud."
 	done
 
 _OaksLabThoseArePokeBallsText::

@@ -1,8 +1,8 @@
 _Route11Gate1FGuardText::
-	text "Når du fanger"
-	line "mange #MON,"
-	cont "er det ikke svært"
-	cont "at finde på navne?"
+	text "Er det ikke"
+	line "svært at finde"
+	cont "navne til alle"
+	cont "dine #MON?"
 
 	para "I LAVENDER TOWN"
 	line "er der en mand der"

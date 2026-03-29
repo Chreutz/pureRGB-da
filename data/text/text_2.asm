@@ -126,7 +126,7 @@ _DexSeenOwnedText::
 	text_end
 
 _DexRatingText::
-	text "Pokédex Bedømmelse:"
+	text "Pokédex bedømmes:"
 	done
 
 _GymStatueText::
@@ -692,13 +692,13 @@ _ViridianBlackboardPrlzText::
 	para "Lammelse forbliver"
 	line "efter kampe."
 
-	para "Brug LAMMELSEHEL for"
-	line "behandling!"
+	para "Brug LAMMELSEHEL"
+	line "til behandling!"
 	prompt
 
 _ViridianBlackboardBurnText::
-	text "En forbrænding reducerer"
-	line "ANGREBs staten."
+	text "Forbrænding sænker"
+	line "ANGREB."
 	cont "Det forårsager også"
 	cont "løbende skade."
 

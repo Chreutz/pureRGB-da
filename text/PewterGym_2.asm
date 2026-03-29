@@ -15,7 +15,7 @@ _PewterGymBrockPostBattleAdviceText::
 
 _PewterGymBrockWaitTakeThisText::
 	text "Vent! Tag"
-	line "det her med dig!"
+	line "det her!"
 	done
 
 _TM34ExplanationText::

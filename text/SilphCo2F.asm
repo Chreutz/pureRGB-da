@@ -13,14 +13,10 @@ _SilphCo2FSilphWorkerFTM50ExplanationText::
 	text "<TM>50 er"
 	line "SUBSTITUTE!"
 
-	para "En lokkedukke vil"
-	line "erstatte dit"
-	cont "#MON."
-	para "Den tager skade"
-	line "i stedet!"
-	para "Lidt ligesom en"
-	line "impostor<...>"
-
+	para "En lokkedukke"
+	line "erstatter din"
+	cont "Pokémon."
+	para "Den tager skaden!"
 	para "Mange SILPH"
 	line "kollegaer var"
 	cont "forrædere!"

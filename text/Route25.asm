@@ -11,9 +11,9 @@ _Route25Youngster1EndBattleText::
 
 _Route25Youngster1AfterBattleText::
 	text "Alle #MON har"
-	line "svagheder. Det er"
-	cont "bedst at opdrætte"
-	cont "forskellige slags."
+	line "svagheder."
+	cont "Opdrag mange"
+	cont "forskellige typer."
 	done
 
 _Route25Youngster2BattleText::

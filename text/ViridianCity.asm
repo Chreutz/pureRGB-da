@@ -123,8 +123,7 @@ _ViridianCityOldManKnowHowToCatchPokemonText::
 
 	para "Når du fanger et"
 	line "Pokémon, bliver"
-	cont "#DEX automatisk"
-	cont "opdateret."
+	cont "#DEX opdateret."
 
 	para "Hvad? Ved du ikke"
 	line "hvordan man fanger"

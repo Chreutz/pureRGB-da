@@ -30,9 +30,9 @@ _PewterMartTMKid::
 	cont "de ikke har noget"
 	cont "imod konkurrence!"
 
-	para "Når mig og far"
-	line "når den næste by,"
-	cont "starter min plan<...>"
+	para "Når far og jeg"
+	line "når næste by,"
+	cont "starter planen<...>"
 
 	para "Jeg skal bruge"
 	line "et sejt navn! Lad"
